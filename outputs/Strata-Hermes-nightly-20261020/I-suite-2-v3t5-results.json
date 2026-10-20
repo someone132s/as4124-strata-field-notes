@@ -1,0 +1,118 @@
+{
+  "cases": [
+    {
+      "calls": [
+        {
+          "duration_s": 46.73764340499838,
+          "output_tail": "mp\": 1792440074699}\n{\"type\": \"text\", \"text\": \"0\", \"timestamp\": 1792440074701}\n{\"type\": \"text\", \"text\": \"3\", \"timestamp\": 1792440074701}\n{\"type\": \"text\", \"text\": \" (\", \"timestamp\": 1792440074701}\n{\"type\": \"text\", \"text\": \"up\", \"timestamp\": 1792440074702}\n{\"type\": \"text\", \"text\": \"stream\", \"timestamp\": 1792440074703}\n{\"type\": \"text\", \"text\": \"=\", \"timestamp\": 1792440074703}\n{\"type\": \"text\", \"text\": \"ac\", \"timestamp\": 1792440074704}\n{\"type\": \"text\", \"text\": \"quirer\", \"timestamp\": 1792440074704}\n{\"type\": \"text\", \"text\": \",\", \"timestamp\": 1792440074704}\n{\"type\": \"text\", \"text\": \" retry\", \"timestamp\": 1792440074704}\n{\"type\": \"text\", \"text\": \"able\", \"timestamp\": 1792440074705}\n{\"type\": \"text\", \"text\": \")\", \"timestamp\": 1792440074705}\n{\"type\": \"text\", \"text\": \" —\", \"timestamp\": 1792440074706}\n{\"type\": \"text\", \"text\": \" the\", \"timestamp\": 1792440074707}\n{\"type\": \"text\", \"text\": \" first\", \"timestamp\": 1792440074708}\n{\"type\": \"text\", \"text\": \" failure\", \"timestamp\": 1792440074708}\n{\"type\": \"text\", \"text\": \".\", \"timestamp\": 1792440074710}\n{\"type\": \"text\", \"text\": \"-\", \"timestamp\": 1792440074710}\n{\"type\": \"text\", \"text\": \" Prop\", \"timestamp\": 1792440074710}\n{\"type\": \"text\", \"text\": \"agation\", \"timestamp\": 1792440074735}\n{\"type\": \"text\", \"text\": \":\", \"timestamp\": 1792440075150}\n{\"type\": \"text\", \"text\": \" payments\", \"timestamp\": 1792440075153}\n{\"type\": \"text\", \"text\": \" →\", \"timestamp\": 1792440075153}\n{\"type\": \"text\", \"text\": \" orders\", \"timestamp\": 1792440075154}\n{\"type\": \"text\", \"text\": \" (\", \"timestamp\": 1792440075154}\n{\"type\": \"text\", \"text\": \"received\", \"timestamp\": 1792440075155}\n{\"type\": \"text\", \"text\": \"=\", \"timestamp\": 1792440075155}\n{\"type\": \"text\", \"text\": \"ERR\", \"timestamp\": 1792440075155}\n{\"type\": \"text\", \"text\": \"_PAYMENT\", \"timestamp\": 1792440075156}\n{\"type\": \"text\", \"text\": \"_\", \"timestamp\": 1792440075156}\n{\"type\": \"text\", \"text\": \"5\", \"timestamp\": 1792440075157}\n{\"type\": \"text\", \"text\": \"0\", \"timestamp\": 1792440075157}\n{\"type\": \"text\", \"text\": \"3\", \"timestamp\": 1792440075158}\n{\"type\": \"text\", \"text\": \")\", \"timestamp\": 1792440075158}\n{\"type\": \"text\", \"text\": \" →\", \"timestamp\": 1792440075159}\n{\"type\": \"text\", \"text\": \" gateway\", \"timestamp\": 1792440075160}\n{\"type\": \"text\", \"text\": \" (\", \"timestamp\": 1792440075160}\n{\"type\": \"text\", \"text\": \"received\", \"timestamp\": 1792440075160}\n{\"type\": \"text\", \"text\": \"=\", \"timestamp\": 1792440075160}\n{\"type\": \"text\", \"text\": \"ERR\", \"timestamp\": 1792440075161}\n{\"type\": \"text\", \"text\": \"_ORDER\", \"timestamp\": 1792440075162}\n{\"type\": \"text\", \"text\": \"_BLOCK\", \"timestamp\": 1792440075162}\n{\"type\": \"text\", \"text\": \"ED\", \"timestamp\": 1792440075162}\n{\"type\": \"text\", \"text\": \").\", \"timestamp\": 1792440075162}\n{\"type\": \"text\", \"text\": \"-\", \"timestamp\": 1792440075163}\n{\"type\": \"text\", \"text\": \" Gateway\", \"timestamp\": 1792440075165}\n{\"type\": \"text\", \"text\": \" returned\", \"timestamp\": 1792440075174}\n{\"type\": \"text\", \"text\": \" user\", \"timestamp\": 1792440075222}\n{\"type\": \"text\", \"text\": \"_response\", \"timestamp\": 1792440075265}\n{\"type\": \"text\", \"text\": \" \", \"timestamp\": 1792440075267}\n{\"type\": \"text\", \"text\": \"4\", \"timestamp\": 1792440075322}\n{\"type\": \"text\", \"text\": \"2\", \"timestamp\": 1792440075323}\n{\"type\": \"text\", \"text\": \"2\", \"timestamp\": 1792440075324}\n{\"type\": \"text\", \"text\": \".\", \"timestamp\": 1792440075325}\n{\"type\": \"text\", \"text\": \"-\", \"timestamp\": 1792440075355}\n{\"type\": \"text\", \"text\": \" Ex\", \"timestamp\": 1792440075355}\n{\"type\": \"text\", \"text\": \"cluded\", \"timestamp\": 1792440075394}\n{\"type\": \"text\", \"text\": \":\", \"timestamp\": 1792440075801}\n{\"type\": \"text\", \"text\": \" edge\", \"timestamp\": 1792440075803}\n{\"type\": \"text\", \"text\": \"'s\", \"timestamp\": 1792440075803}\n{\"type\": \"text\", \"text\": \" normal\", \"timestamp\": 1792440075804}\n{\"type\": \"text\", \"text\": \" accept\", \"timestamp\": 1792440075804}\n{\"type\": \"text\", \"text\": \" and\", \"timestamp\": 1792440075805}\n{\"type\": \"text\", \"text\": \" any\", \"timestamp\": 1792440075805}\n{\"type\": \"text\", \"text\": \" user\", \"timestamp\": 1792440075806}\n{\"type\": \"text\", \"text\": \" edge\", \"timestamp\": 1792440075806}\n{\"type\": \"text\", \"text\": \",\", \"timestamp\": 1792440075807}\n{\"type\": \"text\", \"text\": \" per\", \"timestamp\": 1792440075807}\n{\"type\": \"text\", \"text\": \" instructions\", \"timestamp\": 1792440075807}\n{\"type\": \"text\", \"text\": \".\", \"timestamp\": 1792440075808}\n{\"type\": \"result\", \"session_id\": \"local-ef6ec2fadab775b545d35bddccab13eaf27e699216d6cb96ce7e6e1ad6e3a2e5\", \"exit_code\": 0, \"text\": \"Done. Written to /workspace/result.json.\\n\\nAnalysis:\\n- Origin: payments failed with ERR_PAYMENT_503 (upstream=acquirer, retryable) — the first failure.\\n- Propagation: payments → orders (received=ERR_PAYMENT_503) → gateway (received=ERR_ORDER_BLOCKED).\\n- Gateway returned user_response 422.\\n- Excluded: edge's normal accept and any user edge, per instructions.\", \"tokens\": {\"input\": 16797, \"output\": 344, \"total\": 17141, \"cache_read\": 10916, \"cache_write\": 0}, \"duration_ms\": 28152, \"timestamp\": 1792440078177}\n\nsession_id: local-ef6ec2fadab775b545d35bddccab13eaf27e699216d6cb96ce7e6e1ad6e3a2e5\n",
+          "result": {
+            "duration_ms": 28152,
+            "exit_code": 0,
+            "session_id": "local-ef6ec2fadab775b545d35bddccab13eaf27e699216d6cb96ce7e6e1ad6e3a2e5",
+            "text": "Done. Written to /workspace/result.json.\n\nAnalysis:\n- Origin: payments failed with ERR_PAYMENT_503 (upstream=acquirer, retryable) — the first failure.\n- Propagation: payments → orders (received=ERR_PAYMENT_503) → gateway (received=ERR_ORDER_BLOCKED).\n- Gateway returned user_response 422.\n- Excluded: edge's normal accept and any user edge, per instructions.",
+            "timestamp": 1792440078177,
+            "tokens": {
+              "cache_read": 10916,
+              "cache_write": 0,
+              "input": 16797,
+              "output": 344,
+              "total": 17141
+            },
+            "type": "result"
+          },
+          "returncode": 0,
+          "session_id": "local-ef6ec2fadab775b545d35bddccab13eaf27e699216d6cb96ce7e6e1ad6e3a2e5",
+          "tool_calls": 2
+        }
+      ],
+      "case": "T5-a",
+      "duration_s": 46.73764340499838,
+      "forbidden_input_mutations": [],
+      "grade": {
+        "actual": {
+          "chain": [
+            {
+              "from": "payments",
+              "to": "orders"
+            },
+            {
+              "from": "orders",
+              "to": "gateway"
+            }
+          ],
+          "first_failure_code": "ERR_PAYMENT_503",
+          "first_failure_component": "payments",
+          "request_id": "req-911848",
+          "user_response": 422
+        },
+        "passed": true
+      },
+      "passed": true,
+      "seed": 20261020,
+      "session_preserved": null,
+      "task": "T5",
+      "tool_calls": 2,
+      "variant": "a"
+    },
+    {
+      "calls": [
+        {
+          "duration_s": 52.225179188000766,
+          "output_tail": "tion_ms\": 763, \"is_error\": false, \"timestamp\": 1792440122903}\n{\"type\": \"tool_use\", \"name\": \"write_file\", \"tool_call_id\": \"call_0024390c2d2d4773afab0d9c\", \"input\": {\"path\": \"/workspace/result.json\", \"content\": \"{\\\"request_id\\\":\\\"req-672728\\\",\\\"first_failure_component\\\":\\\"payments\\\",\\\"first_failure_code\\\":\\\"ERR_PAYMENT_503\\\",\\\"chain\\\":[{\\\"from\\\":\\\"payments\\\",\\\"to\\\":\\\"orders\\\"},{\\\"from\\\":\\\"orders\\\",\\\"to\\\":\\\"gateway\\\"}],\\\"user_response\\\":422}\\n\"}, \"timestamp\": 1792440125685}\n{\"type\": \"tool_result\", \"name\": \"write_file\", \"tool_call_id\": \"call_0024390c2d2d4773afab0d9c\", \"output\": \"{\\\"bytes_written\\\": 201, \\\"dirs_created\\\": true, \\\"verified\\\": true, \\\"lint\\\": {\\\"status\\\": \\\"ok\\\", \\\"output\\\": \\\"\\\"}, \\\"resolved_path\\\": \\\"/workspace/result.json\\\", \\\"files_modified\\\": [\\\"/workspace/result.json\\\"]}\", \"duration_ms\": 522, \"is_error\": false, \"timestamp\": 1792440126208}\n{\"type\": \"text\", \"text\": \"\\n\\nWritten\", \"timestamp\": 1792440127487}\n{\"type\": \"text\", \"text\": \" to\", \"timestamp\": 1792440127534}\n{\"type\": \"text\", \"text\": \" /\", \"timestamp\": 1792440127536}\n{\"type\": \"text\", \"text\": \"workspace\", \"timestamp\": 1792440127538}\n{\"type\": \"text\", \"text\": \"/result\", \"timestamp\": 1792440127550}\n{\"type\": \"text\", \"text\": \".json\", \"timestamp\": 1792440127560}\n{\"type\": \"text\", \"text\": \".\", \"timestamp\": 1792440127561}\n{\"type\": \"text\", \"text\": \"-\", \"timestamp\": 1792440127602}\n{\"type\": \"text\", \"text\": \" Origin\", \"timestamp\": 1792440127602}\n{\"type\": \"text\", \"text\": \":\", \"timestamp\": 1792440127865}\n{\"type\": \"text\", \"text\": \" payments\", \"timestamp\": 1792440127866}\n{\"type\": \"text\", \"text\": \" —\", \"timestamp\": 1792440127866}\n{\"type\": \"text\", \"text\": \" ERR\", \"timestamp\": 1792440127868}\n{\"type\": \"text\", \"text\": \"_PAYMENT\", \"timestamp\": 1792440127869}\n{\"type\": \"text\", \"text\": \"_\", \"timestamp\": 1792440127869}\n{\"type\": \"text\", \"text\": \"5\", \"timestamp\": 1792440127869}\n{\"type\": \"text\", \"text\": \"0\", \"timestamp\": 1792440127870}\n{\"type\": \"text\", \"text\": \"3\", \"timestamp\": 1792440127870}\n{\"type\": \"text\", \"text\": \" (\", \"timestamp\": 1792440127870}\n{\"type\": \"text\", \"text\": \"up\", \"timestamp\": 1792440127870}\n{\"type\": \"text\", \"text\": \"stream\", \"timestamp\": 1792440127870}\n{\"type\": \"text\", \"text\": \" ac\", \"timestamp\": 1792440127870}\n{\"type\": \"text\", \"text\": \"quirer\", \"timestamp\": 1792440127870}\n{\"type\": \"text\", \"text\": \" failure\", \"timestamp\": 1792440127870}\n{\"type\": \"text\", \"text\": \")\", \"timestamp\": 1792440127870}\n{\"type\": \"text\", \"text\": \"-\", \"timestamp\": 1792440127870}\n{\"type\": \"text\", \"text\": \" Chain\", \"timestamp\": 1792440127870}\n{\"type\": \"text\", \"text\": \":\", \"timestamp\": 1792440128111}\n{\"type\": \"text\", \"text\": \" payments\", \"timestamp\": 1792440128113}\n{\"type\": \"text\", \"text\": \" →\", \"timestamp\": 1792440128114}\n{\"type\": \"text\", \"text\": \" orders\", \"timestamp\": 1792440128114}\n{\"type\": \"text\", \"text\": \" →\", \"timestamp\": 1792440128114}\n{\"type\": \"text\", \"text\": \" gateway\", \"timestamp\": 1792440128115}\n{\"type\": \"text\", \"text\": \" (\", \"timestamp\": 1792440128115}\n{\"type\": \"text\", \"text\": \"orders\", \"timestamp\": 1792440128116}\n{\"type\": \"text\", \"text\": \" received\", \"timestamp\": 1792440128116}\n{\"type\": \"text\", \"text\": \" ERR\", \"timestamp\": 1792440128116}\n{\"type\": \"text\", \"text\": \"_PAYMENT\", \"timestamp\": 1792440128117}\n{\"type\": \"text\", \"text\": \"_\", \"timestamp\": 1792440128118}\n{\"type\": \"text\", \"text\": \"5\", \"timestamp\": 1792440128119}\n{\"type\": \"text\", \"text\": \"0\", \"timestamp\": 1792440128119}\n{\"type\": \"text\", \"text\": \"3\", \"timestamp\": 1792440128120}\n{\"type\": \"text\", \"text\": \",\", \"timestamp\": 1792440128121}\n{\"type\": \"text\", \"text\": \" gateway\", \"timestamp\": 1792440128121}\n{\"type\": \"text\", \"text\": \" received\", \"timestamp\": 1792440128122}\n{\"type\": \"text\", \"text\": \" ERR\", \"timestamp\": 1792440128122}\n{\"type\": \"text\", \"text\": \"_ORDER\", \"timestamp\": 1792440128123}\n{\"type\": \"text\", \"text\": \"_BLOCK\", \"timestamp\": 1792440128123}\n{\"type\": \"text\", \"text\": \"ED\", \"timestamp\": 1792440128125}\n{\"type\": \"text\", \"text\": \")\", \"timestamp\": 1792440128125}\n{\"type\": \"text\", \"text\": \"-\", \"timestamp\": 1792440128126}\n{\"type\": \"text\", \"text\": \" User\", \"timestamp\": 1792440128127}\n{\"type\": \"text\", \"text\": \" response\", \"timestamp\": 1792440128127}\n{\"type\": \"text\", \"text\": \":\", \"timestamp\": 1792440128179}\n{\"type\": \"text\", \"text\": \" \", \"timestamp\": 1792440128179}\n{\"type\": \"text\", \"text\": \"4\", \"timestamp\": 1792440128179}\n{\"type\": \"text\", \"text\": \"2\", \"timestamp\": 1792440128179}\n{\"type\": \"text\", \"text\": \"2\", \"timestamp\": 1792440128180}\n{\"type\": \"result\", \"session_id\": \"local-f7ba9a19d1cc85d0c94903448eb8ff0f6248a7b4c58372981927a02029fad92e\", \"exit_code\": 0, \"text\": \"Written to /workspace/result.json.\\n\\n- Origin: payments — ERR_PAYMENT_503 (upstream acquirer failure)\\n- Chain: payments → orders → gateway (orders received ERR_PAYMENT_503, gateway received ERR_ORDER_BLOCKED)\\n- User response: 422\", \"tokens\": {\"input\": 16746, \"output\": 257, \"total\": 17003, \"cache_read\": 10900, \"cache_write\": 0}, \"duration_ms\": 22670, \"timestamp\": 1792440130343}\n\nsession_id: local-f7ba9a19d1cc85d0c94903448eb8ff0f6248a7b4c58372981927a02029fad92e\n",
+          "result": {
+            "duration_ms": 22670,
+            "exit_code": 0,
+            "session_id": "local-f7ba9a19d1cc85d0c94903448eb8ff0f6248a7b4c58372981927a02029fad92e",
+            "text": "Written to /workspace/result.json.\n\n- Origin: payments — ERR_PAYMENT_503 (upstream acquirer failure)\n- Chain: payments → orders → gateway (orders received ERR_PAYMENT_503, gateway received ERR_ORDER_BLOCKED)\n- User response: 422",
+            "timestamp": 1792440130343,
+            "tokens": {
+              "cache_read": 10900,
+              "cache_write": 0,
+              "input": 16746,
+              "output": 257,
+              "total": 17003
+            },
+            "type": "result"
+          },
+          "returncode": 0,
+          "session_id": "local-f7ba9a19d1cc85d0c94903448eb8ff0f6248a7b4c58372981927a02029fad92e",
+          "tool_calls": 2
+        }
+      ],
+      "case": "T5-b",
+      "duration_s": 52.225179188000766,
+      "forbidden_input_mutations": [],
+      "grade": {
+        "actual": {
+          "chain": [
+            {
+              "from": "payments",
+              "to": "orders"
+            },
+            {
+              "from": "orders",
+              "to": "gateway"
+            }
+          ],
+          "first_failure_code": "ERR_PAYMENT_503",
+          "first_failure_component": "payments",
+          "request_id": "req-672728",
+          "user_response": 422
+        },
+        "passed": true
+      },
+      "passed": true,
+      "seed": 20261021,
+      "session_preserved": null,
+      "task": "T5",
+      "tool_calls": 2,
+      "variant": "b"
+    }
+  ],
+  "finished": 1792440130.6243305,
+  "model": "huihui-qwen3.8-flash-next-abliterated-ud-iq4_xs",
+  "passed": 2,
+  "started": 1792440031.6409762,
+  "suite": "strata-hermes-engineering-v3",
+  "total": 2
+}

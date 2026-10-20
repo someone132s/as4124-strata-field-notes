@@ -1,0 +1,127 @@
+{
+  "exe": "/opt/strata/engine/strata",
+  "args": [
+    "--pack",
+    "/data/packs/huihui-ud-iq4_xs",
+    "--native",
+    "/data/models/huihui-ud-iq4_xs/Qwen3.8-Flash-Next-UD-IQ4_XS-00001-of-00003.gguf",
+    "--expert-profile",
+    "/opt/strata/data/expert-profile.bin",
+    "--expert-cache",
+    "auto",
+    "--prefill",
+    "auto:16384",
+    "--spec",
+    "4",
+    "--spec-min-p",
+    "0.5",
+    "--mtp",
+    "/data/mtp/rt",
+    "--kv",
+    "int8",
+    "--ple-io",
+    "ram",
+    "--kv-resident",
+    "32768",
+    "--resident-budget-gib",
+    "55",
+    "--vram-reserve-mib",
+    "700",
+    "--max-context",
+    "262144",
+    "--pool-workers",
+    "15",
+    "--vram-reserve-later-mib",
+    "700",
+    "--pipeline-windows",
+    "2",
+    "--mtp-hnorm",
+    "stream",
+    "--aux-cpus",
+    "auto",
+    "--ple-gguf",
+    "/data/models/Qwen3.8-Q8_0/Qwen3.8-Flash-Next-GSQ-RCO-Q8_0-PLE-00002-of-00002.gguf",
+    "--native-dense-gguf",
+    "/data/models/huihui-ud-iq4_xs/Qwen3.8-Flash-Next-UD-IQ4_XS-00001-of-00003.gguf",
+    "--native-dense-gguf",
+    "/data/models/huihui-ud-iq4_xs/Qwen3.8-Flash-Next-UD-IQ4_XS-00002-of-00003.gguf",
+    "--native-dense-gguf",
+    "/data/models/huihui-ud-iq4_xs/Qwen3.8-Flash-Next-UD-IQ4_XS-00003-of-00003.gguf"
+  ],
+  "cwd": "/opt/strata",
+  "tokenizer": "/data/packs/huihui-ud-iq4_xs/tokenizer",
+  "model_name": "huihui-qwen3.8-flash-next-abliterated-ud-iq4_xs",
+  "log": "/data/logs/strata-huihui-iq4-xs-q8ple-v0.1.45.log",
+  "lib_dirs": [
+    "/usr/local/cuda/bin",
+    "/usr/local/cuda/lib64"
+  ],
+  "port": 8080,
+  "gpu": [
+    1,
+    2
+  ],
+  "gpus_asked": true,
+  "layer_split": "auto",
+  "host": "0.0.0.0",
+  "open_browser": false,
+  "parallel": 1,
+  "deployment_model_manifest": {
+    "repo": "huihui-ai/Huihui-Qwen3.8-Flash-Next-abliterated-GGUF",
+    "files": [
+      {
+        "path": "unsloth-UD-IQ4_XS/Qwen3.8-Flash-Next-UD-IQ4_XS-00001-of-00003.gguf",
+        "size": 10946624,
+        "sha256": "5ce89370720f8bf90890f439361282104c1aa1482d4013bb9a50923e758e71a4"
+      },
+      {
+        "path": "unsloth-UD-IQ4_XS/Qwen3.8-Flash-Next-UD-IQ4_XS-00002-of-00003.gguf",
+        "size": 49835229856,
+        "sha256": "c67b468b3b83bc12a987e455ec4a0c2c3937250da1c234ae1638d9505180c161"
+      },
+      {
+        "path": "unsloth-UD-IQ4_XS/Qwen3.8-Flash-Next-UD-IQ4_XS-00003-of-00003.gguf",
+        "size": 43836407744,
+        "sha256": "130560b6a447e0febf61de9b03476f52143160bc4bcbacc9bfa07d9538718e2c"
+      }
+    ],
+    "revision": "06a318de4011598a142ee54bcfec47c6921c958e",
+    "external_ple_type": "Q8_0",
+    "external_ple_path": "/opt/strata-data/models/Qwen3.8-Q8_0/Qwen3.8-Flash-Next-GSQ-RCO-Q8_0-PLE-00002-of-00002.gguf",
+    "runtime_parameters": "Current SC117 0.1.45 parameter set retained, with model-specific pack, native, MTP, tokenizer, vision paths and dense-GGUF override replaced."
+  },
+  "reasoning_effort": "high",
+  "reasoning_budget_tokens": 32768,
+  "repeat_stop_tokens": 256,
+  "sampling": {
+    "temperature": 1.0,
+    "top_p": 0.95,
+    "top_k": 20,
+    "min_p": 0.0,
+    "presence_penalty": 0.0,
+    "repetition_penalty": 1.0
+  },
+  "allowed_hosts": [
+    "10.2.21.4"
+  ],
+  "env": {
+    "STRATA_BF16_TC": "1",
+    "STRATA_STAGE_TRIM": "1",
+    "CUDA_VISIBLE_DEVICES": "GPU-be897daa-b730-b812-cac5-0677e7c00d5b,GPU-9a371e9d-99d5-eb30-e2f1-1a8cef3b6f03",
+    "STRATA_SM75_PERF": "1",
+    "STRATA_PA_V2T": "1"
+  },
+  "aliases": [
+    "huihui-qwen3.8-flash-next-abliterated-ud-iq4_xs"
+  ],
+  "gpu_order": "as_given",
+  "vision": {
+    "exe": "/opt/strata/engine/strata-vision",
+    "mmproj": "/data/models/vision/mmproj-Qwen3.8-Flash-Next-BF16.gguf",
+    "model": "/data/models/huihui-ud-iq4_xs/Qwen3.8-Flash-Next-UD-IQ4_XS-00001-of-00003.gguf",
+    "gpu": true,
+    "cuda_device": "GPU-05e5166d-a213-14af-16ec-886fa9cb51f4",
+    "max_tokens": 16384,
+    "threads": 16
+  }
+}

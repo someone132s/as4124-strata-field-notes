@@ -1,0 +1,6 @@
+Working directory: /workspace
+
+Turn 1 of 3. Create inventory.db with SQLite table inventory(sku TEXT PRIMARY KEY,
+name TEXT NOT NULL, qty INTEGER NOT NULL, updated_at TEXT NOT NULL). Load exactly
+the rows in seed.csv. Write turn1.json as {"rows":3}. Do not use any other data
+source. Answer briefly.

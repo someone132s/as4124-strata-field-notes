@@ -1,0 +1,41 @@
+{
+  "collected": "2026-10-19T12:11:01.498633+08:00",
+  "read_only": true,
+  "results": [
+    {
+      "name": "host-kernel-current",
+      "exit_code": 0,
+      "bytes": 367979
+    },
+    {
+      "name": "host-kernel-previous",
+      "exit_code": 0,
+      "bytes": 310623
+    },
+    {
+      "name": "host-before-first-reboot",
+      "exit_code": 0,
+      "bytes": 15068
+    },
+    {
+      "name": "host-before-second-reboot",
+      "exit_code": 0,
+      "bytes": 13660
+    },
+    {
+      "name": "bmc-sel",
+      "exit_code": 0,
+      "bytes": 31684
+    },
+    {
+      "name": "host-state",
+      "exit_code": 0,
+      "bytes": 8147
+    },
+    {
+      "name": "vm-state",
+      "exit_code": 1,
+      "bytes": 4666
+    }
+  ]
+}

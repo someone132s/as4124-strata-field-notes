@@ -1,0 +1,2 @@
+2026-10-17T08:15:00Z ERROR orders req-911848 received=ERR_PAYMENT_503 caused_by=payments
+2026-10-17T08:15:00Z INFO orders req-911848 action=propagate_to_gateway

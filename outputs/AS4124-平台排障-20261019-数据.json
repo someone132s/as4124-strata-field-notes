@@ -1,0 +1,561 @@
+{
+  "title": "从14GB/s到正常带宽：AS4124平台排障",
+  "revision": 3,
+  "date": "2026-10-19",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "标准带宽复核与 R730 对照",
+      "path": "memory-verification-20261015/README.md"
+    },
+    {
+      "id": "S02",
+      "title": "PE、频率及 SOC Pstate 对照",
+      "path": "memory-verification-20261015/PE-results-20261016.md"
+    },
+    {
+      "id": "S03",
+      "title": "DIMM 编号及 2/4/8 条实测",
+      "path": "memory-verification-20261015/DIMM-编号与分组测试计划-20261016.md"
+    },
+    {
+      "id": "S04",
+      "title": "默认 BIOS 与复测",
+      "path": "memory-verification-20261015/AS4124-BIOS-Optimized-Defaults-20261016.md"
+    },
+    {
+      "id": "S05",
+      "title": "R730-借测维护状态-20261016.md",
+      "path": "memory-verification-20261015/R730-借测维护状态-20261016.md"
+    },
+    {
+      "id": "S07",
+      "title": "AS4124-供电状态导致性能骤降-20261019.md",
+      "path": "AS4124-供电状态导致性能骤降-20261019.md"
+    },
+    {
+      "id": "S08",
+      "title": "复测报告.md",
+      "path": "AS4124-PVE-memory-20261019/复测报告.md"
+    },
+    {
+      "id": "S09",
+      "title": "AS4124-PVE内存带宽复测-20261017.md",
+      "path": "AS4124-PVE内存带宽复测-20261017.md"
+    },
+    {
+      "id": "S10",
+      "title": "Strata调优总记录-20261014.md",
+      "path": "Strata调优总记录-20261014.md"
+    },
+    {
+      "id": "S19",
+      "title": "README.md",
+      "path": "Strata长上下文对比-20261015/README.md"
+    },
+    {
+      "id": "S25",
+      "title": "AS4124-GPU直通调整-20261016.md",
+      "path": "AS4124-GPU直通调整-20261016.md"
+    },
+    {
+      "id": "S34",
+      "title": "Strata-0.1.45升级记录-20261017.md",
+      "path": "Strata-0.1.45升级记录-20261017.md"
+    },
+    {
+      "id": "S36",
+      "title": "测试结果.md",
+      "path": "workers-cpu-sweep-20261019/测试结果.md"
+    },
+    {
+      "id": "S41",
+      "title": "AS4124-核心报错与AER核查-20261019.md",
+      "path": "AS4124-核心报错与AER核查-20261019.md"
+    },
+    {
+      "id": "S42",
+      "title": "结论.md",
+      "path": "reboot-investigation-20261019/结论.md"
+    },
+    {
+      "id": "S43",
+      "title": "CPU选择结论-20261016.md",
+      "path": "CPU选择结论-20261016.md"
+    },
+    {
+      "id": "S44",
+      "title": "最终服务与参数验收",
+      "path": "prefill-cap-sweep-20261019/final-verification.json"
+    },
+    {
+      "id": "S45",
+      "title": "10/19 内核日志：resctrl能力检测",
+      "path": "reboot-investigation-20261019/host-kernel-current.txt"
+    },
+    {
+      "id": "S47",
+      "title": "后续验证与采购决策-20261016.md",
+      "path": "memory-verification-20261015/后续验证与采购决策-20261016.md"
+    },
+    {
+      "id": "S48",
+      "title": "检查结论.md",
+      "path": "AS4124-AER-20261018/检查结论.md"
+    },
+    {
+      "id": "S49",
+      "title": "7282官方规格、Dell STREAM与控制器证据",
+      "path": "memory-verification-20261015/research-diagnosis-20261016.md"
+    },
+    {
+      "id": "S50",
+      "title": "同型号四条AIDA64评测及相似低分案例",
+      "path": "memory-verification-20261015/research-update-20261016.md"
+    },
+    {
+      "id": "S58",
+      "title": "正式基准中的客机内核、驱动和CUDA版本",
+      "path": "remote-results/official-hnorm-stream-20261014/2026-10-14-community-2x-rtx-2080-ti-swift-1-5-abliterated-iq3-s-q8ple/README.md"
+    },
+    {
+      "id": "S59",
+      "title": "EvalScope版本与独立测试VM",
+      "path": "EvalScope部署记录-20261014.md"
+    },
+    {
+      "id": "S60",
+      "title": "主板BIOS与内存布局截图核对",
+      "path": "memory-verification-20261015/BIOS-current-20261016.md"
+    },
+    {
+      "id": "S66",
+      "title": "2690v4-网友评论.txt",
+      "path": "Strata长上下文对比-20261015/sources/2690v4-网友评论.txt"
+    },
+    {
+      "id": "S67",
+      "title": "uprof-results.md",
+      "path": "memory-verification-20261015/uprof-results.md"
+    }
+  ],
+  "charts": [
+    {
+      "id": "memory-cross",
+      "title": "同版本独立纯读取：异常在宿主也存在",
+      "labels": [
+        "AS4124 PVE",
+        "R730 PVE",
+        "GPU VM"
+      ],
+      "series": [
+        {
+          "name": "node 0 · 16线程",
+          "values": [
+            7.66,
+            15.04,
+            8.24
+          ]
+        },
+        {
+          "name": "node 1 · 16线程",
+          "values": [
+            7.1,
+            13.06,
+            10.19
+          ]
+        },
+        {
+          "name": "双节点 · 32线程",
+          "values": [
+            14.24,
+            25.95,
+            8.2
+          ]
+        }
+      ],
+      "unit": "GB/s",
+      "caption": "LIKWID 5.2.2 load_avx；同二进制，每项 3 次中位数；VM 节点是虚拟节点，不能视为同号宿主节点。R730 当时每路仅两条 2133 内存，并非满配四通道。",
+      "sources": "<a class=\"ref\" href=\"#S01\">[S01]</a>",
+      "kind": "bar",
+      "y_min": 0,
+      "y_max": 50,
+      "reference": null
+    },
+    {
+      "id": "memory-dimms",
+      "title": "加通道确实有效，但整体依然异常",
+      "labels": [
+        "2条 DB2",
+        "4条 DB2",
+        "4条 CB2",
+        "8条旧基线"
+      ],
+      "series": [
+        {
+          "name": "读取",
+          "values": [
+            5.09,
+            9.9895,
+            10.0145,
+            17.233
+          ]
+        },
+        {
+          "name": "写入",
+          "values": [
+            5.121,
+            10.3265,
+            10.29,
+            20.077
+          ]
+        },
+        {
+          "name": "复制",
+          "values": [
+            4.778,
+            9.228,
+            9.1435,
+            17.466
+          ]
+        }
+      ],
+      "unit": "GB/s",
+      "caption": "条数为整机总数。2条各路 A2；4条各路 A2+B2；8条各路 C2/D2/G2/H2。4条组为两次均值，2条和8条基线为单组。位置与条数并非全程单变量。",
+      "sources": "<a class=\"ref\" href=\"#S03\">[S03]</a>",
+      "kind": "bar",
+      "y_min": 0,
+      "y_max": 25,
+      "reference": null
+    },
+    {
+      "id": "t630",
+      "title": "同批 RDIMM 在 T630：两次均跑到约 124 GB/s",
+      "labels": [
+        "读取",
+        "写入",
+        "复制"
+      ],
+      "series": [
+        {
+          "name": "第一次",
+          "values": [
+            123.43,
+            104.8,
+            112.2
+          ]
+        },
+        {
+          "name": "第二次",
+          "values": [
+            124.2,
+            104.78,
+            111.75
+          ]
+        }
+      ],
+      "unit": "GB/s",
+      "caption": "T630，双 E5-2697 v4；四通道/颗、2400 MT/s 时双路接口理论值为 153.6 GB/s。此图是已归档聊天答复中的截图转录，未从图片重新识别；不与不同软件口径混算利用率。",
+      "sources": "来源：本聊天 T630 两轮截图及用户“这是 AS4124 的内存”确认。",
+      "kind": "bar",
+      "y_min": 0,
+      "y_max": 250,
+      "reference": null
+    },
+    {
+      "id": "power-aida",
+      "title": "相同 7452 配置，缺电源与全供电",
+      "labels": [
+        "读取",
+        "写入",
+        "复制"
+      ],
+      "series": [
+        {
+          "name": "缺电源",
+          "values": [
+            17.43,
+            19.669,
+            16.871
+          ]
+        },
+        {
+          "name": "四路上线",
+          "values": [
+            148.19,
+            152.02,
+            154.3
+          ]
+        }
+      ],
+      "unit": "GB/s",
+      "caption": "两组 AIDA64 均标注四通道 DDR4-3200R；用户现场截图。读取约 8.50 倍，不能解释成 2933→3200 的频率收益。",
+      "sources": "<a class=\"ref\" href=\"#S07\">[S07]</a>",
+      "kind": "bar",
+      "y_min": 0,
+      "y_max": 250,
+      "reference": null
+    },
+    {
+      "id": "power-cache",
+      "title": "缓存吞吐也随供电状态改变",
+      "labels": [
+        "L1 读取",
+        "L2 读取",
+        "L3 读取"
+      ],
+      "series": [
+        {
+          "name": "缺电源",
+          "values": [
+            4251.5,
+            4319.4,
+            697.54
+          ]
+        },
+        {
+          "name": "四路上线",
+          "values": [
+            12101,
+            6115.3,
+            2625.4
+          ]
+        }
+      ],
+      "unit": "GB/s",
+      "caption": "同组截图的多线程缓存吞吐。它同时受活动核心、频率、向量化和软件实现影响，不是 DRAM 带宽，也不能用来直接换算 IPC。",
+      "sources": "<a class=\"ref\" href=\"#S07\">[S07]</a>",
+      "kind": "bar",
+      "y_min": 0,
+      "y_max": 25000,
+      "reference": null
+    },
+    {
+      "id": "power-linux",
+      "title": "PVE 纯读取：数量级异常已解除",
+      "labels": [
+        "node 0",
+        "node 1",
+        "双路合计"
+      ],
+      "series": [
+        {
+          "name": "10/17 · 7282 · 缺供电 · 每路16核",
+          "values": [
+            7.79,
+            7.2,
+            14.1
+          ]
+        },
+        {
+          "name": "10/19 · 7452 · 全供电 · 每路16核",
+          "values": [
+            62.22,
+            62.44,
+            123.18
+          ]
+        },
+        {
+          "name": "10/19 · 7452 · 全供电 · 每路32核",
+          "values": [
+            73.29,
+            71.08,
+            140.95
+          ]
+        }
+      ],
+      "unit": "GB/s",
+      "caption": "同 LIKWID 5.2.2 二进制，每项 3 次中位数。旧新组同时改变 CPU 与供电状态，只能证明异常解除；不能把 8–9 倍全部记成 7452 的升级收益。",
+      "sources": "<a class=\"ref\" href=\"#S08\">[S08]</a><a class=\"ref\" href=\"#S09\">[S09]</a>",
+      "kind": "bar",
+      "y_min": 0,
+      "y_max": 250,
+      "reference": null
+    },
+    {
+      "id": "peer-7282",
+      "title": "同型号的数量级参照：7282不应只有数GB/s",
+      "labels": [
+        "读取",
+        "写入",
+        "复制"
+      ],
+      "series": [
+        {
+          "name": "本机双路 · 8条 · 缺供电",
+          "values": [
+            17.233,
+            20.077,
+            17.466
+          ]
+        },
+        {
+          "name": "E11 Diit单路 · 4条",
+          "values": [
+            62.917,
+            42.661,
+            71.586
+          ]
+        }
+      ],
+      "unit": "GB/s",
+      "caption": "都是AIDA64类别，但单/双路、主板、容量、软件版本和时序不同。此图支持继续排障，不用于计算CPU损耗或设合格线。Dell的81.137GB/s是STREAM Triad，单列正文，不混为Read柱。",
+      "sources": "<a class=\"ref\" href=\"#S50\">[S50]</a><a class=\"ref\" href=\"#S49\">[S49]</a><a class=\"ref\" href=\"#S02\">[S02]</a>",
+      "kind": "bar",
+      "y_min": 0,
+      "y_max": 100,
+      "reference": null
+    }
+  ],
+  "external_cases": [
+    {
+      "id": "E01",
+      "name": "tessellation · 7945HX",
+      "platform": "小红书；应我们的问题专门补充了作者侧材料与口径说明",
+      "hardware": "Ryzen 9 7945HX；96GB DDR5-4800（另文写92GB）；2×2080Ti 22GB，Gen3×8+×8，图注250W/卡",
+      "software": "0.1.43＋SM75补丁；原版GSQ-RCO IQ3_S；全长图1000输出计数任务",
+      "data": "引擎自报：32K / 128K / 230K prefill 1858 / 2575 / 2668；decode 156.0 / 151.6 / 148.8 tok/s",
+      "use": "他并非只发布了公开帖子，还专门帮我们确认数据归属与测试条件；同款推理卡下的差距推动固定任务、长曲线、MTP和数据通路复核",
+      "limit": "作者称内存约77GB/s，非本机复测；不同模型、功耗、引擎与任务，不能反推IPC收益",
+      "path": "Strata长上下文对比-20261015/README.md"
+    },
+    {
+      "id": "E02",
+      "name": "让开我先躺 · 单路2690v4",
+      "platform": "小红书；应请求专门补测并提供了长输入速度表",
+      "hardware": "1×E5-2690 v4；128GB DDR4-2400；2×2080Ti 22GB",
+      "software": "UD-Q4_K_L/XL身份描述有差异；完整版本和参数未知",
+      "data": "引擎自报：实际33603 / 134328 / 241926输入 prefill 1695 / 2355 / 2480；decode 79.2 / 73.5 / 72.5 tok/s",
+      "use": "他专门帮我们补了这组对照；老CPU仍有较高prefill，削弱仅按CPU代际解释差距的直觉",
+      "limit": "与7945HX是不同作者；单次截图；原始请求、功耗、链路和权重哈希未知；引擎口径不等于整请求吞吐",
+      "path": "Strata长上下文对比-20261015/sources/2690v4-网友评论.txt"
+    },
+    {
+      "id": "E03",
+      "name": "neyan2016 · HP Z840",
+      "hardware": "2×E5-2697A v4；128GB DDR4-2133；2×2080Ti，有NVLink桥",
+      "software": "Strata 0.1.42；Qwen3.8 Next Q3_S；配置窗口512K",
+      "data": "作者报告平均约80 tok/s",
+      "use": "支持先用现成T630验证内存，避免立即为CPU升级买单",
+      "limit": "没有逐请求日志；512K是配置上限；桥的存在不证明Strata使用NVLink",
+      "path": "memory-verification-20261015/后续验证与采购决策-20261016.md"
+    },
+    {
+      "id": "E04",
+      "name": "御坂10297号 · 双7763QS",
+      "hardware": "2×7763QS；华南H12D16D；8×16GB DDR4，评论称2133；3×V100 16GB",
+      "software": "Windows11裸机；2卡模型＋1卡视觉；64workers绑CPU0；SM70优化；原版IQ3",
+      "data": "自述prefill 1700–2500；decode 70–120，通常70–80，工具可100+",
+      "use": "引出线程、绑核、三卡分工与数据交换方向的验证",
+      "limit": "不是纯CPU对照；没有可用于IPC归因的同请求与带宽数据",
+      "path": "memory-verification-20261015/后续验证与采购决策-20261016.md"
+    },
+    {
+      "id": "E05",
+      "name": "Hanayo · RTX3090",
+      "hardware": "RTX3090；Gold5318Y分配16vCPU；32GB RAM Linux VM",
+      "software": "IQ2_XS；32K窗口；4392token结构化输入；公开CSV",
+      "data": "256/auto → 2048/off：prefill 335.0→1253.8，TTFT 13.28→3.54s；各6次正式测量",
+      "use": "提醒预热、实际读盘和chunk路径需要分开，促使核对prefill数据通路",
+      "limit": "单卡、短输入；CPU share默认路径不适用于本机双卡，不能照抄最优chunk",
+      "path": "prefill-community-20261015/Hanayo-3090案例核对.md",
+      "origin_url": "https://hanayo.cn/2026/10/14/strata-3090-tuning/"
+    },
+    {
+      "id": "E06",
+      "name": "双E5 · Linux 7900XTX",
+      "platform": "B站",
+      "hardware": "RX7900XTX 24GB；2×E5-2680 v4；62GB DDR4",
+      "software": "Ubuntu / ROCm7.2.4；SC117 IQ3_XXS；MTP",
+      "data": "4K→64K→240K prefill 685.5→2030.0→1621.9；decode报告64–78",
+      "use": "表明长曲线可以见顶回落，曲线形状本身不足以判故障",
+      "limit": "HIP与CUDA路径不同；完整版本、请求和重复次数未知",
+      "path": "prefill-community-20261015/7900XTX八图案例.md"
+    },
+    {
+      "id": "E07",
+      "name": "小登步入中登 · Windows 7900XTX",
+      "platform": "B站",
+      "hardware": "RX7900XTX 24GB；64GB DDR5；CPU未提供",
+      "software": "Windows HIP 0.1.43.1；GSQ-RCO IQ3_XXS",
+      "data": "10K–136K prefill约1596→1498；日常decode87–93；代码99，创作79",
+      "use": "补充任务与MTP接受率影响速度的观察，帮助识别不同口径",
+      "limit": "不是Linux双E5那位；图中输入近似，配置262K不等于已测262K",
+      "path": "prefill-community-20261015/7900XTX-Windows六图案例.md"
+    },
+    {
+      "id": "E08",
+      "name": "百川东到海ofp · 双3080",
+      "hardware": "2×RTX3080 20GB；2×E5-2696 v3；96GB DDR4-2133",
+      "software": "IQ3_XXS；spec6；KV K8V4；完整版本未知",
+      "data": "prefill1400–1800；decode90–99；作者报告pipeline2使95→83",
+      "use": "提醒pipeline需要区分单流与双客户端，不能把开关当普遍增益",
+      "limit": "缺少请求和重复日志；量化、KV与显存容量均不同",
+      "path": "prefill-community-20261015/双3080-IQ3XXS案例.md"
+    },
+    {
+      "id": "E09",
+      "name": "4070Ti SUPER并发案例",
+      "hardware": "4070Ti SUPER16GB；5950X；64GB DDR4",
+      "software": "parallel2；7workers分CCD；其余完整版本/模型未知",
+      "data": "称第二槽增加约3.1GB状态；没有可比较吞吐表",
+      "use": "区分并发槽、流水窗口、交互公平性与总吞吐",
+      "limit": "配置与经验性叙述，不作为速度曲线的数据点",
+      "path": "prefill-community-20261015/4070TiSUPER-P2并发案例.md"
+    },
+    {
+      "id": "E10",
+      "name": "社区pcie-frac / spec-min-p表",
+      "hardware": "此表归档未完整确定硬件，不能归给其他作者",
+      "software": "IQ3_S等参数片段；实际引擎hash和请求未知",
+      "data": "11组合prefill 5405.0–5498.6；decode 127.7–161.2 tok/s",
+      "use": "提出参数扫描方向，也说明较大frac/阈值并非必胜",
+      "limit": "不能据此估算本机提速；最初随机负载观察与后续官方bench分开",
+      "path": "prefill-community-20261015/案例解读.md"
+    },
+    {
+      "id": "E11",
+      "name": "Diit.cz · 单路7282评测",
+      "hardware": "H12SSW-iN；1×7282；4×8GB DDR4-3200 RDIMM",
+      "software": "2021-07-30 AIDA64评测；精确软件版本未恢复",
+      "data": "Read62.917 / Write42.661 / Copy71.586 GB/s；117ns",
+      "use": "同型号、同四条数量级参照，说明本机数GB/s不能仅归因7282规格",
+      "limit": "板、容量、时序、软件版本不同，不能作本机验收线",
+      "path": "memory-verification-20261015/research-update-20261016.md",
+      "origin_url": "https://diit.cz/clanek/minirecenze-supermicro-1610f-h12w-1u-server/cpu-vykon-ffmpeg-kraken-javascript-7-zip-aida64"
+    },
+    {
+      "id": "E12",
+      "name": "Dell R6515白皮书",
+      "hardware": "单路EPYC7282；具体DIMM条件见原白皮书",
+      "software": "STREAM Triad；官方公开结果",
+      "data": "81.137 GB/s",
+      "use": "独立支持同型号应有更高吞吐的数量级判断",
+      "limit": "Triad读写口径不同于AIDA64 Read；不能直接相除计算损失",
+      "path": "memory-verification-20261015/research-diagnosis-20261016.md",
+      "origin_url": "https://dl.dell.com/manuals/common/poweredge_perf_amdepyc7002series.pdf"
+    },
+    {
+      "id": "E13",
+      "name": "H12SSL-i低分讨论",
+      "hardware": "7282；8×32GB Micron3200，另测4条",
+      "software": "先Memtest86+，后改配置并换MemTest86 11.2",
+      "data": "作者报4.89/4.9→13.9 GB/s",
+      "use": "提醒相似低分可能涉及测法，不能只凭帖子标题判定同一故障",
+      "limit": "软件与配置同时改变，没有确认与本机相同的根因",
+      "path": "memory-verification-20261015/research-update-20261016.md",
+      "origin_url": "https://www.reddit.com/r/servers/comments/1jtvldo/"
+    },
+    {
+      "id": "E14",
+      "name": "lcz · 7R13调优自述",
+      "hardware": "7R13 48C；256GB八通道；4×3090平台，后文选择单3090路径",
+      "software": "自定义fork与多路径比较，线程和运行方式均有变化",
+      "data": "报告47workers约19.55tok/s，限线程后78–92；32K冷测中位91.1，前缀命中118.1",
+      "use": "提醒更多核心不自动提升当前数据路径，推动本机做独立线程伸缩实验",
+      "limit": "不是纯worker对照；热缓存与冷输入分开，不能承诺本机复制其倍数",
+      "path": "memory-verification-20261015/7282-7452-7443-7R13-7V13比较-20261016.md",
+      "origin_url": "https://lcz.me/topic/2116/3"
+    }
+  ]
+}

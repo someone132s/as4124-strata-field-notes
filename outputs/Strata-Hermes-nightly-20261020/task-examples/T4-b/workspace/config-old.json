@@ -1,0 +1,22 @@
+{
+  "enabled": true,
+  "features": [
+    "metrics",
+    "tracing",
+    "metrics",
+    "auth",
+    "tracing"
+  ],
+  "legacy_note": "preserve me",
+  "limits": {
+    "max_connections": "256",
+    "timeout_seconds": "45"
+  },
+  "listen": "10.40.0.7:9987",
+  "owner": "platform",
+  "release": {
+    "build": 494,
+    "channel": "stable"
+  },
+  "service": "catalog-659"
+}

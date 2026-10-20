@@ -1,0 +1,95 @@
+{
+  "status": "completed",
+  "phase": "completed",
+  "job": "sc117-iq3s-q8ple-bfcl32k-20261016",
+  "model": "sc117-qwen3.8-flash-next-abliterated-iq3_s-q8ple",
+  "started_utc": "2026-10-15T17:14:51.313162+00:00",
+  "samples": 40,
+  "reasoning_budget_tokens": 32768,
+  "max_tokens": 49152,
+  "comparison_note": "Same 40 questions and scorer as IQ3/Huihui; new SC117 + Q8 PLE and larger output/thinking budgets. Not an equal-budget model-only comparison.",
+  "supplemental_cases": {
+    "tools": 6,
+    "long_context": 9
+  },
+  "automatic_retries": false,
+  "bfcl_started_utc": "2026-10-15T17:14:59.476574+00:00",
+  "bfcl_completed_utc": "2026-10-15T19:45:34.532423+00:00",
+  "bfcl_transport": {
+    "requests": 706,
+    "errors": 0,
+    "truncated": 0,
+    "tool_calls": 695,
+    "prompt_tokens": 5182738,
+    "completion_tokens": 167620
+  },
+  "bfcl_scores": {
+    "execution_summary": {
+      "requested": 40,
+      "succeeded": 40,
+      "errored": 0,
+      "incomplete": false,
+      "subsets": {
+        "multi_turn_base": {
+          "requested": 10,
+          "succeeded": 10,
+          "errored": 0
+        },
+        "multi_turn_long_context": {
+          "requested": 10,
+          "succeeded": 10,
+          "errored": 0
+        },
+        "multi_turn_miss_func": {
+          "requested": 10,
+          "succeeded": 10,
+          "errored": 0
+        },
+        "multi_turn_miss_param": {
+          "requested": 10,
+          "succeeded": 10,
+          "errored": 0
+        }
+      }
+    },
+    "subsets": {
+      "bfcl_v4_multi_turn_miss_func": {
+        "correct": 0,
+        "total": 10
+      },
+      "bfcl_v4_multi_turn_miss_param": {
+        "correct": 3,
+        "total": 10
+      },
+      "bfcl_v4_multi_turn_base": {
+        "correct": 4,
+        "total": 10
+      },
+      "bfcl_v4_multi_turn_long_context": {
+        "correct": 5,
+        "total": 10
+      }
+    },
+    "metrics": [
+      {
+        "identity": {
+          "name": "accuracy",
+          "aggregation": "mean",
+          "dimensions": {}
+        },
+        "score": 0.3
+      }
+    ]
+  },
+  "supplemental_scores": {
+    "tool_score": {
+      "correct": 6,
+      "total": 6
+    },
+    "long_context_score": {
+      "correct": 9,
+      "total": 9
+    }
+  },
+  "finished_utc": "2026-10-15T20:01:27.084815+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "service": {
+    "name": "catalog-659",
+    "host": "10.40.0.7",
+    "port": 9987,
+    "enabled": true
+  },
+  "features": [
+    "auth",
+    "metrics",
+    "tracing"
+  ],
+  "limits": {
+    "max_connections": 256,
+    "timeout_seconds": 45
+  },
+  "extra": {
+    "owner": "platform",
+    "release": {
+      "channel": "stable",
+      "build": 494
+    },
+    "legacy_note": "preserve me"
+  }
+}

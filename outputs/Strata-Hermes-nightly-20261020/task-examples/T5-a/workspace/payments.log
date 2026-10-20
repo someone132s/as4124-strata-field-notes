@@ -1,0 +1,2 @@
+2026-10-17T08:15:00Z WARN payments req-911848 upstream=acquirer code=ERR_PAYMENT_503 retryable=true
+2026-10-17T08:15:00Z INFO payments req-911848 action=propagate_to_orders

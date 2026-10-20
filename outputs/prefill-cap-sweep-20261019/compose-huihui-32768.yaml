@@ -1,0 +1,38 @@
+services:
+  strata:
+    image: strata:vm502-v0.1.45-sm75-vision-gpu
+    build:
+      context: ./source-v0.1.45
+      dockerfile: Dockerfile.vm502-v0145
+    restart: unless-stopped
+    stop_grace_period: 60s
+    ports:
+      - "10.2.21.4:8080:8080"
+    volumes:
+      - /opt/strata-data:/data
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    environment:
+      CONFIG: /data/config/strata-huihui-ud-iq4_xs-q8ple-vision-v0.1.45.json
+      FAMILY: huihui
+      MODEL: UD-IQ4_XS
+      CONTEXT: "262144"
+      KV: int8
+      VISION: "yes"
+      GPUS: "1,2"
+      LAYER_SPLIT: auto
+      LOW_RAM: "off"
+      HOST: 0.0.0.0
+      PORT: "8080"
+      STRATA_SOURCE: modelscope
+      STRATA_ROUTE_TAIL_SKIP: "0"
+      STRATA_REQUEST_LINES: "1"
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              device_ids: ["GPU-05e5166d-a213-14af-16ec-886fa9cb51f4", "GPU-be897daa-b730-b812-cac5-0677e7c00d5b", "GPU-9a371e9d-99d5-eb30-e2f1-1a8cef3b6f03"]
+              capabilities: [gpu]

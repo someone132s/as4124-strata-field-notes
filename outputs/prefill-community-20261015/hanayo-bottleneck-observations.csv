@@ -1,0 +1,7 @@
+group,id,ttft_s,e2e_s,decode_tps,read_mb,major_faults,gpu_util_mean,gpu_power_mean_w,ram_available_min_gib,recording
+confirm-candidate-off,r1--long_read,3.43465989199467,4.1846920079988195,87.8,0.18432,2,89.0,291.985,11.480022430419922,recordings/confirm-candidate-off/r1--long_read.json
+confirm-candidate-off,r2--code_retry_fix,0.6348157239990542,77.5349321350077,13.3,533.024768,4382,98.78947368421052,181.65684210526317,11.231781005859375,recordings/confirm-candidate-off/r2--code_retry_fix.json
+confirm-candidate-off,r2--code_log,0.5215514339943184,61.2905201829999,12.4,366.20288,3009,97.6774193548387,173.71774193548387,11.345470428466797,recordings/confirm-candidate-off/r2--code_log.json
+off-a,code_merge,29.440613753002253,66.29333852800482,4.3,344.7808,2800,55.125,125.1128125,12.309764862060547,recordings/off-a/code_merge.json
+off-b,code_merge,0.42451930900278967,2.748027740002726,68.6,1.961984,16,100.0,256.73,12.150337219238281,recordings/off-b/code_merge.json
+sweep-p2048-w7-s4,sweep-0-mtp07-code_merge,0.4360485250072088,1.4955128069996135,149.7,0.0,0,95.0,253.32,11.390975952148438,recordings/sweep-p2048-w7-s4/sweep-0-mtp07-code_merge.json

@@ -1,0 +1,266 @@
+2026-10-19T12:10:52+08:00
+ 12:10:52 up 3 min,  4 users,  load average: 4.62, 3.79, 1.66
+ -5 27b4006f7240499ca6f511559bbd7826 Sat 2026-10-17 11:09:03 CST Sat 2026-10-17 21:38:04 CST
+ -4 4cf3e3b3f61f4450973be93d17d578d4 Sat 2026-10-17 21:58:26 CST Sun 2026-10-18 10:41:26 CST
+ -3 21240b2095044131837202c7d0b24a47 Sun 2026-10-18 11:36:56 CST Mon 2026-10-19 09:39:27 CST
+ -2 713217566c904abca383b3b80e68c41b Tue 2026-04-14 03:38:06 CST Mon 2026-10-19 12:00:56 CST
+ -1 c760bf9620874e138b0918081bf02bd0 Mon 2026-10-19 12:04:14 CST Mon 2026-10-19 12:05:12 CST
+  0 e7f5cc93bf554a628e20d6c615ab2bba Mon 2026-10-19 12:07:04 CST Mon 2026-10-19 12:10:52 CST
+CPU SOCKET CORE
+  0      0    0
+  1      0    1
+  2      0    2
+  3      0    3
+  4      0    4
+  5      0    5
+  6      0    6
+  7      0    7
+  8      0    8
+  9      0    9
+ 10      0   10
+ 11      0   11
+ 12      0   12
+ 13      0   13
+ 14      0   14
+ 15      0   15
+ 16      0   16
+ 17      0   17
+ 18      0   18
+ 19      0   19
+ 20      0   20
+ 21      0   21
+ 22      0   22
+ 23      0   23
+ 24      0   24
+ 25      0   25
+ 26      0   26
+ 27      0   27
+ 28      0   28
+ 29      0   29
+ 30      0   30
+ 31      0   31
+ 32      1   32
+ 33      1   33
+ 34      1   34
+ 35      1   35
+ 36      1   36
+ 37      1   37
+ 38      1   38
+ 39      1   39
+ 40      1   40
+ 41      1   41
+ 42      1   42
+ 43      1   43
+ 44      1   44
+ 45      1   45
+ 46      1   46
+ 47      1   47
+ 48      1   48
+ 49      1   49
+ 50      1   50
+ 51      1   51
+ 52      1   52
+ 53      1   53
+ 54      1   54
+ 55      1   55
+ 56      1   56
+ 57      1   57
+ 58      1   58
+ 59      1   59
+ 60      1   60
+ 61      1   61
+ 62      1   62
+ 63      1   63
+ 64      0    0
+ 65      0    1
+ 66      0    2
+ 67      0    3
+ 68      0    4
+ 69      0    5
+ 70      0    6
+ 71      0    7
+ 72      0    8
+ 73      0    9
+ 74      0   10
+ 75      0   11
+ 76      0   12
+ 77      0   13
+ 78      0   14
+ 79      0   15
+ 80      0   16
+ 81      0   17
+ 82      0   18
+ 83      0   19
+ 84      0   20
+ 85      0   21
+ 86      0   22
+ 87      0   23
+ 88      0   24
+ 89      0   25
+ 90      0   26
+ 91      0   27
+ 92      0   28
+ 93      0   29
+ 94      0   30
+ 95      0   31
+ 96      1   32
+ 97      1   33
+ 98      1   34
+ 99      1   35
+100      1   36
+101      1   37
+102      1   38
+103      1   39
+104      1   40
+105      1   41
+106      1   42
+107      1   43
+108      1   44
+109      1   45
+110      1   46
+111      1   47
+112      1   48
+113      1   49
+114      1   50
+115      1   51
+116      1   52
+117      1   53
+118      1   54
+119      1   55
+120      1   56
+121      1   57
+122      1   58
+123      1   59
+124      1   60
+125      1   61
+126      1   62
+127      1   63
+11,75
+11,75
+      VMID NAME                 STATUS     MEM(MB)    BOOTDISK(GB) PID       
+       104 MediaServer-1        running    32768           1000.00 3238      
+       301 Windows10-2016-LTSB-1 running    16384            500.00 3601      
+       500 Debian13-Template    stopped    16384           1000.00 0         
+       501 LLM-Frontend         running    16384            500.00 3712      
+       502 GPUServer-1          running    131072          1024.00 3870      
+       503 Test2                running    16384            500.00 3995      
+       504 Test3                running    16384            500.00 4152      
+       505 Test4                stopped    32768            500.00 0         
+       506 Test5                stopped    32768            500.00 0         
+       507 Test6                stopped    16384            500.00 0         
+       508 Test7                stopped    16384           1000.00 0         
+       509 Test8                stopped    16384           1000.00 0         
+       510 OpenClaw-1           stopped    16384           1000.00 0         
+       511 Hermes-1             running    16384           1000.00 4287      
+       512 GPUServer-2          running    32768           1000.00 4428      
+Cluster information
+-------------------
+Name:             MyHomeServers
+Config Version:   8
+Transport:        knet
+Secure auth:      on
+
+Quorum information
+------------------
+Date:             Mon Oct 19 12:10:54 2026
+Quorum provider:  corosync_votequorum
+Nodes:            3
+Node ID:          0x00000002
+Ring ID:          1.3bb
+Quorate:          Yes
+
+Votequorum information
+----------------------
+Expected votes:   3
+Highest expected: 3
+Total votes:      3
+Quorum:           2  
+Flags:            Quorate 
+
+Membership information
+----------------------
+    Nodeid      Votes Name
+0x00000001          1 10.2.10.10
+0x00000002          1 10.2.10.11 (local)
+0x00000003          1 10.2.10.12
+/sys/devices/system/edac/mc/mc0 0
+0
+/sys/devices/system/edac/mc/mc1 0
+0
+System Power         : on
+Power Overload       : false
+Power Interlock      : inactive
+Main Power Fault     : false
+Power Control Fault  : false
+Power Restore Policy : previous
+Last Power Event     : 
+Chassis Intrusion    : inactive
+Front-Panel Lockout  : inactive
+Drive Fault          : false
+Cooling/Fan Fault    : false
+Watchdog Timer Use:     Reserved (0x00)
+Watchdog Timer Is:      Stopped
+Watchdog Timer Logging: On
+Watchdog Timer Action:  No action (0x00)
+Pre-timeout interrupt:  None
+Pre-timeout interval:   0 seconds
+Timer Expiration Flags: None (0x00)
+Initial Countdown:      0.0 sec
+Present Countdown:      0.0 sec
+CPU1 Temp        | 01h | ok  |  3.1 | 46 degrees C
+CPU2 Temp        | 02h | ok  |  3.2 | 44 degrees C
+Inlet Temp       | 09h | ok  |  7.0 | 32 degrees C
+System Temp      | 0Bh | ok  |  7.1 | 43 degrees C
+Peripheral Temp  | 0Ch | ok  |  7.2 | 38 degrees C
+CPU1_VRMIN Temp  | 10h | ok  |  8.1 | 44 degrees C
+CPU2_VRMIN Temp  | 11h | ok  |  8.2 | 43 degrees C
+SOC1_VRMIN Temp  | 12h | ok  |  8.3 | 45 degrees C
+SOC2_VRMIN Temp  | 13h | ok  |  8.4 | 43 degrees C
+P1_VRMABCD Temp  | 14h | ok  |  8.5 | 49 degrees C
+P2_VRMABCD Temp  | 15h | ok  |  8.6 | 42 degrees C
+P1_VRMEFGH Temp  | 16h | ok  |  8.7 | 45 degrees C
+P2_VRMEFGH Temp  | 17h | ok  |  8.8 | 45 degrees C
+P1_DIMMA~D Temp  | B0h | ok  | 32.64 | 40 degrees C
+P1_DIMME~H Temp  | B1h | ok  | 32.65 | 43 degrees C
+P2_DIMMA~D Temp  | B2h | ok  | 32.66 | 38 degrees C
+P2_DIMME~H Temp  | B3h | ok  | 32.67 | 41 degrees C
+FAN1             | 41h | ok  | 29.1 | 2100 RPM
+FAN2             | 42h | ok  | 29.2 | 2100 RPM
+FAN3             | 43h | ok  | 29.3 | 2100 RPM
+FAN4             | 44h | ok  | 29.4 | 2240 RPM
+FAN5             | 45h | ok  | 29.5 | 2100 RPM
+FAN6             | 46h | ok  | 29.6 | 2100 RPM
+FAN7             | 47h | ok  | 29.7 | 2100 RPM
+FAN8             | 48h | ok  | 29.8 | 2100 RPM
+FAN9             | 49h | ok  | 29.9 | 1960 RPM
+FAN10            | 4Ah | ok  | 29.10 | 1960 RPM
+GPU Tray FAN1    | E0h | ns  | 29.11 | No Reading
+GPU Tray FAN2    | E1h | ns  | 29.12 | No Reading
+GPU Tray FAN3    | E2h | ns  | 29.13 | No Reading
+GPU Tray FAN4    | E3h | ns  | 29.14 | No Reading
+GPU Tray FAN5    | E4h | ns  | 29.15 | No Reading
+MB 12V           | 30h | ok  |  7.18 | 12.05 Volts
+MB 5VCC          | 31h | ok  |  7.19 | 4.99 Volts
+MB 3.3VCC        | 32h | ok  |  7.20 | 3.26 Volts
+VBAT             | 33h | ok  | 40.0 | Presence Detected
+CPU1_VDDCR_CPU   | 34h | ok  |  7.3 | 1.18 Volts
+CPU1_VDIMMA-D    | 35h | ok  |  3.4 | 1.19 Volts
+CPU2_VDDCR_CPU   | 36h | ok  |  7.33 | 1.21 Volts
+CPU1 VDIMME-H    | 37h | ok  |  7.34 | 1.20 Volts
+5V Dual          | 38h | ok  |  7.35 | 5.16 Volts
+VDD_33_DUAL      | 39h | ok  |  7.36 | 3.23 Volts
+CPU2_VDIMMA-D    | 3Ah | ok  |  7.21 | 1.20 Volts
+CPU2 VDIMME-H    | 3Bh | ok  |  7.22 | 1.19 Volts
+CPU1_SOC         | 3Ch | ok  |  7.23 | 0.87 Volts
+CPU2_SOC         | 3Dh | ok  |  7.24 | 0.87 Volts
+CPU1_SOC_S5      | 3Eh | ok  |  7.25 | 0.89 Volts
+CPU2_SOC_S5      | 3Fh | ok  |  7.26 | 0.89 Volts
+Chassis Intru    | AAh | ok  | 23.1 | General Chassis intrusion
+PS1 Status       | C4h | ok  | 10.92 | Presence detected
+PS2 Status       | C5h | ok  | 10.91 | Presence detected
+PS3 Status       | C6h | ok  | 10.90 | Presence detected
+PS4 Status       | C7h | ok  | 10.89 | Presence detected
+GPU8 Temp        | 77h | ok  | 11.8 | 42 degrees C
+NVMe_SSDA Temp   | 20h | ns  |  4.48 | No Reading
+
+STDERR:

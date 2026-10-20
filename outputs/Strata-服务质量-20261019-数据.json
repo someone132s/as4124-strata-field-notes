@@ -1,0 +1,147 @@
+{
+  "title": "能不能用，与跑得多快是两件事：Strata服务质量验收",
+  "revision": 3,
+  "date": "2026-10-19",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "标准带宽复核与 R730 对照",
+      "path": "memory-verification-20261015/README.md"
+    },
+    {
+      "id": "S03",
+      "title": "DIMM 编号及 2/4/8 条实测",
+      "path": "memory-verification-20261015/DIMM-编号与分组测试计划-20261016.md"
+    },
+    {
+      "id": "S07",
+      "title": "AS4124-供电状态导致性能骤降-20261019.md",
+      "path": "AS4124-供电状态导致性能骤降-20261019.md"
+    },
+    {
+      "id": "S10",
+      "title": "Strata调优总记录-20261014.md",
+      "path": "Strata调优总记录-20261014.md"
+    },
+    {
+      "id": "S25",
+      "title": "AS4124-GPU直通调整-20261016.md",
+      "path": "AS4124-GPU直通调整-20261016.md"
+    },
+    {
+      "id": "S28",
+      "title": "配对分析.md",
+      "path": "Huihui-BFCL结果-20261015/配对分析.md"
+    },
+    {
+      "id": "S29",
+      "title": "README.md",
+      "path": "sc117-overnight-20261016/README.md"
+    },
+    {
+      "id": "S30",
+      "title": "EvalScope功能验证-20261014.md",
+      "path": "EvalScope功能验证-20261014.md"
+    },
+    {
+      "id": "S31",
+      "title": "README.md",
+      "path": "官方BFCL结果-20261015/README.md"
+    },
+    {
+      "id": "S32",
+      "title": "README.md",
+      "path": "DeepSeek-BFCL恢复-20261015/README.md"
+    },
+    {
+      "id": "S33",
+      "title": "LiveCodeBench结果分析-20261015.md",
+      "path": "LiveCodeBench结果分析-20261015.md"
+    },
+    {
+      "id": "S34",
+      "title": "Strata-0.1.45升级记录-20261017.md",
+      "path": "Strata-0.1.45升级记录-20261017.md"
+    },
+    {
+      "id": "S36",
+      "title": "测试结果.md",
+      "path": "workers-cpu-sweep-20261019/测试结果.md"
+    },
+    {
+      "id": "S41",
+      "title": "AS4124-核心报错与AER核查-20261019.md",
+      "path": "AS4124-核心报错与AER核查-20261019.md"
+    },
+    {
+      "id": "S43",
+      "title": "CPU选择结论-20261016.md",
+      "path": "CPU选择结论-20261016.md"
+    },
+    {
+      "id": "S44",
+      "title": "最终服务与参数验收",
+      "path": "prefill-cap-sweep-20261019/final-verification.json"
+    },
+    {
+      "id": "S45",
+      "title": "10/19 内核日志：resctrl能力检测",
+      "path": "reboot-investigation-20261019/host-kernel-current.txt"
+    },
+    {
+      "id": "S47",
+      "title": "后续验证与采购决策-20261016.md",
+      "path": "memory-verification-20261015/后续验证与采购决策-20261016.md"
+    },
+    {
+      "id": "S58",
+      "title": "正式基准中的客机内核、驱动和CUDA版本",
+      "path": "remote-results/official-hnorm-stream-20261014/2026-10-14-community-2x-rtx-2080-ti-swift-1-5-abliterated-iq3-s-q8ple/README.md"
+    },
+    {
+      "id": "S59",
+      "title": "EvalScope版本与独立测试VM",
+      "path": "EvalScope部署记录-20261014.md"
+    },
+    {
+      "id": "S60",
+      "title": "主板BIOS与内存布局截图核对",
+      "path": "memory-verification-20261015/BIOS-current-20261016.md"
+    }
+  ],
+  "charts": [
+    {
+      "id": "bfcl",
+      "title": "BFCL：相同40题的正确题数，预算差异保留标注",
+      "labels": [
+        "Swift IQ3",
+        "Huihui IQ4",
+        "SC117 IQ3*",
+        "Flash API",
+        "27B API",
+        "DeepSeek*"
+      ],
+      "series": [
+        {
+          "name": "正确 / 40",
+          "values": [
+            10,
+            15,
+            12,
+            20,
+            9,
+            17
+          ]
+        }
+      ],
+      "unit": "题",
+      "caption": "四类各10题，多轮能力筛查；不是完整BFCL榜单。*SC117使用更大思考/输出预算，DeepSeek为续跑后的混合上限；本地与外部API预算并未完全对齐。",
+      "sources": "<a class=\"ref\" href=\"#S28\">[S28]</a><a class=\"ref\" href=\"#S29\">[S29]</a>",
+      "kind": "bar",
+      "y_min": 0,
+      "y_max": 40,
+      "reference": null
+    }
+  ],
+  "external_cases": []
+}

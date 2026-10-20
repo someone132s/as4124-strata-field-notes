@@ -1,0 +1,210 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="395" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1100 395" version="1.0" fill-rule="evenodd" role="img" aria-label="Decode · 引擎纯生成速率">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1100" height="395" />
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-395)" style="clip-path: url(#clip)">
+		<g transform="">
+			<g transform="">
+				<g transform="">
+					<g transform="">
+						<path d="M 72,56 L 1067,56 Z" style="stroke: rgb(66%,70%,77%); stroke-linecap: butt; stroke-width: 1;" />
+					</g>
+					<g transform="">
+						<path d="M 72,56 L 72,51 Z" style="stroke: rgb(66%,70%,77%); stroke-linecap: butt; stroke-width: 1;" />
+						<path d="M 192.756148,56 L 192.756148,51 Z" style="stroke: rgb(66%,70%,77%); stroke-linecap: butt; stroke-width: 1;" />
+						<path d="M 313.512296,56 L 313.512296,51 Z" style="stroke: rgb(66%,70%,77%); stroke-linecap: butt; stroke-width: 1;" />
+						<path d="M 555.024593,56 L 555.024593,51 Z" style="stroke: rgb(66%,70%,77%); stroke-linecap: butt; stroke-width: 1;" />
+						<path d="M 796.536889,56 L 796.536889,51 Z" style="stroke: rgb(66%,70%,77%); stroke-linecap: butt; stroke-width: 1;" />
+						<path d="M 939.934815,56 L 939.934815,51 Z" style="stroke: rgb(66%,70%,77%); stroke-linecap: butt; stroke-width: 1;" />
+						<path d="M 1038.049185,56 L 1038.049185,51 Z" style="stroke: rgb(66%,70%,77%); stroke-linecap: butt; stroke-width: 1;" />
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,72,51)">
+							<text x="-3.0580000000000003" y="-11.0" style="font-family: Helvetica; font-size: 11px;fill: rgb(32%,38%,47%); stroke:none;" transform="translate(0,-22) scale(1,-1)">0</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,192.756148,51)">
+							<text x="-9.784500000000001" y="-11.0" style="font-family: Helvetica; font-size: 11px;fill: rgb(32%,38%,47%); stroke:none;" transform="translate(0,-22) scale(1,-1)">32K</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,313.512296,51)">
+							<text x="-9.784500000000001" y="-11.0" style="font-family: Helvetica; font-size: 11px;fill: rgb(32%,38%,47%); stroke:none;" transform="translate(0,-22) scale(1,-1)">64K</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,555.024593,51)">
+							<text x="-12.8425" y="-11.0" style="font-family: Helvetica; font-size: 11px;fill: rgb(32%,38%,47%); stroke:none;" transform="translate(0,-22) scale(1,-1)">128K</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,796.536889,51)">
+							<text x="-12.8425" y="-11.0" style="font-family: Helvetica; font-size: 11px;fill: rgb(32%,38%,47%); stroke:none;" transform="translate(0,-22) scale(1,-1)">192K</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,939.934815,51)">
+							<text x="-12.8425" y="-11.0" style="font-family: Helvetica; font-size: 11px;fill: rgb(32%,38%,47%); stroke:none;" transform="translate(0,-22) scale(1,-1)">230K</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,1038.049185,51)">
+							<text x="-12.8425" y="-11.0" style="font-family: Helvetica; font-size: 11px;fill: rgb(32%,38%,47%); stroke:none;" transform="translate(0,-22) scale(1,-1)">256K</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 72,56 L 72,366 Z" style="stroke: rgb(66%,70%,77%); stroke-linecap: butt; stroke-width: 1;" />
+					</g>
+					<g transform="">
+						<path d="M 72,56 L 67,56 Z" style="stroke: rgb(66%,70%,77%); stroke-linecap: butt; stroke-width: 1;" />
+						<path d="M 72,131.609756 L 67,131.609756 Z" style="stroke: rgb(66%,70%,77%); stroke-linecap: butt; stroke-width: 1;" />
+						<path d="M 72,207.219512 L 67,207.219512 Z" style="stroke: rgb(66%,70%,77%); stroke-linecap: butt; stroke-width: 1;" />
+						<path d="M 72,282.829268 L 67,282.829268 Z" style="stroke: rgb(66%,70%,77%); stroke-linecap: butt; stroke-width: 1;" />
+						<path d="M 72,358.439024 L 67,358.439024 Z" style="stroke: rgb(66%,70%,77%); stroke-linecap: butt; stroke-width: 1;" />
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,67,56)">
+							<text x="-6.1160000000000005" y="-4.4" style="font-family: Helvetica; font-size: 11px;fill: rgb(32%,38%,47%); stroke:none;" transform="translate(0,-8) scale(1,-1)">0</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,67,131.609756)">
+							<text x="-12.232000000000001" y="-4.4" style="font-family: Helvetica; font-size: 11px;fill: rgb(32%,38%,47%); stroke:none;" transform="translate(0,-8) scale(1,-1)">50</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,67,207.219512)">
+							<text x="-18.348" y="-4.4" style="font-family: Helvetica; font-size: 11px;fill: rgb(32%,38%,47%); stroke:none;" transform="translate(0,-8) scale(1,-1)">100</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,67,282.829268)">
+							<text x="-18.348" y="-4.4" style="font-family: Helvetica; font-size: 11px;fill: rgb(32%,38%,47%); stroke:none;" transform="translate(0,-8) scale(1,-1)">150</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,67,358.439024)">
+							<text x="-18.348" y="-4.4" style="font-family: Helvetica; font-size: 11px;fill: rgb(32%,38%,47%); stroke:none;" transform="translate(0,-8) scale(1,-1)">200</text>
+						</g>
+					</g>
+				</g>
+				<path d="M 192.756148,56 L 192.756148,366 Z" style="stroke: rgb(91%,93%,96%); stroke-linecap: butt; stroke-width: 0.6;" />
+				<path d="M 313.512296,56 L 313.512296,366 Z" style="stroke: rgb(91%,93%,96%); stroke-linecap: butt; stroke-width: 0.6;" />
+				<path d="M 555.024593,56 L 555.024593,366 Z" style="stroke: rgb(91%,93%,96%); stroke-linecap: butt; stroke-width: 0.6;" />
+				<path d="M 796.536889,56 L 796.536889,366 Z" style="stroke: rgb(91%,93%,96%); stroke-linecap: butt; stroke-width: 0.6;" />
+				<path d="M 939.934815,56 L 939.934815,366 Z" style="stroke: rgb(91%,93%,96%); stroke-linecap: butt; stroke-width: 0.6;" />
+				<path d="M 1038.049185,56 L 1038.049185,366 Z" style="stroke: rgb(91%,93%,96%); stroke-linecap: butt; stroke-width: 0.6;" />
+				<path d="M 72,131.609756 L 1067,131.609756 Z" style="stroke: rgb(91%,93%,96%); stroke-linecap: butt; stroke-width: 0.6;" />
+				<path d="M 72,207.219512 L 1067,207.219512 Z" style="stroke: rgb(91%,93%,96%); stroke-linecap: butt; stroke-width: 0.6;" />
+				<path d="M 72,282.829268 L 1067,282.829268 Z" style="stroke: rgb(91%,93%,96%); stroke-linecap: butt; stroke-width: 0.6;" />
+				<path d="M 72,358.439024 L 1067,358.439024 Z" style="stroke: rgb(91%,93%,96%); stroke-linecap: butt; stroke-width: 0.6;" />
+				<g transform="">
+					<polyline points="73.88681 300.3707, 75.77363 308.0829, 79.54726 306.8732, 87.09452 298.4049, 102.189 302.9415, 132.3781 293.5659, 192.7561 279.5024, 313.5123 274.361, 555.0246 267.8585, 796.5369 262.5659, 939.9348 259.239" style="stroke: rgb(58%,63%,72%); stroke-linecap: round; stroke-width: 2; fill: None; fill-rule: evenodd; stroke-dasharray: 5, 4;" />
+					<polyline points="73.88681 327.8927, 75.77363 329.7073, 79.54726 311.1073, 87.09452 328.0439, 102.189 322.1463, 132.3781 309.2927, 192.7561 291.9024, 313.5123 289.4829, 555.0246 285.2488, 796.5369 284.4927, 939.9348 281.0146" style="stroke: rgb(91%,47%,5%); stroke-linecap: round; stroke-width: 2.7; fill: None; fill-rule: evenodd;" />
+					<polyline points="73.84996 193.3073, 87.53306 182.5707, 195.8333 175.7659, 567.0236 167.1463, 963.5421 165.6341" style="stroke: rgb(54%,36%,96%); stroke-linecap: round; stroke-width: 2.7; fill: None; fill-rule: evenodd;" />
+					<polyline points="192.7377 141.2878, 313.4791 144.161, 555.1831 144.7659, 796.2531 139.4732, 939.898 139.6244, 1030.034 140.8341" style="stroke: rgb(14%,38%,92%); stroke-linecap: round; stroke-width: 2.7; fill: None; fill-rule: evenodd;" />
+					<polyline points="192.7377 144.6146, 313.4791 146.5805, 555.1831 143.2537, 796.2531 144.6146, 939.898 140.8341, 1030.034 142.3463" style="stroke: rgb(5%,58%,53%); stroke-linecap: round; stroke-width: 2.7; fill: None; fill-rule: evenodd;" />
+				</g>
+			</g>
+			<circle cx="73.88681481481481" cy="300.3707317073171" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(58%,63%,72%); fill-rule: evenodd;"><title>7945 作者 · 图中旧基线 · 0.5K · input 512 tokens
+Decode · 引擎纯生成速率: 161.60 tok/s</title></circle>
+			<circle cx="75.77362962962962" cy="308.0829268292683" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(58%,63%,72%); fill-rule: evenodd;"><title>7945 作者 · 图中旧基线 · 1K · input 1,024 tokens
+Decode · 引擎纯生成速率: 166.70 tok/s</title></circle>
+			<circle cx="79.54725925925926" cy="306.8731707317073" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(58%,63%,72%); fill-rule: evenodd;"><title>7945 作者 · 图中旧基线 · 2K · input 2,048 tokens
+Decode · 引擎纯生成速率: 165.90 tok/s</title></circle>
+			<circle cx="87.09451851851851" cy="298.40487804878046" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(58%,63%,72%); fill-rule: evenodd;"><title>7945 作者 · 图中旧基线 · 4K · input 4,096 tokens
+Decode · 引擎纯生成速率: 160.30 tok/s</title></circle>
+			<circle cx="102.18903703703704" cy="302.9414634146342" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(58%,63%,72%); fill-rule: evenodd;"><title>7945 作者 · 图中旧基线 · 8K · input 8,192 tokens
+Decode · 引擎纯生成速率: 163.30 tok/s</title></circle>
+			<circle cx="132.37807407407408" cy="293.5658536585366" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(58%,63%,72%); fill-rule: evenodd;"><title>7945 作者 · 图中旧基线 · 16K · input 16,384 tokens
+Decode · 引擎纯生成速率: 157.10 tok/s</title></circle>
+			<circle cx="192.75614814814816" cy="279.50243902439024" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(58%,63%,72%); fill-rule: evenodd;"><title>7945 作者 · 图中旧基线 · 32K · input 32,768 tokens
+Decode · 引擎纯生成速率: 147.80 tok/s</title></circle>
+			<circle cx="313.5122962962963" cy="274.3609756097561" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(58%,63%,72%); fill-rule: evenodd;"><title>7945 作者 · 图中旧基线 · 64K · input 65,536 tokens
+Decode · 引擎纯生成速率: 144.40 tok/s</title></circle>
+			<circle cx="555.0245925925926" cy="267.85853658536587" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(58%,63%,72%); fill-rule: evenodd;"><title>7945 作者 · 图中旧基线 · 128K · input 131,072 tokens
+Decode · 引擎纯生成速率: 140.10 tok/s</title></circle>
+			<circle cx="796.5368888888889" cy="262.5658536585365" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(58%,63%,72%); fill-rule: evenodd;"><title>7945 作者 · 图中旧基线 · 192K · input 196,608 tokens
+Decode · 引擎纯生成速率: 136.60 tok/s</title></circle>
+			<circle cx="939.9348148148149" cy="259.2390243902439" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(58%,63%,72%); fill-rule: evenodd;"><title>7945 作者 · 图中旧基线 · 230K · input 235,520 tokens
+Decode · 引擎纯生成速率: 134.40 tok/s</title></circle>
+			<circle cx="73.88681481481481" cy="327.89268292682925" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(91%,47%,5%); fill-rule: evenodd;"><title>7945 作者 · 新曲线 · 0.5K · input 512 tokens
+Decode · 引擎纯生成速率: 179.80 tok/s</title></circle>
+			<circle cx="75.77362962962962" cy="329.7073170731707" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(91%,47%,5%); fill-rule: evenodd;"><title>7945 作者 · 新曲线 · 1K · input 1,024 tokens
+Decode · 引擎纯生成速率: 181.00 tok/s</title></circle>
+			<circle cx="79.54725925925926" cy="311.10731707317075" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(91%,47%,5%); fill-rule: evenodd;"><title>7945 作者 · 新曲线 · 2K · input 2,048 tokens
+Decode · 引擎纯生成速率: 168.70 tok/s</title></circle>
+			<circle cx="87.09451851851851" cy="328.0439024390244" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(91%,47%,5%); fill-rule: evenodd;"><title>7945 作者 · 新曲线 · 4K · input 4,096 tokens
+Decode · 引擎纯生成速率: 179.90 tok/s</title></circle>
+			<circle cx="102.18903703703704" cy="322.1463414634146" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(91%,47%,5%); fill-rule: evenodd;"><title>7945 作者 · 新曲线 · 8K · input 8,192 tokens
+Decode · 引擎纯生成速率: 176.00 tok/s</title></circle>
+			<circle cx="132.37807407407408" cy="309.29268292682923" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(91%,47%,5%); fill-rule: evenodd;"><title>7945 作者 · 新曲线 · 16K · input 16,384 tokens
+Decode · 引擎纯生成速率: 167.50 tok/s</title></circle>
+			<circle cx="192.75614814814816" cy="291.9024390243902" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(91%,47%,5%); fill-rule: evenodd;"><title>7945 作者 · 新曲线 · 32K · input 32,768 tokens
+Decode · 引擎纯生成速率: 156.00 tok/s</title></circle>
+			<circle cx="313.5122962962963" cy="289.4829268292683" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(91%,47%,5%); fill-rule: evenodd;"><title>7945 作者 · 新曲线 · 64K · input 65,536 tokens
+Decode · 引擎纯生成速率: 154.40 tok/s</title></circle>
+			<circle cx="555.0245925925926" cy="285.2487804878049" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(91%,47%,5%); fill-rule: evenodd;"><title>7945 作者 · 新曲线 · 128K · input 131,072 tokens
+Decode · 引擎纯生成速率: 151.60 tok/s</title></circle>
+			<circle cx="796.5368888888889" cy="284.4926829268293" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(91%,47%,5%); fill-rule: evenodd;"><title>7945 作者 · 新曲线 · 192K · input 196,608 tokens
+Decode · 引擎纯生成速率: 151.10 tok/s</title></circle>
+			<circle cx="939.9348148148149" cy="281.01463414634145" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(91%,47%,5%); fill-rule: evenodd;"><title>7945 作者 · 新曲线 · 230K · input 235,520 tokens
+Decode · 引擎纯生成速率: 148.80 tok/s</title></circle>
+			<circle cx="73.84996296296296" cy="193.30731707317074" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(54%,36%,96%); fill-rule: evenodd;"><title>2690v4 网友 · Q4_K_L/XL · 0.5K · input 502 tokens
+Decode · 引擎纯生成速率: 90.80 tok/s</title></circle>
+			<circle cx="87.53305555555555" cy="182.57073170731707" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(54%,36%,96%); fill-rule: evenodd;"><title>2690v4 网友 · Q4_K_L/XL · 4K · input 4,215 tokens
+Decode · 引擎纯生成速率: 83.70 tok/s</title></circle>
+			<circle cx="195.83327777777777" cy="175.76585365853657" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(54%,36%,96%); fill-rule: evenodd;"><title>2690v4 网友 · Q4_K_L/XL · 32K · input 33,603 tokens
+Decode · 引擎纯生成速率: 79.20 tok/s</title></circle>
+			<circle cx="567.0235555555555" cy="167.14634146341461" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(54%,36%,96%); fill-rule: evenodd;"><title>2690v4 网友 · Q4_K_L/XL · 128K · input 134,328 tokens
+Decode · 引擎纯生成速率: 73.50 tok/s</title></circle>
+			<circle cx="963.5421111111111" cy="165.6341463414634" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(54%,36%,96%); fill-rule: evenodd;"><title>2690v4 网友 · Q4_K_L/XL · 230.6K · input 241,926 tokens
+Decode · 引擎纯生成速率: 72.50 tok/s</title></circle>
+			<path d="M 192.737722,123.141463 L 192.737722,147.487805 Z" style="stroke: rgb(14%,38%,92%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 189.737722,123.141463 L 195.737722,123.141463 Z" style="stroke: rgb(14%,38%,92%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 189.737722,147.487805 L 195.737722,147.487805 Z" style="stroke: rgb(14%,38%,92%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<circle cx="192.73772222222223" cy="141.28780487804877" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(14%,38%,92%); fill-rule: evenodd;"><title>本机 A · auto:16384 · 32K · input 32,763 tokens
+Decode · 引擎纯生成速率: 56.40 tok/s</title></circle>
+			<path d="M 313.47913,142.8 L 313.47913,151.117073 Z" style="stroke: rgb(14%,38%,92%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 310.47913,142.8 L 316.47913,142.8 Z" style="stroke: rgb(14%,38%,92%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 310.47913,151.117073 L 316.47913,151.117073 Z" style="stroke: rgb(14%,38%,92%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<circle cx="313.4791296296296" cy="144.1609756097561" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(14%,38%,92%); fill-rule: evenodd;"><title>本机 A · auto:16384 · 64K · input 65,527 tokens
+Decode · 引擎纯生成速率: 58.30 tok/s</title></circle>
+			<path d="M 555.183056,143.404878 L 555.183056,145.219512 Z" style="stroke: rgb(14%,38%,92%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 552.183056,143.404878 L 558.183056,143.404878 Z" style="stroke: rgb(14%,38%,92%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 552.183056,145.219512 L 558.183056,145.219512 Z" style="stroke: rgb(14%,38%,92%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<circle cx="555.1830555555555" cy="144.7658536585366" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(14%,38%,92%); fill-rule: evenodd;"><title>本机 A · auto:16384 · 128K · input 131,115 tokens
+Decode · 引擎纯生成速率: 58.70 tok/s</title></circle>
+			<path d="M 796.25313,136.902439 L 796.25313,140.531707 Z" style="stroke: rgb(14%,38%,92%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 793.25313,136.902439 L 799.25313,136.902439 Z" style="stroke: rgb(14%,38%,92%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 793.25313,140.531707 L 799.25313,140.531707 Z" style="stroke: rgb(14%,38%,92%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<circle cx="796.2531296296297" cy="139.47317073170734" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(14%,38%,92%); fill-rule: evenodd;"><title>本机 A · auto:16384 · 192K · input 196,531 tokens
+Decode · 引擎纯生成速率: 55.20 tok/s</title></circle>
+			<path d="M 939.897963,135.995122 L 939.897963,140.834146 Z" style="stroke: rgb(14%,38%,92%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 936.897963,135.995122 L 942.897963,135.995122 Z" style="stroke: rgb(14%,38%,92%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 936.897963,140.834146 L 942.897963,140.834146 Z" style="stroke: rgb(14%,38%,92%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<circle cx="939.897962962963" cy="139.62439024390244" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(14%,38%,92%); fill-rule: evenodd;"><title>本机 A · auto:16384 · 230K · input 235,510 tokens
+Decode · 引擎纯生成速率: 55.30 tok/s</title></circle>
+			<path d="M 1030.033907,138.414634 L 1030.033907,144.160976 Z" style="stroke: rgb(14%,38%,92%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 1027.033907,138.414634 L 1033.033907,138.414634 Z" style="stroke: rgb(14%,38%,92%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 1027.033907,144.160976 L 1033.033907,144.160976 Z" style="stroke: rgb(14%,38%,92%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<circle cx="1030.0339074074072" cy="140.83414634146342" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(14%,38%,92%); fill-rule: evenodd;"><title>本机 A · auto:16384 · near-256K · input 259,969 tokens
+Decode · 引擎纯生成速率: 56.10 tok/s</title></circle>
+			<path d="M 192.737722,133.57561 L 192.737722,144.917073 Z" style="stroke: rgb(5%,58%,53%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 189.737722,133.57561 L 195.737722,133.57561 Z" style="stroke: rgb(5%,58%,53%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 189.737722,144.917073 L 195.737722,144.917073 Z" style="stroke: rgb(5%,58%,53%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<circle cx="192.73772222222223" cy="144.61463414634147" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(5%,58%,53%); fill-rule: evenodd;"><title>本机 B · auto · 32K · input 32,763 tokens
+Decode · 引擎纯生成速率: 58.60 tok/s</title></circle>
+			<path d="M 313.47913,145.82439 L 313.47913,150.965854 Z" style="stroke: rgb(5%,58%,53%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 310.47913,145.82439 L 316.47913,145.82439 Z" style="stroke: rgb(5%,58%,53%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 310.47913,150.965854 L 316.47913,150.965854 Z" style="stroke: rgb(5%,58%,53%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<circle cx="313.4791296296296" cy="146.58048780487803" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(5%,58%,53%); fill-rule: evenodd;"><title>本机 B · auto · 64K · input 65,527 tokens
+Decode · 引擎纯生成速率: 59.90 tok/s</title></circle>
+			<path d="M 555.183056,126.165854 L 555.183056,147.790244 Z" style="stroke: rgb(5%,58%,53%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 552.183056,126.165854 L 558.183056,126.165854 Z" style="stroke: rgb(5%,58%,53%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 552.183056,147.790244 L 558.183056,147.790244 Z" style="stroke: rgb(5%,58%,53%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<circle cx="555.1830555555555" cy="143.25365853658536" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(5%,58%,53%); fill-rule: evenodd;"><title>本机 B · auto · 128K · input 131,115 tokens
+Decode · 引擎纯生成速率: 57.70 tok/s</title></circle>
+			<path d="M 796.25313,144.463415 L 796.25313,144.765854 Z" style="stroke: rgb(5%,58%,53%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 793.25313,144.463415 L 799.25313,144.463415 Z" style="stroke: rgb(5%,58%,53%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 793.25313,144.765854 L 799.25313,144.765854 Z" style="stroke: rgb(5%,58%,53%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<circle cx="796.2531296296297" cy="144.61463414634147" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(5%,58%,53%); fill-rule: evenodd;"><title>本机 B · auto · 192K · input 196,531 tokens
+Decode · 引擎纯生成速率: 58.60 tok/s</title></circle>
+			<path d="M 939.897963,121.780488 L 939.897963,144.765854 Z" style="stroke: rgb(5%,58%,53%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 936.897963,121.780488 L 942.897963,121.780488 Z" style="stroke: rgb(5%,58%,53%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 936.897963,144.765854 L 942.897963,144.765854 Z" style="stroke: rgb(5%,58%,53%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<circle cx="939.897962962963" cy="140.83414634146342" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(5%,58%,53%); fill-rule: evenodd;"><title>本机 B · auto · 230K · input 235,510 tokens
+Decode · 引擎纯生成速率: 56.10 tok/s</title></circle>
+			<path d="M 1030.033907,139.019512 L 1030.033907,142.8 Z" style="stroke: rgb(5%,58%,53%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 1027.033907,139.019512 L 1033.033907,139.019512 Z" style="stroke: rgb(5%,58%,53%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 1027.033907,142.8 L 1033.033907,142.8 Z" style="stroke: rgb(5%,58%,53%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<circle cx="1030.0339074074072" cy="142.34634146341466" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(5%,58%,53%); fill-rule: evenodd;"><title>本机 B · auto · near-256K · input 259,969 tokens
+Decode · 引擎纯生成速率: 57.10 tok/s</title></circle>
+		</g>
+	</g>
+</svg>

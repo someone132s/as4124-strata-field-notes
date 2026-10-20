@@ -1,0 +1,655 @@
+{
+  "status": "passed",
+  "started_local": "2026-10-14T15:54:40.403430",
+  "backup": "/opt/strata-deploy/backups/codex-swift-iq3s-q8ple-20261014-155440",
+  "arms": [
+    {
+      "name": "swift-iq3_s-q8ple",
+      "engine": {
+        "model": "swift-1.5-abliterated-iq3_s-q8ple",
+        "max_context": 262144,
+        "images": true,
+        "version": "0.1.43.1",
+        "logit_bias": 1,
+        "context": 262144,
+        "kv": "int8",
+        "kv_resident": 32768,
+        "expert_slots": 14115,
+        "expert_cache_mib": 27465,
+        "expert_slots_primary": 6529,
+        "expert_cache_primary_mib": 11940,
+        "spec": 6,
+        "mtp_max": 4,
+        "lookup": 3,
+        "vram_free_mib": 2775,
+        "cvec": 0,
+        "arena_mib": 27997,
+        "pool_workers": 15,
+        "pcie_frac": "0.27",
+        "spec_min_p": "0.50",
+        "conversation_cache_mib": 0,
+        "conversation_cache_slots": 4,
+        "conversation_cache_min_free_mib": 2560,
+        "conversation_cache_min_tokens": 0,
+        "tail_role_token": -1,
+        "vram_elastic": 0,
+        "batch_slots": 2,
+        "slot_cache": 1,
+        "batch_groups": 1,
+        "engine": "0.1.43.1"
+      },
+      "groups": [
+        {
+          "label": "warmup",
+          "parallel": true,
+          "requests": [
+            {
+              "payload_sha256": "a4c6ec2e1e26ce62584b4885e95b6b9b939af6eac96b8016a42d847dfb91f5d7",
+              "question": "这段文字的主要内容是什么？",
+              "wall_s": 54.962852493001265,
+              "ttft_s": 20.834939401989686,
+              "usage": {
+                "prompt_tokens": 19687,
+                "completion_tokens": 128,
+                "total_tokens": 19815,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0
+                }
+              },
+              "timings": {
+                "cache_n": 0,
+                "prompt_n": 19687,
+                "prompt_ms": 16801.7,
+                "prompt_per_token_ms": 0.853,
+                "prompt_per_second": 1171.7,
+                "predicted_n": 128,
+                "predicted_ms": 33240.2,
+                "predicted_per_token_ms": 259.689,
+                "predicted_per_second": 3.9,
+                "draft_n": 0,
+                "draft_n_accepted": 0
+              },
+              "output_chars": 224,
+              "finish_reason": "length"
+            },
+            {
+              "payload_sha256": "168a4da8aa7d2ca7ee70216bf8cf2b32a4fd53509daf1ec7c8cc6c3f6749b68d",
+              "question": "这段文字的主要内容是什么？",
+              "wall_s": 60.196458600999904,
+              "ttft_s": 53.001505675012595,
+              "usage": {
+                "prompt_tokens": 19687,
+                "completion_tokens": 128,
+                "total_tokens": 19815,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0
+                }
+              },
+              "timings": {
+                "cache_n": 0,
+                "prompt_n": 19687,
+                "prompt_ms": 30818.9,
+                "prompt_per_token_ms": 1.565,
+                "prompt_per_second": 638.8,
+                "predicted_n": 128,
+                "predicted_ms": 5737.8,
+                "predicted_per_token_ms": 44.827,
+                "predicted_per_second": 22.3,
+                "draft_n": 109,
+                "draft_n_accepted": 75
+              },
+              "output_chars": 224,
+              "finish_reason": "length"
+            }
+          ],
+          "backend_requests": [
+            {
+              "projection": null,
+              "time": 1791965317.6171398,
+              "duration_s": 56.3,
+              "finish": "length",
+              "prompt_tokens": 19687,
+              "reused": 0,
+              "output_tokens": 128,
+              "prompt_total": 19687,
+              "prompt_read": 19687,
+              "reasoning_recoveries": 0,
+              "reasoning_repeat_coverage": 0.0,
+              "engine_generated": 128,
+              "prompt_ms": 30818.9,
+              "decode_ms": 5737.8,
+              "decode_tok_s": 22.3,
+              "hit_rate": 0.908,
+              "pcie_share": 0.012,
+              "ram_blobs": 7041,
+              "file_blobs": 0,
+              "file_mb": 0,
+              "drafts_offered": 109,
+              "drafts_accepted": 75
+            },
+            {
+              "projection": null,
+              "time": 1791965317.611129,
+              "duration_s": 51.1,
+              "finish": "length",
+              "prompt_tokens": 19687,
+              "reused": 0,
+              "output_tokens": 128,
+              "prompt_total": 19687,
+              "prompt_read": 19687,
+              "reasoning_recoveries": 0,
+              "reasoning_repeat_coverage": 0.0,
+              "engine_generated": 128,
+              "prompt_ms": 16801.7,
+              "decode_ms": 33240.2,
+              "decode_tok_s": 3.9,
+              "hit_rate": 0.785,
+              "pcie_share": 0.04,
+              "ram_blobs": 214,
+              "file_blobs": 0,
+              "file_mb": 0,
+              "drafts_offered": 0,
+              "drafts_accepted": 0
+            }
+          ],
+          "wall_s": 60.21277759700024,
+          "peaks": {
+            "running": 2,
+            "decoding": 2
+          },
+          "output_tokens": 256,
+          "aggregate_tok_s": 4.251589284144795
+        },
+        {
+          "label": "serial-0",
+          "parallel": false,
+          "requests": [
+            {
+              "payload_sha256": "1c7238169fb3672d6c79eebd849fc521d12eb666bebb5d3c0e17de34b91bc287",
+              "question": "我应该如何询问病史？",
+              "wall_s": 36.809313032004866,
+              "ttft_s": 24.017841117005446,
+              "usage": {
+                "prompt_tokens": 19688,
+                "completion_tokens": 512,
+                "total_tokens": 20200,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0
+                }
+              },
+              "timings": {
+                "cache_n": 0,
+                "prompt_n": 19688,
+                "prompt_ms": 23871.6,
+                "prompt_per_token_ms": 1.212,
+                "prompt_per_second": 824.7,
+                "predicted_n": 512,
+                "predicted_ms": 12808.5,
+                "predicted_per_token_ms": 25.017,
+                "predicted_per_second": 40.0,
+                "draft_n": 479,
+                "draft_n_accepted": 330
+              },
+              "output_chars": 853,
+              "finish_reason": "length"
+            }
+          ],
+          "backend_requests": [
+            {
+              "projection": null,
+              "time": 1791965373.9828513,
+              "duration_s": 36.8,
+              "finish": "length",
+              "prompt_tokens": 19688,
+              "reused": 0,
+              "output_tokens": 512,
+              "prompt_total": 19688,
+              "prompt_read": 19688,
+              "reasoning_recoveries": 0,
+              "reasoning_repeat_coverage": 0.0,
+              "engine_generated": 512,
+              "prompt_ms": 23871.6,
+              "decode_ms": 12808.5,
+              "decode_tok_s": 40.0,
+              "hit_rate": 0.953,
+              "pcie_share": 0.004,
+              "ram_blobs": 16706,
+              "file_blobs": 0,
+              "file_mb": 0,
+              "drafts_offered": 479,
+              "drafts_accepted": 330
+            }
+          ],
+          "wall_s": 36.81236836599419,
+          "peaks": {
+            "running": 1,
+            "decoding": 0
+          },
+          "output_tokens": 512,
+          "aggregate_tok_s": 13.908368918555247
+        },
+        {
+          "label": "serial-1",
+          "parallel": false,
+          "requests": [
+            {
+              "payload_sha256": "d109c6df00dfb67490af98736eb78c1b8099556f2e889001321c912a1e496985",
+              "question": "我应该如何进行口腔检查？",
+              "wall_s": 27.77435218699975,
+              "ttft_s": 16.67187915800605,
+              "usage": {
+                "prompt_tokens": 19689,
+                "completion_tokens": 512,
+                "total_tokens": 20201,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0
+                }
+              },
+              "timings": {
+                "cache_n": 0,
+                "prompt_n": 19689,
+                "prompt_ms": 16552.2,
+                "prompt_per_token_ms": 0.841,
+                "prompt_per_second": 1189.5,
+                "predicted_n": 512,
+                "predicted_ms": 11120.0,
+                "predicted_per_token_ms": 21.719,
+                "predicted_per_second": 46.0,
+                "draft_n": 455,
+                "draft_n_accepted": 342
+              },
+              "output_chars": 735,
+              "finish_reason": "length"
+            }
+          ],
+          "backend_requests": [
+            {
+              "projection": null,
+              "time": 1791965410.797229,
+              "duration_s": 27.7,
+              "finish": "length",
+              "prompt_tokens": 19689,
+              "reused": 0,
+              "output_tokens": 512,
+              "prompt_total": 19689,
+              "prompt_read": 19689,
+              "reasoning_recoveries": 0,
+              "reasoning_repeat_coverage": 0.0,
+              "engine_generated": 512,
+              "prompt_ms": 16552.2,
+              "decode_ms": 11120.0,
+              "decode_tok_s": 46.0,
+              "hit_rate": 0.957,
+              "pcie_share": 0.003,
+              "ram_blobs": 14158,
+              "file_blobs": 0,
+              "file_mb": 0,
+              "drafts_offered": 455,
+              "drafts_accepted": 342
+            }
+          ],
+          "wall_s": 27.777300661997288,
+          "peaks": {
+            "running": 1,
+            "decoding": 0
+          },
+          "output_tokens": 512,
+          "aggregate_tok_s": 18.432316596568292
+        },
+        {
+          "label": "serial-2",
+          "parallel": false,
+          "requests": [
+            {
+              "payload_sha256": "676d30a78db56b6bf898c0e1c4de367413e8e6636ab7a8d810d6c9f90b2e9c91",
+              "question": "我应该如何记录病历？",
+              "wall_s": 25.706434374995297,
+              "ttft_s": 16.82377992400143,
+              "usage": {
+                "prompt_tokens": 19688,
+                "completion_tokens": 512,
+                "total_tokens": 20200,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0
+                }
+              },
+              "timings": {
+                "cache_n": 0,
+                "prompt_n": 19688,
+                "prompt_ms": 16696.6,
+                "prompt_per_token_ms": 0.848,
+                "prompt_per_second": 1179.2,
+                "predicted_n": 512,
+                "predicted_ms": 8902.9,
+                "predicted_per_token_ms": 17.388,
+                "predicted_per_second": 57.5,
+                "draft_n": 439,
+                "draft_n_accepted": 339
+              },
+              "output_chars": 855,
+              "finish_reason": "length"
+            }
+          ],
+          "backend_requests": [
+            {
+              "projection": null,
+              "time": 1791965438.6160831,
+              "duration_s": 25.7,
+              "finish": "length",
+              "prompt_tokens": 19688,
+              "reused": 0,
+              "output_tokens": 512,
+              "prompt_total": 19688,
+              "prompt_read": 19688,
+              "reasoning_recoveries": 0,
+              "reasoning_repeat_coverage": 0.0,
+              "engine_generated": 512,
+              "prompt_ms": 16696.6,
+              "decode_ms": 8902.9,
+              "decode_tok_s": 57.5,
+              "hit_rate": 0.978,
+              "pcie_share": 0.001,
+              "ram_blobs": 6956,
+              "file_blobs": 0,
+              "file_mb": 0,
+              "drafts_offered": 439,
+              "drafts_accepted": 339
+            }
+          ],
+          "wall_s": 25.709654546997626,
+          "peaks": {
+            "running": 1,
+            "decoding": 0
+          },
+          "output_tokens": 512,
+          "aggregate_tok_s": 19.914697767099767
+        },
+        {
+          "label": "parallel-0",
+          "parallel": true,
+          "requests": [
+            {
+              "payload_sha256": "8254c2b88a57f8566541a476fd0b583def172836dc2286afea7fe8a741f7e70a",
+              "question": "我应该如何询问病史？",
+              "wall_s": 59.06924718299706,
+              "ttft_s": 16.61964406199695,
+              "usage": {
+                "prompt_tokens": 19688,
+                "completion_tokens": 512,
+                "total_tokens": 20200,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0
+                }
+              },
+              "timings": {
+                "cache_n": 0,
+                "prompt_n": 19688,
+                "prompt_ms": 16452.9,
+                "prompt_per_token_ms": 0.836,
+                "prompt_per_second": 1196.6,
+                "predicted_n": 512,
+                "predicted_ms": 41789.2,
+                "predicted_per_token_ms": 81.62,
+                "predicted_per_second": 12.3,
+                "draft_n": 0,
+                "draft_n_accepted": 0
+              },
+              "output_chars": 842,
+              "finish_reason": "length"
+            },
+            {
+              "payload_sha256": "a5119d96a019836dbdaa45050c1b77f4b990d8860d3f701f784c9530432e2f4f",
+              "question": "我应该如何进行口腔检查？",
+              "wall_s": 63.22144071699586,
+              "ttft_s": 48.27853765699547,
+              "usage": {
+                "prompt_tokens": 19689,
+                "completion_tokens": 512,
+                "total_tokens": 20201,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0
+                }
+              },
+              "timings": {
+                "cache_n": 0,
+                "prompt_n": 19689,
+                "prompt_ms": 30725.9,
+                "prompt_per_token_ms": 1.561,
+                "prompt_per_second": 640.8,
+                "predicted_n": 512,
+                "predicted_ms": 13629.4,
+                "predicted_per_token_ms": 26.62,
+                "predicted_per_second": 37.6,
+                "draft_n": 146,
+                "draft_n_accepted": 123
+              },
+              "output_chars": 738,
+              "finish_reason": "length"
+            }
+          ],
+          "backend_requests": [
+            {
+              "projection": null,
+              "time": 1791965464.3947413,
+              "duration_s": 63.1,
+              "finish": "length",
+              "prompt_tokens": 19689,
+              "reused": 0,
+              "output_tokens": 512,
+              "prompt_total": 19689,
+              "prompt_read": 19689,
+              "reasoning_recoveries": 0,
+              "reasoning_repeat_coverage": 0.0,
+              "engine_generated": 512,
+              "prompt_ms": 30725.9,
+              "decode_ms": 13629.4,
+              "decode_tok_s": 37.6,
+              "hit_rate": 0.965,
+              "pcie_share": 0.003,
+              "ram_blobs": 3933,
+              "file_blobs": 0,
+              "file_mb": 0,
+              "drafts_offered": 146,
+              "drafts_accepted": 123
+            },
+            {
+              "projection": null,
+              "time": 1791965464.388687,
+              "duration_s": 59.0,
+              "finish": "length",
+              "prompt_tokens": 19688,
+              "reused": 0,
+              "output_tokens": 512,
+              "prompt_total": 19688,
+              "prompt_read": 19688,
+              "reasoning_recoveries": 0,
+              "reasoning_repeat_coverage": 0.0,
+              "engine_generated": 512,
+              "prompt_ms": 16452.9,
+              "decode_ms": 41789.200000000004,
+              "decode_tok_s": 12.3,
+              "hit_rate": 0.971,
+              "pcie_share": 0.0,
+              "ram_blobs": 14,
+              "file_blobs": 0,
+              "file_mb": 0,
+              "drafts_offered": 0,
+              "drafts_accepted": 0
+            }
+          ],
+          "wall_s": 63.22723825300636,
+          "peaks": {
+            "running": 2,
+            "decoding": 2
+          },
+          "output_tokens": 1024,
+          "aggregate_tok_s": 16.195551605503034
+        }
+      ],
+      "summary": {
+        "serial_decode_median_tok_s": 46.0,
+        "parallel_aggregate_tok_s": 16.195551605503034,
+        "serial_hit_rate_median": 0.957
+      }
+    }
+  ],
+  "protocol": {
+    "formal_max_tokens": 512,
+    "warmup_max_tokens": 128,
+    "serial_requests": 3,
+    "parallel_pairs": 1,
+    "temperature": 0,
+    "reasoning_effort": "none",
+    "text_sha256": "35490313ba9f4cdb5d592d59117f22e1732f2aa3598346c3a2cc8d3a012d4a3a"
+  },
+  "notes": [
+    "Smoke test of one new model, not a controlled quality or performance comparison.",
+    "No user prompt/answer bodies retained.",
+    "Real 16384-token image tested before text to retain the vision workspace."
+  ],
+  "engine_loaded": {
+    "model": "swift-1.5-abliterated-iq3_s-q8ple",
+    "max_context": 262144,
+    "images": true,
+    "version": "0.1.43.1",
+    "logit_bias": 1,
+    "context": 262144,
+    "kv": "int8",
+    "kv_resident": 32768,
+    "expert_slots": 14115,
+    "expert_cache_mib": 27465,
+    "expert_slots_primary": 6529,
+    "expert_cache_primary_mib": 11940,
+    "spec": 6,
+    "mtp_max": 4,
+    "lookup": 3,
+    "vram_free_mib": 2775,
+    "cvec": 0,
+    "arena_mib": 27997,
+    "pool_workers": 15,
+    "pcie_frac": "0.27",
+    "spec_min_p": "0.50",
+    "conversation_cache_mib": 0,
+    "conversation_cache_slots": 4,
+    "conversation_cache_min_free_mib": 2560,
+    "conversation_cache_min_tokens": 0,
+    "tail_role_token": -1,
+    "vram_elastic": 0,
+    "batch_slots": 2,
+    "slot_cache": 1,
+    "batch_groups": 1,
+    "engine": "0.1.43.1"
+  },
+  "image_test": {
+    "wall_s": 115.00107060800656,
+    "usage": {
+      "prompt_tokens": 16408,
+      "completion_tokens": 2,
+      "total_tokens": 16410,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "header": {
+      "tokens": 16384,
+      "grid": [
+        128,
+        128
+      ]
+    },
+    "color_correct": true,
+    "min_free_mib": {
+      "0": 794,
+      "1": 218
+    },
+    "gpu_after": [
+      {
+        "index": 0,
+        "used_mib": 21233,
+        "free_mib": 768
+      },
+      {
+        "index": 1,
+        "used_mib": 21809,
+        "free_mib": 192
+      }
+    ]
+  },
+  "health_after": {
+    "status": "ok",
+    "max_context": 262144,
+    "model": "swift-1.5-abliterated-iq3_s-q8ple",
+    "images": true,
+    "api_key": false,
+    "loaded": true,
+    "service": "strata"
+  },
+  "engine_after": {
+    "model": "swift-1.5-abliterated-iq3_s-q8ple",
+    "max_context": 262144,
+    "images": true,
+    "version": "0.1.43.1",
+    "logit_bias": 1,
+    "context": 262144,
+    "kv": "int8",
+    "kv_resident": 32768,
+    "expert_slots": 14115,
+    "expert_cache_mib": 27465,
+    "expert_slots_primary": 6529,
+    "expert_cache_primary_mib": 11940,
+    "spec": 6,
+    "mtp_max": 4,
+    "lookup": 3,
+    "vram_free_mib": 2775,
+    "cvec": 0,
+    "arena_mib": 27997,
+    "pool_workers": 15,
+    "pcie_frac": "0.27",
+    "spec_min_p": "0.50",
+    "conversation_cache_mib": 0,
+    "conversation_cache_slots": 4,
+    "conversation_cache_min_free_mib": 2560,
+    "conversation_cache_min_tokens": 0,
+    "tail_role_token": -1,
+    "vram_elastic": 0,
+    "batch_slots": 2,
+    "slot_cache": 1,
+    "batch_groups": 1,
+    "engine": "0.1.43.1"
+  },
+  "gpu_after": [
+    {
+      "index": 0,
+      "used_mib": 21275,
+      "free_mib": 726
+    },
+    {
+      "index": 1,
+      "used_mib": 21869,
+      "free_mib": 132
+    }
+  ],
+  "new_cuda_errors": [],
+  "ple_log_evidence": [
+    "[strata] 2026-10-14 07:55:26 engine started: /opt/strata/engine/strata --serve --pack /data/packs/swift-abliterated-iq3_s --native /data/models/Swift-1.5-IQ3_S/Swift-1.5-Qwen3.8-Flash-Next-GSQ-RCO-abliterated-IQ3_S-00001-of-00002.gguf --expert-profile /opt/strata/data/expert-profile.bin --expert-cache auto --prefill auto --spec 4 --spec-min-p 0.5 --mtp /data/mtp/rt --kv int8 --ple-io ram --kv-resident 32768 --resident-budget-gib 55 --vision --vram-reserve-mib 3072 --max-context 262144 --pool-workers 15 --batch-groups 1 --batch-mtp --vram-reserve-later-mib 700 --ple-gguf /data/models/Qwen3.8-Q8_0/Qwen3.8-Flash-Next-GSQ-RCO-Q8_0-PLE-00002-of-00002.gguf --layer-split auto --batch 2",
+    "[strata] 2026-10-14 07:55:47 engine started: /opt/strata/engine/strata --serve --pack /data/packs/swift-abliterated-iq3_s --native /data/models/Swift-1.5-IQ3_S/Swift-1.5-Qwen3.8-Flash-Next-GSQ-RCO-abliterated-IQ3_S-00001-of-00002.gguf --expert-profile /opt/strata/data/expert-profile.bin --expert-cache auto --prefill auto --spec 4 --spec-min-p 0.5 --mtp /data/mtp/rt --kv int8 --ple-io ram --kv-resident 32768 --resident-budget-gib 55 --vision --vram-reserve-mib 3072 --max-context 262144 --pool-workers 15 --batch-groups 1 --batch-mtp --vram-reserve-later-mib 700 --ple-gguf /data/models/Qwen3.8-Q8_0/Qwen3.8-Flash-Next-GSQ-RCO-Q8_0-PLE-00002-of-00002.gguf --layer-split auto --batch 2",
+    "[strata] 2026-10-14 07:56:08 engine started: /opt/strata/engine/strata --serve --pack /data/packs/swift-abliterated-iq3_s --native /data/models/Swift-1.5-IQ3_S/Swift-1.5-Qwen3.8-Flash-Next-GSQ-RCO-abliterated-IQ3_S-00001-of-00002.gguf --expert-profile /opt/strata/data/expert-profile.bin --expert-cache auto --prefill auto --spec 4 --spec-min-p 0.5 --mtp /data/mtp/rt --kv int8 --ple-io ram --kv-resident 32768 --resident-budget-gib 55 --vision --vram-reserve-mib 3072 --max-context 262144 --pool-workers 15 --batch-groups 1 --batch-mtp --vram-reserve-later-mib 700 --ple-gguf /data/models/Qwen3.8-Q8_0/Qwen3.8-Flash-Next-GSQ-RCO-Q8_0-PLE-00002-of-00002.gguf --layer-split auto --batch 2",
+    "[strata] 2026-10-14 07:56:27 engine started: /opt/strata/engine/strata --serve --pack /data/packs/swift-abliterated-iq3_s --native /data/models/Swift-1.5-IQ3_S/Swift-1.5-Qwen3.8-Flash-Next-GSQ-RCO-abliterated-IQ3_S-00001-of-00002.gguf --expert-profile /opt/strata/data/expert-profile.bin --expert-cache auto --prefill auto --spec 4 --spec-min-p 0.5 --mtp /data/mtp/rt --kv int8 --ple-io ram --kv-resident 32768 --resident-budget-gib 55 --vision --vram-reserve-mib 3072 --max-context 262144 --pool-workers 15 --batch-groups 1 --batch-mtp --vram-reserve-later-mib 700 --ple-gguf /data/models/Qwen3.8-Q8_0/Qwen3.8-Flash-Next-GSQ-RCO-Q8_0-PLE-00002-of-00002.gguf --layer-split auto --batch 2",
+    "[strata] 2026-10-14 07:56:47 engine started: /opt/strata/engine/strata --serve --pack /data/packs/swift-abliterated-iq3_s --native /data/models/Swift-1.5-IQ3_S/Swift-1.5-Qwen3.8-Flash-Next-GSQ-RCO-abliterated-IQ3_S-00001-of-00002.gguf --expert-profile /opt/strata/data/expert-profile.bin --expert-cache auto --prefill auto --spec 4 --spec-min-p 0.5 --mtp /data/mtp/rt --kv int8 --ple-io ram --kv-resident 32768 --resident-budget-gib 55 --vision --vram-reserve-mib 3072 --max-context 262144 --pool-workers 15 --batch-groups 1 --batch-mtp --vram-reserve-later-mib 700 --ple-gguf /data/models/Qwen3.8-Q8_0/Qwen3.8-Flash-Next-GSQ-RCO-Q8_0-PLE-00002-of-00002.gguf --layer-split auto --batch 2",
+    "[strata] 2026-10-14 07:57:07 engine started: /opt/strata/engine/strata --serve --pack /data/packs/swift-abliterated-iq3_s --native /data/models/Swift-1.5-IQ3_S/Swift-1.5-Qwen3.8-Flash-Next-GSQ-RCO-abliterated-IQ3_S-00001-of-00002.gguf --expert-profile /opt/strata/data/expert-profile.bin --expert-cache auto --prefill auto --spec 4 --spec-min-p 0.5 --mtp /data/mtp/rt --kv int8 --ple-io ram --kv-resident 32768 --resident-budget-gib 55 --vision --vram-reserve-mib 3072 --max-context 262144 --pool-workers 15 --batch-groups 1 --batch-mtp --vram-reserve-later-mib 700 --ple-gguf /data/models/Qwen3.8-Q8_0/Qwen3.8-Flash-Next-GSQ-RCO-Q8_0-PLE-00002-of-00002.gguf --layer-split auto --batch 2",
+    "[strata] 2026-10-14 07:57:26 engine started: /opt/strata/engine/strata --serve --pack /data/packs/swift-abliterated-iq3_s --native /data/models/Swift-1.5-IQ3_S/Swift-1.5-Qwen3.8-Flash-Next-GSQ-RCO-abliterated-IQ3_S-00001-of-00002.gguf --expert-profile /opt/strata/data/expert-profile.bin --expert-cache auto --prefill auto --spec 4 --spec-min-p 0.5 --mtp /data/mtp/rt --kv int8 --ple-io ram --kv-resident 32768 --resident-budget-gib 55 --vision --vram-reserve-mib 3072 --max-context 262144 --pool-workers 15 --batch-groups 1 --batch-mtp --vram-reserve-later-mib 700 --ple-gguf /data/models/Qwen3.8-Q8_0/Qwen3.8-Flash-Next-GSQ-RCO-Q8_0-PLE-00002-of-00002.gguf --layer-split auto --batch 2",
+    "[strata] 2026-10-14 07:57:46 engine started: /opt/strata/engine/strata --serve --pack /data/packs/swift-abliterated-iq3_s --native /data/models/Swift-1.5-IQ3_S/Swift-1.5-Qwen3.8-Flash-Next-GSQ-RCO-abliterated-IQ3_S-00001-of-00002.gguf --expert-profile /opt/strata/data/expert-profile.bin --expert-cache auto --prefill auto --spec 4 --spec-min-p 0.5 --mtp /data/mtp/rt --kv int8 --ple-io ram --kv-resident 32768 --resident-budget-gib 55 --vision --vram-reserve-mib 3072 --max-context 262144 --pool-workers 15 --batch-groups 1 --batch-mtp --vram-reserve-later-mib 700 --ple-gguf /data/models/Qwen3.8-Q8_0/Qwen3.8-Flash-Next-GSQ-RCO-Q8_0-PLE-00002-of-00002.gguf --layer-split auto --batch 2",
+    "[strata] 2026-10-14 07:58:06 engine started: /opt/strata/engine/strata --serve --pack /data/packs/swift-abliterated-iq3_s --native /data/models/Swift-1.5-IQ3_S/Swift-1.5-Qwen3.8-Flash-Next-GSQ-RCO-abliterated-IQ3_S-00001-of-00002.gguf --expert-profile /opt/strata/data/expert-profile.bin --expert-cache auto --prefill auto --spec 4 --spec-min-p 0.5 --mtp /data/mtp/rt --kv int8 --ple-io ram --kv-resident 32768 --resident-budget-gib 55 --vision --vram-reserve-mib 3072 --max-context 262144 --pool-workers 15 --batch-groups 1 --batch-mtp --vram-reserve-later-mib 700 --ple-gguf /data/models/Qwen3.8-Q8_0/Qwen3.8-Flash-Next-GSQ-RCO-Q8_0-PLE-00002-of-00002.gguf --native-dense-gguf /data/models/Swift-1.5-IQ3_S/Swift-1.5-Qwen3.8-Flash-Next-GSQ-RCO-abliterated-IQ3_S-00001-of-00002.gguf --layer-split auto --batch 2",
+    "strata generate: PLE table locked in RAM (--ple-io ram) in 31.9 s",
+    "strata generate: PLE on, table 320001536 rows of /data/models/Qwen3.8-Q8_0/Qwen3.8-Flash-Next-GSQ-RCO-Q8_0-PLE-00002-of-00002.gguf",
+    "FileExpertSource: allocating 27.43 GiB page-locked cache complement",
+    "FileExpertSource: 1.01 GiB really free for a 27.43 GiB page-locked complement; the model files' cached pages were released: 13.58 GiB free",
+    "[strata] 2026-10-14 08:03:21 engine started: /opt/strata/engine/strata --serve --pack /data/packs/swift-abliterated-iq3_s --native /data/models/Swift-1.5-IQ3_S/Swift-1.5-Qwen3.8-Flash-Next-GSQ-RCO-abliterated-IQ3_S-00001-of-00002.gguf --expert-profile /opt/strata/data/expert-profile.bin --expert-cache auto --prefill auto --spec 4 --spec-min-p 0.5 --mtp /data/mtp/rt --kv int8 --ple-io ram --kv-resident 32768 --resident-budget-gib 55 --vision --vram-reserve-mib 3072 --max-context 262144 --pool-workers 15 --batch-groups 1 --batch-mtp --vram-reserve-later-mib 700 --ple-gguf /data/models/Qwen3.8-Q8_0/Qwen3.8-Flash-Next-GSQ-RCO-Q8_0-PLE-00002-of-00002.gguf --native-dense-gguf /data/models/Swift-1.5-IQ3_S/Swift-1.5-Qwen3.8-Flash-Next-GSQ-RCO-abliterated-IQ3_S-00001-of-00002.gguf --layer-split auto --batch 2",
+    "strata generate: PLE table locked in RAM (--ple-io ram) in 8.0 s",
+    "strata generate: PLE on, table 320001536 rows of /data/models/Qwen3.8-Q8_0/Qwen3.8-Flash-Next-GSQ-RCO-Q8_0-PLE-00002-of-00002.gguf",
+    "FileExpertSource: allocating 27.34 GiB page-locked cache complement",
+    "FileExpertSource: 0.82 GiB really free for a 27.34 GiB page-locked complement; the model files' cached pages were released: 22.25 GiB free",
+    "FileExpertSource: mapped pinned cache complement ready: resident 27.34 GiB, pinned 27.34 GiB in 80 s; 27.34 GiB page-locked after taking the pages in steps; "
+  ],
+  "finished_local": "2026-10-14T16:12:07.608977"
+}

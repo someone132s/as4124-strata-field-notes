@@ -1,0 +1,12 @@
+Working directory: /workspace
+
+Investigate request req-672728 across edge.log, payments.log, orders.log and gateway.log.
+Find the component where failure originates and the propagation chain. A downstream
+component receiving an error is not the origin. The chain must begin at
+first_failure_component and contain only downstream failure propagation after the
+original error. Include edges only between payments, orders and gateway; stop at
+gateway. Do not include the normal edge request or an edge to the user.
+Write result.json containing exactly:
+{"request_id":str,"first_failure_component":str,"first_failure_code":str,
+"chain":[{"from":str,"to":str},...],"user_response":int}
+Use component names without the .log suffix. Answer briefly after writing the file.

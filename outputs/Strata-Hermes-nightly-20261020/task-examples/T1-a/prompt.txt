@@ -1,0 +1,10 @@
+Working directory: /workspace
+
+Read transactions.csv. For each order_id, retain only the row with the highest version, independently of row order. From those retained rows:
+- a sale with status paid adds amount_cents and one paid order;
+- a sale with status cancelled adds nothing;
+- a refund with status posted subtracts amount_cents and adds one refund.
+
+Currencies are all USD. Write result.json containing exactly:
+{"currency":"USD","customers":[{"customer":"name","total_cents":integer,"paid_orders":integer,"refunds":integer}, ...]}
+Sort customers by name. Use integer cents, do not write text outside result.json as the answer artifact. Verify your file, then answer briefly.

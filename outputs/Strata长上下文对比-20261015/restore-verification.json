@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-15",
+  "timezone": "Asia/Shanghai",
+  "verification_mode": "read_only_no_restart",
+  "performance_arms": "all_six_completed",
+  "runner_status": "restore-failed",
+  "runner_restore_error": {"type": "ValueError", "message": "too many values to unpack (expected 2)"},
+  "systemd": {"ActiveState": "inactive", "SubState": "dead", "Result": "success"},
+  "health": {"status": "ok", "loaded": true, "model": "swift-1.5-abliterated-iq3_s-q8ple", "images": false, "max_context": 262144},
+  "config_sha256": "64e0608fefa206395b7ec3ae6815a86e1b325dd714346780df80c34977bfd0d5",
+  "compose_sha256": "6da533cd4aae0b9210422a78ebf8e59a9766d1ddc7541ed6be1f676073cb278b",
+  "config_matches_original": true,
+  "compose_matches_original": true,
+  "note": "No remote configuration or service was modified during verification. Additional pipeline-windows2 dual-client test has not been launched."
+}

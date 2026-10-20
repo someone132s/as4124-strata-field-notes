@@ -1,0 +1,50 @@
+Running without Marker API. Activate Marker API with -m on commandline.
+Allocate: Process running on hwthread 16 (Domain S1) - Vector length 192000000/1536000000 Offset 0 Alignment 512
+Initialization: Each thread in domain initializes its own stream chunks
+--------------------------------------------------------------------------------
+LIKWID MICRO BENCHMARK
+Test: load_avx
+--------------------------------------------------------------------------------
+Using 1 work groups
+Using 16 threads
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
+Group: 0 Thread 0 Global Thread 0 running on hwthread 16 - Vector length 12000000 Offset 0
+Group: 0 Thread 1 Global Thread 1 running on hwthread 17 - Vector length 12000000 Offset 12000000
+Group: 0 Thread 2 Global Thread 2 running on hwthread 18 - Vector length 12000000 Offset 24000000
+Group: 0 Thread 3 Global Thread 3 running on hwthread 19 - Vector length 12000000 Offset 36000000
+Group: 0 Thread 4 Global Thread 4 running on hwthread 20 - Vector length 12000000 Offset 48000000
+Group: 0 Thread 5 Global Thread 5 running on hwthread 21 - Vector length 12000000 Offset 60000000
+Group: 0 Thread 6 Global Thread 6 running on hwthread 22 - Vector length 12000000 Offset 72000000
+Group: 0 Thread 7 Global Thread 7 running on hwthread 23 - Vector length 12000000 Offset 84000000
+Group: 0 Thread 8 Global Thread 8 running on hwthread 24 - Vector length 12000000 Offset 96000000
+Group: 0 Thread 9 Global Thread 9 running on hwthread 25 - Vector length 12000000 Offset 108000000
+Group: 0 Thread 10 Global Thread 10 running on hwthread 26 - Vector length 12000000 Offset 120000000
+Group: 0 Thread 11 Global Thread 11 running on hwthread 27 - Vector length 12000000 Offset 132000000
+Group: 0 Thread 12 Global Thread 12 running on hwthread 28 - Vector length 12000000 Offset 144000000
+Group: 0 Thread 13 Global Thread 13 running on hwthread 29 - Vector length 12000000 Offset 156000000
+Group: 0 Thread 14 Global Thread 14 running on hwthread 30 - Vector length 12000000 Offset 168000000
+Group: 0 Thread 15 Global Thread 15 running on hwthread 31 - Vector length 12000000 Offset 180000000
+--------------------------------------------------------------------------------
+Cycles:			1176761096
+CPU Clock:		2799912655
+Cycle Clock:		2799912655
+Time:			4.202849e-01 sec
+Iterations:		256
+Iterations per thread:	16
+Inner loop executions:	750000
+Size (Byte):		1536000000
+Size per thread:	96000000
+Number of Flops:	0
+MFlops/s:		0.00
+Data volume (Byte):	24576000000
+MByte/s:		58474.62
+Cycles per update:	0.383060
+Cycles per cacheline:	3.064482
+Loads per update:	1
+Stores per update:	0
+Load bytes per element:	8
+Store bytes per elem.:	0
+Instructions:		1344000016
+UOPs:			1152000000
+--------------------------------------------------------------------------------

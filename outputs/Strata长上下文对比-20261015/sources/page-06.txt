@@ -1,0 +1,48 @@
+8. 已知坑（按踩坑优先级）
+永不设置 CUDA_LAUNCH_BLOCKING=1：该变量本身会挂死 verify 窗口（上游已定性），也不能用它诊断崩溃
+不要开 STRATA_STAGE_PIN：曾默认开启并损坏 IQ3_S 长读后的 decode；现为 opt-in，保持不设
+262K 是风险档：上游同型机报告启动期 arena 耗尽（最坏冻结主机）→ 备 204800 档，冻结/启动 OOM 先
+降档复测
+构建：换版本先清 build/（CMakeCache 坑，见 §3）
+前缀复用按 16384 块对齐：同文档 B 请求 ≤16K 不命中属正常，不是缓存故障；测试设计要按块对齐取点
+短答必须关思考：否则 max_tokens 被思维链吃光，正文为空
+冷启动首请求偶发挂起：服务端看门狗会自愈；重启后建议先发一个小请求预热
+单请求串行：多客户端请求交替排队、聚合吞吐不叠加（本配置非多槽 batch 模式）
+摘 PR 别用 merge、浅克隆先加深：跨版本 PR 一律 cherry-pick 单提交；git merge-base 在浅历史下直接
+报错 → 先 git fetch --deepen=600 origin（见 §3.1）
+9. 升级与回滚
+上游会重写历史 → 一律 git fetch origin tag vX + git cherry-pick（跨版本 PR 不要 merge，会把
+上游分叉整个拖进来）
+升级流程：停服务 → 取码（v0.1.43 tag + §3.1 批次补丁）→ 清 build/ + gcc-15 构建 → md5 + 
+BUILD.json 守卫 → 起服务 → §6 功能验收 + §7 三点对照
+回滚：引擎二进制 + BUILD.json成对备份（一条命令切回）；改 env/参数前备份启动脚本与配置
+（.bak-<日期>）
+版本注意：v0.1.43 = 本指南基线（新默认 STRATA_ROUTE_TAIL_SKIP=7，=0 回退）；sm_75 批次为补丁
+（截至 2026-10-12 未合入上游；上游合入后本批多数开关将默认生效）
+附录 A：完整启动参数（现产配置）
+--pack /path/to/Strata-data/packs/iq3_s \
+--native /path/to/weights/Qwen3.8-Flash-Next-GSQ-RCO-IQ3_S-00001-of-00002.gguf \
+--ple-gguf /path/to/weights/Qwen3.8-Flash-Next-GSQ-RCO-IQ3_S-00002-of-00002.gguf \
+--expert-profile /path/to/strata/data/expert-profile.bin \
+--expert-cache auto --prefill auto:16384 --spec 4 --pipeline-windows 2 --spec-min-p 0.70 \
+--mtp /path/to/Strata-data/mtp/rt --max-context 262144 --kv int8 --kv-resident 32768 \
+--vision --vram-reserve-mib 700 --conversation-cache-mib 16384 --conversation-cache-slots 12
+配置 JSON 顶层另有：host: 0.0.0.0、port: 8000、layer_split: 26、gpu: [0,1]、
+reasoning_budget_tokens: 4000、vision.gpu: false（视觉走 CPU）。
+附录 B：本配置的实测备注
+双卡建议 PCIe gen3 x8+x8 起（更低链路会限制 32K prefill；参考机实测 x8 较 x4 快约 +14%）；NVLink 对
+本引擎无收益——层边界仅传激活，与 vLLM TP2 的刚需不同
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+· 
+· 
+· 
+· 
+· 

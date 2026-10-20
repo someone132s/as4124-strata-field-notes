@@ -1,0 +1,130 @@
+{
+  "status": "completed",
+  "cpu": "2x AMD EPYC 7282",
+  "timestamp": "2026-10-20T11:13:36.337255",
+  "selected_results": "raw-local/results.json",
+  "first_round_note": "raw/ local read labels invalid: node0 pages spilled to node1; excluded from headline bandwidth.",
+  "placement_verified": {
+    "read-both_32t-r1-placement.json": {
+      "pages": {
+        "0": 250694,
+        "1": 254270
+      },
+      "node_share": {
+        "0": 0.49645915352381553,
+        "1": 0.5035408464761845
+      }
+    },
+    "read-node0_16t-r1-placement.json": {
+      "pages": {
+        "0": 254402,
+        "1": 516
+      },
+      "node_share": {
+        "0": 0.9979758196753465,
+        "1": 0.002024180324653418
+      }
+    },
+    "read-node1_16t-r1-placement.json": {
+      "pages": {
+        "0": 705,
+        "1": 254224
+      },
+      "node_share": {
+        "0": 0.0027654758775972916,
+        "1": 0.9972345241224027
+      }
+    },
+    "read-node1_16t_oldsize-r1-placement.json": {
+      "pages": {
+        "0": 696,
+        "1": 379203
+      },
+      "node_share": {
+        "0": 0.0018320658911973973,
+        "1": 0.9981679341088026
+      }
+    },
+    "stream-both_32t-r1-placement.json": {
+      "pages": {
+        "0": 117472,
+        "1": 117226
+      },
+      "node_share": {
+        "0": 0.5005240777509821,
+        "1": 0.4994759222490179
+      }
+    },
+    "stream-node0_16t-r1-placement.json": {
+      "pages": {
+        "0": 234664
+      },
+      "node_share": {
+        "0": 1.0
+      }
+    },
+    "stream-node1_16t-r1-placement.json": {
+      "pages": {
+        "0": 243,
+        "1": 234421
+      },
+      "node_share": {
+        "0": 0.0010355231309446698,
+        "1": 0.9989644768690553
+      }
+    },
+    "stream-node1_16t_oldsize-r1-placement.json": {
+      "pages": {
+        "1": 469040
+      },
+      "node_share": {
+        "1": 1.0
+      }
+    }
+  },
+  "comparison": [
+    {
+      "case": "node0_16t",
+      "7282_read_GB_s": {
+        "median": 57.334,
+        "min": 57.31223000000001,
+        "max": 59.08278
+      },
+      "7452_read_GB_s": 62.21996,
+      "change_percent": -7.852721216792801
+    },
+    {
+      "case": "node1_16t",
+      "7282_read_GB_s": {
+        "median": 57.82953,
+        "min": 57.20676,
+        "max": 58.05547
+      },
+      "7452_read_GB_s": 62.436330000000005,
+      "change_percent": -7.37839652010297
+    },
+    {
+      "case": "both_32t",
+      "7282_read_GB_s": {
+        "median": 115.07691,
+        "min": 114.97638,
+        "max": 116.15525
+      },
+      "7452_read_GB_s": 123.17599,
+      "change_percent": -6.575209990193709
+    }
+  ],
+  "comparison_limits": [
+    "Read working-set changed from 1536 to 1024 decimal MB/socket; node1 1536MB control recorded.",
+    "VMs running, background activity and swapping present; not an isolated CPU-only A/B.",
+    "STREAM 40M compiled with host GCC14; old 80M binary retained as node1 control."
+  ],
+  "boot_id_unchanged": true,
+  "vm_list_unchanged": true,
+  "stream_validation_count": 12,
+  "system_vmstat_delta": {
+    "pswpin": 261,
+    "pswpout": 4408,
+    "pgmajfault": 272
+  }
+}

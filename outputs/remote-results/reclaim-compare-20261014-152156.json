@@ -1,0 +1,1663 @@
+{
+  "status": "passed",
+  "started_local": "2026-10-14T15:21:56.277486",
+  "backup": "/opt/strata-deploy/backups/codex-reclaim-20261014-152156",
+  "arms": [
+    {
+      "name": "reserve4096-before",
+      "engine": {
+        "model": "huihui-qwen3.8-flash-next-abliterated-ud-iq4_xs",
+        "max_context": 262144,
+        "images": true,
+        "version": "0.1.43.1",
+        "logit_bias": 1,
+        "context": 262144,
+        "kv": "int8",
+        "kv_resident": 32768,
+        "expert_slots": 10798,
+        "expert_cache_mib": 24935,
+        "expert_slots_primary": 4431,
+        "expert_cache_primary_mib": 10308,
+        "spec": 6,
+        "mtp_max": 4,
+        "lookup": 3,
+        "vram_free_mib": 3765,
+        "cvec": 0,
+        "arena_mib": 39502,
+        "pool_workers": 15,
+        "pcie_frac": "0.28",
+        "spec_min_p": "0.50",
+        "conversation_cache_mib": 0,
+        "conversation_cache_slots": 4,
+        "conversation_cache_min_free_mib": 2560,
+        "conversation_cache_min_tokens": 0,
+        "tail_role_token": -1,
+        "vram_elastic": 0,
+        "batch_slots": 2,
+        "slot_cache": 1,
+        "batch_groups": 1,
+        "engine": "0.1.43.1"
+      },
+      "gpu_before": [
+        {
+          "index": 0,
+          "used_mib": 20223,
+          "free_mib": 1778
+        },
+        {
+          "index": 1,
+          "used_mib": 21887,
+          "free_mib": 114
+        }
+      ],
+      "groups": [
+        {
+          "label": "warmup",
+          "parallel": true,
+          "requests": [
+            {
+              "payload_sha256": "e77ff3f0cb651f5f8270a5959244dcec70088cb58e46a614fc260a57e14311ae",
+              "question": "这段文字的主要内容是什么？",
+              "wall_s": 65.02953574899584,
+              "ttft_s": 22.7931328840059,
+              "usage": {
+                "prompt_tokens": 19687,
+                "completion_tokens": 128,
+                "total_tokens": 19815,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0
+                }
+              },
+              "timings": {
+                "cache_n": 0,
+                "prompt_n": 19687,
+                "prompt_ms": 19922.6,
+                "prompt_per_token_ms": 1.012,
+                "prompt_per_second": 988.2,
+                "predicted_n": 128,
+                "predicted_ms": 40190.5,
+                "predicted_per_token_ms": 313.988,
+                "predicted_per_second": 3.2,
+                "draft_n": 0,
+                "draft_n_accepted": 0
+              },
+              "output_chars": 216,
+              "finish_reason": "length"
+            },
+            {
+              "payload_sha256": "fcec509fbeb7a653a4d54bde057a72302db810febff7639c6f8033eb9d195dfb",
+              "question": "这段文字的主要内容是什么？",
+              "wall_s": 69.24480756299454,
+              "ttft_s": 59.98196609198931,
+              "usage": {
+                "prompt_tokens": 19687,
+                "completion_tokens": 128,
+                "total_tokens": 19815,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0
+                }
+              },
+              "timings": {
+                "cache_n": 0,
+                "prompt_n": 19687,
+                "prompt_ms": 34079.4,
+                "prompt_per_token_ms": 1.731,
+                "prompt_per_second": 577.7,
+                "predicted_n": 128,
+                "predicted_ms": 6552.3,
+                "predicted_per_token_ms": 51.19,
+                "predicted_per_second": 19.5,
+                "draft_n": 85,
+                "draft_n_accepted": 66
+              },
+              "output_chars": 215,
+              "finish_reason": "length"
+            }
+          ],
+          "backend_requests": [
+            {
+              "projection": null,
+              "time": 1791962519.0500488,
+              "duration_s": 66.6,
+              "finish": "length",
+              "prompt_tokens": 19687,
+              "reused": 0,
+              "output_tokens": 128,
+              "prompt_total": 19687,
+              "prompt_read": 19687,
+              "reasoning_recoveries": 0,
+              "reasoning_repeat_coverage": 0.0,
+              "engine_generated": 128,
+              "prompt_ms": 34079.4,
+              "decode_ms": 6552.3,
+              "decode_tok_s": 19.5,
+              "hit_rate": 0.935,
+              "pcie_share": 0.007,
+              "ram_blobs": 4295,
+              "file_blobs": 0,
+              "file_mb": 0,
+              "drafts_offered": 85,
+              "drafts_accepted": 66
+            },
+            {
+              "projection": null,
+              "time": 1791962519.0275996,
+              "duration_s": 62.4,
+              "finish": "length",
+              "prompt_tokens": 19687,
+              "reused": 0,
+              "output_tokens": 128,
+              "prompt_total": 19687,
+              "prompt_read": 19687,
+              "reasoning_recoveries": 0,
+              "reasoning_repeat_coverage": 0.0,
+              "engine_generated": 128,
+              "prompt_ms": 19922.6,
+              "decode_ms": 40190.5,
+              "decode_tok_s": 3.2,
+              "hit_rate": 0.712,
+              "pcie_share": 0.037,
+              "ram_blobs": 247,
+              "file_blobs": 0,
+              "file_mb": 0,
+              "drafts_offered": 0,
+              "drafts_accepted": 0
+            }
+          ],
+          "wall_s": 69.26120775399613,
+          "peaks": {
+            "running": 2,
+            "decoding": 2
+          },
+          "output_tokens": 256,
+          "aggregate_tok_s": 3.6961526993474885
+        },
+        {
+          "label": "serial-0",
+          "parallel": false,
+          "requests": [
+            {
+              "payload_sha256": "62c72ab078225926950d933dfccc4cf4ec2f747b07cee531ec729933e33de92a",
+              "question": "我应该如何询问病史？",
+              "wall_s": 34.992648111991,
+              "ttft_s": 19.81037829699926,
+              "usage": {
+                "prompt_tokens": 19688,
+                "completion_tokens": 512,
+                "total_tokens": 20200,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0
+                }
+              },
+              "timings": {
+                "cache_n": 0,
+                "prompt_n": 19688,
+                "prompt_ms": 19668.4,
+                "prompt_per_token_ms": 0.999,
+                "prompt_per_second": 1001.0,
+                "predicted_n": 512,
+                "predicted_ms": 15207.9,
+                "predicted_per_token_ms": 29.703,
+                "predicted_per_second": 33.7,
+                "draft_n": 443,
+                "draft_n_accepted": 322
+              },
+              "output_chars": 846,
+              "finish_reason": "length"
+            }
+          ],
+          "backend_requests": [
+            {
+              "projection": null,
+              "time": 1791962585.7177176,
+              "duration_s": 34.9,
+              "finish": "length",
+              "prompt_tokens": 19688,
+              "reused": 0,
+              "output_tokens": 512,
+              "prompt_total": 19688,
+              "prompt_read": 19688,
+              "reasoning_recoveries": 0,
+              "reasoning_repeat_coverage": 0.0,
+              "engine_generated": 512,
+              "prompt_ms": 19668.4,
+              "decode_ms": 15207.9,
+              "decode_tok_s": 33.7,
+              "hit_rate": 0.946,
+              "pcie_share": 0.005,
+              "ram_blobs": 18778,
+              "file_blobs": 0,
+              "file_mb": 0,
+              "drafts_offered": 443,
+              "drafts_accepted": 322
+            }
+          ],
+          "wall_s": 34.99456804199144,
+          "peaks": {
+            "running": 1,
+            "decoding": 0
+          },
+          "output_tokens": 512,
+          "aggregate_tok_s": 14.630842117714664
+        },
+        {
+          "label": "serial-1",
+          "parallel": false,
+          "requests": [
+            {
+              "payload_sha256": "13619d385a923d70749eeea7eeb8866269680e8ed22ebf326ca90e89534e7b87",
+              "question": "我应该如何进行口腔检查？",
+              "wall_s": 36.86059106599714,
+              "ttft_s": 20.306183146007243,
+              "usage": {
+                "prompt_tokens": 19689,
+                "completion_tokens": 512,
+                "total_tokens": 20201,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0
+                }
+              },
+              "timings": {
+                "cache_n": 0,
+                "prompt_n": 19689,
+                "prompt_ms": 20117.5,
+                "prompt_per_token_ms": 1.022,
+                "prompt_per_second": 978.7,
+                "predicted_n": 512,
+                "predicted_ms": 16590.5,
+                "predicted_per_token_ms": 32.403,
+                "predicted_per_second": 30.9,
+                "draft_n": 434,
+                "draft_n_accepted": 349
+              },
+              "output_chars": 763,
+              "finish_reason": "length"
+            }
+          ],
+          "backend_requests": [
+            {
+              "projection": null,
+              "time": 1791962620.7228415,
+              "duration_s": 36.8,
+              "finish": "length",
+              "prompt_tokens": 19689,
+              "reused": 0,
+              "output_tokens": 512,
+              "prompt_total": 19689,
+              "prompt_read": 19689,
+              "reasoning_recoveries": 0,
+              "reasoning_repeat_coverage": 0.0,
+              "engine_generated": 512,
+              "prompt_ms": 20117.5,
+              "decode_ms": 16590.5,
+              "decode_tok_s": 30.9,
+              "hit_rate": 0.936,
+              "pcie_share": 0.008,
+              "ram_blobs": 20643,
+              "file_blobs": 0,
+              "file_mb": 0,
+              "drafts_offered": 434,
+              "drafts_accepted": 349
+            }
+          ],
+          "wall_s": 36.86374347099627,
+          "peaks": {
+            "running": 1,
+            "decoding": 0
+          },
+          "output_tokens": 512,
+          "aggregate_tok_s": 13.888985539486308
+        },
+        {
+          "label": "serial-2",
+          "parallel": false,
+          "requests": [
+            {
+              "payload_sha256": "5f09173548d0049341559b975698bc556f3747a2ae4733f6439545b99aef1a6b",
+              "question": "我应该如何记录病历？",
+              "wall_s": 36.203551525992225,
+              "ttft_s": 21.178637115997844,
+              "usage": {
+                "prompt_tokens": 19688,
+                "completion_tokens": 512,
+                "total_tokens": 20200,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0
+                }
+              },
+              "timings": {
+                "cache_n": 0,
+                "prompt_n": 19688,
+                "prompt_ms": 21028.3,
+                "prompt_per_token_ms": 1.068,
+                "prompt_per_second": 936.3,
+                "predicted_n": 512,
+                "predicted_ms": 15064.4,
+                "predicted_per_token_ms": 29.423,
+                "predicted_per_second": 34.0,
+                "draft_n": 461,
+                "draft_n_accepted": 323
+              },
+              "output_chars": 860,
+              "finish_reason": "length"
+            }
+          ],
+          "backend_requests": [
+            {
+              "projection": null,
+              "time": 1791962657.6061082,
+              "duration_s": 36.2,
+              "finish": "length",
+              "prompt_tokens": 19688,
+              "reused": 0,
+              "output_tokens": 512,
+              "prompt_total": 19688,
+              "prompt_read": 19688,
+              "reasoning_recoveries": 0,
+              "reasoning_repeat_coverage": 0.0,
+              "engine_generated": 512,
+              "prompt_ms": 21028.3,
+              "decode_ms": 15064.4,
+              "decode_tok_s": 34.0,
+              "hit_rate": 0.956,
+              "pcie_share": 0.004,
+              "ram_blobs": 15498,
+              "file_blobs": 0,
+              "file_mb": 0,
+              "drafts_offered": 461,
+              "drafts_accepted": 323
+            }
+          ],
+          "wall_s": 36.20726449700305,
+          "peaks": {
+            "running": 1,
+            "decoding": 0
+          },
+          "output_tokens": 512,
+          "aggregate_tok_s": 14.140808677838097
+        },
+        {
+          "label": "parallel-0",
+          "parallel": true,
+          "requests": [
+            {
+              "payload_sha256": "0591484f2cfc1587b8cf18372743172e5e5467acfffa682ccb1506d48e775d4e",
+              "question": "我应该如何询问病史？",
+              "wall_s": 83.47740234600496,
+              "ttft_s": 59.98486960200535,
+              "usage": {
+                "prompt_tokens": 19688,
+                "completion_tokens": 512,
+                "total_tokens": 20200,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0
+                }
+              },
+              "timings": {
+                "cache_n": 0,
+                "prompt_n": 19688,
+                "prompt_ms": 36614.7,
+                "prompt_per_token_ms": 1.86,
+                "prompt_per_second": 537.7,
+                "predicted_n": 512,
+                "predicted_ms": 22047.7,
+                "predicted_per_token_ms": 43.062,
+                "predicted_per_second": 23.2,
+                "draft_n": 145,
+                "draft_n_accepted": 117
+              },
+              "output_chars": 843,
+              "finish_reason": "length"
+            },
+            {
+              "payload_sha256": "4a348b2826c9488583737c244ba9f6d737c9f51a7ba0b599ab597104605f76e6",
+              "question": "我应该如何进行口腔检查？",
+              "wall_s": 78.44714699400356,
+              "ttft_s": 20.692632079008035,
+              "usage": {
+                "prompt_tokens": 19689,
+                "completion_tokens": 512,
+                "total_tokens": 20201,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0
+                }
+              },
+              "timings": {
+                "cache_n": 0,
+                "prompt_n": 19689,
+                "prompt_ms": 20473.2,
+                "prompt_per_token_ms": 1.04,
+                "prompt_per_second": 961.7,
+                "predicted_n": 512,
+                "predicted_ms": 55916.6,
+                "predicted_per_token_ms": 109.212,
+                "predicted_per_second": 9.2,
+                "draft_n": 0,
+                "draft_n_accepted": 0
+              },
+              "output_chars": 752,
+              "finish_reason": "length"
+            }
+          ],
+          "backend_requests": [
+            {
+              "projection": null,
+              "time": 1791962693.9153557,
+              "duration_s": 83.4,
+              "finish": "length",
+              "prompt_tokens": 19688,
+              "reused": 0,
+              "output_tokens": 512,
+              "prompt_total": 19688,
+              "prompt_read": 19688,
+              "reasoning_recoveries": 0,
+              "reasoning_repeat_coverage": 0.0,
+              "engine_generated": 512,
+              "prompt_ms": 36614.7,
+              "decode_ms": 22047.699999999997,
+              "decode_tok_s": 23.2,
+              "hit_rate": 0.947,
+              "pcie_share": 0.006,
+              "ram_blobs": 5666,
+              "file_blobs": 0,
+              "file_mb": 0,
+              "drafts_offered": 145,
+              "drafts_accepted": 117
+            },
+            {
+              "projection": null,
+              "time": 1791962693.8874967,
+              "duration_s": 78.4,
+              "finish": "length",
+              "prompt_tokens": 19689,
+              "reused": 0,
+              "output_tokens": 512,
+              "prompt_total": 19689,
+              "prompt_read": 19689,
+              "reasoning_recoveries": 0,
+              "reasoning_repeat_coverage": 0.0,
+              "engine_generated": 512,
+              "prompt_ms": 20473.2,
+              "decode_ms": 55916.6,
+              "decode_tok_s": 9.2,
+              "hit_rate": 0.9,
+              "pcie_share": 0.0,
+              "ram_blobs": 48,
+              "file_blobs": 0,
+              "file_mb": 0,
+              "drafts_offered": 0,
+              "drafts_accepted": 0
+            }
+          ],
+          "wall_s": 83.48494893500174,
+          "peaks": {
+            "running": 2,
+            "decoding": 2
+          },
+          "output_tokens": 1024,
+          "aggregate_tok_s": 12.265683971337733
+        },
+        {
+          "label": "parallel-1",
+          "parallel": true,
+          "requests": [
+            {
+              "payload_sha256": "38594225e9a2307b8506784795f607b0dd315de0f708c806f0ccca6986f85427",
+              "question": "我应该如何进行口腔检查？",
+              "wall_s": 77.38521209299506,
+              "ttft_s": 21.159073637987603,
+              "usage": {
+                "prompt_tokens": 19689,
+                "completion_tokens": 512,
+                "total_tokens": 20201,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0
+                }
+              },
+              "timings": {
+                "cache_n": 0,
+                "prompt_n": 19689,
+                "prompt_ms": 20931.5,
+                "prompt_per_token_ms": 1.063,
+                "prompt_per_second": 940.6,
+                "predicted_n": 512,
+                "predicted_ms": 54590.9,
+                "predicted_per_token_ms": 106.623,
+                "predicted_per_second": 9.4,
+                "draft_n": 0,
+                "draft_n_accepted": 0
+              },
+              "output_chars": 763,
+              "finish_reason": "length"
+            },
+            {
+              "payload_sha256": "3a43c8c39a724e811d6661b053ef57e8f8e2b6a3275d5344396b526447698792",
+              "question": "我应该如何记录病历？",
+              "wall_s": 84.34431560999656,
+              "ttft_s": 58.761371667002095,
+              "usage": {
+                "prompt_tokens": 19688,
+                "completion_tokens": 512,
+                "total_tokens": 20200,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0
+                }
+              },
+              "timings": {
+                "cache_n": 0,
+                "prompt_n": 19688,
+                "prompt_ms": 35022.4,
+                "prompt_per_token_ms": 1.779,
+                "prompt_per_second": 562.2,
+                "predicted_n": 512,
+                "predicted_ms": 23282.7,
+                "predicted_per_token_ms": 45.474,
+                "predicted_per_second": 22.0,
+                "draft_n": 162,
+                "draft_n_accepted": 114
+              },
+              "output_chars": 876,
+              "finish_reason": "length"
+            }
+          ],
+          "backend_requests": [
+            {
+              "projection": null,
+              "time": 1791962777.439639,
+              "duration_s": 84.2,
+              "finish": "length",
+              "prompt_tokens": 19688,
+              "reused": 0,
+              "output_tokens": 512,
+              "prompt_total": 19688,
+              "prompt_read": 19688,
+              "reasoning_recoveries": 0,
+              "reasoning_repeat_coverage": 0.0,
+              "engine_generated": 512,
+              "prompt_ms": 35022.4,
+              "decode_ms": 23282.7,
+              "decode_tok_s": 22.0,
+              "hit_rate": 0.954,
+              "pcie_share": 0.004,
+              "ram_blobs": 5467,
+              "file_blobs": 0,
+              "file_mb": 0,
+              "drafts_offered": 162,
+              "drafts_accepted": 114
+            },
+            {
+              "projection": null,
+              "time": 1791962777.4092011,
+              "duration_s": 77.3,
+              "finish": "length",
+              "prompt_tokens": 19689,
+              "reused": 0,
+              "output_tokens": 512,
+              "prompt_total": 19689,
+              "prompt_read": 19689,
+              "reasoning_recoveries": 0,
+              "reasoning_repeat_coverage": 0.0,
+              "engine_generated": 512,
+              "prompt_ms": 20931.5,
+              "decode_ms": 54590.9,
+              "decode_tok_s": 9.4,
+              "hit_rate": 0.784,
+              "pcie_share": 0.027,
+              "ram_blobs": 114,
+              "file_blobs": 0,
+              "file_mb": 0,
+              "drafts_offered": 0,
+              "drafts_accepted": 0
+            }
+          ],
+          "wall_s": 84.35162167299131,
+          "peaks": {
+            "running": 2,
+            "decoding": 2
+          },
+          "output_tokens": 1024,
+          "aggregate_tok_s": 12.139659910390037
+        },
+        {
+          "label": "parallel-2",
+          "parallel": true,
+          "requests": [
+            {
+              "payload_sha256": "97f7d2e32cba0a9beef5a0d28cec277d35fd013bdaeb4d023e1600a2ce619d11",
+              "question": "我应该如何记录病历？",
+              "wall_s": 85.80501670300146,
+              "ttft_s": 60.97986234200653,
+              "usage": {
+                "prompt_tokens": 19688,
+                "completion_tokens": 512,
+                "total_tokens": 20200,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0
+                }
+              },
+              "timings": {
+                "cache_n": 0,
+                "prompt_n": 19688,
+                "prompt_ms": 36922.0,
+                "prompt_per_token_ms": 1.875,
+                "prompt_per_second": 533.2,
+                "predicted_n": 512,
+                "predicted_ms": 21614.7,
+                "predicted_per_token_ms": 42.216,
+                "predicted_per_second": 23.7,
+                "draft_n": 115,
+                "draft_n_accepted": 88
+              },
+              "output_chars": 872,
+              "finish_reason": "length"
+            },
+            {
+              "payload_sha256": "42cbb607da6fd9fadac01848b89e22385ce717cf9523ed723953d469af57e9a7",
+              "question": "我应该如何询问病史？",
+              "wall_s": 80.64915037699393,
+              "ttft_s": 21.446258625001065,
+              "usage": {
+                "prompt_tokens": 19688,
+                "completion_tokens": 512,
+                "total_tokens": 20200,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0
+                }
+              },
+              "timings": {
+                "cache_n": 0,
+                "prompt_n": 19688,
+                "prompt_ms": 21195.3,
+                "prompt_per_token_ms": 1.077,
+                "prompt_per_second": 928.9,
+                "predicted_n": 512,
+                "predicted_ms": 57493.7,
+                "predicted_per_token_ms": 112.292,
+                "predicted_per_second": 8.9,
+                "draft_n": 0,
+                "draft_n_accepted": 0
+              },
+              "output_chars": 843,
+              "finish_reason": "length"
+            }
+          ],
+          "backend_requests": [
+            {
+              "projection": null,
+              "time": 1791962861.825271,
+              "duration_s": 85.7,
+              "finish": "length",
+              "prompt_tokens": 19688,
+              "reused": 0,
+              "output_tokens": 512,
+              "prompt_total": 19688,
+              "prompt_read": 19688,
+              "reasoning_recoveries": 0,
+              "reasoning_repeat_coverage": 0.0,
+              "engine_generated": 512,
+              "prompt_ms": 36922.0,
+              "decode_ms": 21614.7,
+              "decode_tok_s": 23.7,
+              "hit_rate": 0.965,
+              "pcie_share": 0.003,
+              "ram_blobs": 3031,
+              "file_blobs": 0,
+              "file_mb": 0,
+              "drafts_offered": 115,
+              "drafts_accepted": 88
+            },
+            {
+              "projection": null,
+              "time": 1791962861.7944732,
+              "duration_s": 80.6,
+              "finish": "length",
+              "prompt_tokens": 19688,
+              "reused": 0,
+              "output_tokens": 512,
+              "prompt_total": 19688,
+              "prompt_read": 19688,
+              "reasoning_recoveries": 0,
+              "reasoning_repeat_coverage": 0.0,
+              "engine_generated": 512,
+              "prompt_ms": 21195.3,
+              "decode_ms": 57493.7,
+              "decode_tok_s": 8.9,
+              "hit_rate": 0.775,
+              "pcie_share": 0.029,
+              "ram_blobs": 119,
+              "file_blobs": 0,
+              "file_mb": 0,
+              "drafts_offered": 0,
+              "drafts_accepted": 0
+            }
+          ],
+          "wall_s": 85.81176377199881,
+          "peaks": {
+            "running": 2,
+            "decoding": 2
+          },
+          "output_tokens": 1024,
+          "aggregate_tok_s": 11.933095824958919
+        }
+      ],
+      "summary": {
+        "serial_decode_median_tok_s": 33.7,
+        "serial_prefill_weighted_tok_s": 971.2369808367125,
+        "serial_ttft_median_s": 20.306183146007243,
+        "serial_hit_rate_median": 0.946,
+        "parallel_pair_median_tok_s": 12.139659910390037,
+        "parallel_weighted_tok_s": 12.111256348318145,
+        "parallel_hit_rate_median": 0.9235
+      },
+      "gpu_after": [
+        {
+          "index": 0,
+          "used_mib": 20249,
+          "free_mib": 1752
+        },
+        {
+          "index": 1,
+          "used_mib": 21927,
+          "free_mib": 74
+        }
+      ]
+    },
+    {
+      "name": "reserve3072-after",
+      "engine": {
+        "model": "huihui-qwen3.8-flash-next-abliterated-ud-iq4_xs",
+        "max_context": 262144,
+        "images": true,
+        "version": "0.1.43.1",
+        "logit_bias": 1,
+        "context": 262144,
+        "kv": "int8",
+        "kv_resident": 32768,
+        "expert_slots": 11318,
+        "expert_cache_mib": 26140,
+        "expert_slots_primary": 4802,
+        "expert_cache_primary_mib": 11127,
+        "spec": 6,
+        "mtp_max": 4,
+        "lookup": 3,
+        "vram_free_mib": 2745,
+        "cvec": 0,
+        "arena_mib": 38298,
+        "pool_workers": 15,
+        "pcie_frac": "0.27",
+        "spec_min_p": "0.50",
+        "conversation_cache_mib": 0,
+        "conversation_cache_slots": 4,
+        "conversation_cache_min_free_mib": 2560,
+        "conversation_cache_min_tokens": 0,
+        "tail_role_token": -1,
+        "vram_elastic": 0,
+        "batch_slots": 2,
+        "slot_cache": 1,
+        "batch_groups": 1,
+        "engine": "0.1.43.1"
+      },
+      "gpu_before": [
+        {
+          "index": 0,
+          "used_mib": 21223,
+          "free_mib": 778
+        },
+        {
+          "index": 1,
+          "used_mib": 21853,
+          "free_mib": 148
+        }
+      ],
+      "groups": [
+        {
+          "label": "warmup",
+          "parallel": true,
+          "requests": [
+            {
+              "payload_sha256": "e77ff3f0cb651f5f8270a5959244dcec70088cb58e46a614fc260a57e14311ae",
+              "question": "这段文字的主要内容是什么？",
+              "wall_s": 68.91485984800966,
+              "ttft_s": 58.14489891999983,
+              "usage": {
+                "prompt_tokens": 19687,
+                "completion_tokens": 128,
+                "total_tokens": 19815,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0
+                }
+              },
+              "timings": {
+                "cache_n": 0,
+                "prompt_n": 19687,
+                "prompt_ms": 34426.8,
+                "prompt_per_token_ms": 1.749,
+                "prompt_per_second": 571.9,
+                "predicted_n": 128,
+                "predicted_ms": 9419.8,
+                "predicted_per_token_ms": 73.592,
+                "predicted_per_second": 13.6,
+                "draft_n": 73,
+                "draft_n_accepted": 62
+              },
+              "output_chars": 215,
+              "finish_reason": "length"
+            },
+            {
+              "payload_sha256": "fcec509fbeb7a653a4d54bde057a72302db810febff7639c6f8033eb9d195dfb",
+              "question": "这段文字的主要内容是什么？",
+              "wall_s": 63.434336520993384,
+              "ttft_s": 21.01544830700732,
+              "usage": {
+                "prompt_tokens": 19687,
+                "completion_tokens": 128,
+                "total_tokens": 19815,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0
+                }
+              },
+              "timings": {
+                "cache_n": 0,
+                "prompt_n": 19687,
+                "prompt_ms": 19985.4,
+                "prompt_per_token_ms": 1.015,
+                "prompt_per_second": 985.1,
+                "predicted_n": 128,
+                "predicted_ms": 40754.3,
+                "predicted_per_token_ms": 318.393,
+                "predicted_per_second": 3.1,
+                "draft_n": 0,
+                "draft_n_accepted": 0
+              },
+              "output_chars": 215,
+              "finish_reason": "length"
+            }
+          ],
+          "backend_requests": [
+            {
+              "projection": null,
+              "time": 1791963370.2042046,
+              "duration_s": 68.1,
+              "finish": "length",
+              "prompt_tokens": 19687,
+              "reused": 0,
+              "output_tokens": 128,
+              "prompt_total": 19687,
+              "prompt_read": 19687,
+              "reasoning_recoveries": 0,
+              "reasoning_repeat_coverage": 0.0,
+              "engine_generated": 128,
+              "prompt_ms": 34426.8,
+              "decode_ms": 9419.8,
+              "decode_tok_s": 13.6,
+              "hit_rate": 0.875,
+              "pcie_share": 0.016,
+              "ram_blobs": 6541,
+              "file_blobs": 0,
+              "file_mb": 0,
+              "drafts_offered": 73,
+              "drafts_accepted": 62
+            },
+            {
+              "projection": null,
+              "time": 1791963370.1886547,
+              "duration_s": 62.6,
+              "finish": "length",
+              "prompt_tokens": 19687,
+              "reused": 0,
+              "output_tokens": 128,
+              "prompt_total": 19687,
+              "prompt_read": 19687,
+              "reasoning_recoveries": 0,
+              "reasoning_repeat_coverage": 0.0,
+              "engine_generated": 128,
+              "prompt_ms": 19985.4,
+              "decode_ms": 40754.3,
+              "decode_tok_s": 3.1,
+              "hit_rate": 0.683,
+              "pcie_share": 0.046,
+              "ram_blobs": 263,
+              "file_blobs": 0,
+              "file_mb": 0,
+              "drafts_offered": 0,
+              "drafts_accepted": 0
+            }
+          ],
+          "wall_s": 68.92293106899888,
+          "peaks": {
+            "running": 2,
+            "decoding": 2
+          },
+          "output_tokens": 256,
+          "aggregate_tok_s": 3.714293574423263
+        },
+        {
+          "label": "serial-0",
+          "parallel": false,
+          "requests": [
+            {
+              "payload_sha256": "62c72ab078225926950d933dfccc4cf4ec2f747b07cee531ec729933e33de92a",
+              "question": "我应该如何询问病史？",
+              "wall_s": 35.81433913198998,
+              "ttft_s": 19.65591136898729,
+              "usage": {
+                "prompt_tokens": 19688,
+                "completion_tokens": 512,
+                "total_tokens": 20200,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0
+                }
+              },
+              "timings": {
+                "cache_n": 0,
+                "prompt_n": 19688,
+                "prompt_ms": 19563.1,
+                "prompt_per_token_ms": 0.994,
+                "prompt_per_second": 1006.4,
+                "predicted_n": 512,
+                "predicted_ms": 16187.0,
+                "predicted_per_token_ms": 31.615,
+                "predicted_per_second": 31.6,
+                "draft_n": 449,
+                "draft_n_accepted": 310
+              },
+              "output_chars": 848,
+              "finish_reason": "length"
+            }
+          ],
+          "backend_requests": [
+            {
+              "projection": null,
+              "time": 1791963438.332924,
+              "duration_s": 35.8,
+              "finish": "length",
+              "prompt_tokens": 19688,
+              "reused": 0,
+              "output_tokens": 512,
+              "prompt_total": 19688,
+              "prompt_read": 19688,
+              "reasoning_recoveries": 0,
+              "reasoning_repeat_coverage": 0.0,
+              "engine_generated": 512,
+              "prompt_ms": 19563.1,
+              "decode_ms": 16187.0,
+              "decode_tok_s": 31.6,
+              "hit_rate": 0.941,
+              "pcie_share": 0.005,
+              "ram_blobs": 20520,
+              "file_blobs": 0,
+              "file_mb": 0,
+              "drafts_offered": 449,
+              "drafts_accepted": 310
+            }
+          ],
+          "wall_s": 35.816663937992416,
+          "peaks": {
+            "running": 1,
+            "decoding": 0
+          },
+          "output_tokens": 512,
+          "aggregate_tok_s": 14.29502202903095
+        },
+        {
+          "label": "serial-1",
+          "parallel": false,
+          "requests": [
+            {
+              "payload_sha256": "13619d385a923d70749eeea7eeb8866269680e8ed22ebf326ca90e89534e7b87",
+              "question": "我应该如何进行口腔检查？",
+              "wall_s": 35.28879973200674,
+              "ttft_s": 19.763862484003766,
+              "usage": {
+                "prompt_tokens": 19689,
+                "completion_tokens": 512,
+                "total_tokens": 20201,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0
+                }
+              },
+              "timings": {
+                "cache_n": 0,
+                "prompt_n": 19689,
+                "prompt_ms": 19635.1,
+                "prompt_per_token_ms": 0.997,
+                "prompt_per_second": 1002.7,
+                "predicted_n": 512,
+                "predicted_ms": 15560.9,
+                "predicted_per_token_ms": 30.392,
+                "predicted_per_second": 32.9,
+                "draft_n": 437,
+                "draft_n_accepted": 354
+              },
+              "output_chars": 746,
+              "finish_reason": "length"
+            }
+          ],
+          "backend_requests": [
+            {
+              "projection": null,
+              "time": 1791963474.2033744,
+              "duration_s": 35.2,
+              "finish": "length",
+              "prompt_tokens": 19689,
+              "reused": 0,
+              "output_tokens": 512,
+              "prompt_total": 19689,
+              "prompt_read": 19689,
+              "reasoning_recoveries": 0,
+              "reasoning_repeat_coverage": 0.0,
+              "engine_generated": 512,
+              "prompt_ms": 19635.1,
+              "decode_ms": 15560.9,
+              "decode_tok_s": 32.9,
+              "hit_rate": 0.929,
+              "pcie_share": 0.008,
+              "ram_blobs": 22598,
+              "file_blobs": 0,
+              "file_mb": 0,
+              "drafts_offered": 437,
+              "drafts_accepted": 354
+            }
+          ],
+          "wall_s": 35.29221770000004,
+          "peaks": {
+            "running": 1,
+            "decoding": 0
+          },
+          "output_tokens": 512,
+          "aggregate_tok_s": 14.507447629169517
+        },
+        {
+          "label": "serial-2",
+          "parallel": false,
+          "requests": [
+            {
+              "payload_sha256": "5f09173548d0049341559b975698bc556f3747a2ae4733f6439545b99aef1a6b",
+              "question": "我应该如何记录病历？",
+              "wall_s": 33.2391173250071,
+              "ttft_s": 19.771590389005723,
+              "usage": {
+                "prompt_tokens": 19688,
+                "completion_tokens": 512,
+                "total_tokens": 20200,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0
+                }
+              },
+              "timings": {
+                "cache_n": 0,
+                "prompt_n": 19688,
+                "prompt_ms": 19656.9,
+                "prompt_per_token_ms": 0.998,
+                "prompt_per_second": 1001.6,
+                "predicted_n": 512,
+                "predicted_ms": 13511.4,
+                "predicted_per_token_ms": 26.389,
+                "predicted_per_second": 37.9,
+                "draft_n": 452,
+                "draft_n_accepted": 313
+              },
+              "output_chars": 849,
+              "finish_reason": "length"
+            }
+          ],
+          "backend_requests": [
+            {
+              "projection": null,
+              "time": 1791963509.516519,
+              "duration_s": 33.2,
+              "finish": "length",
+              "prompt_tokens": 19688,
+              "reused": 0,
+              "output_tokens": 512,
+              "prompt_total": 19688,
+              "prompt_read": 19688,
+              "reasoning_recoveries": 0,
+              "reasoning_repeat_coverage": 0.0,
+              "engine_generated": 512,
+              "prompt_ms": 19656.9,
+              "decode_ms": 13511.4,
+              "decode_tok_s": 37.9,
+              "hit_rate": 0.96,
+              "pcie_share": 0.003,
+              "ram_blobs": 13947,
+              "file_blobs": 0,
+              "file_mb": 0,
+              "drafts_offered": 452,
+              "drafts_accepted": 313
+            }
+          ],
+          "wall_s": 33.24116807099199,
+          "peaks": {
+            "running": 1,
+            "decoding": 0
+          },
+          "output_tokens": 512,
+          "aggregate_tok_s": 15.402587505545524
+        },
+        {
+          "label": "parallel-0",
+          "parallel": true,
+          "requests": [
+            {
+              "payload_sha256": "0591484f2cfc1587b8cf18372743172e5e5467acfffa682ccb1506d48e775d4e",
+              "question": "我应该如何询问病史？",
+              "wall_s": 82.04758537899761,
+              "ttft_s": 55.006708097003866,
+              "usage": {
+                "prompt_tokens": 19688,
+                "completion_tokens": 512,
+                "total_tokens": 20200,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0
+                }
+              },
+              "timings": {
+                "cache_n": 0,
+                "prompt_n": 19688,
+                "prompt_ms": 34214.5,
+                "prompt_per_token_ms": 1.738,
+                "prompt_per_second": 575.4,
+                "predicted_n": 512,
+                "predicted_ms": 23912.0,
+                "predicted_per_token_ms": 46.703,
+                "predicted_per_second": 21.4,
+                "draft_n": 137,
+                "draft_n_accepted": 108
+              },
+              "output_chars": 838,
+              "finish_reason": "length"
+            },
+            {
+              "payload_sha256": "4a348b2826c9488583737c244ba9f6d737c9f51a7ba0b599ab597104605f76e6",
+              "question": "我应该如何进行口腔检查？",
+              "wall_s": 76.26828730999841,
+              "ttft_s": 19.72194098099135,
+              "usage": {
+                "prompt_tokens": 19689,
+                "completion_tokens": 512,
+                "total_tokens": 20201,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0
+                }
+              },
+              "timings": {
+                "cache_n": 0,
+                "prompt_n": 19689,
+                "prompt_ms": 19589.9,
+                "prompt_per_token_ms": 0.995,
+                "prompt_per_second": 1005.1,
+                "predicted_n": 512,
+                "predicted_ms": 55785.6,
+                "predicted_per_token_ms": 108.956,
+                "predicted_per_second": 9.2,
+                "draft_n": 0,
+                "draft_n_accepted": 0
+              },
+              "output_chars": 758,
+              "finish_reason": "length"
+            }
+          ],
+          "backend_requests": [
+            {
+              "projection": null,
+              "time": 1791963542.838413,
+              "duration_s": 82.0,
+              "finish": "length",
+              "prompt_tokens": 19688,
+              "reused": 0,
+              "output_tokens": 512,
+              "prompt_total": 19688,
+              "prompt_read": 19688,
+              "reasoning_recoveries": 0,
+              "reasoning_repeat_coverage": 0.0,
+              "engine_generated": 512,
+              "prompt_ms": 34214.5,
+              "decode_ms": 23912.0,
+              "decode_tok_s": 21.4,
+              "hit_rate": 0.949,
+              "pcie_share": 0.005,
+              "ram_blobs": 4947,
+              "file_blobs": 0,
+              "file_mb": 0,
+              "drafts_offered": 137,
+              "drafts_accepted": 108
+            },
+            {
+              "projection": null,
+              "time": 1791963542.8146565,
+              "duration_s": 76.2,
+              "finish": "length",
+              "prompt_tokens": 19689,
+              "reused": 0,
+              "output_tokens": 512,
+              "prompt_total": 19689,
+              "prompt_read": 19689,
+              "reasoning_recoveries": 0,
+              "reasoning_repeat_coverage": 0.0,
+              "engine_generated": 512,
+              "prompt_ms": 19589.9,
+              "decode_ms": 55785.600000000006,
+              "decode_tok_s": 9.2,
+              "hit_rate": 0.884,
+              "pcie_share": 0.01,
+              "ram_blobs": 60,
+              "file_blobs": 0,
+              "file_mb": 0,
+              "drafts_offered": 0,
+              "drafts_accepted": 0
+            }
+          ],
+          "wall_s": 82.05384610500187,
+          "peaks": {
+            "running": 2,
+            "decoding": 2
+          },
+          "output_tokens": 1024,
+          "aggregate_tok_s": 12.47961001961587
+        },
+        {
+          "label": "parallel-1",
+          "parallel": true,
+          "requests": [
+            {
+              "payload_sha256": "38594225e9a2307b8506784795f607b0dd315de0f708c806f0ccca6986f85427",
+              "question": "我应该如何进行口腔检查？",
+              "wall_s": 81.73680680899997,
+              "ttft_s": 56.61182466500031,
+              "usage": {
+                "prompt_tokens": 19689,
+                "completion_tokens": 512,
+                "total_tokens": 20201,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0
+                }
+              },
+              "timings": {
+                "cache_n": 0,
+                "prompt_n": 19689,
+                "prompt_ms": 34269.1,
+                "prompt_per_token_ms": 1.741,
+                "prompt_per_second": 574.5,
+                "predicted_n": 512,
+                "predicted_ms": 21800.3,
+                "predicted_per_token_ms": 42.579,
+                "predicted_per_second": 23.5,
+                "draft_n": 105,
+                "draft_n_accepted": 91
+              },
+              "output_chars": 757,
+              "finish_reason": "length"
+            },
+            {
+              "payload_sha256": "3a43c8c39a724e811d6661b053ef57e8f8e2b6a3275d5344396b526447698792",
+              "question": "我应该如何记录病历？",
+              "wall_s": 76.33798477699747,
+              "ttft_s": 19.981295638004667,
+              "usage": {
+                "prompt_tokens": 19688,
+                "completion_tokens": 512,
+                "total_tokens": 20200,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0
+                }
+              },
+              "timings": {
+                "cache_n": 0,
+                "prompt_n": 19688,
+                "prompt_ms": 19791.2,
+                "prompt_per_token_ms": 1.005,
+                "prompt_per_second": 994.8,
+                "predicted_n": 512,
+                "predicted_ms": 54399.9,
+                "predicted_per_token_ms": 106.25,
+                "predicted_per_second": 9.4,
+                "draft_n": 0,
+                "draft_n_accepted": 0
+              },
+              "output_chars": 882,
+              "finish_reason": "length"
+            }
+          ],
+          "backend_requests": [
+            {
+              "projection": null,
+              "time": 1791963624.9342394,
+              "duration_s": 81.7,
+              "finish": "length",
+              "prompt_tokens": 19689,
+              "reused": 0,
+              "output_tokens": 512,
+              "prompt_total": 19689,
+              "prompt_read": 19689,
+              "reasoning_recoveries": 0,
+              "reasoning_repeat_coverage": 0.0,
+              "engine_generated": 512,
+              "prompt_ms": 34269.1,
+              "decode_ms": 21800.3,
+              "decode_tok_s": 23.5,
+              "hit_rate": 0.941,
+              "pcie_share": 0.007,
+              "ram_blobs": 4732,
+              "file_blobs": 0,
+              "file_mb": 0,
+              "drafts_offered": 105,
+              "drafts_accepted": 91
+            },
+            {
+              "projection": null,
+              "time": 1791963624.9127254,
+              "duration_s": 76.3,
+              "finish": "length",
+              "prompt_tokens": 19688,
+              "reused": 0,
+              "output_tokens": 512,
+              "prompt_total": 19688,
+              "prompt_read": 19688,
+              "reasoning_recoveries": 0,
+              "reasoning_repeat_coverage": 0.0,
+              "engine_generated": 512,
+              "prompt_ms": 19791.2,
+              "decode_ms": 54399.9,
+              "decode_tok_s": 9.4,
+              "hit_rate": 0.929,
+              "pcie_share": 0.004,
+              "ram_blobs": 36,
+              "file_blobs": 0,
+              "file_mb": 0,
+              "drafts_offered": 0,
+              "drafts_accepted": 0
+            }
+          ],
+          "wall_s": 81.74508829999832,
+          "peaks": {
+            "running": 2,
+            "decoding": 2
+          },
+          "output_tokens": 1024,
+          "aggregate_tok_s": 12.526746515240122
+        },
+        {
+          "label": "parallel-2",
+          "parallel": true,
+          "requests": [
+            {
+              "payload_sha256": "97f7d2e32cba0a9beef5a0d28cec277d35fd013bdaeb4d023e1600a2ce619d11",
+              "question": "我应该如何记录病历？",
+              "wall_s": 75.08906203099468,
+              "ttft_s": 19.783550996988197,
+              "usage": {
+                "prompt_tokens": 19688,
+                "completion_tokens": 512,
+                "total_tokens": 20200,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0
+                }
+              },
+              "timings": {
+                "cache_n": 0,
+                "prompt_n": 19688,
+                "prompt_ms": 19581.2,
+                "prompt_per_token_ms": 0.995,
+                "prompt_per_second": 1005.5,
+                "predicted_n": 512,
+                "predicted_ms": 53722.3,
+                "predicted_per_token_ms": 104.926,
+                "predicted_per_second": 9.5,
+                "draft_n": 0,
+                "draft_n_accepted": 0
+              },
+              "output_chars": 876,
+              "finish_reason": "length"
+            },
+            {
+              "payload_sha256": "42cbb607da6fd9fadac01848b89e22385ce717cf9523ed723953d469af57e9a7",
+              "question": "我应该如何询问病史？",
+              "wall_s": 80.77710520201072,
+              "ttft_s": 55.85740865500702,
+              "usage": {
+                "prompt_tokens": 19688,
+                "completion_tokens": 512,
+                "total_tokens": 20200,
+                "prompt_tokens_details": {
+                  "cached_tokens": 0
+                }
+              },
+              "timings": {
+                "cache_n": 0,
+                "prompt_n": 19688,
+                "prompt_ms": 33995.5,
+                "prompt_per_token_ms": 1.727,
+                "prompt_per_second": 579.1,
+                "predicted_n": 512,
+                "predicted_ms": 21744.9,
+                "predicted_per_token_ms": 42.471,
+                "predicted_per_second": 23.5,
+                "draft_n": 132,
+                "draft_n_accepted": 91
+              },
+              "output_chars": 841,
+              "finish_reason": "length"
+            }
+          ],
+          "backend_requests": [
+            {
+              "projection": null,
+              "time": 1791963706.755589,
+              "duration_s": 80.7,
+              "finish": "length",
+              "prompt_tokens": 19688,
+              "reused": 0,
+              "output_tokens": 512,
+              "prompt_total": 19688,
+              "prompt_read": 19688,
+              "reasoning_recoveries": 0,
+              "reasoning_repeat_coverage": 0.0,
+              "engine_generated": 512,
+              "prompt_ms": 33995.5,
+              "decode_ms": 21744.899999999998,
+              "decode_tok_s": 23.5,
+              "hit_rate": 0.961,
+              "pcie_share": 0.003,
+              "ram_blobs": 4169,
+              "file_blobs": 0,
+              "file_mb": 0,
+              "drafts_offered": 132,
+              "drafts_accepted": 91
+            },
+            {
+              "projection": null,
+              "time": 1791963706.730606,
+              "duration_s": 75.0,
+              "finish": "length",
+              "prompt_tokens": 19688,
+              "reused": 0,
+              "output_tokens": 512,
+              "prompt_total": 19688,
+              "prompt_read": 19688,
+              "reasoning_recoveries": 0,
+              "reasoning_repeat_coverage": 0.0,
+              "engine_generated": 512,
+              "prompt_ms": 19581.2,
+              "decode_ms": 53722.3,
+              "decode_tok_s": 9.5,
+              "hit_rate": 0.92,
+              "pcie_share": 0.006,
+              "ram_blobs": 41,
+              "file_blobs": 0,
+              "file_mb": 0,
+              "drafts_offered": 0,
+              "drafts_accepted": 0
+            }
+          ],
+          "wall_s": 80.78557955900033,
+          "peaks": {
+            "running": 2,
+            "decoding": 2
+          },
+          "output_tokens": 1024,
+          "aggregate_tok_s": 12.675529538686291
+        }
+      ],
+      "summary": {
+        "serial_decode_median_tok_s": 32.9,
+        "serial_prefill_weighted_tok_s": 1003.5663859206763,
+        "serial_ttft_median_s": 19.763862484003766,
+        "serial_hit_rate_median": 0.941,
+        "parallel_pair_median_tok_s": 12.526746515240122,
+        "parallel_weighted_tok_s": 12.560075657333547,
+        "parallel_hit_rate_median": 0.935
+      },
+      "gpu_after": [
+        {
+          "index": 0,
+          "used_mib": 21273,
+          "free_mib": 728
+        },
+        {
+          "index": 1,
+          "used_mib": 21927,
+          "free_mib": 74
+        }
+      ]
+    }
+  ],
+  "protocol": {
+    "formal_max_tokens": 512,
+    "warmup_max_tokens": 128,
+    "serial_requests": 3,
+    "parallel_pairs": 3,
+    "temperature": 0,
+    "reasoning_effort": "none",
+    "text_sha256": "35490313ba9f4cdb5d592d59117f22e1732f2aa3598346c3a2cc8d3a012d4a3a"
+  },
+  "notes": [
+    "No prompt/answer bodies are retained.",
+    "This is a before/after check, not an A-B-A statistical study.",
+    "The candidate first runs a real 16384-token image, then text, to retain the vision workspace."
+  ],
+  "candidate_engine": {
+    "model": "huihui-qwen3.8-flash-next-abliterated-ud-iq4_xs",
+    "max_context": 262144,
+    "images": true,
+    "version": "0.1.43.1",
+    "logit_bias": 1,
+    "context": 262144,
+    "kv": "int8",
+    "kv_resident": 32768,
+    "expert_slots": 11318,
+    "expert_cache_mib": 26140,
+    "expert_slots_primary": 4802,
+    "expert_cache_primary_mib": 11127,
+    "spec": 6,
+    "mtp_max": 4,
+    "lookup": 3,
+    "vram_free_mib": 2745,
+    "cvec": 0,
+    "arena_mib": 38298,
+    "pool_workers": 15,
+    "pcie_frac": "0.27",
+    "spec_min_p": "0.50",
+    "conversation_cache_mib": 0,
+    "conversation_cache_slots": 4,
+    "conversation_cache_min_free_mib": 2560,
+    "conversation_cache_min_tokens": 0,
+    "tail_role_token": -1,
+    "vram_elastic": 0,
+    "batch_slots": 2,
+    "slot_cache": 1,
+    "batch_groups": 1,
+    "engine": "0.1.43.1"
+  },
+  "image_test": {
+    "wall_s": 118.36618979499326,
+    "usage": {
+      "prompt_tokens": 16408,
+      "completion_tokens": 2,
+      "total_tokens": 16410,
+      "prompt_tokens_details": {
+        "cached_tokens": 0
+      }
+    },
+    "header": {
+      "tokens": 16384,
+      "grid": [
+        128,
+        128
+      ]
+    },
+    "color_correct": true,
+    "min_free_mib": {
+      "0": 778,
+      "1": 148
+    },
+    "gpu_after": [
+      {
+        "index": 0,
+        "used_mib": 21223,
+        "free_mib": 778
+      },
+      {
+        "index": 1,
+        "used_mib": 21853,
+        "free_mib": 148
+      }
+    ]
+  },
+  "health_after": {
+    "status": "ok",
+    "max_context": 262144,
+    "model": "huihui-qwen3.8-flash-next-abliterated-ud-iq4_xs",
+    "images": true,
+    "api_key": false,
+    "loaded": true,
+    "service": "strata"
+  },
+  "engine_after": {
+    "model": "huihui-qwen3.8-flash-next-abliterated-ud-iq4_xs",
+    "max_context": 262144,
+    "images": true,
+    "version": "0.1.43.1",
+    "logit_bias": 1,
+    "context": 262144,
+    "kv": "int8",
+    "kv_resident": 32768,
+    "expert_slots": 11318,
+    "expert_cache_mib": 26140,
+    "expert_slots_primary": 4802,
+    "expert_cache_primary_mib": 11127,
+    "spec": 6,
+    "mtp_max": 4,
+    "lookup": 3,
+    "vram_free_mib": 2745,
+    "cvec": 0,
+    "arena_mib": 38298,
+    "pool_workers": 15,
+    "pcie_frac": "0.27",
+    "spec_min_p": "0.50",
+    "conversation_cache_mib": 0,
+    "conversation_cache_slots": 4,
+    "conversation_cache_min_free_mib": 2560,
+    "conversation_cache_min_tokens": 0,
+    "tail_role_token": -1,
+    "vram_elastic": 0,
+    "batch_slots": 2,
+    "slot_cache": 1,
+    "batch_groups": 1,
+    "engine": "0.1.43.1"
+  },
+  "gpu_after": [
+    {
+      "index": 0,
+      "used_mib": 21273,
+      "free_mib": 728
+    },
+    {
+      "index": 1,
+      "used_mib": 21927,
+      "free_mib": 74
+    }
+  ],
+  "new_cuda_errors": [],
+  "finished_local": "2026-10-14T15:43:07.586170"
+}

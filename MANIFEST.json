@@ -1,0 +1,2870 @@
+{
+  "created": "2026-10-20T22:49:41.521142+08:00",
+  "root": "AS4124-Strata-field-notes",
+  "file_count": 476,
+  "total_bytes": 31705554,
+  "included": [
+    {
+      "path": "outputs/AS4124-AER-20261018/检查结论.md",
+      "source": "outputs/AS4124-AER-20261018/检查结论.md",
+      "bytes": 2523,
+      "sha256": "69c31724e8daa3f08d8a08fdd566db39c99d6b49daf24d865191990ca91468a4"
+    },
+    {
+      "path": "outputs/AS4124-GPU直通调整-20261016.md",
+      "source": "outputs/AS4124-GPU直通调整-20261016.md",
+      "bytes": 3100,
+      "sha256": "2e2e3afa060ae2c27d8368b4c80388fbd63698c8d88ac9e61af4d9893d116e0a"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/host-state.txt",
+      "source": "outputs/AS4124-PVE-memory-20261019/host-state.txt",
+      "bytes": 19309,
+      "sha256": "be4618014b297642fda4da37ccabb81d022c261afe14dc598385161491c25939"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/read-both_32t-r1-placement.json",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/read-both_32t-r1-placement.json",
+      "bytes": 805,
+      "sha256": "253c210780b18396ec1e8f2943f3646edaef7314c9f5195d8d26f824c8d393b1"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/read-both_32t-r1.txt",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/read-both_32t-r1.txt",
+      "bytes": 4662,
+      "sha256": "7b837d9a9279bef57e1484181eb2569a33259b35173fe9887e58f5c2596550a6"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/read-both_32t-r2.txt",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/read-both_32t-r2.txt",
+      "bytes": 4662,
+      "sha256": "144256c24d515116ba36476eaa8df0ce619c74c58a949fe3193ca229b69b009a"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/read-both_32t-r3.txt",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/read-both_32t-r3.txt",
+      "bytes": 4662,
+      "sha256": "1c22f04dd20a1ff13ae6613a44758f1737285a6adc61b90f0ebc3c76cfcf5c5a"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/read-both_64t-r1-placement.json",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/read-both_64t-r1-placement.json",
+      "bytes": 911,
+      "sha256": "5ebf9a76f32ce506d0c5894463e3b57d5055b902af9a91e0c21ff55c30bcba94"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/read-both_64t-r1.txt",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/read-both_64t-r1.txt",
+      "bytes": 7813,
+      "sha256": "813ab0c45fb050b08a80085fa7980b998a59f5742782e27390afc6913fdf5c99"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/read-both_64t-r2.txt",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/read-both_64t-r2.txt",
+      "bytes": 7813,
+      "sha256": "c943b8c4133af7cf68553fb7e26a6ad8e6e8879cbdc306c332e619cd4fcf99db"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/read-both_64t-r3.txt",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/read-both_64t-r3.txt",
+      "bytes": 7813,
+      "sha256": "0e248e0bf70ae852ca6e1bc6f397906f5f9853ee6b01701809cd525f7df05166"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/read-node0_16t-r1-placement.json",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/read-node0_16t-r1-placement.json",
+      "bytes": 910,
+      "sha256": "5515501bc2d187cf08f0d6e56d810219fe29e08c8f2f7d1c6f3255031a8804d7"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/read-node0_16t-r1.txt",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/read-node0_16t-r1.txt",
+      "bytes": 2886,
+      "sha256": "23f8b0fc312d9d33e5e5f0100033a0e52fac8ac3c1f97d72265a12282e2c4ed6"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/read-node0_16t-r2.txt",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/read-node0_16t-r2.txt",
+      "bytes": 2886,
+      "sha256": "61f3af39a4913262259cfd7ff81f6aca86fc2621d879232f8e07305bf3b7ce30"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/read-node0_16t-r3.txt",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/read-node0_16t-r3.txt",
+      "bytes": 2886,
+      "sha256": "223bb95b0cbd5c62c598499d2c8352c6ee0d90e3a0e608044112300f7052298a"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/read-node0_32t-r1-placement.json",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/read-node0_32t-r1-placement.json",
+      "bytes": 703,
+      "sha256": "794c010d6fbcb7432a8e6117ff3c48f756ab5e8d1b694e204b73867f98af7e6c"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/read-node0_32t-r1.txt",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/read-node0_32t-r1.txt",
+      "bytes": 4461,
+      "sha256": "2f9435f17676061f709707d822792ccd8f3acf4e41cbcf3c636ae4ba50c9c9e5"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/read-node0_32t-r2.txt",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/read-node0_32t-r2.txt",
+      "bytes": 4461,
+      "sha256": "d1310a043cba0c81c572fc8c2fa3b13175cf1dacd7fc3a43b29d564e001e2bfa"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/read-node0_32t-r3.txt",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/read-node0_32t-r3.txt",
+      "bytes": 4461,
+      "sha256": "80af65617793ebe2de25b3c3b69e16701abe88f94f6c75488fb07db413a8d839"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/read-node1_16t-r1-placement.json",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/read-node1_16t-r1-placement.json",
+      "bytes": 907,
+      "sha256": "c7e6dc7af09f2b255f2fcfdf65c9e671830241e74fbf180ab25d684668d5f717"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/read-node1_16t-r1.txt",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/read-node1_16t-r1.txt",
+      "bytes": 2897,
+      "sha256": "41048369cd577c35edf49ed20176d993a406e1287f6df3c00d855389338962bc"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/read-node1_16t-r2.txt",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/read-node1_16t-r2.txt",
+      "bytes": 2897,
+      "sha256": "325d99086618c30fb3e89dc91cdcd6f43d0857c8a7018c7f2103d7e20fc2cd1b"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/read-node1_16t-r3.txt",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/read-node1_16t-r3.txt",
+      "bytes": 2897,
+      "sha256": "7b2b022f0715058b7f160e8f9fd36a2be36328e998f2838f5c2a7c08252db22f"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/read-node1_32t-r1-placement.json",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/read-node1_32t-r1-placement.json",
+      "bytes": 809,
+      "sha256": "bde9ecae7b7bc4b996b0fb2f62c2aa84862d6cf179f73542d30cd79d77c29c67"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/read-node1_32t-r1.txt",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/read-node1_32t-r1.txt",
+      "bytes": 4472,
+      "sha256": "4e3b732f5fd39286a6dac4b35f31eb84513d121a421e99912263eecf79f99b9e"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/read-node1_32t-r2.txt",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/read-node1_32t-r2.txt",
+      "bytes": 4472,
+      "sha256": "568a1277075c0ba1ee15d98b62678c07e2ef18a984e61b1779107f8a178c9e73"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/read-node1_32t-r3.txt",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/read-node1_32t-r3.txt",
+      "bytes": 4472,
+      "sha256": "1779f5a4d27a00310cffde1829ba229b4948d2956aa0b8dae333a7e34657496e"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/results.json",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/results.json",
+      "bytes": 39082,
+      "sha256": "d9fc9120aba6a5194c08e420d02a09c2c05332e779120d15d6d7573b1db3c5e3"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/stream-both_32t-r1-placement.json",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/stream-both_32t-r1-placement.json",
+      "bytes": 689,
+      "sha256": "3233ef8d97b10c3a720be18caf9b212ecf71bbbc9d74cfdf04f107ad8040ab25"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/stream-both_32t-r1.txt",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/stream-both_32t-r1.txt",
+      "bytes": 1767,
+      "sha256": "855905e796fb01632244002ac19ccc901653d418a10145a0aa8bf28fc8b75bc1"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/stream-both_32t-r2.txt",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/stream-both_32t-r2.txt",
+      "bytes": 1767,
+      "sha256": "374be1de6324976e17f7ce3745deaf530afe4eac6a00c40312ce36094a54d635"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/stream-both_32t-r3.txt",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/stream-both_32t-r3.txt",
+      "bytes": 1767,
+      "sha256": "8026a88ba4b355db1cb332fb72a36797092a9d282b32e237e366bc51f9fa0455"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/stream-both_64t-r1-placement.json",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/stream-both_64t-r1-placement.json",
+      "bytes": 583,
+      "sha256": "0954dbbfd2ce63dc0e60be846595ecbbfee6f1891488416852b62f45a7d68d2d"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/stream-both_64t-r1.txt",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/stream-both_64t-r1.txt",
+      "bytes": 1767,
+      "sha256": "7c3d9e83494d584e3137115ad53bb5497d849f82fea8ac0757846fe63f7f5f66"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/stream-both_64t-r2.txt",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/stream-both_64t-r2.txt",
+      "bytes": 1767,
+      "sha256": "3c423eaeb86b393ddcf4e49e9b80d0a496f585ff9f5b763ad1d28f3c1aa539e7"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/stream-both_64t-r3.txt",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/stream-both_64t-r3.txt",
+      "bytes": 1767,
+      "sha256": "41ed067f96b82f2dea27a6e5b2d1d371638c1040c5e370c3bac0dd51a81a73a5"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/stream-node0_16t-r1-placement.json",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/stream-node0_16t-r1-placement.json",
+      "bytes": 770,
+      "sha256": "c2f71a0fe71ec172f1ddf50da9ef11de5b78642559ffb9a008c8855118f7496c"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/stream-node0_16t-r1.txt",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/stream-node0_16t-r1.txt",
+      "bytes": 1767,
+      "sha256": "a96883b07c3b270ad4becbd19b5d3d69b0e57d5b995addd43c916b1c5e207285"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/stream-node0_16t-r2.txt",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/stream-node0_16t-r2.txt",
+      "bytes": 1767,
+      "sha256": "cb150f746afd1235343c4d26d32d6d05422894b1cebfd25bd547c75385439b74"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/stream-node0_16t-r3.txt",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/stream-node0_16t-r3.txt",
+      "bytes": 1767,
+      "sha256": "fb75cb55b807a5cb2b88555c7d8dee6edd52148538420793525747cd8865d957"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/stream-node0_32t-r1-placement.json",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/stream-node0_32t-r1-placement.json",
+      "bytes": 593,
+      "sha256": "41be1c863a8bfdb2520aac74f5e8573e57fa7a2edafab35b6d8edfe4423e03de"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/stream-node0_32t-r1.txt",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/stream-node0_32t-r1.txt",
+      "bytes": 1767,
+      "sha256": "0f3196fbe48c44604901cdd24d395974a5ae096d12314524ea6048158c090cc6"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/stream-node0_32t-r2.txt",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/stream-node0_32t-r2.txt",
+      "bytes": 1767,
+      "sha256": "4645cac98a4dd490d610d8bca749c9642491cdc0aef2d60cfc414033fbbb8fec"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/stream-node0_32t-r3.txt",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/stream-node0_32t-r3.txt",
+      "bytes": 1767,
+      "sha256": "2700adf61320afde041216d058e5fc6053ba550efd8aafba09576879aca435e7"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/stream-node1_16t-r1-placement.json",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/stream-node1_16t-r1-placement.json",
+      "bytes": 773,
+      "sha256": "908ca25d1882eced02a03000bb189583bae5ed4db6d3eac95e03a4642fde33c0"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/stream-node1_16t-r1.txt",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/stream-node1_16t-r1.txt",
+      "bytes": 1767,
+      "sha256": "9cd6a76cf682662104488506ee855b047028beeae7456e8520ddf57cd02d9433"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/stream-node1_16t-r2.txt",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/stream-node1_16t-r2.txt",
+      "bytes": 1767,
+      "sha256": "03a9fbaa718db963db04d776a8c6fb668502722faac144c182f64c17e65cfc53"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/stream-node1_16t-r3.txt",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/stream-node1_16t-r3.txt",
+      "bytes": 1767,
+      "sha256": "f62d1bb5cfcf6d09b42dffa4aed2df747218302f46aa0bea44f5ec41164b9ed6"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/stream-node1_32t-r1-placement.json",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/stream-node1_32t-r1-placement.json",
+      "bytes": 569,
+      "sha256": "7b460a757111fff563f777dc677c0761a3dc602ef0cbf5e2f30ba0d56370a42f"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/stream-node1_32t-r1.txt",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/stream-node1_32t-r1.txt",
+      "bytes": 1767,
+      "sha256": "be1796e94c3d054f59ad81669d9702cbb9aeb8a0ad7af73f19231a69c6207d44"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/stream-node1_32t-r2.txt",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/stream-node1_32t-r2.txt",
+      "bytes": 1767,
+      "sha256": "885041a1ff02eb333293adab0e0bc51796dd510ad06207a7745589d24dc8a1d7"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/raw/stream-node1_32t-r3.txt",
+      "source": "outputs/AS4124-PVE-memory-20261019/raw/stream-node1_32t-r3.txt",
+      "bytes": 1767,
+      "sha256": "0a2bb072db7c51f9c3fc8f528baede4fbf000d40a65ca1cee7b0b7601d95f16c"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-20261019/复测报告.md",
+      "source": "outputs/AS4124-PVE-memory-20261019/复测报告.md",
+      "bytes": 2701,
+      "sha256": "714873cf4127fe226c84a518509022b300d44868b9cd0e795adcba6b8e04a7c6"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/comparison.json",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/comparison.json",
+      "bytes": 3223,
+      "sha256": "8fd73071112ce7702ff71ae22548ef77344b7829230c2fd7194a56587902510c"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/host-state-after.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/host-state-after.txt",
+      "bytes": 19765,
+      "sha256": "932eb20f8cdc3ec4eb7e4f8092212f1cb519c995ff75028d2f934f9fa13c5d96"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/host-state-final.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/host-state-final.txt",
+      "bytes": 2255,
+      "sha256": "64014ef828d8ad5f0dbb43c29b93875f399fdf5af7ee969d8640a9c6cc6e7208"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/read-both_32t-r1-placement.json",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/read-both_32t-r1-placement.json",
+      "bytes": 808,
+      "sha256": "9f3b433ce5668a6bc7c49051b8cb199e9e0f582fc735528b4cd038c34affedf9"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/read-both_32t-r1.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/read-both_32t-r1.txt",
+      "bytes": 4620,
+      "sha256": "6b6df7ca81abd4bc0542b859547b5b25cb2b168d8e880b0b9c3495ca82b616bd"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/read-both_32t-r2.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/read-both_32t-r2.txt",
+      "bytes": 4620,
+      "sha256": "85cfc3fcba378aa01598f67e70d59f96ae33975a6599f95a4362ff4fcf9e83d3"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/read-both_32t-r3.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/read-both_32t-r3.txt",
+      "bytes": 4620,
+      "sha256": "a3e776c925f0db4133e230d3878bfffbf11f18a5d15de0c8604dcb2f27287312"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/read-node0_16t-r1-placement.json",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/read-node0_16t-r1-placement.json",
+      "bytes": 818,
+      "sha256": "58221953f91f4fc27b4a32e2d9ffa77defb995f70cf6590597af7d5b43b02cbd"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/read-node0_16t-r1.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/read-node0_16t-r1.txt",
+      "bytes": 2863,
+      "sha256": "d21ff118204361d36d48b45c2c19cf4f3917791390322c939fb57a527ce4fa7c"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/read-node0_16t-r2.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/read-node0_16t-r2.txt",
+      "bytes": 2863,
+      "sha256": "bcc4a03ffa465323f6392803bfeefd54e85b93e796b16ed6f68a735c5e453ca6"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/read-node0_16t-r3.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/read-node0_16t-r3.txt",
+      "bytes": 2863,
+      "sha256": "628a0c35db69c6c5b020cf8134442874ea229951ec33e703539331be07350221"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/read-node1_16t-r1-placement.json",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/read-node1_16t-r1-placement.json",
+      "bytes": 806,
+      "sha256": "c7b79e1c21a6cc32059c77cc63f6c90720d01e7a79654d74a2e75afc0f20427b"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/read-node1_16t-r1.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/read-node1_16t-r1.txt",
+      "bytes": 2874,
+      "sha256": "5847edca2e4bd4e939c79e023c1c58933b8608659359d9c9c4784d417031285f"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/read-node1_16t-r2.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/read-node1_16t-r2.txt",
+      "bytes": 2874,
+      "sha256": "3575d37a2dab486c41b8e863b01fce929ef0c847b707e096ed8110a02247f954"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/read-node1_16t-r3.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/read-node1_16t-r3.txt",
+      "bytes": 2874,
+      "sha256": "012ca1e9c7bbbfd8564bafa8ae89cd12d969d2befa6b81989ff72932cd0e851f"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/read-node1_16t_oldsize-r1-placement.json",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/read-node1_16t_oldsize-r1-placement.json",
+      "bytes": 908,
+      "sha256": "46fcc481f9cc3e49d92f344f45c014509d7b2093e1675074c961e8ffa14cb9f3"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/read-node1_16t_oldsize-r1.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/read-node1_16t_oldsize-r1.txt",
+      "bytes": 2898,
+      "sha256": "0612e1e238db6a51218d7db37494f302f5ad848689e9e10cc05db3139fdac9e6"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/read-node1_16t_oldsize-r2.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/read-node1_16t_oldsize-r2.txt",
+      "bytes": 2898,
+      "sha256": "fb59bc7b594b225cdf12b5d377c7c6f6d5aabb773a18917280b9fae91c96f2f8"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/read-node1_16t_oldsize-r3.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/read-node1_16t_oldsize-r3.txt",
+      "bytes": 2898,
+      "sha256": "9aa85af827f3a31ec8fdabc2c4a0af58f8cef082646db651848cbc2f57a5e3b6"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/results.json",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/results.json",
+      "bytes": 36904,
+      "sha256": "a29736f0512a4d120368b45789468d71f879d60b5807f2e3875f575df5fb3bfc"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/stream-both_32t-r1-placement.json",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/stream-both_32t-r1-placement.json",
+      "bytes": 367,
+      "sha256": "0d84a847b3ce9d26774650ccbbbc6daf7f5f57c06efdcd11c89d0407944245e3"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/stream-both_32t-r1.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/stream-both_32t-r1.txt",
+      "bytes": 1764,
+      "sha256": "9b82d7680fb42fc4bc69a15900abe86304a039512de6dc65a12810b04a40e9d6"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/stream-both_32t-r2.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/stream-both_32t-r2.txt",
+      "bytes": 1764,
+      "sha256": "0c937008d22973d7b402bb581f643a30aa6d93bc2ead3bf357f23a4b9b000227"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/stream-both_32t-r3.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/stream-both_32t-r3.txt",
+      "bytes": 1766,
+      "sha256": "e0cc4c9d883f947f6f1ce67e349518ac0be10b4314daad73794326a468e7f0b4"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/stream-node0_16t-r1-placement.json",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/stream-node0_16t-r1-placement.json",
+      "bytes": 431,
+      "sha256": "5448e7242beac01cd97f8f8197052c69c17538933109aa3b5d909d275d1c40f2"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/stream-node0_16t-r1.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/stream-node0_16t-r1.txt",
+      "bytes": 1766,
+      "sha256": "1976f29134f7f3876c593b46cadcae09d5f8e36abef3ed72411597044328b287"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/stream-node0_16t-r2.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/stream-node0_16t-r2.txt",
+      "bytes": 1766,
+      "sha256": "f10ffec6bfe7ddb4bee47701f4ec7f7077fcb35773cda731556a63a346b6cef3"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/stream-node0_16t-r3.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/stream-node0_16t-r3.txt",
+      "bytes": 1766,
+      "sha256": "fbb53b5e64c2254ec6e399d7136a8a3eb35e377e63caf0ca3e11bd8ace5412da"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/stream-node1_16t-r1-placement.json",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/stream-node1_16t-r1-placement.json",
+      "bytes": 481,
+      "sha256": "c63c9b463dfd086e1a0e50401d67b01bacf6d12d625fdb37eac903446b3cc550"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/stream-node1_16t-r1.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/stream-node1_16t-r1.txt",
+      "bytes": 1766,
+      "sha256": "a7550c348cf8169acaf4104616c24f48e259e6ae2b1f7646082d0efb259168d2"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/stream-node1_16t-r2.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/stream-node1_16t-r2.txt",
+      "bytes": 1766,
+      "sha256": "e9fe78f813837aff07d06e691bce0ef10ffb64e442e949095e556d5b08a24fd5"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/stream-node1_16t-r3.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/stream-node1_16t-r3.txt",
+      "bytes": 1766,
+      "sha256": "68b30bc85c4746b22015eac4cd399900bb8a56b0614fe65185fceef15b8e599a"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/stream-node1_16t_oldsize-r1-placement.json",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/stream-node1_16t_oldsize-r1-placement.json",
+      "bytes": 702,
+      "sha256": "27376d3bf442b1b550e1d593b63c550126a5eb70536d487873f1a901c2cc9003"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/stream-node1_16t_oldsize-r1.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/stream-node1_16t_oldsize-r1.txt",
+      "bytes": 1767,
+      "sha256": "ab8809bf33497da604f51f1a2a86f1b3b513f30c73c0a5ae4730f2654ff084a2"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/stream-node1_16t_oldsize-r2.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/stream-node1_16t_oldsize-r2.txt",
+      "bytes": 1767,
+      "sha256": "a071b3e5923dc6c2cbf202b3454073a16915d5fd5b34e1c4b43247eeae747cab"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/stream-node1_16t_oldsize-r3.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw-local/stream-node1_16t_oldsize-r3.txt",
+      "bytes": 1767,
+      "sha256": "476562f1ad3cb356ccbec74fa2808603ef4e74b66fe7854ff23ddf798ae1db8f"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw/read-both_32t-r1-placement.json",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw/read-both_32t-r1-placement.json",
+      "bytes": 811,
+      "sha256": "24885fbb27f4b2f8f00332618980975667e81b069b81e48fc68ca31198211322"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw/read-both_32t-r1.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw/read-both_32t-r1.txt",
+      "bytes": 4620,
+      "sha256": "1d19a89d0da64527ea327e9aaa67b6b8c3e446f5753de357e4f15c6b1c093fb5"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw/read-both_32t-r2.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw/read-both_32t-r2.txt",
+      "bytes": 4620,
+      "sha256": "2be8673cfd527f9982d062fcbe1ef80b9a46e95b244ac319f306db92d6f179c3"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw/read-both_32t-r3.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw/read-both_32t-r3.txt",
+      "bytes": 4620,
+      "sha256": "e8fccac8a43226a79698c7d875ec5bbac6bdd3f0b34533f323fab16f7262d633"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw/read-node0_16t-r1-placement.json",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw/read-node0_16t-r1-placement.json",
+      "bytes": 824,
+      "sha256": "dec0b3eee35e83e9338a22e8fb10700a4981059c7ba7a3fbb96368cb7e0bc132"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw/read-node0_16t-r1.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw/read-node0_16t-r1.txt",
+      "bytes": 2864,
+      "sha256": "91f7b07888f141fcadd727ea39d8ac2fc430664311470e5c052e498eb4409b64"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw/read-node0_16t-r2.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw/read-node0_16t-r2.txt",
+      "bytes": 2864,
+      "sha256": "b180259299de3be3d2d32c433def376f95069ba207db0978799c19c2de96bd56"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw/read-node0_16t-r3.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw/read-node0_16t-r3.txt",
+      "bytes": 2863,
+      "sha256": "ad10ffcc0f19af0ada299ca3d808a4f8539927b21011e0f0e8990bdd028931c8"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw/read-node1_16t-r1-placement.json",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw/read-node1_16t-r1-placement.json",
+      "bytes": 820,
+      "sha256": "d9676dd4d729d8866b15fc94c648c583101d0f17ab5d1f68d4aa17dc39f36d40"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw/read-node1_16t-r1.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw/read-node1_16t-r1.txt",
+      "bytes": 2874,
+      "sha256": "093086e37fd0bd0607a7d667228f3d32482cca667f63668b9b2b5b2c01347a38"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw/read-node1_16t-r2.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw/read-node1_16t-r2.txt",
+      "bytes": 2874,
+      "sha256": "b31d3ba86fde34d03ca5cf7abd600860c56060e4e2791dc2d7332aa52da1143e"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw/read-node1_16t-r3.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw/read-node1_16t-r3.txt",
+      "bytes": 2874,
+      "sha256": "9aa48f85d89e63e4e8cbd41c99aca6c86be0e17c24840f263ae397db4322a2c9"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw/read-node1_16t_oldsize-r1-placement.json",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw/read-node1_16t_oldsize-r1-placement.json",
+      "bytes": 909,
+      "sha256": "915e90b8dffeced32f363efa5be8ef4542837a203bca705f1710b14b657a1391"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw/read-node1_16t_oldsize-r1.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw/read-node1_16t_oldsize-r1.txt",
+      "bytes": 2898,
+      "sha256": "8033fa57f27ab15312eb9bfc71e2303f8f58f465cad15862fc39cde4ffabeafc"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw/read-node1_16t_oldsize-r2.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw/read-node1_16t_oldsize-r2.txt",
+      "bytes": 2898,
+      "sha256": "95a71ac85ed03e09e3f7a13a284faaa801c7d36804350d7df7e4cde4ba64c83f"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw/read-node1_16t_oldsize-r3.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw/read-node1_16t_oldsize-r3.txt",
+      "bytes": 2898,
+      "sha256": "c4c22f83852425e46cfab911caebf4ef61c258ebfb5516b24d772de88d2a6070"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw/results.json",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw/results.json",
+      "bytes": 36145,
+      "sha256": "b123179f54553a145a7c4aa91a8bc8bbb2fc3d0f8810015435cd360ae738a30b"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw/stream-both_32t-r1-placement.json",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw/stream-both_32t-r1-placement.json",
+      "bytes": 408,
+      "sha256": "25570379e92c060c4f48da1683927e5f7caf8ea44166a57e5724793ecb2d81ef"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw/stream-both_32t-r1.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw/stream-both_32t-r1.txt",
+      "bytes": 1764,
+      "sha256": "47bb22c0f0822957175d4cd1bbc069a7a5fb9fe3eb21a660c3db2c48731aca18"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw/stream-both_32t-r2.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw/stream-both_32t-r2.txt",
+      "bytes": 1764,
+      "sha256": "62240e06ca71a2dc2049e12ba27ebf1b5e5a4c58049584d757704f48a912516f"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw/stream-both_32t-r3.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw/stream-both_32t-r3.txt",
+      "bytes": 1764,
+      "sha256": "5e45f66571c1478f33d4f8f7315378d9eac55e1ce194fb332633f8b102f92156"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw/stream-node0_16t-r1-placement.json",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw/stream-node0_16t-r1-placement.json",
+      "bytes": 433,
+      "sha256": "a233ac1b7942c50223ce0774971bc4aa34db96c758a9ce4df0002958a691ef92"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw/stream-node0_16t-r1.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw/stream-node0_16t-r1.txt",
+      "bytes": 1766,
+      "sha256": "5760ab8be7952ac7a636cbbce942a3f0787ce61df6f6e1ff1433ca0537192eae"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw/stream-node0_16t-r2.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw/stream-node0_16t-r2.txt",
+      "bytes": 1766,
+      "sha256": "6bddbd1edf803b0cc21edc729200326cb913405c2f83b746ad271c99eb37a39a"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw/stream-node0_16t-r3.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw/stream-node0_16t-r3.txt",
+      "bytes": 1766,
+      "sha256": "8ff20215d32bb87a3dffccc582ba0d621022cf2e342c0870b99a71e28e7923a1"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw/stream-node1_16t-r1-placement.json",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw/stream-node1_16t-r1-placement.json",
+      "bytes": 481,
+      "sha256": "2f68839ebeda4dfc98307687cbbbd6be97421aa4811473e27897f8a3708a3661"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw/stream-node1_16t-r1.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw/stream-node1_16t-r1.txt",
+      "bytes": 1766,
+      "sha256": "d12971740c1f0b0582efe0c49d28bbc0a1eb2618f755a389040bbc119af7fb66"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw/stream-node1_16t-r2.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw/stream-node1_16t-r2.txt",
+      "bytes": 1766,
+      "sha256": "3483079fd3ac7527c5264ba8a35847ae8370b1eeb0b2ba0e8aed180455464a41"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw/stream-node1_16t-r3.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw/stream-node1_16t-r3.txt",
+      "bytes": 1766,
+      "sha256": "f9fc23c714113c70ecacd19b8c070d5f5eeccc7348e9d0e079fb0239507580d0"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw/stream-node1_16t_oldsize-r1-placement.json",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw/stream-node1_16t_oldsize-r1-placement.json",
+      "bytes": 682,
+      "sha256": "6272eabd20fe59ef18feab6e5f16887dc36f1e0e4ca783488de9c5b00facfe0b"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw/stream-node1_16t_oldsize-r1.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw/stream-node1_16t_oldsize-r1.txt",
+      "bytes": 1767,
+      "sha256": "4a4dd15ae2d54aa2bfeda34100e6b83bf98c897a880a0cf7e8b90da1a325d850"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw/stream-node1_16t_oldsize-r2.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw/stream-node1_16t_oldsize-r2.txt",
+      "bytes": 1767,
+      "sha256": "2aeb6e9172c952b7dfebb05449cf4385b75b1b3bb9c0cc495a6cdd2e170a75d5"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/raw/stream-node1_16t_oldsize-r3.txt",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/raw/stream-node1_16t_oldsize-r3.txt",
+      "bytes": 1767,
+      "sha256": "d1a91a905d8a71204225c33f190bb897873f873f51d3b1906e504e74f47953f6"
+    },
+    {
+      "path": "outputs/AS4124-PVE-memory-7282-20261020/复测报告.md",
+      "source": "outputs/AS4124-PVE-memory-7282-20261020/复测报告.md",
+      "bytes": 4265,
+      "sha256": "fb7973f59ba0b4b5c3f5c2df9d58d352326ef3e18853eb3fc8f2a6b1bd587362"
+    },
+    {
+      "path": "outputs/AS4124-PVE内存带宽复测-20261017.md",
+      "source": "outputs/AS4124-PVE内存带宽复测-20261017.md",
+      "bytes": 2944,
+      "sha256": "852cf5b7d91ca018270209ad948d84e4c30084f2ecc84b8e9c85c2a729a9e4e7"
+    },
+    {
+      "path": "outputs/AS4124-Strata-调试全记录-20261019-v1.html",
+      "source": "outputs/AS4124-Strata-调试全记录-20261019-v1.html",
+      "bytes": 238916,
+      "sha256": "7147d6138428e7f9a59e4f4c9a631f2aede834c97e68fd3ed88dbd8517693d2e"
+    },
+    {
+      "path": "outputs/AS4124-Strata-调试全记录-20261019.html",
+      "source": "outputs/AS4124-Strata-调试全记录-20261019.html",
+      "bytes": 11870,
+      "sha256": "332fdb925176e89a8afe67f176585429ed84bb0f9ca998ea36ec4395f935626f"
+    },
+    {
+      "path": "outputs/AS4124-供电状态导致性能骤降-20261019.md",
+      "source": "outputs/AS4124-供电状态导致性能骤降-20261019.md",
+      "bytes": 3260,
+      "sha256": "b0b5aa9ae0f7c5497a8c067921a4b2de4fe137b8322eec73d58650b9f3b39286"
+    },
+    {
+      "path": "outputs/AS4124-平台排障-20261019-数据.json",
+      "source": "outputs/AS4124-平台排障-20261019-数据.json",
+      "bytes": 20536,
+      "sha256": "a61811080e74c5aaaaef13c58dfcb8b1e21530b90786458f78a6fa24a5ac50e1"
+    },
+    {
+      "path": "outputs/AS4124-平台排障-20261019.html",
+      "source": "outputs/AS4124-平台排障-20261019.html",
+      "bytes": 1957665,
+      "sha256": "67feb29b4d5f2dfe552d4949087e515bfdca169a188982cb6f26ee02cb430bf6"
+    },
+    {
+      "path": "outputs/AS4124-核心报错与AER核查-20261019.md",
+      "source": "outputs/AS4124-核心报错与AER核查-20261019.md",
+      "bytes": 8508,
+      "sha256": "1e38c65a3417ba67af2e57c3b2cd5b0a0a8a201d9bd21d36cdcc0f51411c4210"
+    },
+    {
+      "path": "outputs/CPU选择结论-20261016.md",
+      "source": "outputs/CPU选择结论-20261016.md",
+      "bytes": 5959,
+      "sha256": "3687760ef0837ec2c65bc77e592a353383cb91400b0c431026ed1bda20ab89bb"
+    },
+    {
+      "path": "outputs/DeepSeek-BFCL恢复-20261015/README.md",
+      "source": "outputs/DeepSeek-BFCL恢复-20261015/README.md",
+      "bytes": 2434,
+      "sha256": "08162022988a7d141e8529617895fa6c6073db7fb6dc1eb1f896d6b03d071d42"
+    },
+    {
+      "path": "outputs/EvalScope功能验证-20261014.md",
+      "source": "outputs/EvalScope功能验证-20261014.md",
+      "bytes": 3797,
+      "sha256": "a2059e3cb55fb0c4383f8bcf6a48086849731ad574ea2b7bbc5fce5b4ced2a34"
+    },
+    {
+      "path": "outputs/EvalScope部署记录-20261014.md",
+      "source": "outputs/EvalScope部署记录-20261014.md",
+      "bytes": 2420,
+      "sha256": "c4166f3263a5bd84a5163afc2cd008bb889548ec282a236309e49713e01708ce"
+    },
+    {
+      "path": "outputs/Huihui-BFCL结果-20261015/配对分析.md",
+      "source": "outputs/Huihui-BFCL结果-20261015/配对分析.md",
+      "bytes": 2575,
+      "sha256": "08addb8063555a6e1af66c38be208f922f05b6b93ad141c55b6c7a8166840bca"
+    },
+    {
+      "path": "outputs/LiveCodeBench结果分析-20261015.md",
+      "source": "outputs/LiveCodeBench结果分析-20261015.md",
+      "bytes": 5023,
+      "sha256": "180e164b2a259c1d0dc13bae956baaaebb4347b7547373cf2a6e24ff48e9f644"
+    },
+    {
+      "path": "outputs/SC117三卡部署记录-20261016.md",
+      "source": "outputs/SC117三卡部署记录-20261016.md",
+      "bytes": 3675,
+      "sha256": "19841e074b5cbaa0e4ecf762ca4a71835da96c565d98022c979feb76cd477db6"
+    },
+    {
+      "path": "outputs/Strata-0.1.45升级记录-20261017.md",
+      "source": "outputs/Strata-0.1.45升级记录-20261017.md",
+      "bytes": 3405,
+      "sha256": "c16da586333c26d37095d92ff0419d866bc952cd5e4492f8e851229fc1d89172"
+    },
+    {
+      "path": "outputs/Strata-0.1.45单次基准-20261017.md",
+      "source": "outputs/Strata-0.1.45单次基准-20261017.md",
+      "bytes": 4032,
+      "sha256": "17b062c5983c2356d43b4e4cab6e820b61ab85aeced7d19ca3ccca1bdee3d05e"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/B0-suite-1-results.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/B0-suite-1-results.json",
+      "bytes": 123318,
+      "sha256": "94e080bc4a74e7cca3a397eeda0cec71d3cbc51c5c5cb5eb844e80a8e9c6ea46"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/B0-suite-2-results.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/B0-suite-2-results.json",
+      "bytes": 73655,
+      "sha256": "df3753f78bbfe4405b4ba23e4111598ab95911ee9682343e2613f7c0090e5bd2"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/B0-suite-3-v3-results.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/B0-suite-3-v3-results.json",
+      "bytes": 90546,
+      "sha256": "91ad8ea553db6963ddfd26e9f2e0a702ed110094e03b25c36af88fe9fbf32327"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/I-suite-1-results.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/I-suite-1-results.json",
+      "bytes": 123534,
+      "sha256": "4bed59c0ff2555d7c3afb32ce08d7ef0de1e22d0eefce4528b025e483ae8bb76"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/I-suite-2-results.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/I-suite-2-results.json",
+      "bytes": 91033,
+      "sha256": "5f27511b629c89b54d9749d2ce0461b48145abdc1945632c663f7bf3cbf9aeea"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/I-suite-2-v3t5-results.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/I-suite-2-v3t5-results.json",
+      "bytes": 15458,
+      "sha256": "2589ba8bee90405d00587a66362065a8626836f83f94457936b2185631f87efe"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/acceptance.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/acceptance.json",
+      "bytes": 8012,
+      "sha256": "73657c74d252251a636b5556ce3143f50553f7a5cf03a1f2992b17f098f9ad47"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/cache/B0CACHE0/results.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/cache/B0CACHE0/results.json",
+      "bytes": 18301,
+      "sha256": "68eee3ca15e4d2e06617c8462af3958cc548a4330c55491a56129f0dc50ff97f"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/cache/CACHE8192/results.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/cache/CACHE8192/results.json",
+      "bytes": 10424,
+      "sha256": "b8ebee82a7418bc3558044823601322e5144c6b2f3de3f242966d4432a267ee7"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/figures/agent-paired-times.svg",
+      "source": "outputs/Strata-Hermes-nightly-20261020/figures/agent-paired-times.svg",
+      "bytes": 7174,
+      "sha256": "a830da2f8a90cc04995f0e22addcb1303b8916882134d48f1195991afe69bd96"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/figures/baseline-startup-variance.svg",
+      "source": "outputs/Strata-Hermes-nightly-20261020/figures/baseline-startup-variance.svg",
+      "bytes": 2834,
+      "sha256": "39f57fbc55c9b634f81fb6890c5fa139e85db7546075067038ec6e9238de34bf"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/figures/cache-128k-return.svg",
+      "source": "outputs/Strata-Hermes-nightly-20261020/figures/cache-128k-return.svg",
+      "bytes": 2005,
+      "sha256": "080040497f42d2729d069e863a809ab9c8c9051fb501f3e879ca4baaaaf83de2"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/figures/power-latency.svg",
+      "source": "outputs/Strata-Hermes-nightly-20261020/figures/power-latency.svg",
+      "bytes": 1507,
+      "sha256": "ea183b0ab47f5cd1388376015ed8c206aa1feae599fb3892c8438e9308410463"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/final-config.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/final-config.json",
+      "bytes": 3966,
+      "sha256": "fd13e9eea6e4c3bab5b467b902c57b499b4a410f7552c3d50c3153cf2ceb8b94"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/final-verification.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/final-verification.json",
+      "bytes": 6482,
+      "sha256": "5f5cb6a351c919a11aa0817bd05ee9d8612434f2123c7f4861653b75466dfa03"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/micro-request-details.csv",
+      "source": "outputs/Strata-Hermes-nightly-20261020/micro-request-details.csv",
+      "bytes": 8942,
+      "sha256": "8d39d9a3ccfdb3161c53a1ea340b9243e321766565e5d8102b2bbeb068a29a38"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/micro-summary.csv",
+      "source": "outputs/Strata-Hermes-nightly-20261020/micro-summary.csv",
+      "bytes": 897,
+      "sha256": "f794aa2619d717a1049b3a499c69e58cff0c16dd13d6c9aa931e328ccf9c9215"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/micro/B0-R2/candidate-config.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/micro/B0-R2/candidate-config.json",
+      "bytes": 3966,
+      "sha256": "fd13e9eea6e4c3bab5b467b902c57b499b4a410f7552c3d50c3153cf2ceb8b94"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/micro/B0-R2/results.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/micro/B0-R2/results.json",
+      "bytes": 17793,
+      "sha256": "6fadc2567d2bf697e801c4ddd400e856e3354a48cf07acdad0b60238d1f771b0"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/micro/B0/candidate-config.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/micro/B0/candidate-config.json",
+      "bytes": 3966,
+      "sha256": "fd13e9eea6e4c3bab5b467b902c57b499b4a410f7552c3d50c3153cf2ceb8b94"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/micro/B0/results.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/micro/B0/results.json",
+      "bytes": 10297,
+      "sha256": "9d9a7049b0d901ea4a0465f86432ffea0a0389c142e8e71ce3a01404f8d9b36c"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/micro/CACHE8192/candidate-config.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/micro/CACHE8192/candidate-config.json",
+      "bytes": 4057,
+      "sha256": "93147a4c590bd0c707a17c06adde59dfc14d22ef4e7e2182acc7d72f98ab7101"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/micro/CACHE8192/results.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/micro/CACHE8192/results.json",
+      "bytes": 10455,
+      "sha256": "1d28ab3c5e9e1c766bca96974e24cc20ac5c02f2442a80708ba9e654142fe005"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/micro/L0-FORCE-SECOND/candidate-config.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/micro/L0-FORCE-SECOND/candidate-config.json",
+      "bytes": 4088,
+      "sha256": "2cfeba1d1e8441e1ba8f8ac3d8a1daf9df646a5bd8ed869a222a1a96f2927eaa"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/micro/L0-FORCE-SECOND/results.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/micro/L0-FORCE-SECOND/results.json",
+      "bytes": 10456,
+      "sha256": "c9b5069457a3037395f4102a171c5a90563e8995d79444a7301332ddab666cce"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/micro/L1-FORCE-SECOND-SPLIT/candidate-config.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/micro/L1-FORCE-SECOND-SPLIT/candidate-config.json",
+      "bytes": 4124,
+      "sha256": "d6928cec386827e489761cdeb04196e865c8d6e35d3e3a07efe93b8edcaf06c7"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/micro/L1-FORCE-SECOND-SPLIT/results.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/micro/L1-FORCE-SECOND-SPLIT/results.json",
+      "bytes": 10491,
+      "sha256": "a06a29b3ab5d40bc7c527afa2ca45ad5a35990cc9c3d35c7fce0f8ba397b3817"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/micro/L1-SPLITMTP/candidate-config.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/micro/L1-SPLITMTP/candidate-config.json",
+      "bytes": 4093,
+      "sha256": "4815636f76f933a580ca19940e9808b090507db055fd5a63dfdb16c9a2482430"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/micro/L1-SPLITMTP/results.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/micro/L1-SPLITMTP/results.json",
+      "bytes": 17961,
+      "sha256": "d1e8c78daed9f4d5a73a7aba9834c80e2e5062360cc1ce5bc856ee474a3dbf10"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/micro/L1-verify/candidate-config.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/micro/L1-verify/candidate-config.json",
+      "bytes": 4093,
+      "sha256": "4815636f76f933a580ca19940e9808b090507db055fd5a63dfdb16c9a2482430"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/micro/L1-verify/results.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/micro/L1-verify/results.json",
+      "bytes": 10447,
+      "sha256": "b0c6ab314b66db37ca1ac7d83943c29dcfa3dd9b6644055bcdd182e3f133246e"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/micro/L2-MTPSTAGE0/candidate-config.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/micro/L2-MTPSTAGE0/candidate-config.json",
+      "bytes": 4088,
+      "sha256": "a7a5a3dabf6bc06be61fd98aedc60182afd7bc71d3a7746348614774eb9e7923"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/micro/L2-MTPSTAGE0/results.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/micro/L2-MTPSTAGE0/results.json",
+      "bytes": 17905,
+      "sha256": "f64afbcf00d309a9dd837cfdc647dca6e28b6edb3be722cc381d0a9fb41c692f"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/micro/PIPE1/candidate-config.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/micro/PIPE1/candidate-config.json",
+      "bytes": 4090,
+      "sha256": "64a3b50ecdd23c8377dfe84c8c70d74600269fc3038a03dbfad38d035eb8dfd0"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/micro/PIPE1/results.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/micro/PIPE1/results.json",
+      "bytes": 10422,
+      "sha256": "c317a4317f2a139f3b9dff767b9eec70313bddcdfeb4b42291c937ccc354e1d8"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/micro/PIPE1536/candidate-config.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/micro/PIPE1536/candidate-config.json",
+      "bytes": 4093,
+      "sha256": "3958c7e282f4134c4773a7a3a13251392211d3ba9c11a4bb582e44fed9fa927f"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/micro/PIPE1536/results.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/micro/PIPE1536/results.json",
+      "bytes": 10428,
+      "sha256": "2466d5795bcf9047d8a37fc38da8f308fb9d6a39f920817bc42615a4a94773cb"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/micro/PIPE6144/candidate-config.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/micro/PIPE6144/candidate-config.json",
+      "bytes": 4093,
+      "sha256": "3bb76acf7e670ec17c20ef5ae029af317912d9c921a6b3bfe805d99b53657629"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/micro/PIPE6144/results.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/micro/PIPE6144/results.json",
+      "bytes": 10468,
+      "sha256": "1d45db7601b52efb00590d9affa72594d0cdb30d2e1b09435aa52b130d376db1"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/micro/S0/candidate-config.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/micro/S0/candidate-config.json",
+      "bytes": 4188,
+      "sha256": "137a519ef2c8dc98f7b362e50078d63cbf30c3ae77e31e23c8a5a6177130778c"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/micro/S0/results.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/micro/S0/results.json",
+      "bytes": 10379,
+      "sha256": "7ad4b40b04c7a98b944b145237e751b261c10da681f6621f5f86ef7c337cd871"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/micro/SPEC30/candidate-config.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/micro/SPEC30/candidate-config.json",
+      "bytes": 4058,
+      "sha256": "2c4e61dc039a70f051f9995a9090f3c87fe96a88448f228d364ea923296c9b80"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/micro/SPEC30/results.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/micro/SPEC30/results.json",
+      "bytes": 10405,
+      "sha256": "c0482b255d3680e1161299e75b2928a9d995340fbf89e3b8099c898c7a72b6f1"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/micro/SPEC70/candidate-config.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/micro/SPEC70/candidate-config.json",
+      "bytes": 4058,
+      "sha256": "7b4781cf84f58f82ec5d3b37cc93d2d1f966a8cfb10b7d1c141208d4f8a1dc95"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/micro/SPEC70/results.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/micro/SPEC70/results.json",
+      "bytes": 10441,
+      "sha256": "b684adfc2b1ed17f826b901d230269ecf8981f8d7baa211882b1d8ffbfbe6295"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/pairwise.csv",
+      "source": "outputs/Strata-Hermes-nightly-20261020/pairwise.csv",
+      "bytes": 632,
+      "sha256": "080bdcc2716171da6b6e47ff0e08c75e60d85f5925c40ebc55660b959d0229ee"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/power/results.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/power/results.json",
+      "bytes": 61830,
+      "sha256": "e6f481c4a3c712d176ce13a6b466737d5ba2bb73e66c642ac2ed4c1cc239436e"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/suite-manifest.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/suite-manifest.json",
+      "bytes": 3118,
+      "sha256": "191ac7e7ecad72ffd2ed86d3123d9f088ef2f2caaafa62982bc9efa2b98ee28d"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/README.md",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/README.md",
+      "bytes": 409,
+      "sha256": "2381fe80650bf757d8084e227f7a406372d07170c842fa9e925d9ad369018901"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T1-a/expected.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T1-a/expected.json",
+      "bytes": 738,
+      "sha256": "71cb5721b0c76d76fbbe9036e9dfb1721c84ff3bbbd50d71a9f70490858d2c47"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T1-a/prompt.txt",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T1-a/prompt.txt",
+      "bytes": 693,
+      "sha256": "183e4a853991015970c9d372522ff1b3a235a0085b929ec45c99e8fd4a857f4b"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T1-a/workspace/transactions.csv",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T1-a/workspace/transactions.csv",
+      "bytes": 1483,
+      "sha256": "a4acf0ef9bcb53d2073aa699b84f9a203663e29c6a2a3904ac846f2592427cb1"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T1-b/expected.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T1-b/expected.json",
+      "bytes": 740,
+      "sha256": "e6b77c78390cc369b4bed9dfb1a323412f8d1fe1d972fc39e52def3e2ee08b68"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T1-b/prompt.txt",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T1-b/prompt.txt",
+      "bytes": 693,
+      "sha256": "183e4a853991015970c9d372522ff1b3a235a0085b929ec45c99e8fd4a857f4b"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T1-b/workspace/transactions.csv",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T1-b/workspace/transactions.csv",
+      "bytes": 1562,
+      "sha256": "df3ed9d88643164a3947560cb0bea11847d73e0a89136b5d8c52f16bf57c3a9e"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T2-a/expected.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T2-a/expected.json",
+      "bytes": 875,
+      "sha256": "7b9f3be4e1aa8f6dc4518cba3cdfc4f9407b162444a121578897ba06dec51508"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T2-a/prompt.txt",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T2-a/prompt.txt",
+      "bytes": 621,
+      "sha256": "55515ec3d8d66d1c1335fc128c18c1b83282520a18b5fb0ab3c4842d45c8c863"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T2-a/workspace/sales.db",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T2-a/workspace/sales.db",
+      "bytes": 16384,
+      "sha256": "7f89f4e630421cdbeef2253206f1f2282519fb8da11041cfa9669bbe30038e57"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T2-b/expected.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T2-b/expected.json",
+      "bytes": 878,
+      "sha256": "991ac1056c3a6808614ad53c703fa6b6adaebebf3d81e3a0d7012301593c4a46"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T2-b/prompt.txt",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T2-b/prompt.txt",
+      "bytes": 621,
+      "sha256": "55515ec3d8d66d1c1335fc128c18c1b83282520a18b5fb0ab3c4842d45c8c863"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T2-b/workspace/sales.db",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T2-b/workspace/sales.db",
+      "bytes": 16384,
+      "sha256": "9fde6f83777da813873866599b5c7a210c6d52c0296ad9cf361586c63aab6e21"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T3-a/expected.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T3-a/expected.json",
+      "bytes": 22,
+      "sha256": "e968ddc20ff136acf9abecf6a34a12a38633a38b82f95dc0ffb79a13c2a0d062"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T3-a/prompt.txt",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T3-a/prompt.txt",
+      "bytes": 669,
+      "sha256": "627b65690c068729ce433cdc7bf33b03fd98c06bd4d07d84d616883d00607b53"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T3-a/workspace/intervals.py",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T3-a/workspace/intervals.py",
+      "bytes": 447,
+      "sha256": "d029e971de0fab52f62308435eabd8f175aa21389a7b4cc55d00e7e31d04e513"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T3-a/workspace/public_test.py",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T3-a/workspace/public_test.py",
+      "bytes": 213,
+      "sha256": "2d1d06f43b6c95d183c31c12f79e9f88e28044d2d6ebbc781a0d973a4431e0b1"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T3-b/expected.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T3-b/expected.json",
+      "bytes": 22,
+      "sha256": "e968ddc20ff136acf9abecf6a34a12a38633a38b82f95dc0ffb79a13c2a0d062"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T3-b/prompt.txt",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T3-b/prompt.txt",
+      "bytes": 669,
+      "sha256": "627b65690c068729ce433cdc7bf33b03fd98c06bd4d07d84d616883d00607b53"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T3-b/workspace/intervals.py",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T3-b/workspace/intervals.py",
+      "bytes": 447,
+      "sha256": "d029e971de0fab52f62308435eabd8f175aa21389a7b4cc55d00e7e31d04e513"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T3-b/workspace/public_test.py",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T3-b/workspace/public_test.py",
+      "bytes": 213,
+      "sha256": "2d1d06f43b6c95d183c31c12f79e9f88e28044d2d6ebbc781a0d973a4431e0b1"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T3-hidden-tests.py",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T3-hidden-tests.py",
+      "bytes": 1395,
+      "sha256": "8824e8230a878f6137e6fc82825fc37a03b33647883b32df78bbbcf9f4213956"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T4-a/expected.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T4-a/expected.json",
+      "bytes": 419,
+      "sha256": "4d543240933b2bb3a89bd5997ab680941c2229f2af7e4d57194f2a291d57a36a"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T4-a/prompt.txt",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T4-a/prompt.txt",
+      "bytes": 627,
+      "sha256": "8a5dc1106c4d8e0c5700f60e0061c7d0a7f5fe5f9f336c408a3ceb712e1ee5e9"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T4-a/workspace/config-old.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T4-a/workspace/config-old.json",
+      "bytes": 388,
+      "sha256": "6d131c1d1c5de3d1aeb25d9da0e472d3d5930580ee01490d384a87eb387743c5"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T4-b/expected.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T4-b/expected.json",
+      "bytes": 419,
+      "sha256": "134939cdfb60333cf453883eca4b0e65c0366be4ed9b656c91e3f71efe35a07d"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T4-b/prompt.txt",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T4-b/prompt.txt",
+      "bytes": 627,
+      "sha256": "8a5dc1106c4d8e0c5700f60e0061c7d0a7f5fe5f9f336c408a3ceb712e1ee5e9"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T4-b/workspace/config-old.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T4-b/workspace/config-old.json",
+      "bytes": 388,
+      "sha256": "41b4e84a4d728c400192add4471fa5aed4c4b5848e341025d5b88be57fe5e89e"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T5-a/expected.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T5-a/expected.json",
+      "bytes": 293,
+      "sha256": "fdd0594e4452c32b3e7a7eae7f45ce37133cc17f6c7570204875d3fa4fc72da4"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T5-a/prompt.txt",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T5-a/prompt.txt",
+      "bytes": 777,
+      "sha256": "a8774aa7f02c0d51c13bd400155169ef9ab5c3512ddabf1494bf5701d439f0f5"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T5-a/workspace/edge.log",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T5-a/workspace/edge.log",
+      "bytes": 78,
+      "sha256": "6df189480e5d87811e64d1c61326b11f4aeb50dfbce74b3a25cb839b02d6f62e"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T5-a/workspace/gateway.log",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T5-a/workspace/gateway.log",
+      "bytes": 155,
+      "sha256": "185715b0c514f279ba7304f727d20c898e44a75838ea9a8d559f80d5a7d50c45"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T5-a/workspace/orders.log",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T5-a/workspace/orders.log",
+      "bytes": 163,
+      "sha256": "347120e66c83b4cb346634a82e3cf7cbbd7dff43f7c43fc9cc65e01729231768"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T5-a/workspace/payments.log",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T5-a/workspace/payments.log",
+      "bytes": 175,
+      "sha256": "5d2540fab1ab994807caecab4a90950561fa9100bda1f188131802faea3ee0cd"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T5-b/expected.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T5-b/expected.json",
+      "bytes": 293,
+      "sha256": "a671f0267af61b7ef7d4f2c6d63d5bb58070f08e8d8881f276033316ccf8fb6e"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T5-b/prompt.txt",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T5-b/prompt.txt",
+      "bytes": 777,
+      "sha256": "8c549347821d9f051beb10d59c756c405b2ad88ccfdd44ca279d9c904ab25e9c"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T5-b/workspace/edge.log",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T5-b/workspace/edge.log",
+      "bytes": 78,
+      "sha256": "358166fe1d45bd73d3497ae055fabd774dad5037220580cf00307b86b1ad0765"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T5-b/workspace/gateway.log",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T5-b/workspace/gateway.log",
+      "bytes": 155,
+      "sha256": "9012968fb29608acb983ca64bac9c9c23eccac4fd1dffc7b3acc1b318e461237"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T5-b/workspace/orders.log",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T5-b/workspace/orders.log",
+      "bytes": 163,
+      "sha256": "2f980b229151fe77595ab5d8fe70560db024c45c7cc81716165dbc615deaa193"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T5-b/workspace/payments.log",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T5-b/workspace/payments.log",
+      "bytes": 175,
+      "sha256": "2692b95afc97318c78fd9a618aacf7aaaa04c7c67dd791598c7498ca3ecc16ff"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T6-a/expected.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T6-a/expected.json",
+      "bytes": 258,
+      "sha256": "89cf0e9521e18cd7552093c5283bb27e1ee54ad498da13ae73bf474d0359ca65"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T6-a/prompt1.txt",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T6-a/prompt1.txt",
+      "bytes": 306,
+      "sha256": "fdf7ba3ecebcc28ee31839eb75822fe8596ca315ea8a8c7905b33db7ad337571"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T6-a/prompt2.txt",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T6-a/prompt2.txt",
+      "bytes": 237,
+      "sha256": "25eff3bc0aff514a99cb64e9b2f33aff48f6e9c79304a49b41c238bed2ef57dc"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T6-a/prompt3.txt",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T6-a/prompt3.txt",
+      "bytes": 225,
+      "sha256": "69166e9ba95f32ac9cfb4cf7c7949001c621049afe593c1e0dd4c9417704c205"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T6-a/workspace/changes2.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T6-a/workspace/changes2.json",
+      "bytes": 151,
+      "sha256": "35856404ed37b9bbf9690bff134e9ac6eba53835a6c7892a3377c7d2b3954357"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T6-a/workspace/correction3.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T6-a/workspace/correction3.json",
+      "bytes": 42,
+      "sha256": "5e37cc577ee28c4fce7b4962d49529dfd654d712b1fbe4a3ed617082c9932698"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T6-a/workspace/seed.csv",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T6-a/workspace/seed.csv",
+      "bytes": 134,
+      "sha256": "783b7f7cc71873b48a372fa8618edaa983211cf91ba81d409ae52fcd6d2acc96"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T6-b/expected.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T6-b/expected.json",
+      "bytes": 258,
+      "sha256": "89cf0e9521e18cd7552093c5283bb27e1ee54ad498da13ae73bf474d0359ca65"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T6-b/prompt1.txt",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T6-b/prompt1.txt",
+      "bytes": 306,
+      "sha256": "fdf7ba3ecebcc28ee31839eb75822fe8596ca315ea8a8c7905b33db7ad337571"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T6-b/prompt2.txt",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T6-b/prompt2.txt",
+      "bytes": 237,
+      "sha256": "25eff3bc0aff514a99cb64e9b2f33aff48f6e9c79304a49b41c238bed2ef57dc"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T6-b/prompt3.txt",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T6-b/prompt3.txt",
+      "bytes": 225,
+      "sha256": "69166e9ba95f32ac9cfb4cf7c7949001c621049afe593c1e0dd4c9417704c205"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T6-b/workspace/changes2.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T6-b/workspace/changes2.json",
+      "bytes": 151,
+      "sha256": "35856404ed37b9bbf9690bff134e9ac6eba53835a6c7892a3377c7d2b3954357"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T6-b/workspace/correction3.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T6-b/workspace/correction3.json",
+      "bytes": 42,
+      "sha256": "5e37cc577ee28c4fce7b4962d49529dfd654d712b1fbe4a3ed617082c9932698"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/T6-b/workspace/seed.csv",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/T6-b/workspace/seed.csv",
+      "bytes": 134,
+      "sha256": "783b7f7cc71873b48a372fa8618edaa983211cf91ba81d409ae52fcd6d2acc96"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/task-examples/manifest.json",
+      "source": "outputs/Strata-Hermes-nightly-20261020/task-examples/manifest.json",
+      "bytes": 5482,
+      "sha256": "c81ecb74ff4943df880480d337e8f49de750df420dfb5f80bb7929f086720e43"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/夜间测试报告.html",
+      "source": "outputs/Strata-Hermes-nightly-20261020/夜间测试报告.html",
+      "bytes": 130387,
+      "sha256": "a3cd64203e4bee359e32c9ad3bbe55381e106a28e950281149aad383aca0cb36"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/夜间测试报告.md",
+      "source": "outputs/Strata-Hermes-nightly-20261020/夜间测试报告.md",
+      "bytes": 91169,
+      "sha256": "6de7482cd954c4af317f7c1de7d3756dc25e5feccc5fd4dd3baf6c6475e01f63"
+    },
+    {
+      "path": "outputs/Strata-Hermes-nightly-20261020/待追测清单.md",
+      "source": "outputs/Strata-Hermes-nightly-20261020/待追测清单.md",
+      "bytes": 12416,
+      "sha256": "8842b5f586747c699f3e58ff77039558b7b15aaa1549bb8778e47ba097a73160"
+    },
+    {
+      "path": "outputs/Strata-Hermes-夜间调优执行方案-20261020.md",
+      "source": "outputs/Strata-Hermes-夜间调优执行方案-20261020.md",
+      "bytes": 24105,
+      "sha256": "e40ea1ea101e3bdeba34a22639032c4176a970a6152aaecdf0b164b56e5079de"
+    },
+    {
+      "path": "outputs/Strata-five-arm-20261015/Strata五组参数测试报告-20261015.html",
+      "source": "outputs/Strata-five-arm-20261015/Strata五组参数测试报告-20261015.html",
+      "bytes": 15105,
+      "sha256": "6699139d13d75e9fc418772125bd36abf0a552c18b5ab80df35693c5b70dca23"
+    },
+    {
+      "path": "outputs/Strata-five-arm-20261015/campaign.json",
+      "source": "outputs/Strata-five-arm-20261015/campaign.json",
+      "bytes": 219186,
+      "sha256": "9b5962519a78baa93997e6ebd6b21a0cc0ebf60a0fc842313735cc836c413c03"
+    },
+    {
+      "path": "outputs/Strata-five-arm-20261015/generate_report.py",
+      "source": "outputs/Strata-five-arm-20261015/generate_report.py",
+      "bytes": 13338,
+      "sha256": "262f9bcd57cab5e049bd487e34335b32b0ca623e19a855a2a64502ab62c0a97a"
+    },
+    {
+      "path": "outputs/Strata-five-arm-20261015/summary.json",
+      "source": "outputs/Strata-five-arm-20261015/summary.json",
+      "bytes": 4991,
+      "sha256": "5ffb166965e4dd336f03d9f103a09347b69c42bf15b9c3c2f3d51253f28ffc24"
+    },
+    {
+      "path": "outputs/Strata-hnorm-stream测试-20261014.md",
+      "source": "outputs/Strata-hnorm-stream测试-20261014.md",
+      "bytes": 7261,
+      "sha256": "cb6ec73b0a0d1293ed5ebe9f3d35d4c865727f6d5d27d45f74d05b4660132bfe"
+    },
+    {
+      "path": "outputs/Strata-推理调优-20261019-数据.json",
+      "source": "outputs/Strata-推理调优-20261019-数据.json",
+      "bytes": 46776,
+      "sha256": "8c5c7e6fb70583737d7fcf6d944f585564e8b57c68fd3406b7da878617f745be"
+    },
+    {
+      "path": "outputs/Strata-推理调优-20261019.html",
+      "source": "outputs/Strata-推理调优-20261019.html",
+      "bytes": 2114547,
+      "sha256": "4fa956a248c733ffd32278246340331897cfeb8e9d8521fafb6eeba173265e01"
+    },
+    {
+      "path": "outputs/Strata-服务质量-20261019-数据.json",
+      "source": "outputs/Strata-服务质量-20261019-数据.json",
+      "bytes": 4262,
+      "sha256": "054df10bdc52203d37a8fd4d2e459fc37ec88b990aa86834406e34def0fe216b"
+    },
+    {
+      "path": "outputs/Strata-服务质量-20261019.html",
+      "source": "outputs/Strata-服务质量-20261019.html",
+      "bytes": 43951,
+      "sha256": "2aebda5124d7908abfc1d4117c9a4b4bf64a9dc8d9340490f4f70b1bc510b9b7"
+    },
+    {
+      "path": "outputs/Strata15workers绑核对照报告.md",
+      "source": "outputs/Strata15workers绑核对照报告.md",
+      "bytes": 3129,
+      "sha256": "f66ca49777bdc73d7121b1bec952d4adc48b66adcfff2fb559ab96203a7b830f"
+    },
+    {
+      "path": "outputs/Strata_Turing固定分层复核.md",
+      "source": "outputs/Strata_Turing固定分层复核.md",
+      "bytes": 2887,
+      "sha256": "7446f42678e09e03713866e2c853125f263bebdd63664b2ca41e372af3d3923c"
+    },
+    {
+      "path": "outputs/Strata不绑核workers正式测试报告.md",
+      "source": "outputs/Strata不绑核workers正式测试报告.md",
+      "bytes": 4257,
+      "sha256": "b4d81a8d0dbcb0deb23465924ed7b4c44d42224ef6b6b4a0d4c56ffe0e270d9a"
+    },
+    {
+      "path": "outputs/Strata双客户端补测-20261015/README.md",
+      "source": "outputs/Strata双客户端补测-20261015/README.md",
+      "bytes": 2960,
+      "sha256": "4918dc6c1166da1a14e33b3a6224e5644f3fe78f9c4b2b98490511af5f04d063"
+    },
+    {
+      "path": "outputs/Strata并发能力测试报告.md",
+      "source": "outputs/Strata并发能力测试报告.md",
+      "bytes": 6113,
+      "sha256": "db4960108ede443fee899c807d5619afb392bdb5cf8afde95a585a701123e5a8"
+    },
+    {
+      "path": "outputs/Strata调优总记录-20261014.md",
+      "source": "outputs/Strata调优总记录-20261014.md",
+      "bytes": 41372,
+      "sha256": "0297672ec6a27a19af029a8d3a472b172b634b36003837b5fe610de49eab8b81"
+    },
+    {
+      "path": "outputs/Strata长上下文对比-20261015/README.md",
+      "source": "outputs/Strata长上下文对比-20261015/README.md",
+      "bytes": 1831,
+      "sha256": "cdbdb5af5eef542f6c93914c833c19ffb19f2451526bae268cba5dc0691c0fae"
+    },
+    {
+      "path": "outputs/Strata长上下文对比-20261015/Strata长上下文性能对比.html",
+      "source": "outputs/Strata长上下文对比-20261015/Strata长上下文性能对比.html",
+      "bytes": 4377985,
+      "sha256": "32811297f836dd36a071d27c71b9b341642b8ee9241cd1fc47f47b3bdef7ff24"
+    },
+    {
+      "path": "outputs/Strata长上下文对比-20261015/campaign.json",
+      "source": "outputs/Strata长上下文对比-20261015/campaign.json",
+      "bytes": 251157,
+      "sha256": "13cf9ec2899f4da72f5e7b0e092636589dcb74935f071e851b2e755906316780"
+    },
+    {
+      "path": "outputs/Strata长上下文对比-20261015/charts/accept-all.svg",
+      "source": "outputs/Strata长上下文对比-20261015/charts/accept-all.svg",
+      "bytes": 18079,
+      "sha256": "350408e8d64cbd647657e917a9cafff6b18b5d8d4424e288c5f33d713568ea0d"
+    },
+    {
+      "path": "outputs/Strata长上下文对比-20261015/charts/accept-local.svg",
+      "source": "outputs/Strata长上下文对比-20261015/charts/accept-local.svg",
+      "bytes": 16333,
+      "sha256": "cca9b72ecac9ff53a095e0b15693fbeda8f58e245319e73dc30fd90e98adee3d"
+    },
+    {
+      "path": "outputs/Strata长上下文对比-20261015/charts/api_prefill-all.svg",
+      "source": "outputs/Strata长上下文对比-20261015/charts/api_prefill-all.svg",
+      "bytes": 18365,
+      "sha256": "0306c7cb6b3a0a1346ddd6c53b7ec2ccc7166eeb6d1a41749bca229a695d8860"
+    },
+    {
+      "path": "outputs/Strata长上下文对比-20261015/charts/api_prefill-local.svg",
+      "source": "outputs/Strata长上下文对比-20261015/charts/api_prefill-local.svg",
+      "bytes": 16562,
+      "sha256": "65115c7f29b37013f4e23f3312eb0d5cef437e01b5e18d890f54980280c22336"
+    },
+    {
+      "path": "outputs/Strata长上下文对比-20261015/charts/decode-all.png",
+      "source": "outputs/Strata长上下文对比-20261015/charts/decode-all.png",
+      "bytes": 27786,
+      "sha256": "8a3f5f9d329dba113646d5ed37e29ecd508bfe83e6ece9d93e2ec5ad4301f17b"
+    },
+    {
+      "path": "outputs/Strata长上下文对比-20261015/charts/decode-all.svg",
+      "source": "outputs/Strata长上下文对比-20261015/charts/decode-all.svg",
+      "bytes": 25466,
+      "sha256": "1676b52fbdff080427e6cb8cbad3759929cb102bebaf92bbe626b1eb97398c25"
+    },
+    {
+      "path": "outputs/Strata长上下文对比-20261015/charts/decode-local.svg",
+      "source": "outputs/Strata长上下文对比-20261015/charts/decode-local.svg",
+      "bytes": 15970,
+      "sha256": "a4072449f74f75757ce74cd64740d3c08e697ec0c58426d4e22e2330c2f76871"
+    },
+    {
+      "path": "outputs/Strata长上下文对比-20261015/charts/prefill-all.png",
+      "source": "outputs/Strata长上下文对比-20261015/charts/prefill-all.png",
+      "bytes": 35145,
+      "sha256": "f62b89b8dc99bb4f40c95aa2297a7a631b8281f1f59c71dbd9697aba60f85f5f"
+    },
+    {
+      "path": "outputs/Strata长上下文对比-20261015/charts/prefill-all.svg",
+      "source": "outputs/Strata长上下文对比-20261015/charts/prefill-all.svg",
+      "bytes": 26166,
+      "sha256": "ceef49f018ee28aae00b4d9259020dc6e73ac3adbaf6c0413ff7d7943917c1c6"
+    },
+    {
+      "path": "outputs/Strata长上下文对比-20261015/charts/prefill-local.svg",
+      "source": "outputs/Strata长上下文对比-20261015/charts/prefill-local.svg",
+      "bytes": 16445,
+      "sha256": "f203796d4dfc843780f9447548ac662f5ee88378555b9e67f414cd4a7d60fdcc"
+    },
+    {
+      "path": "outputs/Strata长上下文对比-20261015/charts/ttft-all.svg",
+      "source": "outputs/Strata长上下文对比-20261015/charts/ttft-all.svg",
+      "bytes": 18299,
+      "sha256": "6cf487e31cdf7f1e8fc41f76ce596edeeda1eae42d212f0a30d762eb334257cf"
+    },
+    {
+      "path": "outputs/Strata长上下文对比-20261015/charts/ttft-local.svg",
+      "source": "outputs/Strata长上下文对比-20261015/charts/ttft-local.svg",
+      "bytes": 16497,
+      "sha256": "98113b6ed65374ef79b5fcc92adcd9bbcab56629350df080135a0fbeab7f363f"
+    },
+    {
+      "path": "outputs/Strata长上下文对比-20261015/comparison-data.json",
+      "source": "outputs/Strata长上下文对比-20261015/comparison-data.json",
+      "bytes": 43372,
+      "sha256": "54f886d79cd656407a6e768c03223f3956ae12558fc7a339a6a55970e3865fc5"
+    },
+    {
+      "path": "outputs/Strata长上下文对比-20261015/generate_report.py",
+      "source": "outputs/Strata长上下文对比-20261015/generate_report.py",
+      "bytes": 37920,
+      "sha256": "0e71be4dd17c096eb347d23338241425908668508a82ff254a939e7d80453491"
+    },
+    {
+      "path": "outputs/Strata长上下文对比-20261015/local-requests.csv",
+      "source": "outputs/Strata长上下文对比-20261015/local-requests.csv",
+      "bytes": 7421,
+      "sha256": "cb70f715c31f4deb4e2257e9bcde0012fa072b126f2a68049d8d56eaa0b23536"
+    },
+    {
+      "path": "outputs/Strata长上下文对比-20261015/restore-verification.json",
+      "source": "outputs/Strata长上下文对比-20261015/restore-verification.json",
+      "bytes": 900,
+      "sha256": "674f64ad9e51ed5efaaafb9079723bca652b3081d359bf96fd8355af8c57e2e2"
+    },
+    {
+      "path": "outputs/Strata长上下文对比-20261015/sources/2690v4-网友测速表.png",
+      "source": "outputs/Strata长上下文对比-20261015/sources/2690v4-网友测速表.png",
+      "bytes": 94376,
+      "sha256": "b101350b57de2d4bb76ef430dff8c66d9344c583c73c382ef20fb72f640f6f64"
+    },
+    {
+      "path": "outputs/Strata长上下文对比-20261015/sources/2690v4-网友评论.txt",
+      "source": "outputs/Strata长上下文对比-20261015/sources/2690v4-网友评论.txt",
+      "bytes": 538,
+      "sha256": "7501ac151fe938fe8f31c0147af497b050c4e87a764bc89dbbce536b64200b25"
+    },
+    {
+      "path": "outputs/Strata长上下文对比-20261015/sources/7945HX-作者全长曲线.png",
+      "source": "outputs/Strata长上下文对比-20261015/sources/7945HX-作者全长曲线.png",
+      "bytes": 1536826,
+      "sha256": "af61089f914e215f69862e8769859f81e7ef252d7ca9f8c173179283a9981c84"
+    },
+    {
+      "path": "outputs/Strata长上下文对比-20261015/sources/7945HX-作者硬件配置.png",
+      "source": "outputs/Strata长上下文对比-20261015/sources/7945HX-作者硬件配置.png",
+      "bytes": 1487885,
+      "sha256": "f64f31d72cf5bf1b277394456acd80414fdd01ff083cc12b9d132d3537ed23b2"
+    },
+    {
+      "path": "outputs/Strata长上下文对比-20261015/sources/old-guide-page-01.txt",
+      "source": "outputs/Strata长上下文对比-20261015/sources/old-guide-page-01.txt",
+      "bytes": 2381,
+      "sha256": "21d81010979e315beb192e0ffd9c7963e862bc831591ffb8e83d6591ebdb51ba"
+    },
+    {
+      "path": "outputs/Strata长上下文对比-20261015/sources/old-guide-page-04.txt",
+      "source": "outputs/Strata长上下文对比-20261015/sources/old-guide-page-04.txt",
+      "bytes": 2973,
+      "sha256": "27557267016933a05224d3ba27ff80364bbd82b813a163bfb7db9ad2eb7959d3"
+    },
+    {
+      "path": "outputs/Strata长上下文对比-20261015/sources/page-01.txt",
+      "source": "outputs/Strata长上下文对比-20261015/sources/page-01.txt",
+      "bytes": 2564,
+      "sha256": "30e308d0b716712f228119d7b5ca00b106b5f60f7fad935807af6771800ed500"
+    },
+    {
+      "path": "outputs/Strata长上下文对比-20261015/sources/page-05.txt",
+      "source": "outputs/Strata长上下文对比-20261015/sources/page-05.txt",
+      "bytes": 2904,
+      "sha256": "8782662347a5bcea17ea2ba246c4a590b6b4523817f6f74304f7f9607a479f92"
+    },
+    {
+      "path": "outputs/Strata长上下文对比-20261015/sources/page-06.txt",
+      "source": "outputs/Strata长上下文对比-20261015/sources/page-06.txt",
+      "bytes": 2877,
+      "sha256": "8ed4ffaa190351aba64bf2fc3fbe960c694470477e20b387d61b12b2ce03758b"
+    },
+    {
+      "path": "outputs/Strata长上下文对比-20261015/sources/page-07.txt",
+      "source": "outputs/Strata长上下文对比-20261015/sources/page-07.txt",
+      "bytes": 271,
+      "sha256": "185fa58e0d20877a07edf992926e9d57ea7f06f4b505cbe477e465adb8f43df0"
+    },
+    {
+      "path": "outputs/cleanup-inventory-20261015/清理完成.md",
+      "source": "outputs/cleanup-inventory-20261015/清理完成.md",
+      "bytes": 1297,
+      "sha256": "8ff1871faafbee808472d57897d010652563f9bce7ccb88df87a55bc63cbaa52"
+    },
+    {
+      "path": "outputs/huihui-iq4xs-engine-20261019/active-compose.yaml",
+      "source": "outputs/huihui-iq4xs-engine-20261019/active-compose.yaml",
+      "bytes": 1081,
+      "sha256": "dadfbaf4759aa09f0617ed20f20ecb6d7a0d9a6017a3577f335af266badd2824"
+    },
+    {
+      "path": "outputs/huihui-iq4xs-engine-20261019/active-config.json",
+      "source": "outputs/huihui-iq4xs-engine-20261019/active-config.json",
+      "bytes": 3961,
+      "sha256": "429f3f9408a9870fb364935346700da609d2442bcbf52ad2ff973b4b9d0fe5d7"
+    },
+    {
+      "path": "outputs/huihui-iq4xs-engine-20261019/aggregate-p90-correction.json",
+      "source": "outputs/huihui-iq4xs-engine-20261019/aggregate-p90-correction.json",
+      "bytes": 3170,
+      "sha256": "8cc4ebcb7a9d2d1832994754c3a99fea6d32870c0de5b86637ecdca20eaefb94"
+    },
+    {
+      "path": "outputs/huihui-iq4xs-engine-20261019/final-verification.json",
+      "source": "outputs/huihui-iq4xs-engine-20261019/final-verification.json",
+      "bytes": 3470,
+      "sha256": "8d8c95510ac541f1c8fba9fd5708b7c98a6515d1500bda0c7c612ff8c685bf21"
+    },
+    {
+      "path": "outputs/huihui-iq4xs-engine-20261019/measurements.csv",
+      "source": "outputs/huihui-iq4xs-engine-20261019/measurements.csv",
+      "bytes": 2453,
+      "sha256": "70acfd2144451cde1dc68f277cde7843a4bedc3531d935450ffea8e6642b0c3a"
+    },
+    {
+      "path": "outputs/huihui-iq4xs-engine-20261019/results.json",
+      "source": "outputs/huihui-iq4xs-engine-20261019/results.json",
+      "bytes": 762061,
+      "sha256": "72b2f66df8f0f0e2b299777136b5a8d1a38c26cd572308884ca9da1931a3905c"
+    },
+    {
+      "path": "outputs/huihui-iq4xs-engine-20261019/summary.json",
+      "source": "outputs/huihui-iq4xs-engine-20261019/summary.json",
+      "bytes": 716,
+      "sha256": "bff3ee15e4f791982416712daf72350cc59d4cd8ab9c017a6b20ecf6929bffa6"
+    },
+    {
+      "path": "outputs/huihui-iq4xs-engine-20261019/switch.json",
+      "source": "outputs/huihui-iq4xs-engine-20261019/switch.json",
+      "bytes": 2661,
+      "sha256": "cdf3755fbab24575fcc9614e3198042335f3ddfc251202e1073b7e0e80540423"
+    },
+    {
+      "path": "outputs/huihui-iq4xs-engine-20261019/target-compose.yaml",
+      "source": "outputs/huihui-iq4xs-engine-20261019/target-compose.yaml",
+      "bytes": 1081,
+      "sha256": "dadfbaf4759aa09f0617ed20f20ecb6d7a0d9a6017a3577f335af266badd2824"
+    },
+    {
+      "path": "outputs/huihui-iq4xs-engine-20261019/target-config.json",
+      "source": "outputs/huihui-iq4xs-engine-20261019/target-config.json",
+      "bytes": 3961,
+      "sha256": "429f3f9408a9870fb364935346700da609d2442bcbf52ad2ff973b4b9d0fe5d7"
+    },
+    {
+      "path": "outputs/huihui-iq4xs-engine-20261019/verification-stdout.txt",
+      "source": "outputs/huihui-iq4xs-engine-20261019/verification-stdout.txt",
+      "bytes": 3470,
+      "sha256": "8d8c95510ac541f1c8fba9fd5708b7c98a6515d1500bda0c7c612ff8c685bf21"
+    },
+    {
+      "path": "outputs/huihui-iq4xs-engine-20261019/分析结果.md",
+      "source": "outputs/huihui-iq4xs-engine-20261019/分析结果.md",
+      "bytes": 3748,
+      "sha256": "e94de21743665a822aa6bcaf0b5461a1af022748eb2001d77dababb70e39ba80"
+    },
+    {
+      "path": "outputs/memory-verification-20261015/7282-7452-7443-7R13-7V13比较-20261016.md",
+      "source": "outputs/memory-verification-20261015/7282-7452-7443-7R13-7V13比较-20261016.md",
+      "bytes": 5693,
+      "sha256": "577ed65583a932be5bdecbddd3328d2f635fb7cf1ba6d642eaafca640c7c5c65"
+    },
+    {
+      "path": "outputs/memory-verification-20261015/AS4124-BIOS-Optimized-Defaults-20261016.md",
+      "source": "outputs/memory-verification-20261015/AS4124-BIOS-Optimized-Defaults-20261016.md",
+      "bytes": 7165,
+      "sha256": "fe9880a6e758008ee53f939a44ddedd78edce9e15964d9767254e2fd74374107"
+    },
+    {
+      "path": "outputs/memory-verification-20261015/BIOS-current-20261016.md",
+      "source": "outputs/memory-verification-20261015/BIOS-current-20261016.md",
+      "bytes": 1966,
+      "sha256": "05f399a5c86bd3ddbf5ea67dd41ef5277a8aeea277a9a7bc7037c9a169aa5955"
+    },
+    {
+      "path": "outputs/memory-verification-20261015/DIMM-编号与分组测试计划-20261016.md",
+      "source": "outputs/memory-verification-20261015/DIMM-编号与分组测试计划-20261016.md",
+      "bytes": 8480,
+      "sha256": "a745d1d972a772eee850fc945d2094002817910c016067a4068e037d91e4caa6"
+    },
+    {
+      "path": "outputs/memory-verification-20261015/PE-results-20261016.md",
+      "source": "outputs/memory-verification-20261015/PE-results-20261016.md",
+      "bytes": 3405,
+      "sha256": "9e0e924254f47c63d6e6016f057ca1c8d4c669a415cbbffb5ea31c7aefdd7b7c"
+    },
+    {
+      "path": "outputs/memory-verification-20261015/R730-借测维护状态-20261016.md",
+      "source": "outputs/memory-verification-20261015/R730-借测维护状态-20261016.md",
+      "bytes": 3633,
+      "sha256": "dfbd656ad7a619bd6bfae74166416b3c1148d6ac3d24dba92d0fd8b1404effc4"
+    },
+    {
+      "path": "outputs/memory-verification-20261015/README.md",
+      "source": "outputs/memory-verification-20261015/README.md",
+      "bytes": 6330,
+      "sha256": "a302985a66c00ce10fbbbc970c73710e3d887bad03d9baafb1b93862928048a5"
+    },
+    {
+      "path": "outputs/memory-verification-20261015/cross-rig-review-extracted.txt",
+      "source": "outputs/memory-verification-20261015/cross-rig-review-extracted.txt",
+      "bytes": 11234,
+      "sha256": "1c84e23b35d4842f33dab12908bce0d814b3cc6f21100ca6e5dd28b455219c56"
+    },
+    {
+      "path": "outputs/memory-verification-20261015/research-diagnosis-20261016.md",
+      "source": "outputs/memory-verification-20261015/research-diagnosis-20261016.md",
+      "bytes": 5511,
+      "sha256": "374878daa78335bc89f592134fe8ecca95b3c2cef36c5ea6d1c8f62b79b26a7b"
+    },
+    {
+      "path": "outputs/memory-verification-20261015/research-update-20261016.md",
+      "source": "outputs/memory-verification-20261015/research-update-20261016.md",
+      "bytes": 3833,
+      "sha256": "3d72f56deac647e39cdf25faf4a352fb04371159a1cb8c8b3aa6a8de772e196f"
+    },
+    {
+      "path": "outputs/memory-verification-20261015/uprof-results.md",
+      "source": "outputs/memory-verification-20261015/uprof-results.md",
+      "bytes": 4172,
+      "sha256": "4541a9b5231249a8f1e4c2a0452edfcad5d5d2dc434448be579023f8e6e36309"
+    },
+    {
+      "path": "outputs/memory-verification-20261015/后续验证与采购决策-20261016.md",
+      "source": "outputs/memory-verification-20261015/后续验证与采购决策-20261016.md",
+      "bytes": 12269,
+      "sha256": "d277b71ea0de224a78dda50676539bcf956166bc50a5169ed3556440234d82a6"
+    },
+    {
+      "path": "outputs/numa-affinity-sweep-20261019/测试结果.md",
+      "source": "outputs/numa-affinity-sweep-20261019/测试结果.md",
+      "bytes": 3592,
+      "sha256": "c6bd7fa4b56ad08483fbf1b261e086de0ff12bfdf5464718271333e495a5df5a"
+    },
+    {
+      "path": "outputs/official-parameter-matrix-20261014/official-parameter-matrix-20261014/all-three.log",
+      "source": "outputs/official-parameter-matrix-20261014/official-parameter-matrix-20261014/all-three.log",
+      "bytes": 5267,
+      "sha256": "6b425c9bdb25a7fd15178855d7fdf583a59fab4cacfff1f33a6db88ce71d04bd"
+    },
+    {
+      "path": "outputs/official-parameter-matrix-20261014/official-parameter-matrix-20261014/all-three/2026-10-15-community-2x-rtx-2080-ti-swift-1-5-abliterated-iq3-s-q8ple/README.md",
+      "source": "outputs/official-parameter-matrix-20261014/official-parameter-matrix-20261014/all-three/2026-10-15-community-2x-rtx-2080-ti-swift-1-5-abliterated-iq3-s-q8ple/README.md",
+      "bytes": 4914,
+      "sha256": "1bcb5d54ad7ae231667b5641d4726f821a347f5991e34dde4d9238da1b31ae6e"
+    },
+    {
+      "path": "outputs/official-parameter-matrix-20261014/official-parameter-matrix-20261014/all-three/2026-10-15-community-2x-rtx-2080-ti-swift-1-5-abliterated-iq3-s-q8ple/results.json",
+      "source": "outputs/official-parameter-matrix-20261014/official-parameter-matrix-20261014/all-three/2026-10-15-community-2x-rtx-2080-ti-swift-1-5-abliterated-iq3-s-q8ple/results.json",
+      "bytes": 23200,
+      "sha256": "5a89eecca8f822cafe1e5ecb9a01f48a0250200523688856dc5cb61055b691c1"
+    },
+    {
+      "path": "outputs/official-parameter-matrix-20261014/official-parameter-matrix-20261014/aux-cpus-auto.log",
+      "source": "outputs/official-parameter-matrix-20261014/official-parameter-matrix-20261014/aux-cpus-auto.log",
+      "bytes": 5277,
+      "sha256": "c19836c2d82c761bd85113f9d3abfd5a9f943548df918369a05aba6b6316f518"
+    },
+    {
+      "path": "outputs/official-parameter-matrix-20261014/official-parameter-matrix-20261014/aux-cpus-auto/2026-10-15-community-2x-rtx-2080-ti-swift-1-5-abliterated-iq3-s-q8ple/README.md",
+      "source": "outputs/official-parameter-matrix-20261014/official-parameter-matrix-20261014/aux-cpus-auto/2026-10-15-community-2x-rtx-2080-ti-swift-1-5-abliterated-iq3-s-q8ple/README.md",
+      "bytes": 4883,
+      "sha256": "01e799c6a1767d1cb86531be8a092af762af11f4c502fe3dfd1ae8dc07471171"
+    },
+    {
+      "path": "outputs/official-parameter-matrix-20261014/official-parameter-matrix-20261014/aux-cpus-auto/2026-10-15-community-2x-rtx-2080-ti-swift-1-5-abliterated-iq3-s-q8ple/results.json",
+      "source": "outputs/official-parameter-matrix-20261014/official-parameter-matrix-20261014/aux-cpus-auto/2026-10-15-community-2x-rtx-2080-ti-swift-1-5-abliterated-iq3-s-q8ple/results.json",
+      "bytes": 23158,
+      "sha256": "6f7796ac7e4f9c14575114b4593b965d613f266086850fd3d618d8d5e3f1a321"
+    },
+    {
+      "path": "outputs/official-parameter-matrix-20261014/official-parameter-matrix-20261014/matrix-20261014-234659.json",
+      "source": "outputs/official-parameter-matrix-20261014/official-parameter-matrix-20261014/matrix-20261014-234659.json",
+      "bytes": 130328,
+      "sha256": "1d94979ce0da432ef4bcd120b727381a170448327aac02be435700463ef408e0"
+    },
+    {
+      "path": "outputs/official-parameter-matrix-20261014/official-parameter-matrix-20261014/prefill16384.log",
+      "source": "outputs/official-parameter-matrix-20261014/official-parameter-matrix-20261014/prefill16384.log",
+      "bytes": 5271,
+      "sha256": "b55221f5a2d1601ee75c322d83f7bb5bcba4e599d7db6780947299520a2af597"
+    },
+    {
+      "path": "outputs/official-parameter-matrix-20261014/official-parameter-matrix-20261014/prefill16384/2026-10-15-community-2x-rtx-2080-ti-swift-1-5-abliterated-iq3-s-q8ple/README.md",
+      "source": "outputs/official-parameter-matrix-20261014/official-parameter-matrix-20261014/prefill16384/2026-10-15-community-2x-rtx-2080-ti-swift-1-5-abliterated-iq3-s-q8ple/README.md",
+      "bytes": 4872,
+      "sha256": "0fe5773fd3d96063954aadff7fae8e5c204824f20a63b736d4085af2e741af98"
+    },
+    {
+      "path": "outputs/official-parameter-matrix-20261014/official-parameter-matrix-20261014/prefill16384/2026-10-15-community-2x-rtx-2080-ti-swift-1-5-abliterated-iq3-s-q8ple/results.json",
+      "source": "outputs/official-parameter-matrix-20261014/official-parameter-matrix-20261014/prefill16384/2026-10-15-community-2x-rtx-2080-ti-swift-1-5-abliterated-iq3-s-q8ple/results.json",
+      "bytes": 23118,
+      "sha256": "34c09a14d26cb385ed8416f013b179ac90f220717296c9897e326a0110dc26a0"
+    },
+    {
+      "path": "outputs/official-parameter-matrix-20261014/official-parameter-matrix-20261014/ring384.log",
+      "source": "outputs/official-parameter-matrix-20261014/official-parameter-matrix-20261014/ring384.log",
+      "bytes": 5265,
+      "sha256": "c928c391e6aa9b5c5cd76fbd1a66c2811e3dbf772972d5548ccdc4679d33e0a5"
+    },
+    {
+      "path": "outputs/official-parameter-matrix-20261014/official-parameter-matrix-20261014/ring384/2026-10-14-community-2x-rtx-2080-ti-swift-1-5-abliterated-iq3-s-q8ple/README.md",
+      "source": "outputs/official-parameter-matrix-20261014/official-parameter-matrix-20261014/ring384/2026-10-14-community-2x-rtx-2080-ti-swift-1-5-abliterated-iq3-s-q8ple/README.md",
+      "bytes": 4893,
+      "sha256": "e14b06aae7becb86391df24f4aa31e08bea5798adfed7ee6054cab707c4662e3"
+    },
+    {
+      "path": "outputs/official-parameter-matrix-20261014/official-parameter-matrix-20261014/ring384/2026-10-14-community-2x-rtx-2080-ti-swift-1-5-abliterated-iq3-s-q8ple/results.json",
+      "source": "outputs/official-parameter-matrix-20261014/official-parameter-matrix-20261014/ring384/2026-10-14-community-2x-rtx-2080-ti-swift-1-5-abliterated-iq3-s-q8ple/results.json",
+      "bytes": 23138,
+      "sha256": "6b044d2902633330d9e129795f3cebc4df661aca6a2f71a1b6eb0d4d56f25225"
+    },
+    {
+      "path": "outputs/official-parameter-matrix-20261014/结果摘要.md",
+      "source": "outputs/official-parameter-matrix-20261014/结果摘要.md",
+      "bytes": 4234,
+      "sha256": "6a260031f65d1cc0da66839f6b6b95a27b4acb6973ec25d63f7f95ee2331c8c1"
+    },
+    {
+      "path": "outputs/pcie-performance-20261019/aggregate-p90-correction.json",
+      "source": "outputs/pcie-performance-20261019/aggregate-p90-correction.json",
+      "bytes": 3216,
+      "sha256": "2fac00ff1e2cc517da657eaba6a21fc501945f646988641715180ef678749a1a"
+    },
+    {
+      "path": "outputs/pcie-performance-20261019/measurements.csv",
+      "source": "outputs/pcie-performance-20261019/measurements.csv",
+      "bytes": 2472,
+      "sha256": "4c3356afcbc57f58039cd001fde64ec4f983f3d498e86e42956968e98d789d6a"
+    },
+    {
+      "path": "outputs/pcie-performance-20261019/results.json",
+      "source": "outputs/pcie-performance-20261019/results.json",
+      "bytes": 757787,
+      "sha256": "23ae7846804b8f9a0f305fcb451083975b3ff9633f2218faedc385bb061f0c50"
+    },
+    {
+      "path": "outputs/pcie-performance-20261019/summary.json",
+      "source": "outputs/pcie-performance-20261019/summary.json",
+      "bytes": 648,
+      "sha256": "9d4bd56ee7e56907d90f8e5207df362b57c53d5924db857c9a4dd4f54dc5c477"
+    },
+    {
+      "path": "outputs/pcie-performance-20261019/分析结果.md",
+      "source": "outputs/pcie-performance-20261019/分析结果.md",
+      "bytes": 3667,
+      "sha256": "f48c69149addd2f8cec5b98360e77f3449c291ff84f7c18fbbf7b2b7f2df25c8"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/all-measurements.csv",
+      "source": "outputs/prefill-cap-sweep-20261019/all-measurements.csv",
+      "bytes": 7903,
+      "sha256": "9b1b7582260ee9daa4d9efae4f6e29b27d10c288b38f49512e7709d0bd881c5d"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/comparison.csv",
+      "source": "outputs/prefill-cap-sweep-20261019/comparison.csv",
+      "bytes": 1426,
+      "sha256": "69bb07fd365bdc0613c38d856729c4ab19f9f9522e75da23c6346aed782fdfea"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/compose-huihui-16384.yaml",
+      "source": "outputs/prefill-cap-sweep-20261019/compose-huihui-16384.yaml",
+      "bytes": 1081,
+      "sha256": "dadfbaf4759aa09f0617ed20f20ecb6d7a0d9a6017a3577f335af266badd2824"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/compose-huihui-32768.yaml",
+      "source": "outputs/prefill-cap-sweep-20261019/compose-huihui-32768.yaml",
+      "bytes": 1081,
+      "sha256": "dadfbaf4759aa09f0617ed20f20ecb6d7a0d9a6017a3577f335af266badd2824"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/compose-huihui-8192.yaml",
+      "source": "outputs/prefill-cap-sweep-20261019/compose-huihui-8192.yaml",
+      "bytes": 1081,
+      "sha256": "dadfbaf4759aa09f0617ed20f20ecb6d7a0d9a6017a3577f335af266badd2824"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/compose-qwen-16384.yaml",
+      "source": "outputs/prefill-cap-sweep-20261019/compose-qwen-16384.yaml",
+      "bytes": 1070,
+      "sha256": "c1af98316380c2b69739fb203fe1de7e4c1424223773039542c1636708e4994d"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/compose-qwen-32768.yaml",
+      "source": "outputs/prefill-cap-sweep-20261019/compose-qwen-32768.yaml",
+      "bytes": 1070,
+      "sha256": "c1af98316380c2b69739fb203fe1de7e4c1424223773039542c1636708e4994d"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/compose-qwen-8192.yaml",
+      "source": "outputs/prefill-cap-sweep-20261019/compose-qwen-8192.yaml",
+      "bytes": 1070,
+      "sha256": "c1af98316380c2b69739fb203fe1de7e4c1424223773039542c1636708e4994d"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/config-huihui-qwen3.8-flash-next-abliterated-ud-iq4_xs-16384.json",
+      "source": "outputs/prefill-cap-sweep-20261019/config-huihui-qwen3.8-flash-next-abliterated-ud-iq4_xs-16384.json",
+      "bytes": 3967,
+      "sha256": "b8a473707e2efde6fc1f27979afdae88f358afea4df85726b451d0941db27e3c"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/config-huihui-qwen3.8-flash-next-abliterated-ud-iq4_xs-32768.json",
+      "source": "outputs/prefill-cap-sweep-20261019/config-huihui-qwen3.8-flash-next-abliterated-ud-iq4_xs-32768.json",
+      "bytes": 3967,
+      "sha256": "fd737cbf9733659a074f8314ee0a7887aa309c06b085056bb4e8025a8513cc38"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/config-huihui-qwen3.8-flash-next-abliterated-ud-iq4_xs-8192.json",
+      "source": "outputs/prefill-cap-sweep-20261019/config-huihui-qwen3.8-flash-next-abliterated-ud-iq4_xs-8192.json",
+      "bytes": 3966,
+      "sha256": "fd13e9eea6e4c3bab5b467b902c57b499b4a410f7552c3d50c3153cf2ceb8b94"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/config-sc117-qwen3.8-flash-next-abliterated-iq3_s-q8ple-16384.json",
+      "source": "outputs/prefill-cap-sweep-20261019/config-sc117-qwen3.8-flash-next-abliterated-iq3_s-q8ple-16384.json",
+      "bytes": 3415,
+      "sha256": "735eaf475a2f6134257a63cbc2fdd4a751cdcb4b4e9151efde5865b6e7374553"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/config-sc117-qwen3.8-flash-next-abliterated-iq3_s-q8ple-32768.json",
+      "source": "outputs/prefill-cap-sweep-20261019/config-sc117-qwen3.8-flash-next-abliterated-iq3_s-q8ple-32768.json",
+      "bytes": 3415,
+      "sha256": "879d3d1efc5c7ccd77f116d25e4014b4b76f2c6bd54f7563f067094df5b97c94"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/config-sc117-qwen3.8-flash-next-abliterated-iq3_s-q8ple-8192.json",
+      "source": "outputs/prefill-cap-sweep-20261019/config-sc117-qwen3.8-flash-next-abliterated-iq3_s-q8ple-8192.json",
+      "bytes": 3414,
+      "sha256": "5473eee4efd2f7c67a144672efa2f0a15ec2e16d28a135ed04121aa3e912984f"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/final-verification.json",
+      "source": "outputs/prefill-cap-sweep-20261019/final-verification.json",
+      "bytes": 1965,
+      "sha256": "cc8edaabc1547b65856018ca43752d78c61d3602f442bbbbd5733b70ef21934f"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/huihui-16384/aggregate-p90-correction.json",
+      "source": "outputs/prefill-cap-sweep-20261019/huihui-16384/aggregate-p90-correction.json",
+      "bytes": 3171,
+      "sha256": "618c5615b43e5eb19aca9df02eea54f30a1234d333aa8a976edefd89294e72cf"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/huihui-16384/measurements.csv",
+      "source": "outputs/prefill-cap-sweep-20261019/huihui-16384/measurements.csv",
+      "bytes": 2449,
+      "sha256": "f9b344e73d2e068985a5ff8c25d65683eafdd7e98c23f1d74050b357bba38c79"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/huihui-16384/profile.log",
+      "source": "outputs/prefill-cap-sweep-20261019/huihui-16384/profile.log",
+      "bytes": 4288,
+      "sha256": "b5dc1cdd0b4c538e688a7a1735940c5d47af77892e81541c780662b87129d373"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/huihui-16384/results.json",
+      "source": "outputs/prefill-cap-sweep-20261019/huihui-16384/results.json",
+      "bytes": 756934,
+      "sha256": "8826ea1fabaca78e99ee812becbfe5da935c1157aeea9b48bc9ba973272e9645"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/huihui-16384/summary.json",
+      "source": "outputs/prefill-cap-sweep-20261019/huihui-16384/summary.json",
+      "bytes": 729,
+      "sha256": "d9eac201ee1ccc5007596da2541a3f417dca5778c69790c198953cd2934abd03"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/huihui-16384/分析结果.md",
+      "source": "outputs/prefill-cap-sweep-20261019/huihui-16384/分析结果.md",
+      "bytes": 3745,
+      "sha256": "47832a5db84a14e4de570240a96771b56dae47f3d6695122c38c7b8bd34e5a77"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/huihui-32768/aggregate-p90-correction.json",
+      "source": "outputs/prefill-cap-sweep-20261019/huihui-32768/aggregate-p90-correction.json",
+      "bytes": 3223,
+      "sha256": "0903cd0dea3d1ed636878fb2212ebf283dcc60f3a81ca8367c05c1211b274cb2"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/huihui-32768/measurements.csv",
+      "source": "outputs/prefill-cap-sweep-20261019/huihui-32768/measurements.csv",
+      "bytes": 2488,
+      "sha256": "4059e37067351c1c02ab0fc6b8623fdee2e766e28813570340cf27990620234f"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/huihui-32768/profile.log",
+      "source": "outputs/prefill-cap-sweep-20261019/huihui-32768/profile.log",
+      "bytes": 4307,
+      "sha256": "ceb992c2b505492db221c9145f589a1352e5195c2282b063434685dbe644fd22"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/huihui-32768/results.json",
+      "source": "outputs/prefill-cap-sweep-20261019/huihui-32768/results.json",
+      "bytes": 819968,
+      "sha256": "0b5f88b49e549f74c004a2e67ef95e8238f5079f2a52f2faf60e3e0f2e3114d3"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/huihui-32768/summary.json",
+      "source": "outputs/prefill-cap-sweep-20261019/huihui-32768/summary.json",
+      "bytes": 721,
+      "sha256": "046719a819822f4b1b1ca08cb33407c220ce3a0aa3bd901ef1ad65d0825e11ca"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/huihui-32768/分析结果.md",
+      "source": "outputs/prefill-cap-sweep-20261019/huihui-32768/分析结果.md",
+      "bytes": 3742,
+      "sha256": "f9e3a941f61400758c9b1687065de978c0cf6a9ce62c0923b242f22643e9cbb2"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/huihui-8192/aggregate-p90-correction.json",
+      "source": "outputs/prefill-cap-sweep-20261019/huihui-8192/aggregate-p90-correction.json",
+      "bytes": 3137,
+      "sha256": "fc32873166cc40f644cec539fb617c2228aa77869d11ed1a950c38d9f8e0a822"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/huihui-8192/measurements.csv",
+      "source": "outputs/prefill-cap-sweep-20261019/huihui-8192/measurements.csv",
+      "bytes": 2420,
+      "sha256": "9ecea430ae4c569a96ee006f3082e6b855b1a28eb36a8f78d9a9355284b9d53f"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/huihui-8192/profile.log",
+      "source": "outputs/prefill-cap-sweep-20261019/huihui-8192/profile.log",
+      "bytes": 4294,
+      "sha256": "48f1a435085cca135e89a0ef4c62c31e50d9d04c270551cbca529333bf143d8a"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/huihui-8192/results.json",
+      "source": "outputs/prefill-cap-sweep-20261019/huihui-8192/results.json",
+      "bytes": 775543,
+      "sha256": "c96d03cb6c5a7fe192e8c696c529ef9fc645ef575a80ac659607999ec28010f3"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/huihui-8192/summary.json",
+      "source": "outputs/prefill-cap-sweep-20261019/huihui-8192/summary.json",
+      "bytes": 717,
+      "sha256": "d01776280dc9aaf1e3857f62e9db266dd5f4a8e3ec1161bd6d96891d90accc88"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/huihui-8192/分析结果.md",
+      "source": "outputs/prefill-cap-sweep-20261019/huihui-8192/分析结果.md",
+      "bytes": 3744,
+      "sha256": "068c454fc9af359a08d4f5492b7874e3a48127da8bc1bf832a64bc0aeaf31ea5"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/original-compose.yaml",
+      "source": "outputs/prefill-cap-sweep-20261019/original-compose.yaml",
+      "bytes": 1081,
+      "sha256": "dadfbaf4759aa09f0617ed20f20ecb6d7a0d9a6017a3577f335af266badd2824"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/original-huihui-config.json",
+      "source": "outputs/prefill-cap-sweep-20261019/original-huihui-config.json",
+      "bytes": 3966,
+      "sha256": "fd13e9eea6e4c3bab5b467b902c57b499b4a410f7552c3d50c3153cf2ceb8b94"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/original-sc117-config.json",
+      "source": "outputs/prefill-cap-sweep-20261019/original-sc117-config.json",
+      "bytes": 3409,
+      "sha256": "1764f60c113849dd5c2fd0cb2ed0e2857dba6ef27d3526db7cc2db02b7509dae"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/restored-sc117-config.json",
+      "source": "outputs/prefill-cap-sweep-20261019/restored-sc117-config.json",
+      "bytes": 3409,
+      "sha256": "1764f60c113849dd5c2fd0cb2ed0e2857dba6ef27d3526db7cc2db02b7509dae"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/sc117-16384/aggregate-p90-correction.json",
+      "source": "outputs/prefill-cap-sweep-20261019/sc117-16384/aggregate-p90-correction.json",
+      "bytes": 3234,
+      "sha256": "fcbdbcb493ee0c86277ea2d4b4e7d2491f3e97e476349f6213d00b44d5c9d6a7"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/sc117-16384/measurements.csv",
+      "source": "outputs/prefill-cap-sweep-20261019/sc117-16384/measurements.csv",
+      "bytes": 2448,
+      "sha256": "2238f460f29686ff8df359a2c20d9027e0520bc4f3c0759ed090c27a28d8e3d5"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/sc117-16384/profile.log",
+      "source": "outputs/prefill-cap-sweep-20261019/sc117-16384/profile.log",
+      "bytes": 4368,
+      "sha256": "ea1ad433108599c52582162d0fbb95fccee3dd562e70b5a6ebe0ee4699fd0d40"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/sc117-16384/results.json",
+      "source": "outputs/prefill-cap-sweep-20261019/sc117-16384/results.json",
+      "bytes": 758436,
+      "sha256": "b06cc29cc7060239eeadec01f1598fb0f3b644299a413c0c42fd8809d2d0cc01"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/sc117-16384/summary.json",
+      "source": "outputs/prefill-cap-sweep-20261019/sc117-16384/summary.json",
+      "bytes": 744,
+      "sha256": "78cd0a8cf0b7c1415f6509db5b0a155a90c0528b22a2f40554f4a7b6fd8e9123"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/sc117-16384/分析结果.md",
+      "source": "outputs/prefill-cap-sweep-20261019/sc117-16384/分析结果.md",
+      "bytes": 3743,
+      "sha256": "ebc7c3d75473ce3f9b41cacea4d13d6cc8e7bc1f388ffc87cfca1d5fb6c76adf"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/sc117-32768/aggregate-p90-correction.json",
+      "source": "outputs/prefill-cap-sweep-20261019/sc117-32768/aggregate-p90-correction.json",
+      "bytes": 3186,
+      "sha256": "25668bc3a83c0e0c962aecbad1e5fc75a466333e2fe5ce60c1b040165b6dd005"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/sc117-32768/measurements.csv",
+      "source": "outputs/prefill-cap-sweep-20261019/sc117-32768/measurements.csv",
+      "bytes": 2447,
+      "sha256": "6c2401a94705b009c050b2a759bb1b0596134146ea8919e106a71bcc56dbbeeb"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/sc117-32768/profile.log",
+      "source": "outputs/prefill-cap-sweep-20261019/sc117-32768/profile.log",
+      "bytes": 4295,
+      "sha256": "e10b9b3c09153e6dbb207a31e3910d304fdc03d0bba1efa2812aabdad395ae64"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/sc117-32768/results.json",
+      "source": "outputs/prefill-cap-sweep-20261019/sc117-32768/results.json",
+      "bytes": 809612,
+      "sha256": "482949e81581dcf12c5a97aeef2057480fa634018a34476c2fb56ac865d424dd"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/sc117-32768/summary.json",
+      "source": "outputs/prefill-cap-sweep-20261019/sc117-32768/summary.json",
+      "bytes": 717,
+      "sha256": "3de3f9ecefccd8ba1e9bd295419f921433e7aeddbd8dd0db0b3e4a818430cb8d"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/sc117-32768/分析结果.md",
+      "source": "outputs/prefill-cap-sweep-20261019/sc117-32768/分析结果.md",
+      "bytes": 3738,
+      "sha256": "d1e5d3b0e3b057330d2bdde2128f8dd397930d1493b033b8d39f3c9cd0d4a358"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/sc117-8192/aggregate-p90-correction.json",
+      "source": "outputs/prefill-cap-sweep-20261019/sc117-8192/aggregate-p90-correction.json",
+      "bytes": 3201,
+      "sha256": "44217c14b4b81fa5e4dc7b5cbdc3473903a1024840e1be721fc07f4a2a6f4634"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/sc117-8192/measurements.csv",
+      "source": "outputs/prefill-cap-sweep-20261019/sc117-8192/measurements.csv",
+      "bytes": 2467,
+      "sha256": "4d5c1c66a520d7b7dca5c9a98d4962630c486e3c85cc3f701e525895c8e7dc12"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/sc117-8192/profile.log",
+      "source": "outputs/prefill-cap-sweep-20261019/sc117-8192/profile.log",
+      "bytes": 4319,
+      "sha256": "86716c89bc08d34e371a20e7ce56678074985f7b8aa8d5188e5372cc9ffbcedf"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/sc117-8192/results.json",
+      "source": "outputs/prefill-cap-sweep-20261019/sc117-8192/results.json",
+      "bytes": 763294,
+      "sha256": "b9001ef56d7c74cc2c956e27d27d301ec07cffea78f69256d3b4e6bff2b2e65c"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/sc117-8192/summary.json",
+      "source": "outputs/prefill-cap-sweep-20261019/sc117-8192/summary.json",
+      "bytes": 727,
+      "sha256": "16e191f007526dc69aa544f52bda96eaef2f85c535e3aa6394d1adee5cbfdc48"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/sc117-8192/分析结果.md",
+      "source": "outputs/prefill-cap-sweep-20261019/sc117-8192/分析结果.md",
+      "bytes": 3744,
+      "sha256": "98dd33959f97f9d56e77dce2ab509b00d4a15047490f25604c08d18c869864a7"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/sweep.json",
+      "source": "outputs/prefill-cap-sweep-20261019/sweep.json",
+      "bytes": 186056,
+      "sha256": "18ac7788bb1ef72500fdd8bd4945bfaf19c977923a8b8168a0a24e2e4770de10"
+    },
+    {
+      "path": "outputs/prefill-cap-sweep-20261019/测试结果.md",
+      "source": "outputs/prefill-cap-sweep-20261019/测试结果.md",
+      "bytes": 2245,
+      "sha256": "fc4841e814340a89785ab6005cf03649412f10d058347141ab6a0c5c184c1f64"
+    },
+    {
+      "path": "outputs/prefill-community-20261015/4070TiSUPER-P2并发案例.md",
+      "source": "outputs/prefill-community-20261015/4070TiSUPER-P2并发案例.md",
+      "bytes": 2596,
+      "sha256": "2f3fa5d0bcb197e361c69ffbe8053a9d7cc20886257fce02279f61b066095b1c"
+    },
+    {
+      "path": "outputs/prefill-community-20261015/7900XTX-Windows六图案例.md",
+      "source": "outputs/prefill-community-20261015/7900XTX-Windows六图案例.md",
+      "bytes": 2710,
+      "sha256": "677527868938f59596f8b11e7bfae1c0ddb60fbd1133788ea957a568c7a6657e"
+    },
+    {
+      "path": "outputs/prefill-community-20261015/7900XTX八图案例.md",
+      "source": "outputs/prefill-community-20261015/7900XTX八图案例.md",
+      "bytes": 3838,
+      "sha256": "db0d3f389b4bf8660e0e829d274bc42f0e16189dc583977ef1766d0479324e9a"
+    },
+    {
+      "path": "outputs/prefill-community-20261015/Hanayo-3090案例核对.md",
+      "source": "outputs/prefill-community-20261015/Hanayo-3090案例核对.md",
+      "bytes": 2889,
+      "sha256": "56b52f6cac148afbb485620819d51b8d0f3eb470a640ea6250954247323e6b8f"
+    },
+    {
+      "path": "outputs/prefill-community-20261015/crop-0.png",
+      "source": "outputs/prefill-community-20261015/crop-0.png",
+      "bytes": 518942,
+      "sha256": "deebd9ca181028b5040dc7dd9fb0907c90541fd50222700117fa4dfb523036d1"
+    },
+    {
+      "path": "outputs/prefill-community-20261015/crop-1.png",
+      "source": "outputs/prefill-community-20261015/crop-1.png",
+      "bytes": 505572,
+      "sha256": "b62731c8543fbd1526fe60260ceee414af53237dee3fb62f9d5fa87855749ea4"
+    },
+    {
+      "path": "outputs/prefill-community-20261015/crop-2.png",
+      "source": "outputs/prefill-community-20261015/crop-2.png",
+      "bytes": 516992,
+      "sha256": "ad2fc5d4375fb383e2849404e054f3bd913781f9890ece0a08e814a4e5e5a478"
+    },
+    {
+      "path": "outputs/prefill-community-20261015/crop-3.png",
+      "source": "outputs/prefill-community-20261015/crop-3.png",
+      "bytes": 618405,
+      "sha256": "0e7c926d2b6bca5909ffbaeb5c59fe1eee032e1597cca8fed56325a37637b6bf"
+    },
+    {
+      "path": "outputs/prefill-community-20261015/crop-4.png",
+      "source": "outputs/prefill-community-20261015/crop-4.png",
+      "bytes": 544452,
+      "sha256": "9e5a4ce628dedc233a49576de9858c034b22289fa7f450afd0efa1dc90fb3179"
+    },
+    {
+      "path": "outputs/prefill-community-20261015/crop-5.png",
+      "source": "outputs/prefill-community-20261015/crop-5.png",
+      "bytes": 473989,
+      "sha256": "74450a80a11c6991012305ad9b9d85b718948975301adff4e4424434014d4a26"
+    },
+    {
+      "path": "outputs/prefill-community-20261015/crop-6.png",
+      "source": "outputs/prefill-community-20261015/crop-6.png",
+      "bytes": 142588,
+      "sha256": "710297ffc09f44641f7fee3e2299a3e1bfd29f1d9f4feb40056758d5473e7a36"
+    },
+    {
+      "path": "outputs/prefill-community-20261015/hanayo-3090.html",
+      "source": "outputs/prefill-community-20261015/hanayo-3090.html",
+      "bytes": 74415,
+      "sha256": "71dc6e3f1b5d7181f0f62de268d84137643a2f07fd93f60197d50136956eb970"
+    },
+    {
+      "path": "outputs/prefill-community-20261015/hanayo-3090.txt",
+      "source": "outputs/prefill-community-20261015/hanayo-3090.txt",
+      "bytes": 37406,
+      "sha256": "6eb48304a048e970cb73fdbbc2576f94a9bf40f6cf59c752c1bb85f0a847400f"
+    },
+    {
+      "path": "outputs/prefill-community-20261015/hanayo-bottleneck-observations.csv",
+      "source": "outputs/prefill-community-20261015/hanayo-bottleneck-observations.csv",
+      "bytes": 1166,
+      "sha256": "c0461d90210e65c81b426436e5578c8fb6640aaa6511a84997340937f4d10b77"
+    },
+    {
+      "path": "outputs/prefill-community-20261015/hanayo-prefill-ablation.csv",
+      "source": "outputs/prefill-community-20261015/hanayo-prefill-ablation.csv",
+      "bytes": 9395,
+      "sha256": "4b660fef085b5b7d3173269f1ba6a6247a50b986f3ea4f3cfffdabe2cbcd8b81"
+    },
+    {
+      "path": "outputs/prefill-community-20261015/hanayo-prefill-memory.csv",
+      "source": "outputs/prefill-community-20261015/hanayo-prefill-memory.csv",
+      "bytes": 798,
+      "sha256": "78588d1e57fe651a1822916e272b4657749d398e069f786ad29bbc4258e969d9"
+    },
+    {
+      "path": "outputs/prefill-community-20261015/hanayo-source-prefill.cpp",
+      "source": "outputs/prefill-community-20261015/hanayo-source-prefill.cpp",
+      "bytes": 272145,
+      "sha256": "219b5ba8751f0ec983363bf8a2a8335413b54c47101129772521fad3f3728009"
+    },
+    {
+      "path": "outputs/prefill-community-20261015/mtp-v01431.cpp",
+      "source": "outputs/prefill-community-20261015/mtp-v01431.cpp",
+      "bytes": 82730,
+      "sha256": "5ddec1ae7ce41854c3c7abfab529d69c51ad5ee58a2d5f08bc0ad51db6fcb596"
+    },
+    {
+      "path": "outputs/prefill-community-20261015/双3080-IQ3XXS案例.md",
+      "source": "outputs/prefill-community-20261015/双3080-IQ3XXS案例.md",
+      "bytes": 2892,
+      "sha256": "953283c9fd9051f13e44d458f1131c2f74c78c7b904c6ee1361d2d647f4a394f"
+    },
+    {
+      "path": "outputs/prefill-community-20261015/后续测试调整建议.md",
+      "source": "outputs/prefill-community-20261015/后续测试调整建议.md",
+      "bytes": 4538,
+      "sha256": "b46471dd4b01e1baa994e2490a12fa5815a7fa33315723b287f93058fdc3e944"
+    },
+    {
+      "path": "outputs/prefill-community-20261015/案例解读.md",
+      "source": "outputs/prefill-community-20261015/案例解读.md",
+      "bytes": 3396,
+      "sha256": "e21b18835618f4b3e9029db6f0aff35d5bbc6c204df15d705e4db02b0be309d1"
+    },
+    {
+      "path": "outputs/prefill4096-aux-longtext-20261015/README.md",
+      "source": "outputs/prefill4096-aux-longtext-20261015/README.md",
+      "bytes": 2925,
+      "sha256": "13cd129423219c8a9a9f47532811fed9d2eb9e896762035c1cc4fa0fa04b0031"
+    },
+    {
+      "path": "outputs/reboot-investigation-20261019/bmc-sel.txt",
+      "source": "outputs/reboot-investigation-20261019/bmc-sel.txt",
+      "bytes": 32072,
+      "sha256": "6b0755796fc840325e2e37e96a11957e7e0c9c7d43e4ee2f4b6aaf84f00aafe6"
+    },
+    {
+      "path": "outputs/reboot-investigation-20261019/collection.json",
+      "source": "outputs/reboot-investigation-20261019/collection.json",
+      "bytes": 764,
+      "sha256": "72378795d10c27bc48192c08980766b8766f74ebad0c67a9660cea35b8fb7c88"
+    },
+    {
+      "path": "outputs/reboot-investigation-20261019/host-before-first-reboot.txt",
+      "source": "outputs/reboot-investigation-20261019/host-before-first-reboot.txt",
+      "bytes": 15379,
+      "sha256": "d2dceb2bcf56e9aa9c30e68186f09b5e816037e107c42b4672eeb09f0f904402"
+    },
+    {
+      "path": "outputs/reboot-investigation-20261019/host-before-second-reboot.txt",
+      "source": "outputs/reboot-investigation-20261019/host-before-second-reboot.txt",
+      "bytes": 13821,
+      "sha256": "103963e18d50510bccaafb6aa90f39c633debd2255ddfa32ba52873078f079af"
+    },
+    {
+      "path": "outputs/reboot-investigation-20261019/host-kernel-current.txt",
+      "source": "outputs/reboot-investigation-20261019/host-kernel-current.txt",
+      "bytes": 371614,
+      "sha256": "c126104973ee4c26d24f0689412e34791e0e1a29036b7a93cceff12f66fb6943"
+    },
+    {
+      "path": "outputs/reboot-investigation-20261019/host-kernel-previous.txt",
+      "source": "outputs/reboot-investigation-20261019/host-kernel-previous.txt",
+      "bytes": 313699,
+      "sha256": "54e42622eb01a9c71500ff0ed5769398e92159c933f02883551a272319a7185c"
+    },
+    {
+      "path": "outputs/reboot-investigation-20261019/host-state.txt",
+      "source": "outputs/reboot-investigation-20261019/host-state.txt",
+      "bytes": 8422,
+      "sha256": "dff7b108d283ae65ed2e7d9f8e484f78f0d12c6547f6e92333b43e01c3b46d86"
+    },
+    {
+      "path": "outputs/reboot-investigation-20261019/vm-state.txt",
+      "source": "outputs/reboot-investigation-20261019/vm-state.txt",
+      "bytes": 4801,
+      "sha256": "1db31bbf833be6bccd55187a649cb080e4b3b7725ae2e891a05622aaefa6b44b"
+    },
+    {
+      "path": "outputs/reboot-investigation-20261019/结论.md",
+      "source": "outputs/reboot-investigation-20261019/结论.md",
+      "bytes": 5152,
+      "sha256": "d68b40d5db3c514575cd06a83891d3e37bd0b864ebee9912344c98fa6566b49a"
+    },
+    {
+      "path": "outputs/remote-results/evalscope-functional-20261014.tar.gz",
+      "source": "outputs/remote-results/evalscope-functional-20261014.tar.gz",
+      "bytes": 12085,
+      "sha256": "c83533f1490814f3e9c4266d1c72baee89cfc31fff53a20cc61fd096016f81b3"
+    },
+    {
+      "path": "outputs/remote-results/evalscope-smoke-ceval-summary.json",
+      "source": "outputs/remote-results/evalscope-smoke-ceval-summary.json",
+      "bytes": 867,
+      "sha256": "92a477bdc640e2c778162b669dad560b57802ff5bb75ff61e1f41ac74cbf2478"
+    },
+    {
+      "path": "outputs/remote-results/gpu-vision-mtp-20261014-135915.json",
+      "source": "outputs/remote-results/gpu-vision-mtp-20261014-135915.json",
+      "bytes": 13523,
+      "sha256": "0a763d353a570ab8a867b945fb7ce64297f57a5404e9be110e4d5662cb3227e4"
+    },
+    {
+      "path": "outputs/remote-results/hnorm-final-state-20261014.json",
+      "source": "outputs/remote-results/hnorm-final-state-20261014.json",
+      "bytes": 1890,
+      "sha256": "8742a662292ebc4169bdbb20fac0aab97ec490785b031601865c249c5f14d390"
+    },
+    {
+      "path": "outputs/remote-results/hnorm-stream-20261014-232206.json",
+      "source": "outputs/remote-results/hnorm-stream-20261014-232206.json",
+      "bytes": 13705,
+      "sha256": "c8b769ed18ec0294b13314558e86a27bcb4d7882752fb99a9ff5b88e4caadeb2"
+    },
+    {
+      "path": "outputs/remote-results/hnorm-stream-startup-20261014.txt",
+      "source": "outputs/remote-results/hnorm-stream-startup-20261014.txt",
+      "bytes": 1542,
+      "sha256": "1d9d45eae4e9e4d9a99fd7ece7acac449e1408deef2a162a2aa90b16d8881672"
+    },
+    {
+      "path": "outputs/remote-results/iq3-text-only-smoke-20261014-181132.json",
+      "source": "outputs/remote-results/iq3-text-only-smoke-20261014-181132.json",
+      "bytes": 20669,
+      "sha256": "4fce0d932c47e77642937299fe1124a340b80d11ea09edba18199816c9925cc3"
+    },
+    {
+      "path": "outputs/remote-results/official-hnorm-stream-20261014/2026-10-14-community-2x-rtx-2080-ti-swift-1-5-abliterated-iq3-s-q8ple/README.md",
+      "source": "outputs/remote-results/official-hnorm-stream-20261014/2026-10-14-community-2x-rtx-2080-ti-swift-1-5-abliterated-iq3-s-q8ple/README.md",
+      "bytes": 4871,
+      "sha256": "d50f069d66a809b881d7af10b063b5470a3e29c53eb9f1a8fd0c5997ca26e6d2"
+    },
+    {
+      "path": "outputs/remote-results/official-hnorm-stream-20261014/2026-10-14-community-2x-rtx-2080-ti-swift-1-5-abliterated-iq3-s-q8ple/results.json",
+      "source": "outputs/remote-results/official-hnorm-stream-20261014/2026-10-14-community-2x-rtx-2080-ti-swift-1-5-abliterated-iq3-s-q8ple/results.json",
+      "bytes": 23118,
+      "sha256": "e226e06eb2c02dec94eea423e8f43eff5c77b5cfac9c8ef7cb2cb9d29365d724"
+    },
+    {
+      "path": "outputs/remote-results/reclaim-compare-20261014-152156.json",
+      "source": "outputs/remote-results/reclaim-compare-20261014-152156.json",
+      "bytes": 54446,
+      "sha256": "038177c104b7397f3e8981a696ff46d48e7651e6fc1ba066d2ded3ad010c1c7b"
+    },
+    {
+      "path": "outputs/remote-results/scheduler-ababa-20261014-120432.json",
+      "source": "outputs/remote-results/scheduler-ababa-20261014-120432.json",
+      "bytes": 15361,
+      "sha256": "39db9af3515934b0b08cb667061c2a183ec786367f784c61753b5635b5b18b07"
+    },
+    {
+      "path": "outputs/remote-results/scheduler-pipeline-20261014-120432-pipeline-A1.json",
+      "source": "outputs/remote-results/scheduler-pipeline-20261014-120432-pipeline-A1.json",
+      "bytes": 931939,
+      "sha256": "f7ac5659900be39ce2c4757254031c18134d3415e1437e86f3f59ff586d70d17"
+    },
+    {
+      "path": "outputs/remote-results/scheduler-pipeline-20261014-120432-pipeline-A2.json",
+      "source": "outputs/remote-results/scheduler-pipeline-20261014-120432-pipeline-A2.json",
+      "bytes": 931069,
+      "sha256": "1a3991a53c642f1fb94f6751bf7d03a09baffe72f657ad90035601a842f69c75"
+    },
+    {
+      "path": "outputs/remote-results/scheduler-single-mtp-20261014-120432-single-mtp-B.json",
+      "source": "outputs/remote-results/scheduler-single-mtp-20261014-120432-single-mtp-B.json",
+      "bytes": 477379,
+      "sha256": "48f61ecf1c81a375e739cfd5116835e8ad8256e9182039d6e5497914261ecfeb"
+    },
+    {
+      "path": "outputs/remote-results/stage-trim-aba-20261014-110028.json",
+      "source": "outputs/remote-results/stage-trim-aba-20261014-110028.json",
+      "bytes": 14031,
+      "sha256": "a7cbd5f8ef00117fc6bcc89f17c99734b122b4ffbc73acafcc753d5678082ace"
+    },
+    {
+      "path": "outputs/remote-results/swift-iq3s-q8ple-smoke-20261014-155440.json",
+      "source": "outputs/remote-results/swift-iq3s-q8ple-smoke-20261014-155440.json",
+      "bytes": 28809,
+      "sha256": "2a3e5cc0e5194315515f6987865fe2e2a32a90f78ad794a5e3d4db90afda23e0"
+    },
+    {
+      "path": "outputs/remote-results/turing-confirm-baseline-20261014-110555.json",
+      "source": "outputs/remote-results/turing-confirm-baseline-20261014-110555.json",
+      "bytes": 196309,
+      "sha256": "094b09fb69a136d692489724ae6a7d8d4b200792a3b8b7ab9ae1e77ced97dc65"
+    },
+    {
+      "path": "outputs/remote-results/turing-confirm-baseline-20261014-111338.json",
+      "source": "outputs/remote-results/turing-confirm-baseline-20261014-111338.json",
+      "bytes": 466805,
+      "sha256": "1d829263640772d785c90cb0a98a935a494da2a9a219548a2c92c33bc8a51683"
+    },
+    {
+      "path": "outputs/remote-results/turing-confirm-baseline-20261014-112632.json",
+      "source": "outputs/remote-results/turing-confirm-baseline-20261014-112632.json",
+      "bytes": 516012,
+      "sha256": "1b8a719e937064cfa4d83bd270c14edd2a440e5fb706600bfeb7496640e2bedc"
+    },
+    {
+      "path": "outputs/remote-results/vision-headroom-20261014-143944.json",
+      "source": "outputs/remote-results/vision-headroom-20261014-143944.json",
+      "bytes": 6710,
+      "sha256": "afc346e24f9b48d8fc6c9f0f24aabbe98ca1d9e34cd524d3053dd40dc21f1a0c"
+    },
+    {
+      "path": "outputs/sc117-overnight-20261016/README.md",
+      "source": "outputs/sc117-overnight-20261016/README.md",
+      "bytes": 4484,
+      "sha256": "ba3323dacf5e6199a670cc00c0cf14ddebbbdcac1bd946a62f4cf1468fcc66c6"
+    },
+    {
+      "path": "outputs/sc117-overnight-20261016/bfcl-score-summary.json",
+      "source": "outputs/sc117-overnight-20261016/bfcl-score-summary.json",
+      "bytes": 1101,
+      "sha256": "eb67afa7f9322eadf62d846ce3336c20d42966be5186eada389248cd0c0f0921"
+    },
+    {
+      "path": "outputs/sc117-overnight-20261016/job-state.json",
+      "source": "outputs/sc117-overnight-20261016/job-state.json",
+      "bytes": 2297,
+      "sha256": "7a4ed0bfe16e8755ab54cccafd7bbc547885b1abd3c7eff2bef8e1c09d19600a"
+    },
+    {
+      "path": "outputs/sc117-overnight-20261016/quality-summary.json",
+      "source": "outputs/sc117-overnight-20261016/quality-summary.json",
+      "bytes": 8789,
+      "sha256": "4d583e7237051f4f43ad9871ca17902daf54273deeebbd6b012b3d93fe59462f"
+    },
+    {
+      "path": "outputs/sc117-overnight-20261016/transport-state.json",
+      "source": "outputs/sc117-overnight-20261016/transport-state.json",
+      "bytes": 135,
+      "sha256": "acf44e20c650d380dc8f0f0e17011263905821e26c5e2fe2839c3caa9f771e5e"
+    },
+    {
+      "path": "outputs/storage-audit-20261015/扩容完成.md",
+      "source": "outputs/storage-audit-20261015/扩容完成.md",
+      "bytes": 1922,
+      "sha256": "a691a881f06637fbff10ec2e74c4979a0b9ad9a9806ca77f11b6d988bc74b676"
+    },
+    {
+      "path": "outputs/test-report-2026-10-14.md",
+      "source": "outputs/test-report-2026-10-14.md",
+      "bytes": 5487,
+      "sha256": "ec74fd635f12f49cf03876083b49806e448cd496c5670482da8bce8d496f3059"
+    },
+    {
+      "path": "outputs/workers-cpu-sweep-20261019/测试结果.md",
+      "source": "outputs/workers-cpu-sweep-20261019/测试结果.md",
+      "bytes": 4258,
+      "sha256": "307b38a6fe06cd929978e4cd9052239d8069325eb87af2f6888117926cb73ee2"
+    },
+    {
+      "path": "outputs/官方BFCL结果-20261015/README.md",
+      "source": "outputs/官方BFCL结果-20261015/README.md",
+      "bytes": 3230,
+      "sha256": "1e84a351f4dd339daf26117ff92f7b308f25c1f0a3ba8000d2498927d5609084"
+    },
+    {
+      "path": "outputs/显存回收测试-20261014.md",
+      "source": "outputs/显存回收测试-20261014.md",
+      "bytes": 2260,
+      "sha256": "b6a20e3a190d22fd2911c3f008ed9a64d7092a7e6be1b63fa7dae800e3d23ca4"
+    },
+    {
+      "path": "work/append_nightly_sections.py",
+      "source": "work/append_nightly_sections.py",
+      "bytes": 13169,
+      "sha256": "55c1dab6d1fd638853ed0369b5e22e7738da74aa34288210be21d1284731c52d"
+    },
+    {
+      "path": "work/cache_smoke.py",
+      "source": "work/cache_smoke.py",
+      "bytes": 1555,
+      "sha256": "ad236184c18b7efcb28cf84fe80f3e9007fcd515790bd607c4295bf0b418d73b"
+    },
+    {
+      "path": "work/hermes-bench/build_final_report.py",
+      "source": "work/hermes-bench/build_final_report.py",
+      "bytes": 63107,
+      "sha256": "7fc3aa88b9c55c1e1459e932d6684b8dec8ecf023d4f4c68ce5fc838bba5327d"
+    },
+    {
+      "path": "work/hermes-bench/cache_probe.py",
+      "source": "work/hermes-bench/cache_probe.py",
+      "bytes": 5404,
+      "sha256": "edde39f25cd8273e473ccd007780cd68f62083e50f87f5ba41f96966ba46d1bf"
+    },
+    {
+      "path": "work/hermes-bench/config.yaml",
+      "source": "work/hermes-bench/config.yaml",
+      "bytes": 1136,
+      "sha256": "60abbb112b7bb3b65cf1b6ddd01ded905f7ec215ca3369a0948b1738608d2ea0"
+    },
+    {
+      "path": "work/hermes-bench/nightly_suite.py",
+      "source": "work/hermes-bench/nightly_suite.py",
+      "bytes": 29185,
+      "sha256": "516428d9a968e312a639444f913bb981277c1127b91ff3ba4678a0e0fc9395fe"
+    },
+    {
+      "path": "work/hermes-bench/power_compare.py",
+      "source": "work/hermes-bench/power_compare.py",
+      "bytes": 7844,
+      "sha256": "60a33b7120308d23fabdb2765649d4226e216668ebf11905426d3540f812159d"
+    },
+    {
+      "path": "work/hermes-bench/run_micro_arm.py",
+      "source": "work/hermes-bench/run_micro_arm.py",
+      "bytes": 10755,
+      "sha256": "c0c455d6071f20bd5d4bbc8f73ee6e21f4ad9365e86c91f95ae956532bc022e7"
+    },
+    {
+      "path": "work/hermes-bench/smoke-input.txt",
+      "source": "work/hermes-bench/smoke-input.txt",
+      "bytes": 8,
+      "sha256": "5c6f702ac103f5832a4285cd4c4d10f8f508a13d1ba3dd796f4faaee1ec7c68c"
+    },
+    {
+      "path": "work/hermes-bench/smoke-prompt.txt",
+      "source": "work/hermes-bench/smoke-prompt.txt",
+      "bytes": 253,
+      "sha256": "53eb592eb943d864817669d7b37b64ff321cc720c0a3725d3ed21458367f5e8a"
+    },
+    {
+      "path": "work/hermes-bench/verify_final.py",
+      "source": "work/hermes-bench/verify_final.py",
+      "bytes": 4066,
+      "sha256": "23877b1072250c6d8c8d1a3e75ff2bc4fdeba421081063c609aaf2589c51efe7"
+    },
+    {
+      "path": "work/recheck_pve_memory_20261020_local.py",
+      "source": "work/recheck_pve_memory_20261020_local.py",
+      "bytes": 7558,
+      "sha256": "b142271f24e2b56897be173d50f5decf1657db62e69408c24d36921a22929e14"
+    },
+    {
+      "path": "work/set_conversation_cache.py",
+      "source": "work/set_conversation_cache.py",
+      "bytes": 1412,
+      "sha256": "1127c5989e25ccfa7fbd8166be4513b4387836f708de8ebdb2bcbb142a1d669a"
+    },
+    {
+      "path": "work/strata-0145-review/check_balance.py",
+      "source": "work/strata-0145-review/check_balance.py",
+      "bytes": 468,
+      "sha256": "8c8c4581abd00dac6e325d68ec44588a8d9f810b9d03164f75713486c3c5d519"
+    },
+    {
+      "path": "work/strata-0145-review/docs.py",
+      "source": "work/strata-0145-review/docs.py",
+      "bytes": 813,
+      "sha256": "24e67d74c171b4446092820da73473da78260efd0a771cb81a1b9537040b1550"
+    },
+    {
+      "path": "work/strata-0145-review/docs_BATCHING.md",
+      "source": "work/strata-0145-review/docs_BATCHING.md",
+      "bytes": 45789,
+      "sha256": "546e742fd4efbff7ef6c8fa64e8016df1b037ac8446c8af7e4774ff53b906711"
+    },
+    {
+      "path": "work/strata-0145-review/docs_DETAILS.md",
+      "source": "work/strata-0145-review/docs_DETAILS.md",
+      "bytes": 218500,
+      "sha256": "fdbf7cacec5a8a5ddc0ab7ebc3a2bc8c7af9e88b60cab08b98a02e90f89a215d"
+    },
+    {
+      "path": "work/strata-0145-review/docs_MULTI_GPU.md",
+      "source": "work/strata-0145-review/docs_MULTI_GPU.md",
+      "bytes": 39083,
+      "sha256": "64c566ae3f50e991b4ae6fc8ff8a5de747e1ff538f59f7c0a23c9e287edb998c"
+    },
+    {
+      "path": "work/strata-0145-review/docs_OLDER_GPUS.md",
+      "source": "work/strata-0145-review/docs_OLDER_GPUS.md",
+      "bytes": 18745,
+      "sha256": "bfe9ac5db28a0f5c36b9e2e6bab201fcb4b7c506258a81a6f466f207d76a3c3b"
+    },
+    {
+      "path": "work/strata-0145-review/fetch.py",
+      "source": "work/strata-0145-review/fetch.py",
+      "bytes": 1419,
+      "sha256": "486ea4766d360e2e5b66e19c78e95646816164238bf702110dc5a2051a920627"
+    },
+    {
+      "path": "work/strata-0145-review/generate.cpp",
+      "source": "work/strata-0145-review/generate.cpp",
+      "bytes": 1101775,
+      "sha256": "6ee3c9890b92d4f7c591dc0ba3cac6f8e078664e7f50f17f58e901e62d21f011"
+    },
+    {
+      "path": "work/strata-0145-review/pcie.json",
+      "source": "work/strata-0145-review/pcie.json",
+      "bytes": 101,
+      "sha256": "52503fd7570f7ad396656f9ec21ff689961da1fb626049d491f5914ad3166890"
+    },
+    {
+      "path": "work/strata-0145-review/turing.json",
+      "source": "work/strata-0145-review/turing.json",
+      "bytes": 326999,
+      "sha256": "dddda9e062f03cde82a55484ddfe096fbe482c9287a0a5a9d7b295e248eae39c"
+    }
+  ],
+  "excluded_large_directories": {
+    "outputs/memory-verification-20261015": "114.28 MiB / 4232 files; only directly cited markdown is included",
+    "outputs/numa-affinity-sweep-20261019": "56.52 MiB / 20 files; only 测试结果.md is included",
+    "outputs/workers-cpu-sweep-20261019": "45.71 MiB / 35 files; only 测试结果.md is included"
+  },
+  "privacy": "Public sharing edition requested by the author; internal IPs and lab details remain. No private keys or tokens were found in the publication audit."
+}

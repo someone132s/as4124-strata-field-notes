@@ -1,0 +1,2 @@
+2026-10-16T08:10:00Z ERROR gateway req-672728 received=ERR_ORDER_BLOCKED caused_by=orders
+2026-10-16T08:10:00Z INFO gateway req-672728 user_response=422

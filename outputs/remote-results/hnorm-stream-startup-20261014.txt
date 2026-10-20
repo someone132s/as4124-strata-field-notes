@@ -1,0 +1,7 @@
+[strata] 2026-10-14 15:22:36 engine started: /opt/strata/engine/strata --serve --pack /data/packs/swift-abliterated-iq3_s --native /data/models/Swift-1.5-IQ3_S/Swift-1.5-Qwen3.8-Flash-Next-GSQ-RCO-abliterated-IQ3_S-00001-of-00002.gguf --expert-profile /opt/strata/data/expert-profile.bin --expert-cache auto --prefill auto --spec 4 --spec-min-p 0.5 --mtp /data/mtp/rt --kv int8 --ple-io ram --kv-resident 32768 --resident-budget-gib 55 --vram-reserve-mib 550 --max-context 262144 --pool-workers 15 --batch-groups 1 --batch-mtp --vram-reserve-later-mib 600 --ple-gguf /data/models/Qwen3.8-Q8_0/Qwen3.8-Flash-Next-GSQ-RCO-Q8_0-PLE-00002-of-00002.gguf --native-dense-gguf /data/models/Swift-1.5-IQ3_S/Swift-1.5-Qwen3.8-Flash-Next-GSQ-RCO-abliterated-IQ3_S-00001-of-00002.gguf --mtp-hnorm stream --layer-split auto --batch 2
+FileExpertSource: allocating 22.75 GiB page-locked cache complement
+FileExpertSource: 0.64 GiB really free for a 22.75 GiB page-locked complement; the model files' cached pages were released: 49.75 GiB free
+FileExpertSource: mapped pinned cache complement ready: resident 22.75 GiB, pinned 22.75 GiB in 73 s; page-locked and mapped
+strata generate: resident RAM mode: 22.75 GiB of experts in RAM (page-locked), 8643 in the GPU cache; adaptive swaps exchange them with the GPU cache (no file reads)
+strata serve: lend sizing: the prompt path borrows 3857 slots (ring 96 slots at chunk 8192), 3857 of them keep their experts in RAM too
+strata serve: layer split: layers 0-24 (CUDA0), 25-47 (CUDA1), one hand-off per window

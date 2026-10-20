@@ -1,0 +1,29 @@
+{
+  "status": "completed",
+  "benchmark": "ceval",
+  "subset": "basic_medicine",
+  "samples": 3,
+  "correct": 2,
+  "execution": {
+    "requested": 3,
+    "succeeded": 3,
+    "errored": 0,
+    "incomplete": false,
+    "subsets": {
+      "basic_medicine": {
+        "requested": 3,
+        "succeeded": 3,
+        "errored": 0
+      }
+    }
+  },
+  "wall_s": 158.45939,
+  "config_sha256": "48ab09b8f7f22800758285423b84f954840a95e629ca521a339ca1d04a91887e",
+  "formal_suite_started": false,
+  "other_benchmarks_validated": false,
+  "report_path": "/opt/evalscope/outputs/jobs/smoke-ceval/evaluation/reports/swift-1.5-abliterated-iq3_s-q8ple/ceval.json",
+  "notes": [
+    "Pipeline smoke test only, not a quality estimate.",
+    "Remaining benchmark configs are staged; BFCL dependencies/handler settings and code sandbox connection still need their own preflight."
+  ]
+}

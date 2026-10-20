@@ -1,0 +1,2 @@
+2026-10-16T08:10:00Z ERROR orders req-672728 received=ERR_PAYMENT_503 caused_by=payments
+2026-10-16T08:10:00Z INFO orders req-672728 action=propagate_to_gateway

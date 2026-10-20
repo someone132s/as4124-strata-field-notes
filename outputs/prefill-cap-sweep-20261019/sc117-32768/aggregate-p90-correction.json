@@ -1,0 +1,90 @@
+[
+  {
+    "case": "4K-simple",
+    "prefill_samples": 4,
+    "decode_samples": 3,
+    "prefill_rx_p90_true_gb_s": 6.7469,
+    "prefill_rx_p90_sum_of_card_p90_gb_s": 6.756000000000001,
+    "prefill_rx_peak_true_gb_s": 7.988,
+    "decode_combined_p90_true_gb_s": 3.7344,
+    "decode_combined_p90_sum_of_card_p90_gb_s": 4.235,
+    "decode_combined_peak_true_gb_s": 3.898
+  },
+  {
+    "case": "4K-complex",
+    "prefill_samples": 4,
+    "decode_samples": 6,
+    "prefill_rx_p90_true_gb_s": 8.4916,
+    "prefill_rx_p90_sum_of_card_p90_gb_s": 10.906300000000002,
+    "prefill_rx_peak_true_gb_s": 10.051,
+    "decode_combined_p90_true_gb_s": 3.877,
+    "decode_combined_p90_sum_of_card_p90_gb_s": 4.253,
+    "decode_combined_peak_true_gb_s": 4.146
+  },
+  {
+    "case": "32K-simple",
+    "prefill_samples": 24,
+    "decode_samples": 4,
+    "prefill_rx_p90_true_gb_s": 11.2692,
+    "prefill_rx_p90_sum_of_card_p90_gb_s": 14.097699999999993,
+    "prefill_rx_peak_true_gb_s": 13.705,
+    "decode_combined_p90_true_gb_s": 2.5831,
+    "decode_combined_p90_sum_of_card_p90_gb_s": 2.6231999999999998,
+    "decode_combined_peak_true_gb_s": 2.704
+  },
+  {
+    "case": "32K-complex",
+    "prefill_samples": 24,
+    "decode_samples": 6,
+    "prefill_rx_p90_true_gb_s": 12.3173,
+    "prefill_rx_p90_sum_of_card_p90_gb_s": 16.099299999999996,
+    "prefill_rx_peak_true_gb_s": 13.711,
+    "decode_combined_p90_true_gb_s": 2.0265,
+    "decode_combined_p90_sum_of_card_p90_gb_s": 2.36,
+    "decode_combined_peak_true_gb_s": 2.118
+  },
+  {
+    "case": "128K-simple",
+    "prefill_samples": 59,
+    "decode_samples": 4,
+    "prefill_rx_p90_true_gb_s": 10.505400000000003,
+    "prefill_rx_p90_sum_of_card_p90_gb_s": 16.297400000000007,
+    "prefill_rx_peak_true_gb_s": 17.637,
+    "decode_combined_p90_true_gb_s": 2.7262,
+    "decode_combined_p90_sum_of_card_p90_gb_s": 2.7564,
+    "decode_combined_peak_true_gb_s": 2.734
+  },
+  {
+    "case": "128K-complex",
+    "prefill_samples": 59,
+    "decode_samples": 7,
+    "prefill_rx_p90_true_gb_s": 12.316600000000005,
+    "prefill_rx_p90_sum_of_card_p90_gb_s": 16.827,
+    "prefill_rx_peak_true_gb_s": 24.789,
+    "decode_combined_p90_true_gb_s": 1.553400000000001,
+    "decode_combined_p90_sum_of_card_p90_gb_s": 1.7282000000000008,
+    "decode_combined_peak_true_gb_s": 3.126
+  },
+  {
+    "case": "240K-simple",
+    "prefill_samples": 104,
+    "decode_samples": 4,
+    "prefill_rx_p90_true_gb_s": 9.474300000000001,
+    "prefill_rx_p90_sum_of_card_p90_gb_s": 12.3621,
+    "prefill_rx_peak_true_gb_s": 18.099,
+    "decode_combined_p90_true_gb_s": 2.5995999999999997,
+    "decode_combined_p90_sum_of_card_p90_gb_s": 2.6029,
+    "decode_combined_peak_true_gb_s": 2.761
+  },
+  {
+    "case": "240K-complex",
+    "prefill_samples": 103,
+    "decode_samples": 7,
+    "prefill_rx_p90_true_gb_s": 11.678999999999998,
+    "prefill_rx_p90_sum_of_card_p90_gb_s": 14.7156,
+    "prefill_rx_peak_true_gb_s": 16.946,
+    "decode_combined_p90_true_gb_s": 1.5826000000000002,
+    "decode_combined_p90_sum_of_card_p90_gb_s": 1.7680000000000002,
+    "decode_combined_peak_true_gb_s": 1.876
+  }
+]

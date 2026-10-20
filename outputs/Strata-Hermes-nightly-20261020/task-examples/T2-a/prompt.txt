@@ -1,0 +1,10 @@
+Working directory: /workspace
+
+Use Python's sqlite3 and read sales.db read-only. Join customers, orders and payments.
+Include an order only when status is paid and paid_at is >= 2026-09-01T00:00:00Z and
+strictly < 2026-10-01T00:00:00Z. Group by customer, sum payments.amount_cents, and assign
+rank 1,2,3,... after sorting by total_cents descending and customer id ascending.
+
+Write result.json containing exactly:
+{"window":"[2026-09-01T00:00:00Z,2026-10-01T00:00:00Z)","rows":[{"customer_id":int,"customer":str,"total_cents":int,"rank":int},...]}
+Do not modify sales.db. Answer briefly after writing the file.

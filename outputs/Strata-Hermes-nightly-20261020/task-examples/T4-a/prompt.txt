@@ -1,0 +1,12 @@
+Working directory: /workspace
+
+Migrate config-old.json to the v2 shape and write result.json:
+- service.listen "HOST:PORT" becomes service.host, integer service.port,
+  service.name from old service, and service.enabled;
+- features become a sorted, case-sensitive set (duplicates removed);
+- limits.max_connections and limits.timeout_seconds become integers;
+- every top-level key not named service, listen, enabled, features, or limits
+  must be preserved unchanged under extra.
+
+The expected top-level keys are service, features, limits, extra. Do not modify
+config-old.json. Write valid JSON and answer briefly.

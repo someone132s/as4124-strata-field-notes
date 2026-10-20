@@ -1,0 +1,122 @@
+WARMUP_COMPLETE [{"label": "4K", "wall_s": 4.921359539031982, "usage": {"prompt_tokens": 4112, "completion_tokens": 16, "total_tokens": 4128, "prompt_tokens_details": {"cached_tokens": 0}}}, {"label": "32K", "wall_s": 18.58311104774475, "usage": {"prompt_tokens": 32785, "completion_tokens": 128, "total_tokens": 32913, "prompt_tokens_details": {"cached_tokens": 0}}}]
+REQUEST_START 4K-simple
+REQUEST_COMPLETE 4K-simple prefill=1033 tok/s decode=93.4 tok/s pcie_share=0.007
+REQUEST_START 4K-complex
+REQUEST_COMPLETE 4K-complex prefill=1037 tok/s decode=44.5 tok/s pcie_share=0.024
+REQUEST_START 32K-simple
+REQUEST_COMPLETE 32K-simple prefill=1944 tok/s decode=103.4 tok/s pcie_share=0.007
+REQUEST_START 32K-complex
+REQUEST_COMPLETE 32K-complex prefill=1928 tok/s decode=61.8 tok/s pcie_share=0.005
+REQUEST_START 128K-simple
+REQUEST_COMPLETE 128K-simple prefill=2286 tok/s decode=101.5 tok/s pcie_share=0.008
+REQUEST_START 128K-complex
+REQUEST_COMPLETE 128K-complex prefill=2273 tok/s decode=55.8 tok/s pcie_share=0.004
+REQUEST_START 240K-simple
+REQUEST_COMPLETE 240K-simple prefill=2227 tok/s decode=106.2 tok/s pcie_share=0.006
+REQUEST_START 240K-complex
+REQUEST_COMPLETE 240K-complex prefill=2234 tok/s decode=56.0 tok/s pcie_share=0.003
+{
+  "status": "completed",
+  "correlations": {
+    "prefill_tok_s_vs_simple_prefill_rx_p90": 1.0,
+    "decode_tok_s_vs_simple_decode_combined_p90": -0.6
+  },
+  "aggregate": {
+    "simple_decode_median_tok_s": 102.45,
+    "complex_decode_median_tok_s": 55.9,
+    "prefill_rx_p90_max_mb_s": 27496.199999999997,
+    "prefill_rx_p90_max_pct_of_two_gpu_one_direction": 87.2895238095238,
+    "decode_combined_p90_max_mb_s": 10464.2,
+    "decode_combined_p90_max_pct_of_two_gpu_bidirectional": 16.609841269841272
+  },
+  "windows": [
+    {
+      "label": "4K-simple",
+      "target": 4096,
+      "kind": "simple",
+      "prefill_tok_s": 1033,
+      "decode_tok_s": 93.4,
+      "gpu_util_prefill_median": 19.0,
+      "pcie_share": 0.007,
+      "prefill_rx_p90_mb_s": 18960.4,
+      "decode_combined_p90_mb_s": 7609.200000000001
+    },
+    {
+      "label": "4K-complex",
+      "target": 4096,
+      "kind": "complex",
+      "prefill_tok_s": 1037,
+      "decode_tok_s": 44.5,
+      "gpu_util_prefill_median": 64.5,
+      "pcie_share": 0.024,
+      "prefill_rx_p90_mb_s": 21637.0,
+      "decode_combined_p90_mb_s": 6155.699999999999
+    },
+    {
+      "label": "32K-simple",
+      "target": 32768,
+      "kind": "simple",
+      "prefill_tok_s": 1944,
+      "decode_tok_s": 103.4,
+      "gpu_util_prefill_median": 89.5,
+      "pcie_share": 0.007,
+      "prefill_rx_p90_mb_s": 22675.799999999996,
+      "decode_combined_p90_mb_s": 5103.300000000001
+    },
+    {
+      "label": "32K-complex",
+      "target": 32768,
+      "kind": "complex",
+      "prefill_tok_s": 1928,
+      "decode_tok_s": 61.8,
+      "gpu_util_prefill_median": 88.75,
+      "pcie_share": 0.005,
+      "prefill_rx_p90_mb_s": 27496.199999999997,
+      "decode_combined_p90_mb_s": 2308.8
+    },
+    {
+      "label": "128K-simple",
+      "target": 131072,
+      "kind": "simple",
+      "prefill_tok_s": 2286,
+      "decode_tok_s": 101.5,
+      "gpu_util_prefill_median": 98.5,
+      "pcie_share": 0.008,
+      "prefill_rx_p90_mb_s": 27376.8,
+      "decode_combined_p90_mb_s": 10464.2
+    },
+    {
+      "label": "128K-complex",
+      "target": 131072,
+      "kind": "complex",
+      "prefill_tok_s": 2273,
+      "decode_tok_s": 55.8,
+      "gpu_util_prefill_median": 99.0,
+      "pcie_share": 0.004,
+      "prefill_rx_p90_mb_s": 27372.8,
+      "decode_combined_p90_mb_s": 7305.6
+    },
+    {
+      "label": "240K-simple",
+      "target": 245760,
+      "kind": "simple",
+      "prefill_tok_s": 2227,
+      "decode_tok_s": 106.2,
+      "gpu_util_prefill_median": 99.5,
+      "pcie_share": 0.006,
+      "prefill_rx_p90_mb_s": 27340.1,
+      "decode_combined_p90_mb_s": 6011.1
+    },
+    {
+      "label": "240K-complex",
+      "target": 245760,
+      "kind": "complex",
+      "prefill_tok_s": 2234,
+      "decode_tok_s": 56.0,
+      "gpu_util_prefill_median": 100.0,
+      "pcie_share": 0.003,
+      "prefill_rx_p90_mb_s": 27367.6,
+      "decode_combined_p90_mb_s": 1776.1
+    }
+  ]
+}

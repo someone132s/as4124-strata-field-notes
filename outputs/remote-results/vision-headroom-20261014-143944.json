@@ -1,0 +1,235 @@
+{
+  "status": "passed",
+  "backup": "/opt/strata-deploy/backups/codex-vision-headroom-20261014-143944",
+  "started_local": "2026-10-14T14:39:44.263404",
+  "attempts": [
+    {
+      "reserve_primary_mib": 4096,
+      "reserve_later_mib": 700,
+      "status": "passed",
+      "engine_before_test": {
+        "model": "huihui-qwen3.8-flash-next-abliterated-ud-iq4_xs",
+        "max_context": 262144,
+        "images": true,
+        "version": "0.1.43.1",
+        "logit_bias": 1,
+        "context": 262144,
+        "kv": "int8",
+        "kv_resident": 32768,
+        "expert_slots": 10798,
+        "expert_cache_mib": 24935,
+        "expert_slots_primary": 4431,
+        "expert_cache_primary_mib": 10308,
+        "spec": 6,
+        "mtp_max": 4,
+        "lookup": 3,
+        "vram_free_mib": 3765,
+        "cvec": 0,
+        "arena_mib": 39502,
+        "pool_workers": 15,
+        "pcie_frac": "0.28",
+        "spec_min_p": "0.50",
+        "conversation_cache_mib": 0,
+        "conversation_cache_slots": 4,
+        "conversation_cache_min_free_mib": 2560,
+        "conversation_cache_min_tokens": 0,
+        "tail_role_token": -1,
+        "vram_elastic": 0,
+        "batch_slots": 2,
+        "slot_cache": 1,
+        "batch_groups": 1,
+        "engine": "0.1.43.1"
+      },
+      "gpu_before_test": [
+        {
+          "index": 0,
+          "used_mib": 18235,
+          "free_mib": 3766
+        },
+        {
+          "index": 1,
+          "used_mib": 21769,
+          "free_mib": 232
+        }
+      ],
+      "image_test": {
+        "http_status": 200,
+        "wall_s": 117.73205984899687,
+        "usage": {
+          "prompt_tokens": 16408,
+          "completion_tokens": 2,
+          "total_tokens": 16410,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 16408,
+          "prompt_ms": 16730.4,
+          "prompt_per_token_ms": 1.02,
+          "prompt_per_second": 980.7,
+          "predicted_n": 2,
+          "predicted_ms": 541.1,
+          "predicted_per_token_ms": 270.55,
+          "predicted_per_second": 3.7,
+          "draft_n": 3,
+          "draft_n_accepted": 3
+        },
+        "content_chars": 2,
+        "content_sha256": "789f61dbfcc7a2d21a5a9b3ef23d0dbac2aee42a2b91d65baaeb20a94f3152ab",
+        "expected_color_correct": true
+      },
+      "image_header": {
+        "magic": 826627667,
+        "image_tokens": 16384,
+        "grid": [
+          128,
+          128
+        ],
+        "embedding_dim": 2560
+      },
+      "gpu_after_test": [
+        {
+          "index": 0,
+          "used_mib": 20201,
+          "free_mib": 1800
+        },
+        {
+          "index": 1,
+          "used_mib": 21851,
+          "free_mib": 150
+        }
+      ],
+      "diagnostics": [
+        "strata generate: layer split auto: K=19 - predicted 41.3 ms per decode window; the caches hold 11925 of 24576 profiled pairs (~97.9% of the routed mass), best of 46 placements",
+        "strata generate: layer split: CUDA1 loads the dense weights of layers 19-47 only",
+        "strata generate: --batch-mtp: 2 slot drafters on CUDA1 (50 MiB of private K/V state and buffers each, sharing the solo drafter's weights); 15.06 GiB free there",
+        "strata serve: 3765 MiB of VRAM free with everything loaded",
+        "strata verify: capturing the 6-token window (1823 MiB of VRAM free)",
+        "strata verify: capturing the 6-token window (181 MiB of VRAM free)",
+        "strata verify: capturing the 1-token window (1813 MiB of VRAM free)",
+        "strata verify: capturing the 1-token window (171 MiB of VRAM free)",
+        "strata verify: capturing the 4-token window (1807 MiB of VRAM free)",
+        "strata verify: capturing the 4-token window (159 MiB of VRAM free)"
+      ],
+      "min_free_mib": {
+        "0": 1800,
+        "1": 150
+      }
+    }
+  ],
+  "notes": [
+    "Only counts, timings, hashes and allocation diagnostics are retained.",
+    "A 4096x4096 test image exercises the real 16384-token encoder path."
+  ],
+  "engine_before": {
+    "model": "huihui-qwen3.8-flash-next-abliterated-ud-iq4_xs",
+    "max_context": 262144,
+    "images": true,
+    "version": "0.1.43.1",
+    "logit_bias": 1,
+    "context": 262144,
+    "kv": "int8",
+    "kv_resident": 32768,
+    "expert_slots": 12455,
+    "expert_cache_mib": 28790,
+    "expert_slots_primary": 5761,
+    "expert_cache_primary_mib": 13283,
+    "spec": 6,
+    "mtp_max": 4,
+    "lookup": 3,
+    "vram_free_mib": 379,
+    "cvec": 0,
+    "arena_mib": 35646,
+    "pool_workers": 15,
+    "pcie_frac": "0.27",
+    "spec_min_p": "0.50",
+    "conversation_cache_mib": 0,
+    "conversation_cache_slots": 4,
+    "conversation_cache_min_free_mib": 2560,
+    "conversation_cache_min_tokens": 0,
+    "tail_role_token": -1,
+    "vram_elastic": 0,
+    "batch_slots": 2,
+    "slot_cache": 1,
+    "batch_groups": 1,
+    "engine": "0.1.43.1"
+  },
+  "health_after": {
+    "status": "ok",
+    "max_context": 262144,
+    "model": "huihui-qwen3.8-flash-next-abliterated-ud-iq4_xs",
+    "images": true,
+    "api_key": false,
+    "loaded": true,
+    "service": "strata"
+  },
+  "engine_after": {
+    "model": "huihui-qwen3.8-flash-next-abliterated-ud-iq4_xs",
+    "max_context": 262144,
+    "images": true,
+    "version": "0.1.43.1",
+    "logit_bias": 1,
+    "context": 262144,
+    "kv": "int8",
+    "kv_resident": 32768,
+    "expert_slots": 10798,
+    "expert_cache_mib": 24935,
+    "expert_slots_primary": 4431,
+    "expert_cache_primary_mib": 10308,
+    "spec": 6,
+    "mtp_max": 4,
+    "lookup": 3,
+    "vram_free_mib": 3765,
+    "cvec": 0,
+    "arena_mib": 39502,
+    "pool_workers": 15,
+    "pcie_frac": "0.28",
+    "spec_min_p": "0.50",
+    "conversation_cache_mib": 0,
+    "conversation_cache_slots": 4,
+    "conversation_cache_min_free_mib": 2560,
+    "conversation_cache_min_tokens": 0,
+    "tail_role_token": -1,
+    "vram_elastic": 0,
+    "batch_slots": 2,
+    "slot_cache": 1,
+    "batch_groups": 1,
+    "engine": "0.1.43.1"
+  },
+  "live_after": {
+    "state": "idle",
+    "queued": 0,
+    "phase": null,
+    "prompt_tokens": null,
+    "prompt_read": null,
+    "prompt_total": null,
+    "generated": null,
+    "max_tokens": null,
+    "elapsed_s": null,
+    "tok_s": null,
+    "tok_s_mean": null,
+    "prefill_tok_s_mean": null,
+    "tok_s_window_s": null,
+    "parallel": 2,
+    "running": 0,
+    "slots": [
+      {
+        "slot": 0,
+        "state": "idle",
+        "held_tokens": 0
+      },
+      {
+        "slot": 1,
+        "state": "idle",
+        "held_tokens": 0
+      }
+    ],
+    "outside_slots": 0,
+    "waiting": 0,
+    "admitting": 0
+  },
+  "selected_reserve_mib": 4096,
+  "finished_local": "2026-10-14T14:46:34.316417"
+}

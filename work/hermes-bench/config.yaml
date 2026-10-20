@@ -1,0 +1,53 @@
+model:
+  default: "huihui-qwen3.8-flash-next-abliterated-ud-iq4_xs"
+  provider: "strata-nightly"
+
+providers:
+  strata-nightly:
+    api: "http://10.2.21.4:8080/v1"
+    api_key: "dummy"
+    transport: "openai_chat"
+    discover_models: false
+    models:
+      huihui-qwen3.8-flash-next-abliterated-ud-iq4_xs:
+        context_length: 262144
+
+agent:
+  max_turns: 12
+  run_budget_seconds: 300
+  reasoning_effort: "medium"
+  verify_on_stop: false
+  verbose: false
+
+terminal:
+  backend: "docker"
+  cwd: "/workspace"
+  timeout: 90
+  home_mode: "real"
+  docker_image: "nousresearch/hermes-sandbox:desktop"
+  docker_image_pinned: true
+  docker_mount_cwd_to_workspace: false
+  docker_volumes:
+    - "/home/hermes/strata-bench/strata-hermes-20261020-0200/smoke/workspace:/workspace"
+  docker_network: false
+  docker_persist_across_processes: false
+  docker_orphan_reaper: true
+  container_cpu: 2
+  container_memory: 4096
+  container_disk: 2048
+  container_persistent: false
+
+compression:
+  enabled: false
+
+memory:
+  memory_enabled: false
+  user_profile_enabled: false
+
+fallback_providers: []
+
+plugins:
+  enabled: []
+  disabled: []
+
+mcp_servers: {}

@@ -1,0 +1,152 @@
+2026-10-19T12:04:45+08:00 pve-as4124 kernel: vmbr0: port 6(fwpr503p0) entered disabled state
+2026-10-19T12:04:45+08:00 pve-as4124 kernel: fwpr503p0: entered allmulticast mode
+2026-10-19T12:04:45+08:00 pve-as4124 kernel: fwpr503p0: entered promiscuous mode
+2026-10-19T12:04:45+08:00 pve-as4124 kernel: vmbr0: port 6(fwpr503p0) entered blocking state
+2026-10-19T12:04:45+08:00 pve-as4124 kernel: vmbr0: port 6(fwpr503p0) entered forwarding state
+2026-10-19T12:04:45+08:00 pve-as4124 kernel: fwbr503i0: port 1(fwln503i0) entered blocking state
+2026-10-19T12:04:45+08:00 pve-as4124 kernel: fwbr503i0: port 1(fwln503i0) entered disabled state
+2026-10-19T12:04:45+08:00 pve-as4124 kernel: fwln503i0: entered allmulticast mode
+2026-10-19T12:04:45+08:00 pve-as4124 kernel: fwln503i0: entered promiscuous mode
+2026-10-19T12:04:45+08:00 pve-as4124 kernel: fwbr503i0: port 1(fwln503i0) entered blocking state
+2026-10-19T12:04:45+08:00 pve-as4124 kernel: fwbr503i0: port 1(fwln503i0) entered forwarding state
+2026-10-19T12:04:45+08:00 pve-as4124 kernel: fwbr503i0: port 2(tap503i0) entered blocking state
+2026-10-19T12:04:45+08:00 pve-as4124 kernel: fwbr503i0: port 2(tap503i0) entered disabled state
+2026-10-19T12:04:45+08:00 pve-as4124 kernel: tap503i0: entered allmulticast mode
+2026-10-19T12:04:45+08:00 pve-as4124 kernel: fwbr503i0: port 2(tap503i0) entered blocking state
+2026-10-19T12:04:45+08:00 pve-as4124 kernel: fwbr503i0: port 2(tap503i0) entered forwarding state
+2026-10-19T12:04:45+08:00 pve-as4124 pve-guests[3857]: VM 503 started with PID 3870 using pve-qemu-kvm_11.0.3-2.
+2026-10-19T12:04:47+08:00 pve-as4124 pvesh[3189]: Starting VM 504
+2026-10-19T12:04:47+08:00 pve-as4124 pve-guests[3953]: start VM 504: UPID:pve-as4124:00000F71:00001095:6AD596DF:qmstart:504:root@pam:
+2026-10-19T12:04:47+08:00 pve-as4124 pve-guests[3194]: <root@pam> starting task UPID:pve-as4124:00000F71:00001095:6AD596DF:qmstart:504:root@pam:
+2026-10-19T12:04:47+08:00 pve-as4124 systemd[1]: Started 504.scope.
+2026-10-19T12:04:47+08:00 pve-as4124 netavark[2378]: timeout met: exiting after 30 secs of inactivity
+2026-10-19T12:04:47+08:00 pve-as4124 systemd[1]: netavark-dhcp-proxy.service: Deactivated successfully.
+2026-10-19T12:04:48+08:00 pve-as4124 kernel: tap504i0: entered promiscuous mode
+2026-10-19T12:04:48+08:00 pve-as4124 kernel: vmbr0: port 7(fwpr504p0) entered blocking state
+2026-10-19T12:04:48+08:00 pve-as4124 kernel: vmbr0: port 7(fwpr504p0) entered disabled state
+2026-10-19T12:04:48+08:00 pve-as4124 kernel: fwpr504p0: entered allmulticast mode
+2026-10-19T12:04:48+08:00 pve-as4124 kernel: fwpr504p0: entered promiscuous mode
+2026-10-19T12:04:48+08:00 pve-as4124 kernel: vmbr0: port 7(fwpr504p0) entered blocking state
+2026-10-19T12:04:48+08:00 pve-as4124 kernel: vmbr0: port 7(fwpr504p0) entered forwarding state
+2026-10-19T12:04:48+08:00 pve-as4124 kernel: fwbr504i0: port 1(fwln504i0) entered blocking state
+2026-10-19T12:04:48+08:00 pve-as4124 kernel: fwbr504i0: port 1(fwln504i0) entered disabled state
+2026-10-19T12:04:48+08:00 pve-as4124 kernel: fwln504i0: entered allmulticast mode
+2026-10-19T12:04:48+08:00 pve-as4124 kernel: fwln504i0: entered promiscuous mode
+2026-10-19T12:04:48+08:00 pve-as4124 kernel: fwbr504i0: port 1(fwln504i0) entered blocking state
+2026-10-19T12:04:48+08:00 pve-as4124 kernel: fwbr504i0: port 1(fwln504i0) entered forwarding state
+2026-10-19T12:04:48+08:00 pve-as4124 kernel: fwbr504i0: port 2(tap504i0) entered blocking state
+2026-10-19T12:04:48+08:00 pve-as4124 kernel: fwbr504i0: port 2(tap504i0) entered disabled state
+2026-10-19T12:04:48+08:00 pve-as4124 kernel: tap504i0: entered allmulticast mode
+2026-10-19T12:04:48+08:00 pve-as4124 kernel: fwbr504i0: port 2(tap504i0) entered blocking state
+2026-10-19T12:04:48+08:00 pve-as4124 kernel: fwbr504i0: port 2(tap504i0) entered forwarding state
+2026-10-19T12:04:48+08:00 pve-as4124 pve-guests[3953]: VM 504 started with PID 3968 using pve-qemu-kvm_11.0.3-2.
+2026-10-19T12:04:50+08:00 pve-as4124 pvesh[3189]: Starting VM 511
+2026-10-19T12:04:50+08:00 pve-as4124 pve-guests[4049]: start VM 511: UPID:pve-as4124:00000FD1:000011C4:6AD596E2:qmstart:511:root@pam:
+2026-10-19T12:04:50+08:00 pve-as4124 pve-guests[3194]: <root@pam> starting task UPID:pve-as4124:00000FD1:000011C4:6AD596E2:qmstart:511:root@pam:
+2026-10-19T12:04:51+08:00 pve-as4124 systemd[1]: Started 511.scope.
+2026-10-19T12:04:51+08:00 pve-as4124 kernel: tap511i0: entered promiscuous mode
+2026-10-19T12:04:51+08:00 pve-as4124 kernel: vmbr0: port 8(fwpr511p0) entered blocking state
+2026-10-19T12:04:51+08:00 pve-as4124 kernel: vmbr0: port 8(fwpr511p0) entered disabled state
+2026-10-19T12:04:51+08:00 pve-as4124 kernel: fwpr511p0: entered allmulticast mode
+2026-10-19T12:04:51+08:00 pve-as4124 kernel: fwpr511p0: entered promiscuous mode
+2026-10-19T12:04:51+08:00 pve-as4124 kernel: vmbr0: port 8(fwpr511p0) entered blocking state
+2026-10-19T12:04:51+08:00 pve-as4124 kernel: vmbr0: port 8(fwpr511p0) entered forwarding state
+2026-10-19T12:04:52+08:00 pve-as4124 kernel: fwbr511i0: port 1(fwln511i0) entered blocking state
+2026-10-19T12:04:52+08:00 pve-as4124 kernel: fwbr511i0: port 1(fwln511i0) entered disabled state
+2026-10-19T12:04:52+08:00 pve-as4124 kernel: fwln511i0: entered allmulticast mode
+2026-10-19T12:04:52+08:00 pve-as4124 kernel: fwln511i0: entered promiscuous mode
+2026-10-19T12:04:52+08:00 pve-as4124 kernel: fwbr511i0: port 1(fwln511i0) entered blocking state
+2026-10-19T12:04:52+08:00 pve-as4124 kernel: fwbr511i0: port 1(fwln511i0) entered forwarding state
+2026-10-19T12:04:52+08:00 pve-as4124 kernel: fwbr511i0: port 2(tap511i0) entered blocking state
+2026-10-19T12:04:52+08:00 pve-as4124 kernel: fwbr511i0: port 2(tap511i0) entered disabled state
+2026-10-19T12:04:52+08:00 pve-as4124 kernel: tap511i0: entered allmulticast mode
+2026-10-19T12:04:52+08:00 pve-as4124 kernel: fwbr511i0: port 2(tap511i0) entered blocking state
+2026-10-19T12:04:52+08:00 pve-as4124 kernel: fwbr511i0: port 2(tap511i0) entered forwarding state
+2026-10-19T12:04:52+08:00 pve-as4124 pve-guests[4049]: VM 511 started with PID 4081 using pve-qemu-kvm_11.0.3-2.
+2026-10-19T12:04:53+08:00 pve-as4124 pvesh[3189]: Starting VM 512
+2026-10-19T12:04:53+08:00 pve-as4124 pve-guests[4166]: start VM 512: UPID:pve-as4124:00001046:000012F2:6AD596E5:qmstart:512:root@pam:
+2026-10-19T12:04:53+08:00 pve-as4124 pve-guests[3194]: <root@pam> starting task UPID:pve-as4124:00001046:000012F2:6AD596E5:qmstart:512:root@pam:
+2026-10-19T12:04:54+08:00 pve-as4124 kernel: vfio-pci 0000:c1:00.0: resetting
+2026-10-19T12:04:54+08:00 pve-as4124 kernel: vfio-pci 0000:c1:00.0: reset done
+2026-10-19T12:04:54+08:00 pve-as4124 kernel: vfio-pci 0000:e1:00.0: resetting
+2026-10-19T12:04:54+08:00 pve-as4124 kernel: vfio-pci 0000:e1:00.0: reset done
+2026-10-19T12:04:54+08:00 pve-as4124 systemd[1]: Started 512.scope.
+2026-10-19T12:04:55+08:00 pve-as4124 kernel: tap512i0: entered promiscuous mode
+2026-10-19T12:04:55+08:00 pve-as4124 kernel: vmbr0: port 9(fwpr512p0) entered blocking state
+2026-10-19T12:04:55+08:00 pve-as4124 kernel: vmbr0: port 9(fwpr512p0) entered disabled state
+2026-10-19T12:04:55+08:00 pve-as4124 kernel: fwpr512p0: entered allmulticast mode
+2026-10-19T12:04:55+08:00 pve-as4124 kernel: fwpr512p0: entered promiscuous mode
+2026-10-19T12:04:55+08:00 pve-as4124 kernel: vmbr0: port 9(fwpr512p0) entered blocking state
+2026-10-19T12:04:55+08:00 pve-as4124 kernel: vmbr0: port 9(fwpr512p0) entered forwarding state
+2026-10-19T12:04:55+08:00 pve-as4124 kernel: fwbr512i0: port 1(fwln512i0) entered blocking state
+2026-10-19T12:04:55+08:00 pve-as4124 kernel: fwbr512i0: port 1(fwln512i0) entered disabled state
+2026-10-19T12:04:55+08:00 pve-as4124 kernel: fwln512i0: entered allmulticast mode
+2026-10-19T12:04:55+08:00 pve-as4124 kernel: fwln512i0: entered promiscuous mode
+2026-10-19T12:04:55+08:00 pve-as4124 kernel: fwbr512i0: port 1(fwln512i0) entered blocking state
+2026-10-19T12:04:55+08:00 pve-as4124 kernel: fwbr512i0: port 1(fwln512i0) entered forwarding state
+2026-10-19T12:04:55+08:00 pve-as4124 kernel: fwbr512i0: port 2(tap512i0) entered blocking state
+2026-10-19T12:04:55+08:00 pve-as4124 kernel: fwbr512i0: port 2(tap512i0) entered disabled state
+2026-10-19T12:04:55+08:00 pve-as4124 kernel: tap512i0: entered allmulticast mode
+2026-10-19T12:04:55+08:00 pve-as4124 kernel: fwbr512i0: port 2(tap512i0) entered blocking state
+2026-10-19T12:04:55+08:00 pve-as4124 kernel: fwbr512i0: port 2(tap512i0) entered forwarding state
+2026-10-19T12:05:08+08:00 pve-as4124 kernel: vfio-pci 0000:01:00.0: resetting
+2026-10-19T12:05:08+08:00 pve-as4124 kernel: vfio-pci 0000:01:00.0: reset done
+2026-10-19T12:05:08+08:00 pve-as4124 kernel: vfio-pci 0000:25:00.0: resetting
+2026-10-19T12:05:08+08:00 pve-as4124 kernel: vfio-pci 0000:25:00.0: reset done
+2026-10-19T12:05:08+08:00 pve-as4124 kernel: vfio-pci 0000:41:00.0: resetting
+2026-10-19T12:05:08+08:00 pve-as4124 kernel: vfio-pci 0000:41:00.0: reset done
+2026-10-19T12:05:08+08:00 pve-as4124 kernel: vfio-pci 0000:41:00.0: resetting
+2026-10-19T12:05:08+08:00 pve-as4124 kernel: vfio-pci 0000:41:00.1: resetting
+2026-10-19T12:05:08+08:00 pve-as4124 kernel: vfio-pci 0000:41:00.2: resetting
+2026-10-19T12:05:08+08:00 pve-as4124 kernel: vfio-pci 0000:41:00.3: resetting
+2026-10-19T12:05:09+08:00 pve-as4124 kernel: vfio-pci 0000:41:00.0: reset done
+2026-10-19T12:05:09+08:00 pve-as4124 kernel: vfio-pci 0000:41:00.1: reset done
+2026-10-19T12:05:09+08:00 pve-as4124 kernel: vfio-pci 0000:41:00.2: reset done
+2026-10-19T12:05:09+08:00 pve-as4124 kernel: vfio-pci 0000:41:00.3: reset done
+2026-10-19T12:05:09+08:00 pve-as4124 kernel: vfio-pci 0000:25:00.0: resetting
+2026-10-19T12:05:09+08:00 pve-as4124 kernel: vfio-pci 0000:25:00.1: resetting
+2026-10-19T12:05:09+08:00 pve-as4124 kernel: vfio-pci 0000:25:00.2: resetting
+2026-10-19T12:05:09+08:00 pve-as4124 kernel: vfio-pci 0000:25:00.3: resetting
+2026-10-19T12:05:09+08:00 pve-as4124 kernel: vfio-pci 0000:25:00.0: reset done
+2026-10-19T12:05:09+08:00 pve-as4124 kernel: vfio-pci 0000:25:00.1: reset done
+2026-10-19T12:05:09+08:00 pve-as4124 kernel: vfio-pci 0000:25:00.2: reset done
+2026-10-19T12:05:09+08:00 pve-as4124 kernel: vfio-pci 0000:25:00.3: reset done
+2026-10-19T12:05:09+08:00 pve-as4124 kernel: vfio-pci 0000:01:00.0: resetting
+2026-10-19T12:05:09+08:00 pve-as4124 kernel: vfio-pci 0000:01:00.1: resetting
+2026-10-19T12:05:09+08:00 pve-as4124 kernel: vfio-pci 0000:01:00.2: resetting
+2026-10-19T12:05:09+08:00 pve-as4124 kernel: vfio-pci 0000:01:00.3: resetting
+2026-10-19T12:05:09+08:00 pve-as4124 kernel: vfio-pci 0000:01:00.0: reset done
+2026-10-19T12:05:09+08:00 pve-as4124 kernel: vfio-pci 0000:01:00.1: reset done
+2026-10-19T12:05:09+08:00 pve-as4124 kernel: vfio-pci 0000:01:00.2: reset done
+2026-10-19T12:05:09+08:00 pve-as4124 kernel: vfio-pci 0000:01:00.3: reset done
+2026-10-19T12:05:09+08:00 pve-as4124 kernel: vfio-pci 0000:41:00.0: resetting
+2026-10-19T12:05:09+08:00 pve-as4124 kernel: vfio-pci 0000:41:00.0: reset done
+2026-10-19T12:05:09+08:00 pve-as4124 kernel: vfio-pci 0000:25:00.0: resetting
+2026-10-19T12:05:09+08:00 pve-as4124 kernel: vfio-pci 0000:25:00.0: reset done
+2026-10-19T12:05:09+08:00 pve-as4124 kernel: vfio-pci 0000:01:00.0: resetting
+2026-10-19T12:05:09+08:00 pve-as4124 kernel: vfio-pci 0000:01:00.0: reset done
+2026-10-19T12:05:09+08:00 pve-as4124 pve-guests[3728]: VM 502 started with PID 3764 using pve-qemu-kvm_11.0.3-2.
+2026-10-19T12:05:12+08:00 pve-as4124 kernel: {2}[Hardware Error]: Hardware error from APEI Generic Hardware Error Source: 512
+2026-10-19T12:05:12+08:00 pve-as4124 kernel: {2}[Hardware Error]: It has been corrected by h/w and requires no further action
+2026-10-19T12:05:12+08:00 pve-as4124 kernel: {2}[Hardware Error]: event severity: corrected
+2026-10-19T12:05:12+08:00 pve-as4124 kernel: {2}[Hardware Error]:  Error 0, type: corrected
+2026-10-19T12:05:12+08:00 pve-as4124 kernel: {2}[Hardware Error]:  fru_text: PcieError
+2026-10-19T12:05:12+08:00 pve-as4124 kernel: {2}[Hardware Error]:   section_type: PCIe error
+2026-10-19T12:05:12+08:00 pve-as4124 kernel: {2}[Hardware Error]:   port_type: 4, root port
+2026-10-19T12:05:12+08:00 pve-as4124 kernel: {2}[Hardware Error]:   version: 0.2
+2026-10-19T12:05:12+08:00 pve-as4124 kernel: {2}[Hardware Error]:   command: 0x0407, status: 0x0010
+2026-10-19T12:05:12+08:00 pve-as4124 kernel: {2}[Hardware Error]:   device_id: 0000:20:01.1
+2026-10-19T12:05:12+08:00 pve-as4124 kernel: {2}[Hardware Error]:   slot: 0
+2026-10-19T12:05:12+08:00 pve-as4124 kernel: {2}[Hardware Error]:   secondary_bus: 0x21
+2026-10-19T12:05:12+08:00 pve-as4124 kernel: {2}[Hardware Error]:   vendor_id: 0x1022, device_id: 0x1483
+2026-10-19T12:05:12+08:00 pve-as4124 kernel: {2}[Hardware Error]:   class_code: 060400
+2026-10-19T12:05:12+08:00 pve-as4124 kernel: {2}[Hardware Error]:   bridge: secondary_status: 0x0000, control: 0x0012
+2026-10-19T12:05:12+08:00 pve-as4124 kernel: {2}[Hardware Error]:   aer_cor_status: 0x00001000, aer_cor_mask: 0x00000000
+2026-10-19T12:05:12+08:00 pve-as4124 kernel: {2}[Hardware Error]:   aer_uncor_status: 0x00000000, aer_uncor_mask: 0x04004000
+2026-10-19T12:05:12+08:00 pve-as4124 kernel: {2}[Hardware Error]:   aer_uncor_severity: 0x026f6030
+2026-10-19T12:05:12+08:00 pve-as4124 kernel: {2}[Hardware Error]:   TLP Header: 00000000 00000000 00000000 00000000
+2026-10-19T12:05:12+08:00 pve-as4124 kernel: pcieport 0000:20:01.1: aer_status: 0x00001000, aer_mask: 0x00000000
+2026-10-19T12:05:12+08:00 pve-as4124 kernel: pcieport 0000:20:01.1:    [12] Timeout               
+2026-10-19T12:05:12+08:00 pve-as4124 kernel: pcieport 0000:20:01.1: aer_layer=Data Link Layer, aer_agent=Transmitter ID
+
+STDERR:

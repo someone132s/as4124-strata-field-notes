@@ -1,0 +1,1579 @@
+{
+  "title": "让Strata跑得更好：一套双2080Ti服务的调优",
+  "revision": 3,
+  "date": "2026-10-19",
+  "sources": [
+    {
+      "id": "S01",
+      "title": "标准带宽复核与 R730 对照",
+      "path": "memory-verification-20261015/README.md"
+    },
+    {
+      "id": "S02",
+      "title": "PE、频率及 SOC Pstate 对照",
+      "path": "memory-verification-20261015/PE-results-20261016.md"
+    },
+    {
+      "id": "S03",
+      "title": "DIMM 编号及 2/4/8 条实测",
+      "path": "memory-verification-20261015/DIMM-编号与分组测试计划-20261016.md"
+    },
+    {
+      "id": "S05",
+      "title": "R730-借测维护状态-20261016.md",
+      "path": "memory-verification-20261015/R730-借测维护状态-20261016.md"
+    },
+    {
+      "id": "S07",
+      "title": "AS4124-供电状态导致性能骤降-20261019.md",
+      "path": "AS4124-供电状态导致性能骤降-20261019.md"
+    },
+    {
+      "id": "S09",
+      "title": "AS4124-PVE内存带宽复测-20261017.md",
+      "path": "AS4124-PVE内存带宽复测-20261017.md"
+    },
+    {
+      "id": "S10",
+      "title": "Strata调优总记录-20261014.md",
+      "path": "Strata调优总记录-20261014.md"
+    },
+    {
+      "id": "S11",
+      "title": "Strata不绑核workers正式测试报告.md",
+      "path": "Strata不绑核workers正式测试报告.md"
+    },
+    {
+      "id": "S12",
+      "title": "Strata15workers绑核对照报告.md",
+      "path": "Strata15workers绑核对照报告.md"
+    },
+    {
+      "id": "S13",
+      "title": "Strata_Turing固定分层复核.md",
+      "path": "Strata_Turing固定分层复核.md"
+    },
+    {
+      "id": "S15",
+      "title": "test-report-2026-10-14.md",
+      "path": "test-report-2026-10-14.md"
+    },
+    {
+      "id": "S16",
+      "title": "Strata-hnorm-stream测试-20261014.md",
+      "path": "Strata-hnorm-stream测试-20261014.md"
+    },
+    {
+      "id": "S17",
+      "title": "结果摘要.md",
+      "path": "official-parameter-matrix-20261014/结果摘要.md"
+    },
+    {
+      "id": "S18",
+      "title": "五组参数机器汇总",
+      "path": "Strata-five-arm-20261015/summary.json"
+    },
+    {
+      "id": "S19",
+      "title": "README.md",
+      "path": "Strata长上下文对比-20261015/README.md"
+    },
+    {
+      "id": "S20",
+      "title": "Strata并发能力测试报告.md",
+      "path": "Strata并发能力测试报告.md"
+    },
+    {
+      "id": "S21",
+      "title": "README.md",
+      "path": "prefill4096-aux-longtext-20261015/README.md"
+    },
+    {
+      "id": "S22",
+      "title": "README.md",
+      "path": "Strata双客户端补测-20261015/README.md"
+    },
+    {
+      "id": "S23",
+      "title": "案例解读.md",
+      "path": "prefill-community-20261015/案例解读.md"
+    },
+    {
+      "id": "S24",
+      "title": "SC117三卡部署记录-20261016.md",
+      "path": "SC117三卡部署记录-20261016.md"
+    },
+    {
+      "id": "S25",
+      "title": "AS4124-GPU直通调整-20261016.md",
+      "path": "AS4124-GPU直通调整-20261016.md"
+    },
+    {
+      "id": "S26",
+      "title": "清理完成.md",
+      "path": "cleanup-inventory-20261015/清理完成.md"
+    },
+    {
+      "id": "S27",
+      "title": "扩容完成.md",
+      "path": "storage-audit-20261015/扩容完成.md"
+    },
+    {
+      "id": "S29",
+      "title": "README.md",
+      "path": "sc117-overnight-20261016/README.md"
+    },
+    {
+      "id": "S34",
+      "title": "Strata-0.1.45升级记录-20261017.md",
+      "path": "Strata-0.1.45升级记录-20261017.md"
+    },
+    {
+      "id": "S35",
+      "title": "Strata-0.1.45单次基准-20261017.md",
+      "path": "Strata-0.1.45单次基准-20261017.md"
+    },
+    {
+      "id": "S36",
+      "title": "测试结果.md",
+      "path": "workers-cpu-sweep-20261019/测试结果.md"
+    },
+    {
+      "id": "S37",
+      "title": "测试结果.md",
+      "path": "numa-affinity-sweep-20261019/测试结果.md"
+    },
+    {
+      "id": "S38",
+      "title": "分析结果.md",
+      "path": "pcie-performance-20261019/分析结果.md"
+    },
+    {
+      "id": "S39",
+      "title": "分析结果.md",
+      "path": "huihui-iq4xs-engine-20261019/分析结果.md"
+    },
+    {
+      "id": "S40",
+      "title": "测试结果.md",
+      "path": "prefill-cap-sweep-20261019/测试结果.md"
+    },
+    {
+      "id": "S41",
+      "title": "AS4124-核心报错与AER核查-20261019.md",
+      "path": "AS4124-核心报错与AER核查-20261019.md"
+    },
+    {
+      "id": "S42",
+      "title": "结论.md",
+      "path": "reboot-investigation-20261019/结论.md"
+    },
+    {
+      "id": "S43",
+      "title": "CPU选择结论-20261016.md",
+      "path": "CPU选择结论-20261016.md"
+    },
+    {
+      "id": "S44",
+      "title": "最终服务与参数验收",
+      "path": "prefill-cap-sweep-20261019/final-verification.json"
+    },
+    {
+      "id": "S45",
+      "title": "10/19 内核日志：resctrl能力检测",
+      "path": "reboot-investigation-20261019/host-kernel-current.txt"
+    },
+    {
+      "id": "S46",
+      "title": "显存回收测试-20261014.md",
+      "path": "显存回收测试-20261014.md"
+    },
+    {
+      "id": "S47",
+      "title": "后续验证与采购决策-20261016.md",
+      "path": "memory-verification-20261015/后续验证与采购决策-20261016.md"
+    },
+    {
+      "id": "S48",
+      "title": "检查结论.md",
+      "path": "AS4124-AER-20261018/检查结论.md"
+    },
+    {
+      "id": "S51",
+      "title": "本机、7945HX与2690v4结构化对比数据",
+      "path": "Strata长上下文对比-20261015/comparison-data.json"
+    },
+    {
+      "id": "S52",
+      "title": "跨机曲线配置与比较口径归档",
+      "path": "memory-verification-20261015/cross-rig-review-extracted.txt"
+    },
+    {
+      "id": "S53",
+      "title": "Hanayo RTX3090公开CSV复核",
+      "path": "prefill-community-20261015/Hanayo-3090案例核对.md"
+    },
+    {
+      "id": "S54",
+      "title": "Linux RX7900XTX八图案例",
+      "path": "prefill-community-20261015/7900XTX八图案例.md"
+    },
+    {
+      "id": "S55",
+      "title": "Windows RX7900XTX六图案例",
+      "path": "prefill-community-20261015/7900XTX-Windows六图案例.md"
+    },
+    {
+      "id": "S56",
+      "title": "双RTX3080与pipeline取舍案例",
+      "path": "prefill-community-20261015/双3080-IQ3XXS案例.md"
+    },
+    {
+      "id": "S57",
+      "title": "4070Ti SUPER并发与亲和性案例",
+      "path": "prefill-community-20261015/4070TiSUPER-P2并发案例.md"
+    },
+    {
+      "id": "S58",
+      "title": "正式基准中的客机内核、驱动和CUDA版本",
+      "path": "remote-results/official-hnorm-stream-20261014/2026-10-14-community-2x-rtx-2080-ti-swift-1-5-abliterated-iq3-s-q8ple/README.md"
+    },
+    {
+      "id": "S59",
+      "title": "EvalScope版本与独立测试VM",
+      "path": "EvalScope部署记录-20261014.md"
+    },
+    {
+      "id": "S60",
+      "title": "主板BIOS与内存布局截图核对",
+      "path": "memory-verification-20261015/BIOS-current-20261016.md"
+    },
+    {
+      "id": "S61",
+      "title": "早期阶段收尾的版本与启动参数归档",
+      "path": "remote-results/hnorm-stream-20261014-232206.json"
+    },
+    {
+      "id": "S62",
+      "title": "长曲线与五组参数的版本与启动参数归档",
+      "path": "Strata-five-arm-20261015/campaign.json"
+    },
+    {
+      "id": "S63",
+      "title": "0.1.45部署阶段收尾的版本与启动参数归档",
+      "path": "prefill-cap-sweep-20261019/original-sc117-config.json"
+    },
+    {
+      "id": "S64",
+      "title": "Huihui切回阶段的版本与启动参数归档",
+      "path": "huihui-iq4xs-engine-20261019/active-config.json"
+    },
+    {
+      "id": "S65",
+      "title": "最终参数收敛的版本与启动参数归档",
+      "path": "prefill-cap-sweep-20261019/original-huihui-config.json"
+    },
+    {
+      "id": "S66",
+      "title": "2690v4-网友评论.txt",
+      "path": "Strata长上下文对比-20261015/sources/2690v4-网友评论.txt"
+    },
+    {
+      "id": "S68",
+      "title": "当时的完整跨机对比报告",
+      "path": "Strata长上下文对比-20261015/Strata长上下文性能对比.html"
+    },
+    {
+      "id": "S69",
+      "title": "7282-7452-7443-7R13-7V13比较-20261016.md",
+      "path": "memory-verification-20261015/7282-7452-7443-7R13-7V13比较-20261016.md"
+    }
+  ],
+  "charts": [
+    {
+      "id": "power-aida",
+      "title": "相同 7452 配置，缺电源与全供电",
+      "labels": [
+        "读取",
+        "写入",
+        "复制"
+      ],
+      "series": [
+        {
+          "name": "缺电源",
+          "values": [
+            17.43,
+            19.669,
+            16.871
+          ]
+        },
+        {
+          "name": "四路上线",
+          "values": [
+            148.19,
+            152.02,
+            154.3
+          ]
+        }
+      ],
+      "unit": "GB/s",
+      "caption": "两组 AIDA64 均标注四通道 DDR4-3200R；用户现场截图。读取约 8.50 倍，不能解释成 2933→3200 的频率收益。",
+      "sources": "<a class=\"ref\" href=\"#S07\">[S07]</a>",
+      "kind": "bar",
+      "y_min": 0,
+      "y_max": 250,
+      "reference": null
+    },
+    {
+      "id": "early-workers",
+      "title": "早期不绑核：15 workers 是合理工作点",
+      "labels": [
+        "7 workers",
+        "15 workers",
+        "31 workers"
+      ],
+      "series": [
+        {
+          "name": "decode 中位数",
+          "values": [
+            41.1,
+            45.0,
+            43.7
+          ]
+        }
+      ],
+      "unit": "tok/s",
+      "caption": "10/13，Huihui UD-IQ4_XS，15→7→31→15；36 个正式请求，15 合并18样本、其余各9。首尾15基线自身约漂移 −5.5%；不可认定精确提升比例。",
+      "sources": "<a class=\"ref\" href=\"#S11\">[S11]</a>",
+      "kind": "bar",
+      "y_min": 0,
+      "y_max": 100,
+      "reference": null
+    },
+    {
+      "id": "turing-fixed",
+      "title": "固定分层复核：BF16 开关主要改善 prefill",
+      "labels": [
+        "关闭",
+        "BF16_TC=1"
+      ],
+      "series": [
+        {
+          "name": "prefill",
+          "values": [
+            929.7,
+            1086.6
+          ]
+        }
+      ],
+      "unit": "tok/s",
+      "caption": "24/24 固定分层、PCIe fraction 0.28。prefill +16.9%；TTFT 21.08→18.33s。decode 仅3题且逐题不一致，没有宣称稳定的同幅收益。",
+      "sources": "<a class=\"ref\" href=\"#S13\">[S13]</a>",
+      "kind": "bar",
+      "y_min": 0,
+      "y_max": 1250.0,
+      "reference": null
+    },
+    {
+      "id": "stage-trim",
+      "title": "Stage trim 的 A→B→A 短测",
+      "labels": [
+        "A1 关闭",
+        "B 开启",
+        "A2 关闭"
+      ],
+      "series": [
+        {
+          "name": "decode 中位数",
+          "values": [
+            41.5,
+            48.8,
+            42.4
+          ]
+        }
+      ],
+      "unit": "tok/s",
+      "caption": "固定分层与 BF16；每组3个串行样本。专家缓存 28506→32913 MiB，增加4407 MiB；槽位12333→14235。并发没有完整 ABA，不能把所有并发收益也归给 trim。",
+      "sources": "<a class=\"ref\" href=\"#S15\">[S15]</a>",
+      "kind": "bar",
+      "y_min": 0,
+      "y_max": 100,
+      "reference": null
+    },
+    {
+      "id": "scheduling",
+      "title": "早期同阶段 A→B→A：单组 batch-MTP 优于双组调度",
+      "labels": [
+        "同时到达",
+        "错峰到达"
+      ],
+      "series": [
+        {
+          "name": "双组 A1",
+          "values": [
+            10.94,
+            13.59
+          ]
+        },
+        {
+          "name": "单组 batch-MTP B",
+          "values": [
+            22.19,
+            22.19
+          ]
+        },
+        {
+          "name": "双组 A2",
+          "values": [
+            10.85,
+            13.19
+          ]
+        }
+      ],
+      "unit": "端到端总 tok/s",
+      "caption": "约20K fresh prompt，1024输出上限；同阶段固定分层，每种到达各3对。不是后期 pipeline-windows=2 的同一测试。",
+      "sources": "<a class=\"ref\" href=\"#S15\">[S15]</a>",
+      "kind": "bar",
+      "y_min": 0,
+      "y_max": 50,
+      "reference": null
+    },
+    {
+      "id": "old-matrix",
+      "title": "旧版官方矩阵：16K prefill，组合开关不等于更快",
+      "labels": [
+        "基线",
+        "ring384",
+        "auto:16K",
+        "aux-auto",
+        "三项组合"
+      ],
+      "series": [
+        {
+          "name": "prefill",
+          "values": [
+            1251,
+            1226.2,
+            895.9,
+            1334.2,
+            986.0
+          ]
+        }
+      ],
+      "unit": "tok/s",
+      "caption": "Swift IQ3_S，0.1.43.1，各组官方 runs=3；历史基线没有交错复跑，存在热身/时间漂移。",
+      "sources": "<a class=\"ref\" href=\"#S17\">[S17]</a>",
+      "kind": "bar",
+      "y_min": 0,
+      "y_max": 2500,
+      "reference": null
+    },
+    {
+      "id": "old-long",
+      "title": "旧版长上下文：auto 与 auto:16384 的本机曲线",
+      "labels": [
+        "32K",
+        "64K",
+        "128K",
+        "192K",
+        "230K",
+        "near-256K"
+      ],
+      "series": [
+        {
+          "name": "auto:16384",
+          "values": [
+            1198.175167841527,
+            1341.0297956611757,
+            1352.6924400098765,
+            1202.734793252887,
+            1164.675675087582,
+            1195.0564731516938
+          ]
+        },
+        {
+          "name": "auto",
+          "values": [
+            1362.8610889243876,
+            1439.0500473263364,
+            1347.780034359981,
+            1243.8878150113933,
+            1185.6922646585917,
+            1153.183699642309
+          ]
+        }
+      ],
+      "unit": "tok/s",
+      "caption": "32K至约260000 token；每档3次中位数，36请求、18组 payload hash 对齐、前缀复用0。两组自动 PCIe fraction 为0.25/0.27，仍有运行时混杂。",
+      "sources": "<a class=\"ref\" href=\"#S19\">[S19]</a>",
+      "kind": "line",
+      "y_min": 0,
+      "y_max": 2500,
+      "reference": null
+    },
+    {
+      "id": "pipeline-clients",
+      "title": "后续双客户端：pipeline-windows=2 完成得更快",
+      "labels": [
+        "同时到达",
+        "错峰到达"
+      ],
+      "series": [
+        {
+          "name": "current-batch",
+          "values": [
+            28.03,
+            28.37
+          ]
+        },
+        {
+          "name": "pipeline2",
+          "values": [
+            34.14,
+            34.81
+          ]
+        }
+      ],
+      "unit": "端到端总 tok/s",
+      "caption": "同材料、同问题和采样参数，每种到达各3对，复用0；总吞吐约高22%。两组PCIe fraction为0.28/0.26。pipeline2有排队，不能宣称两路同时decode。",
+      "sources": "<a class=\"ref\" href=\"#S22\">[S22]</a>",
+      "kind": "bar",
+      "y_min": 0,
+      "y_max": 50,
+      "reference": null
+    },
+    {
+      "id": "v0145-prefill",
+      "title": "10/17 新版单次基准：尚未修复供电时的 prefill",
+      "labels": [
+        "4K",
+        "32K",
+        "128K",
+        "240K"
+      ],
+      "series": [
+        {
+          "name": "简单",
+          "values": [
+            952.1,
+            1769.4,
+            2065.8,
+            2020.3
+          ]
+        },
+        {
+          "name": "复杂",
+          "values": [
+            880.1,
+            1719.8,
+            2019.9,
+            2009.7
+          ]
+        }
+      ],
+      "unit": "tok/s",
+      "caption": "SC117 IQ3_S、Q8 PLE，输出512，temperature0、关闭思考、8请求各一次、复用0。此轮“简单”是随机词材料分析，与10/19数数任务不同。",
+      "sources": "<a class=\"ref\" href=\"#S35\">[S35]</a>",
+      "kind": "line",
+      "y_min": 0,
+      "y_max": 2500,
+      "reference": null
+    },
+    {
+      "id": "workers-simple",
+      "title": "简单任务 decode：三条线程曲线几乎重合",
+      "labels": [
+        "4K",
+        "32K",
+        "64K",
+        "128K",
+        "192K",
+        "240K"
+      ],
+      "series": [
+        {
+          "name": "8参与线程",
+          "values": [
+            143.2,
+            129.2,
+            127.0,
+            127.6,
+            128.5,
+            126.1
+          ]
+        },
+        {
+          "name": "16参与线程",
+          "values": [
+            143.2,
+            124.8,
+            127.0,
+            118.6,
+            123.3,
+            125.6
+          ]
+        },
+        {
+          "name": "24参与线程",
+          "values": [
+            142.8,
+            126.8,
+            123.0,
+            125.2,
+            123.2,
+            128.5
+          ]
+        }
+      ],
+      "unit": "tok/s",
+      "caption": "SC117 IQ3_S，0.1.45；每点一次，图中没有误差估计。",
+      "sources": "<a class=\"ref\" href=\"#S36\">[S36]</a>",
+      "kind": "line",
+      "y_min": 0,
+      "y_max": 160,
+      "reference": null
+    },
+    {
+      "id": "workers-complex",
+      "title": "复杂任务 decode：加线程没有系统性改善",
+      "labels": [
+        "4K",
+        "32K",
+        "64K",
+        "128K",
+        "192K",
+        "240K"
+      ],
+      "series": [
+        {
+          "name": "8参与线程",
+          "values": [
+            71.5,
+            79.1,
+            69.9,
+            74.2,
+            67.7,
+            69.5
+          ]
+        },
+        {
+          "name": "16参与线程",
+          "values": [
+            70.7,
+            71.6,
+            71.1,
+            72.4,
+            66.0,
+            69.5
+          ]
+        },
+        {
+          "name": "24参与线程",
+          "values": [
+            73.5,
+            71.5,
+            72.4,
+            68.9,
+            65.5,
+            66.4
+          ]
+        }
+      ],
+      "unit": "tok/s",
+      "caption": "输出要求改变MTP接受情况；不与简单数数速度平均成“日常推理速度”。",
+      "sources": "<a class=\"ref\" href=\"#S36\">[S36]</a>",
+      "kind": "line",
+      "y_min": 0,
+      "y_max": 100,
+      "reference": null
+    },
+    {
+      "id": "workers-prefill",
+      "title": "prefill 也没有随参与线程增加而提高",
+      "labels": [
+        "4K",
+        "32K",
+        "64K",
+        "128K",
+        "192K",
+        "240K"
+      ],
+      "series": [
+        {
+          "name": "8参与线程 · 简单",
+          "values": [
+            1065.418129795812,
+            1954.1984732824426,
+            2185.5022393261015,
+            2253.397150244815,
+            2245.485797823132,
+            2226.5851146044447
+          ]
+        },
+        {
+          "name": "16参与线程 · 简单",
+          "values": [
+            1047.7579106233852,
+            1933.0442733681386,
+            2169.865045624909,
+            2242.966344895092,
+            2242.9599477956913,
+            2224.5092475173856
+          ]
+        },
+        {
+          "name": "24参与线程 · 简单",
+          "values": [
+            1048.0259959573216,
+            1929.3452661328306,
+            2149.2780097139917,
+            2235.9337230705196,
+            2228.577452383948,
+            2207.5031393324675
+          ]
+        }
+      ],
+      "unit": "tok/s",
+      "caption": "复杂任务prefill亦同趋势；六档全部数据见源CSV。短输入固定开销更显著，不能以4K速度预测240K。",
+      "sources": "<a class=\"ref\" href=\"#S36\">[S36]</a>",
+      "kind": "line",
+      "y_min": 0,
+      "y_max": 2500,
+      "reference": null
+    },
+    {
+      "id": "numa-decode",
+      "title": "NUMA 策略与 decode：差别小于主要负载差异",
+      "labels": [
+        "A 当前",
+        "B 仅绑CPU",
+        "C 优先node0",
+        "D 交错"
+      ],
+      "series": [
+        {
+          "name": "简单中位数",
+          "values": [
+            125.94999999999999,
+            126.9,
+            128.8,
+            127.95
+          ]
+        },
+        {
+          "name": "复杂中位数",
+          "values": [
+            73.19999999999999,
+            71.69999999999999,
+            72.85,
+            74.35
+          ]
+        }
+      ],
+      "unit": "tok/s",
+      "caption": "SC117 IQ3_S、32vCPU、128GiB、15workers。中位数概括六种长度，每项只测一次。",
+      "sources": "<a class=\"ref\" href=\"#S37\">[S37]</a>",
+      "kind": "bar",
+      "y_min": 0,
+      "y_max": 160,
+      "reference": null
+    },
+    {
+      "id": "numa-prefill",
+      "title": "长输入 prefill：本地优先也没有明显改善",
+      "labels": [
+        "A 当前",
+        "B 仅绑CPU",
+        "C 优先node0",
+        "D 交错"
+      ],
+      "series": [
+        {
+          "name": "64K以上prefill中位数",
+          "values": [
+            2242.1045107399937,
+            2204.6280949673537,
+            2237.479415175965,
+            2191.0822528367607
+          ]
+        }
+      ],
+      "unit": "tok/s",
+      "caption": "A2242、B2205、C2237、D2191；240K首token约110–113s。页面实际落点不同，但不能证明这些小差值稳定可复现。",
+      "sources": "<a class=\"ref\" href=\"#S37\">[S37]</a>",
+      "kind": "bar",
+      "y_min": 0,
+      "y_max": 2500,
+      "reference": null
+    },
+    {
+      "id": "pcie-prefill",
+      "title": "SC117 prefill：突发较高，但不是全程饱和",
+      "labels": [
+        "4K简",
+        "4K繁",
+        "32K简",
+        "32K繁",
+        "128K简",
+        "128K繁",
+        "240K简",
+        "240K繁"
+      ],
+      "series": [
+        {
+          "name": "同秒双卡RX p90",
+          "values": [
+            3.8968000000000003,
+            9.506600000000002,
+            22.9875,
+            15.434599999999998,
+            16.589800000000004,
+            14.749000000000004,
+            17.357900000000004,
+            16.065500000000007
+          ]
+        },
+        {
+          "name": "同秒双卡RX峰值",
+          "values": [
+            3.982,
+            13.559,
+            27.43,
+            20.373,
+            23.461,
+            21.328,
+            27.241,
+            23.438
+          ]
+        }
+      ],
+      "unit": "GB/s",
+      "caption": "RX为主机→GPU；p90最高23.0，峰值27.4；长prompt GPU利用率中位99%–100%。1秒采样会漏掉更短的突发。",
+      "sources": "<a class=\"ref\" href=\"#S38\">[S38]</a>",
+      "kind": "bar",
+      "y_min": 0,
+      "y_max": 35,
+      "reference": [
+        "双卡单向理论约31.5 GB/s",
+        31.5
+      ]
+    },
+    {
+      "id": "pcie-decode",
+      "title": "SC117 decode：没有看到持续链路饱和证据",
+      "labels": [
+        "4K简",
+        "4K繁",
+        "32K简",
+        "32K繁",
+        "128K简",
+        "128K繁",
+        "240K简",
+        "240K繁"
+      ],
+      "series": [
+        {
+          "name": "双卡RX+TX p90",
+          "values": [
+            2.242,
+            3.678,
+            3.1704,
+            1.26,
+            5.385000000000001,
+            1.428,
+            8.353900000000001,
+            3.5050000000000003
+          ]
+        }
+      ],
+      "unit": "GB/s",
+      "caption": "双向p90最高8.4GB/s；同口径双向理论63GB/s。低平均/p90不能完全排除瞬时串行传输或同步等待，所以不把它写成“PCIe绝无影响”。",
+      "sources": "<a class=\"ref\" href=\"#S38\">[S38]</a>",
+      "kind": "bar",
+      "y_min": 0,
+      "y_max": 70,
+      "reference": [
+        "双卡双向理论约63 GB/s",
+        63
+      ]
+    },
+    {
+      "id": "mtp",
+      "title": "同阶段 SC117：简单与复杂的 MTP 接受率不同",
+      "labels": [
+        "4K",
+        "32K",
+        "128K",
+        "240K"
+      ],
+      "series": [
+        {
+          "name": "简单",
+          "values": [
+            97.45547073791349,
+            96.21212121212122,
+            96.46464646464646,
+            98.46153846153847
+          ]
+        },
+        {
+          "name": "复杂",
+          "values": [
+            70.56074766355141,
+            72.64367816091955,
+            64.62882096069869,
+            59.00216919739696
+          ]
+        }
+      ],
+      "unit": "接受率 %",
+      "caption": "简单中位约97.0%，复杂约67.6%；对应decode约127–147与62–80tok/s。是强相关解释，但没有MTP关闭/开启A/B，不能把全部速度差只归于接受率。",
+      "sources": "<a class=\"ref\" href=\"#S38\">[S38]</a>",
+      "kind": "line",
+      "y_min": 0,
+      "y_max": 100,
+      "reference": null
+    },
+    {
+      "id": "models-prefill",
+      "title": "相同测试方案的归档结果：prefill 基本相当",
+      "labels": [
+        "4K",
+        "32K",
+        "128K",
+        "240K"
+      ],
+      "series": [
+        {
+          "name": "SC117 · 简单",
+          "values": [
+            1037.578814627995,
+            1971.0240764675825,
+            2260.7915840303526,
+            2215.3339180079483
+          ]
+        },
+        {
+          "name": "Huihui · 简单",
+          "values": [
+            1045.230722371694,
+            1958.2211127898574,
+            2290.2184945590366,
+            2256.8640036141555
+          ]
+        }
+      ],
+      "unit": "tok/s",
+      "caption": "双卡、Q8PLE、15workers、0.1.45；8请求/模型，各点一次。没有重新跑一轮SC117交错基线。",
+      "sources": "<a class=\"ref\" href=\"#S38\">[S38]</a><a class=\"ref\" href=\"#S39\">[S39]</a>",
+      "kind": "line",
+      "y_min": 0,
+      "y_max": 2500,
+      "reference": null
+    },
+    {
+      "id": "models-decode",
+      "title": "同方案归档结果：Huihui 的 decode 较慢",
+      "labels": [
+        "4K",
+        "32K",
+        "128K",
+        "240K"
+      ],
+      "series": [
+        {
+          "name": "SC117 简单",
+          "values": [
+            146.9,
+            128.9,
+            126.6,
+            128.9
+          ]
+        },
+        {
+          "name": "Huihui 简单",
+          "values": [
+            119.3,
+            112.8,
+            111.4,
+            111.3
+          ]
+        },
+        {
+          "name": "SC117 复杂",
+          "values": [
+            79.6,
+            78.0,
+            67.9,
+            62.1
+          ]
+        },
+        {
+          "name": "Huihui 复杂",
+          "values": [
+            58.9,
+            59.7,
+            59.3,
+            56.8
+          ]
+        }
+      ],
+      "unit": "tok/s",
+      "caption": "Huihui长输入简单约111、复杂中位约59；SC117相应约129、约73。模型、量化与MTP行为一起变化，不能只归于“位宽”。",
+      "sources": "<a class=\"ref\" href=\"#S38\">[S38]</a><a class=\"ref\" href=\"#S39\">[S39]</a>",
+      "kind": "line",
+      "y_min": 0,
+      "y_max": 160,
+      "reference": null
+    },
+    {
+      "id": "caps-total",
+      "title": "总 prefill 时间：16K 的整体收益很小，32K 变慢",
+      "labels": [
+        "8192",
+        "16384",
+        "32768"
+      ],
+      "series": [
+        {
+          "name": "Huihui",
+          "values": [
+            377.2835,
+            376.0857,
+            412.3408
+          ]
+        },
+        {
+          "name": "SC117",
+          "values": [
+            386.0045,
+            382.645,
+            415.1569
+          ]
+        }
+      ],
+      "unit": "秒 · 越低越好",
+      "caption": "每组8个固定请求的累计prompt阶段耗时；Huihui为377.28/376.09/412.34s。输入长度和内容固定后，该总时间用于本次选择。",
+      "sources": "<a class=\"ref\" href=\"#S40\">[S40]</a>",
+      "kind": "bar",
+      "y_min": 0,
+      "y_max": 500,
+      "reference": null
+    },
+    {
+      "id": "caps-32k",
+      "title": "32K 输入最敏感：chunk 越大反而越慢",
+      "labels": [
+        "8192",
+        "16384",
+        "32768"
+      ],
+      "series": [
+        {
+          "name": "Huihui",
+          "values": [
+            1936.0108547362033,
+            1712.1985867510748,
+            1279.5881753902124
+          ]
+        },
+        {
+          "name": "SC117",
+          "values": [
+            1913.4304796647218,
+            1683.1037177981639,
+            1267.9069309565596
+          ]
+        }
+      ],
+      "unit": "tok/s",
+      "caption": "两种模型在16K cap下均慢约12%，32K cap下慢约34%。与两段流水填充/排空效率变化相符；没有单独trace证明全部机制。",
+      "sources": "<a class=\"ref\" href=\"#S40\">[S40]</a>",
+      "kind": "bar",
+      "y_min": 0,
+      "y_max": 2500,
+      "reference": null
+    },
+    {
+      "id": "peer-long-prefill",
+      "title": "当时为什么继续排查：同款双2080Ti，长输入表现仍有差距",
+      "kind": "numeric_xy",
+      "series": [
+        {
+          "name": "本机旧基线B · Swift IQ3_S · 异常供电",
+          "points": [
+            [
+              32763,
+              1362.8610889243876
+            ],
+            [
+              65527,
+              1439.0500473263364
+            ],
+            [
+              131115,
+              1347.780034359981
+            ],
+            [
+              196531,
+              1243.8878150113933
+            ],
+            [
+              235510,
+              1185.6922646585917
+            ],
+            [
+              259969,
+              1153.183699642309
+            ]
+          ]
+        },
+        {
+          "name": "E01 tessellation · 7945HX · 作者图",
+          "points": [
+            [
+              512.0,
+              360.1
+            ],
+            [
+              1024,
+              506.8
+            ],
+            [
+              2048,
+              629.8
+            ],
+            [
+              4096,
+              853.1
+            ],
+            [
+              8192,
+              1264.6
+            ],
+            [
+              16384,
+              1351.7
+            ],
+            [
+              32768,
+              1858.3
+            ],
+            [
+              65536,
+              2308.6
+            ],
+            [
+              131072,
+              2575.2
+            ],
+            [
+              196608,
+              2631.6
+            ],
+            [
+              235520,
+              2667.8
+            ]
+          ]
+        },
+        {
+          "name": "E02 让开我先躺 · 2690v4 · 网友表",
+          "points": [
+            [
+              502,
+              236
+            ],
+            [
+              4215,
+              860
+            ],
+            [
+              33603,
+              1695
+            ],
+            [
+              134328,
+              2355
+            ],
+            [
+              241926,
+              2480
+            ]
+          ]
+        }
+      ],
+      "unit": "tok/s",
+      "y_min": 0,
+      "y_max": 3000,
+      "x_min": 0,
+      "x_max": 262144,
+      "caption": "这是不同配置的参照曲线，不是CPU排名。两位小红书作者均应我们的问题补充了材料；他们的prefill与decode为引擎自报。本机各点3次中位；7945HX只有标称档位，按K=1024放置；2690v4使用实际输入。外部没有近256K点，曲线到实测末端即止。",
+      "sources": "<a class=\"ref\" href=\"#S51\">[S51]</a><a class=\"ref\" href=\"#S19\">[S19]</a><a class=\"ref\" href=\"#S52\">[S52]</a>"
+    },
+    {
+      "id": "peer-long-decode",
+      "title": "高decode之外，还要问输出任务与MTP是否一致",
+      "kind": "numeric_xy",
+      "series": [
+        {
+          "name": "本机旧基线B · 材料分析",
+          "points": [
+            [
+              32763,
+              58.6
+            ],
+            [
+              65527,
+              59.9
+            ],
+            [
+              131115,
+              57.7
+            ],
+            [
+              196531,
+              58.6
+            ],
+            [
+              235510,
+              56.1
+            ],
+            [
+              259969,
+              57.1
+            ]
+          ]
+        },
+        {
+          "name": "E01 tessellation · 计数任务1000输出",
+          "points": [
+            [
+              512.0,
+              179.8
+            ],
+            [
+              1024,
+              181.0
+            ],
+            [
+              2048,
+              168.7
+            ],
+            [
+              4096,
+              179.9
+            ],
+            [
+              8192,
+              176.0
+            ],
+            [
+              16384,
+              167.5
+            ],
+            [
+              32768,
+              156.0
+            ],
+            [
+              65536,
+              154.4
+            ],
+            [
+              131072,
+              151.6
+            ],
+            [
+              196608,
+              151.1
+            ],
+            [
+              235520,
+              148.8
+            ]
+          ]
+        },
+        {
+          "name": "E02 让开我先躺 · 单次截图",
+          "points": [
+            [
+              502,
+              90.8
+            ],
+            [
+              4215,
+              83.7
+            ],
+            [
+              33603,
+              79.2
+            ],
+            [
+              134328,
+              73.5
+            ],
+            [
+              241926,
+              72.5
+            ]
+          ]
+        }
+      ],
+      "unit": "tok/s",
+      "y_min": 0,
+      "y_max": 200,
+      "x_min": 0,
+      "x_max": 262144,
+      "caption": "7945HX总体接受率报告约98.3%–98.9%，没有逐点数据；本机与2690v4接受率及任务不同。该图提出差距，不能将差距换算为IPC升级收益。新PDF中2600输出的三点协议另列附录，没有拼入本图。",
+      "sources": "<a class=\"ref\" href=\"#S51\">[S51]</a><a class=\"ref\" href=\"#S19\">[S19]</a>"
+    },
+    {
+      "id": "peer-hanayo",
+      "title": "外部受控实验：Hanayo单3090的chunk变化",
+      "labels": [
+        "256 / auto",
+        "256 / off",
+        "1024 / off",
+        "2048 / off"
+      ],
+      "series": [
+        {
+          "name": "prefill · 作者CSV复算",
+          "values": [
+            335.0167,
+            291.7167,
+            743.9667,
+            1253.8167
+          ]
+        }
+      ],
+      "unit": "tok/s",
+      "caption": "4392token同输入；40行CSV中16次warmup、24次正式，各组6次。横轴为chunk / CPU share。单卡规则和短输入条件不适用于直接预测本机双卡。",
+      "sources": "<a class=\"ref\" href=\"#S53\">[S53]</a>",
+      "kind": "bar",
+      "y_min": 0,
+      "y_max": 2500,
+      "reference": null
+    },
+    {
+      "id": "peer-xtx",
+      "title": "外部曲线的意义：prefill见顶回落不等于硬件故障",
+      "kind": "numeric_xy",
+      "series": [
+        {
+          "name": "E06 Linux · 双E5 · RX7900XTX",
+          "points": [
+            [
+              4096,
+              685.5
+            ],
+            [
+              16384,
+              1566.5
+            ],
+            [
+              32768,
+              1831.2
+            ],
+            [
+              65536,
+              2030
+            ],
+            [
+              131072,
+              1812
+            ],
+            [
+              245760,
+              1621.9
+            ]
+          ]
+        },
+        {
+          "name": "E07 Windows · CPU未知 · RX7900XTX",
+          "points": [
+            [
+              10000,
+              1596
+            ],
+            [
+              17000,
+              1618
+            ],
+            [
+              43000,
+              1626
+            ],
+            [
+              52000,
+              1594
+            ],
+            [
+              136000,
+              1498
+            ]
+          ]
+        }
+      ],
+      "unit": "tok/s",
+      "y_min": 0,
+      "y_max": 2500,
+      "x_min": 0,
+      "x_max": 262144,
+      "caption": "两个不同作者，均为截图/正文转录；Linux K档位按1024放置，Windows输入为图中近似值。模型、后端配置和重复信息不同，本图用于辨认曲线形态。",
+      "sources": "<a class=\"ref\" href=\"#S54\">[S54]</a><a class=\"ref\" href=\"#S55\">[S55]</a>"
+    }
+  ],
+  "external_cases": [
+    {
+      "id": "E01",
+      "name": "tessellation · 7945HX",
+      "platform": "小红书；应我们的问题专门补充了作者侧材料与口径说明",
+      "hardware": "Ryzen 9 7945HX；96GB DDR5-4800（另文写92GB）；2×2080Ti 22GB，Gen3×8+×8，图注250W/卡",
+      "software": "0.1.43＋SM75补丁；原版GSQ-RCO IQ3_S；全长图1000输出计数任务",
+      "data": "引擎自报：32K / 128K / 230K prefill 1858 / 2575 / 2668；decode 156.0 / 151.6 / 148.8 tok/s",
+      "use": "他并非只发布了公开帖子，还专门帮我们确认数据归属与测试条件；同款推理卡下的差距推动固定任务、长曲线、MTP和数据通路复核",
+      "limit": "作者称内存约77GB/s，非本机复测；不同模型、功耗、引擎与任务，不能反推IPC收益",
+      "path": "Strata长上下文对比-20261015/README.md"
+    },
+    {
+      "id": "E02",
+      "name": "让开我先躺 · 单路2690v4",
+      "platform": "小红书；应请求专门补测并提供了长输入速度表",
+      "hardware": "1×E5-2690 v4；128GB DDR4-2400；2×2080Ti 22GB",
+      "software": "UD-Q4_K_L/XL身份描述有差异；完整版本和参数未知",
+      "data": "引擎自报：实际33603 / 134328 / 241926输入 prefill 1695 / 2355 / 2480；decode 79.2 / 73.5 / 72.5 tok/s",
+      "use": "他专门帮我们补了这组对照；老CPU仍有较高prefill，削弱仅按CPU代际解释差距的直觉",
+      "limit": "与7945HX是不同作者；单次截图；原始请求、功耗、链路和权重哈希未知；引擎口径不等于整请求吞吐",
+      "path": "Strata长上下文对比-20261015/sources/2690v4-网友评论.txt"
+    },
+    {
+      "id": "E03",
+      "name": "neyan2016 · HP Z840",
+      "hardware": "2×E5-2697A v4；128GB DDR4-2133；2×2080Ti，有NVLink桥",
+      "software": "Strata 0.1.42；Qwen3.8 Next Q3_S；配置窗口512K",
+      "data": "作者报告平均约80 tok/s",
+      "use": "支持先用现成T630验证内存，避免立即为CPU升级买单",
+      "limit": "没有逐请求日志；512K是配置上限；桥的存在不证明Strata使用NVLink",
+      "path": "memory-verification-20261015/后续验证与采购决策-20261016.md"
+    },
+    {
+      "id": "E04",
+      "name": "御坂10297号 · 双7763QS",
+      "hardware": "2×7763QS；华南H12D16D；8×16GB DDR4，评论称2133；3×V100 16GB",
+      "software": "Windows11裸机；2卡模型＋1卡视觉；64workers绑CPU0；SM70优化；原版IQ3",
+      "data": "自述prefill 1700–2500；decode 70–120，通常70–80，工具可100+",
+      "use": "引出线程、绑核、三卡分工与数据交换方向的验证",
+      "limit": "不是纯CPU对照；没有可用于IPC归因的同请求与带宽数据",
+      "path": "memory-verification-20261015/后续验证与采购决策-20261016.md"
+    },
+    {
+      "id": "E05",
+      "name": "Hanayo · RTX3090",
+      "hardware": "RTX3090；Gold5318Y分配16vCPU；32GB RAM Linux VM",
+      "software": "IQ2_XS；32K窗口；4392token结构化输入；公开CSV",
+      "data": "256/auto → 2048/off：prefill 335.0→1253.8，TTFT 13.28→3.54s；各6次正式测量",
+      "use": "提醒预热、实际读盘和chunk路径需要分开，促使核对prefill数据通路",
+      "limit": "单卡、短输入；CPU share默认路径不适用于本机双卡，不能照抄最优chunk",
+      "path": "prefill-community-20261015/Hanayo-3090案例核对.md",
+      "origin_url": "https://hanayo.cn/2026/10/14/strata-3090-tuning/"
+    },
+    {
+      "id": "E06",
+      "name": "双E5 · Linux 7900XTX",
+      "platform": "B站",
+      "hardware": "RX7900XTX 24GB；2×E5-2680 v4；62GB DDR4",
+      "software": "Ubuntu / ROCm7.2.4；SC117 IQ3_XXS；MTP",
+      "data": "4K→64K→240K prefill 685.5→2030.0→1621.9；decode报告64–78",
+      "use": "表明长曲线可以见顶回落，曲线形状本身不足以判故障",
+      "limit": "HIP与CUDA路径不同；完整版本、请求和重复次数未知",
+      "path": "prefill-community-20261015/7900XTX八图案例.md"
+    },
+    {
+      "id": "E07",
+      "name": "小登步入中登 · Windows 7900XTX",
+      "platform": "B站",
+      "hardware": "RX7900XTX 24GB；64GB DDR5；CPU未提供",
+      "software": "Windows HIP 0.1.43.1；GSQ-RCO IQ3_XXS",
+      "data": "10K–136K prefill约1596→1498；日常decode87–93；代码99，创作79",
+      "use": "补充任务与MTP接受率影响速度的观察，帮助识别不同口径",
+      "limit": "不是Linux双E5那位；图中输入近似，配置262K不等于已测262K",
+      "path": "prefill-community-20261015/7900XTX-Windows六图案例.md"
+    },
+    {
+      "id": "E08",
+      "name": "百川东到海ofp · 双3080",
+      "hardware": "2×RTX3080 20GB；2×E5-2696 v3；96GB DDR4-2133",
+      "software": "IQ3_XXS；spec6；KV K8V4；完整版本未知",
+      "data": "prefill1400–1800；decode90–99；作者报告pipeline2使95→83",
+      "use": "提醒pipeline需要区分单流与双客户端，不能把开关当普遍增益",
+      "limit": "缺少请求和重复日志；量化、KV与显存容量均不同",
+      "path": "prefill-community-20261015/双3080-IQ3XXS案例.md"
+    },
+    {
+      "id": "E09",
+      "name": "4070Ti SUPER并发案例",
+      "hardware": "4070Ti SUPER16GB；5950X；64GB DDR4",
+      "software": "parallel2；7workers分CCD；其余完整版本/模型未知",
+      "data": "称第二槽增加约3.1GB状态；没有可比较吞吐表",
+      "use": "区分并发槽、流水窗口、交互公平性与总吞吐",
+      "limit": "配置与经验性叙述，不作为速度曲线的数据点",
+      "path": "prefill-community-20261015/4070TiSUPER-P2并发案例.md"
+    },
+    {
+      "id": "E10",
+      "name": "社区pcie-frac / spec-min-p表",
+      "hardware": "此表归档未完整确定硬件，不能归给其他作者",
+      "software": "IQ3_S等参数片段；实际引擎hash和请求未知",
+      "data": "11组合prefill 5405.0–5498.6；decode 127.7–161.2 tok/s",
+      "use": "提出参数扫描方向，也说明较大frac/阈值并非必胜",
+      "limit": "不能据此估算本机提速；最初随机负载观察与后续官方bench分开",
+      "path": "prefill-community-20261015/案例解读.md"
+    },
+    {
+      "id": "E11",
+      "name": "Diit.cz · 单路7282评测",
+      "hardware": "H12SSW-iN；1×7282；4×8GB DDR4-3200 RDIMM",
+      "software": "2021-07-30 AIDA64评测；精确软件版本未恢复",
+      "data": "Read62.917 / Write42.661 / Copy71.586 GB/s；117ns",
+      "use": "同型号、同四条数量级参照，说明本机数GB/s不能仅归因7282规格",
+      "limit": "板、容量、时序、软件版本不同，不能作本机验收线",
+      "path": "memory-verification-20261015/research-update-20261016.md",
+      "origin_url": "https://diit.cz/clanek/minirecenze-supermicro-1610f-h12w-1u-server/cpu-vykon-ffmpeg-kraken-javascript-7-zip-aida64"
+    },
+    {
+      "id": "E12",
+      "name": "Dell R6515白皮书",
+      "hardware": "单路EPYC7282；具体DIMM条件见原白皮书",
+      "software": "STREAM Triad；官方公开结果",
+      "data": "81.137 GB/s",
+      "use": "独立支持同型号应有更高吞吐的数量级判断",
+      "limit": "Triad读写口径不同于AIDA64 Read；不能直接相除计算损失",
+      "path": "memory-verification-20261015/research-diagnosis-20261016.md",
+      "origin_url": "https://dl.dell.com/manuals/common/poweredge_perf_amdepyc7002series.pdf"
+    },
+    {
+      "id": "E13",
+      "name": "H12SSL-i低分讨论",
+      "hardware": "7282；8×32GB Micron3200，另测4条",
+      "software": "先Memtest86+，后改配置并换MemTest86 11.2",
+      "data": "作者报4.89/4.9→13.9 GB/s",
+      "use": "提醒相似低分可能涉及测法，不能只凭帖子标题判定同一故障",
+      "limit": "软件与配置同时改变，没有确认与本机相同的根因",
+      "path": "memory-verification-20261015/research-update-20261016.md",
+      "origin_url": "https://www.reddit.com/r/servers/comments/1jtvldo/"
+    },
+    {
+      "id": "E14",
+      "name": "lcz · 7R13调优自述",
+      "hardware": "7R13 48C；256GB八通道；4×3090平台，后文选择单3090路径",
+      "software": "自定义fork与多路径比较，线程和运行方式均有变化",
+      "data": "报告47workers约19.55tok/s，限线程后78–92；32K冷测中位91.1，前缀命中118.1",
+      "use": "提醒更多核心不自动提升当前数据路径，推动本机做独立线程伸缩实验",
+      "limit": "不是纯worker对照；热缓存与冷输入分开，不能承诺本机复制其倍数",
+      "path": "memory-verification-20261015/7282-7452-7443-7R13-7V13比较-20261016.md",
+      "origin_url": "https://lcz.me/topic/2116/3"
+    }
+  ]
+}

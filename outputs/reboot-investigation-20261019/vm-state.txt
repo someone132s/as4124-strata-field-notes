@@ -1,0 +1,36 @@
+2026-10-19T12:10:53+08:00
+ 12:10:53 up 2 min,  0 user,  load average: 2.82, 1.42, 0.56
+{"Status":"running","Running":true,"Paused":false,"Restarting":false,"OOMKilled":false,"Dead":false,"Pid":1948,"ExitCode":0,"Error":"","StartedAt":"2026-10-19T04:08:21.440644958Z","FinishedAt":"2026-10-19T04:08:18.66205185Z","Health":{"Status":"healthy","FailingStreak":0,"Log":[{"Start":"2026-10-19T12:10:19.658882571+08:00","End":"2026-10-19T12:10:19.736703614+08:00","ExitCode":1,"Output":""},{"Start":"2026-10-19T12:10:24.738647565+08:00","End":"2026-10-19T12:10:24.821356083+08:00","ExitCode":1,"Output":""},{"Start":"2026-10-19T12:10:29.822722514+08:00","End":"2026-10-19T12:10:29.879726093+08:00","ExitCode":1,"Output":""},{"Start":"2026-10-19T12:10:34.880727843+08:00","End":"2026-10-19T12:10:34.962443901+08:00","ExitCode":1,"Output":""},{"Start":"2026-10-19T12:10:39.963811466+08:00","End":"2026-10-19T12:10:40.049387339+08:00","ExitCode":0,"Output":"{\"status\": \"ok\", \"max_context\": 262144, \"model\": \"sc117-qwen3.8-flash-next-abliterated-iq3_s-q8ple\", \"images\": true, \"api_key\": false, \"image_generation\": false, \"loaded\": true, \"service\": \"strata\"}"}]}}
+2026-10-19T04:08:22.588564682Z   ----------------------------------------------------------------------------------------------------
+2026-10-19T04:08:22.588616531Z   Settings (strata-iq3_s.json): --expert-cache auto --prefill auto --spec 4 --spec-min-p 0.5 --kv int8
+2026-10-19T04:08:22.588622901Z     --ple-io ram --kv-resident 32768 --resident-budget-gib 55 --vram-reserve-mib 700 --max-context
+2026-10-19T04:08:22.588627961Z     262144 --pool-workers 15 --vram-reserve-later-mib 700 --pipeline-windows 2 --mtp-hnorm stream
+2026-10-19T04:08:22.588632941Z     --aux-cpus auto; server 0.0.0.0:8080, no browser, gpu 1,2, layer_split auto, reasoning_budget_tokens
+2026-10-19T04:08:22.588638121Z     32768
+2026-10-19T04:08:23.248053645Z [strata] sampling defaults from the config: temperature=1.0, top_p=0.95, top_k=20, min_p=0.0, presence_penalty=0.0, repetition_penalty=1.0
+2026-10-19T04:08:23.248098005Z loading the vision encoder ...
+2026-10-19T04:08:33.193319885Z loading the model (the first start takes a minute or two) ...
+2026-10-19T04:08:33.193399455Z [strata] the config has a "vision" section but no --vision in its args: added --vision (run setup again with --vision to write them)
+2026-10-19T04:08:33.217032354Z [strata] layer split across GPUs [1, 2] (auto)
+2026-10-19T04:08:33.218433979Z [strata] the config has a "vision" section but no --vision in its args: added --vision (run setup again with --vision to write them)
+2026-10-19T04:08:33.219584595Z [strata] starting the engine: reading the model's weights ...
+2026-10-19T04:08:53.627107967Z [strata] still starting (20 s) - please wait ...
+2026-10-19T04:09:00.132774890Z [strata] loading the most-used experts into RAM (up to 55 GiB; the rest are read from the model files as needed) and locking part of them for the GPU.
+2026-10-19T04:09:00.132847060Z          YOUR PC CAN BE SLOW OR STOP RESPONDING FOR 1-3 MINUTES NOW - this is normal.
+2026-10-19T04:09:00.132853850Z          Please wait and don't close this window; the browser opens when it is ready.
+2026-10-19T04:09:02.134056395Z [strata] filling the GPU's expert cache (8893 experts, 16.02 GiB of VRAM) ...
+2026-10-19T04:09:22.148356878Z [strata] still starting (49 s) - please wait ...
+2026-10-19T04:09:42.162214702Z [strata] still starting (69 s) - please wait ...
+2026-10-19T04:09:51.168004897Z [strata] almost ready ...
+2026-10-19T04:10:11.187451462Z [strata] still starting (98 s) - please wait ...
+2026-10-19T04:10:31.200752314Z [strata] still starting (118 s) - please wait ...
+2026-10-19T04:10:36.090988520Z [strata] thinking level: high (reasoning_effort in the config; a request, or the Chat settings shared with other apps, can set its own)
+2026-10-19T04:10:36.091071376Z [strata] also answers to the host names 10.2.21.4 (allowed_hosts)
+2026-10-19T04:10:36.091080856Z [strata] thinking budget: 32768 tokens (reasoning_budget_tokens; a request can set its own)
+2026-10-19T04:10:36.128844586Z ready: http://127.0.0.1:8080/v1  (OpenAI: /v1/chat/completions, Anthropic: /v1/messages, context 262144 tokens, images on)
+2026-10-19T04:10:36.128890264Z        open http://127.0.0.1:8080/ in a browser to chat; close this window to stop the model
+2026-10-19T04:10:36.128897334Z        from other devices: http://172.20.0.2:8080/   (API: http://172.20.0.2:8080/v1)
+2026-10-19T04:10:36.128902954Z        WARNING: no API key - anyone on your network can use this model. Add "api_key": "..." to the config (clients send it as their API key; the web page asks for it)
+
+STDERR:
+curl: (7) Failed to connect to 127.0.0.1 port 8080 after 0 ms: Couldn't connect to server

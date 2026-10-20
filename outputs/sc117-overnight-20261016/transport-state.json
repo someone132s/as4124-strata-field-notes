@@ -1,0 +1,8 @@
+{
+  "requests": 706,
+  "errors": 0,
+  "truncated": 0,
+  "tool_calls": 695,
+  "prompt_tokens": 5182738,
+  "completion_tokens": 167620
+}

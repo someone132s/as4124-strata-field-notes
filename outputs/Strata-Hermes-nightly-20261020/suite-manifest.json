@@ -1,0 +1,126 @@
+{
+  "suite": "strata-hermes-engineering-v3",
+  "created": "2026-10-20T04:23:43.509820+08:00",
+  "model": "huihui-qwen3.8-flash-next-abliterated-ud-iq4_xs",
+  "engine": "0.1.45",
+  "hermes": "v0.22.1+163.g046094d",
+  "runner_sha256": "516428d9a968e312a639444f913bb981277c1127b91ff3ba4678a0e0fc9395fe",
+  "seeds": {
+    "a": 20261020,
+    "b": 20261021
+  },
+  "task_families": {
+    "T1": "CSV cleanup and exact integer-cent aggregation",
+    "T2": "SQLite join, date boundary and ranking",
+    "T3": "Python interval merge hidden tests",
+    "T4": "JSON configuration migration",
+    "T5": "synthetic distributed log root-cause chain",
+    "T6": "three-turn inventory state and session continuation"
+  },
+  "case_results": [
+    {
+      "case": "T1-a",
+      "baseline_pass": true,
+      "candidate_pass": true,
+      "baseline_s": 59.64,
+      "candidate_s": 58.56,
+      "ratio": 0.982
+    },
+    {
+      "case": "T1-b",
+      "baseline_pass": true,
+      "candidate_pass": true,
+      "baseline_s": 58.49,
+      "candidate_s": 58.38,
+      "ratio": 0.9982
+    },
+    {
+      "case": "T2-a",
+      "baseline_pass": true,
+      "candidate_pass": true,
+      "baseline_s": 51.61,
+      "candidate_s": 55.8,
+      "ratio": 1.0813
+    },
+    {
+      "case": "T2-b",
+      "baseline_pass": true,
+      "candidate_pass": true,
+      "baseline_s": 48.35,
+      "candidate_s": 63.92,
+      "ratio": 1.3221
+    },
+    {
+      "case": "T3-a",
+      "baseline_pass": true,
+      "candidate_pass": true,
+      "baseline_s": 79.0,
+      "candidate_s": 64.88,
+      "ratio": 0.8214
+    },
+    {
+      "case": "T3-b",
+      "baseline_pass": true,
+      "candidate_pass": true,
+      "baseline_s": 74.86,
+      "candidate_s": 66.25,
+      "ratio": 0.885
+    },
+    {
+      "case": "T4-a",
+      "baseline_pass": true,
+      "candidate_pass": true,
+      "baseline_s": 50.58,
+      "candidate_s": 48.23,
+      "ratio": 0.9536
+    },
+    {
+      "case": "T4-b",
+      "baseline_pass": true,
+      "candidate_pass": true,
+      "baseline_s": 44.86,
+      "candidate_s": 45.44,
+      "ratio": 1.013
+    },
+    {
+      "case": "T5-a",
+      "baseline_pass": true,
+      "candidate_pass": true,
+      "baseline_s": 43.27,
+      "candidate_s": 46.74,
+      "ratio": 1.08
+    },
+    {
+      "case": "T5-b",
+      "baseline_pass": true,
+      "candidate_pass": true,
+      "baseline_s": 41.92,
+      "candidate_s": 52.23,
+      "ratio": 1.2458
+    },
+    {
+      "case": "T6-a",
+      "baseline_pass": true,
+      "candidate_pass": true,
+      "baseline_s": 79.25,
+      "candidate_s": 73.8,
+      "ratio": 0.9312
+    },
+    {
+      "case": "T6-b",
+      "baseline_pass": true,
+      "candidate_pass": true,
+      "baseline_s": 82.23,
+      "candidate_s": 81.06,
+      "ratio": 0.9858
+    }
+  ],
+  "raw_result_files": [
+    "B0-suite-1-results.json",
+    "B0-suite-2-results.json",
+    "B0-suite-3-v3-results.json",
+    "I-suite-1-results.json",
+    "I-suite-2-results.json",
+    "I-suite-2-v3t5-results.json"
+  ]
+}

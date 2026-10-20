@@ -1,0 +1,44 @@
+Strata 部署指南：Qwen3.8-Flash-Next（IQ3_S）· 双 RTX
+2080Ti 22G
+参考实现：Linux + 双卡层切分（layer split）+ 262144 上下文 + MTP 投机解码 + 视觉（CPU 编码器）。 文中
+路径用 /path/to 占位；性能数字为参考机实测（2× RTX 2080Ti 22G、92 GB DDR5、NVMe、CUDA 13.0）。
+文档版本 2026-10-12 · 引擎基线 v0.1.43 + sm_75 批次补丁。
+0. 一页速览
+权重：ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF（量化档 IQ3_S，GGUF 双分片）
+引擎：Strata v0.1.43（上游 tag）+ sm_75 批次补丁（9 个未合入上游的 PR，见 §3.1；cherry-pick 单提
+交，勿 merge）
+必需 env：STRATA_BF16_TC=1（Turing FP16 张量核预填充）· STRATA_SELECT_SIMT=2（QSA FP32 评
+分器 SIMT 档）· STRATA_PA_V2T=1（int8 prompt attention v2）· STRATA_REFILL_PARTS=1（借槽回
+收走 GGUF pieces）· STRATA_PREFILL_HELP=1（层切分空闲卡分担短 prompt 专家流）
+关键参数：--layer-split 26 · --prefill auto:16384 · --spec 4 --spec-min-p 0.70 · --
+pipeline-windows 2 · --max-context 262144 · --kv int8 --kv-resident 32768 · --
+conversation-cache-mib 16384 --conversation-cache-slots 12 · --expert-cache auto · --
+vram-reserve-mib 700 · --vision
+思考默认：配置 reasoning_budget_tokens: 4000；请求级 reasoning_effort: medium
+1. 硬件与软件前提
+GPU：2× RTX 2080Ti 22G（Turing，sm_75）；引擎需 ≥ v0.1.43 并含 sm75 内核（本地编译即可）
+内存：全部专家常驻 RAM ≈ 62 GB 级（92 GB 机器留余量）；n-gram 表（~29 GB）与权重落 NVMe → 建议
+可用空间 ≥ 120 GB（分片 83.6 GB + pack/表/MTP）
+软件：Debian/Ubuntu 系 Linux；CUDA 13.0；驱动 615+；构建链 gcc-15（系统默认 gcc 16 会被 nvcc 拒
+绝）；Python 3.13
+下载渠道：83.6 GB 权重优先国内渠道（ModelScope 镜像实测 ~69 MB/s；hf-mirror 单流 ~1.5–5 MB/s）
+2. 权重获取与校验
+来源：HF 仓库 ISTA-DASLab/Qwen3.8-Flash-Next-GSQ-RCO-GGUF 的 IQ3_S 子目录。
+Qwen3.8-Flash-Next-GSQ-RCO-IQ3_S-00001-of-00002.gguf — 54,817,524,224 B — sha256 
+4c1eb2ceb4915e1192f4f386021897bde56a97f40a0bb78bb86465e0f7d2aca3
+Qwen3.8-Flash-Next-GSQ-RCO-IQ3_S-00002-of-00002.gguf — 28,800,138,432 B — sha256 
+316b46f3a2dbd68c900f43136ab9449f9dcc3725dfd8c794847c204bc161e113
+视觉（可选）：mmproj-Qwen3.8-Flash-Next-BF16.gguf — 907,543,008 B — sha256 
+b1a82259702816a5330d7bd7607cd9676b11780e79ff7348c21103ff3ce49bd0
+· 
+· 
+· 
+· 
+· 
+· 
+· 
+· 
+· 
+· 
+· 
+· 

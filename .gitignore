@@ -1,0 +1,11 @@
+.env*
+id_*
+known_hosts*
+*.pem
+*.key
+*.p12
+*.pfx
+*.kdbx
+*credential*
+*secret*
+*.log.tmp

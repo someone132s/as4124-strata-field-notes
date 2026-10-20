@@ -1,0 +1,152 @@
+2026-10-19T11:54:46+08:00 pve-as4124 flock[56941]: FlowΔT         OK             12°C
+2026-10-19T11:54:46+08:00 pve-as4124 flock[56941]: SynΔT          OK             12°C (Enable, src=System Temp)
+2026-10-19T11:54:46+08:00 pve-as4124 flock[56941]: Current ΔT: 12°C  Threshold: 30°C  Set duty: 10% (zones: 0 1 2 3)
+2026-10-19T11:54:48+08:00 pve-as4124 systemd[1]: as4124-autofancontrol.service: Deactivated successfully.
+2026-10-19T11:54:48+08:00 pve-as4124 systemd[1]: Finished as4124-autofancontrol.service - AS4124 auto fan control (local ipmitool).
+2026-10-19T11:55:15+08:00 pve-as4124 systemd[1]: Starting as4124-autofancontrol.service - AS4124 auto fan control (local ipmitool)...
+2026-10-19T11:55:17+08:00 pve-as4124 flock[57305]: SOURCE         FETCH    TEMPERATURE
+2026-10-19T11:55:17+08:00 pve-as4124 flock[57305]: CPU0           OK             43°C
+2026-10-19T11:55:17+08:00 pve-as4124 flock[57305]: CPU1           OK             43°C
+2026-10-19T11:55:17+08:00 pve-as4124 flock[57305]: 2 CPU          OK             43°C (Highest)
+2026-10-19T11:55:17+08:00 pve-as4124 flock[57305]: Ambient        OK             32°C
+2026-10-19T11:55:17+08:00 pve-as4124 flock[57305]: Exhaust        OK             44°C
+2026-10-19T11:55:17+08:00 pve-as4124 flock[57305]: dT_CPU         OK             11°C
+2026-10-19T11:55:17+08:00 pve-as4124 flock[57305]: FlowΔT         OK             12°C
+2026-10-19T11:55:17+08:00 pve-as4124 flock[57305]: SynΔT          OK             12°C (Enable, src=System Temp)
+2026-10-19T11:55:17+08:00 pve-as4124 flock[57305]: Current ΔT: 12°C  Threshold: 30°C  Set duty: 10% (zones: 0 1 2 3)
+2026-10-19T11:55:19+08:00 pve-as4124 systemd[1]: as4124-autofancontrol.service: Deactivated successfully.
+2026-10-19T11:55:19+08:00 pve-as4124 systemd[1]: Finished as4124-autofancontrol.service - AS4124 auto fan control (local ipmitool).
+2026-10-19T11:55:46+08:00 pve-as4124 systemd[1]: Starting as4124-autofancontrol.service - AS4124 auto fan control (local ipmitool)...
+2026-10-19T11:55:48+08:00 pve-as4124 flock[57687]: SOURCE         FETCH    TEMPERATURE
+2026-10-19T11:55:48+08:00 pve-as4124 flock[57687]: CPU0           OK             43°C
+2026-10-19T11:55:48+08:00 pve-as4124 flock[57687]: CPU1           OK             43°C
+2026-10-19T11:55:48+08:00 pve-as4124 flock[57687]: 2 CPU          OK             43°C (Highest)
+2026-10-19T11:55:48+08:00 pve-as4124 flock[57687]: Ambient        OK             32°C
+2026-10-19T11:55:48+08:00 pve-as4124 flock[57687]: Exhaust        OK             44°C
+2026-10-19T11:55:48+08:00 pve-as4124 flock[57687]: dT_CPU         OK             11°C
+2026-10-19T11:55:48+08:00 pve-as4124 flock[57687]: FlowΔT         OK             12°C
+2026-10-19T11:55:48+08:00 pve-as4124 flock[57687]: SynΔT          OK             12°C (Enable, src=System Temp)
+2026-10-19T11:55:48+08:00 pve-as4124 flock[57687]: Current ΔT: 12°C  Threshold: 30°C  Set duty: 10% (zones: 0 1 2 3)
+2026-10-19T11:55:50+08:00 pve-as4124 systemd[1]: as4124-autofancontrol.service: Deactivated successfully.
+2026-10-19T11:55:50+08:00 pve-as4124 systemd[1]: Finished as4124-autofancontrol.service - AS4124 auto fan control (local ipmitool).
+2026-10-19T11:56:17+08:00 pve-as4124 systemd[1]: Starting as4124-autofancontrol.service - AS4124 auto fan control (local ipmitool)...
+2026-10-19T11:56:19+08:00 pve-as4124 flock[58051]: SOURCE         FETCH    TEMPERATURE
+2026-10-19T11:56:19+08:00 pve-as4124 flock[58051]: CPU0           OK             43°C
+2026-10-19T11:56:19+08:00 pve-as4124 flock[58051]: CPU1           OK             43°C
+2026-10-19T11:56:19+08:00 pve-as4124 flock[58051]: 2 CPU          OK             43°C (Highest)
+2026-10-19T11:56:19+08:00 pve-as4124 flock[58051]: Ambient        OK             32°C
+2026-10-19T11:56:19+08:00 pve-as4124 flock[58051]: Exhaust        OK             45°C
+2026-10-19T11:56:19+08:00 pve-as4124 flock[58051]: dT_CPU         OK             11°C
+2026-10-19T11:56:19+08:00 pve-as4124 flock[58051]: FlowΔT         OK             13°C
+2026-10-19T11:56:19+08:00 pve-as4124 flock[58051]: SynΔT          OK             13°C (Enable, src=System Temp)
+2026-10-19T11:56:19+08:00 pve-as4124 flock[58051]: Current ΔT: 13°C  Threshold: 30°C  Set duty: 10% (zones: 0 1 2 3)
+2026-10-19T11:56:21+08:00 pve-as4124 systemd[1]: as4124-autofancontrol.service: Deactivated successfully.
+2026-10-19T11:56:21+08:00 pve-as4124 systemd[1]: Finished as4124-autofancontrol.service - AS4124 auto fan control (local ipmitool).
+2026-10-19T11:56:48+08:00 pve-as4124 systemd[1]: Starting as4124-autofancontrol.service - AS4124 auto fan control (local ipmitool)...
+2026-10-19T11:56:50+08:00 pve-as4124 flock[58432]: SOURCE         FETCH    TEMPERATURE
+2026-10-19T11:56:50+08:00 pve-as4124 flock[58432]: CPU0           OK             43°C
+2026-10-19T11:56:50+08:00 pve-as4124 flock[58432]: CPU1           OK             43°C
+2026-10-19T11:56:50+08:00 pve-as4124 flock[58432]: 2 CPU          OK             43°C (Highest)
+2026-10-19T11:56:50+08:00 pve-as4124 flock[58432]: Ambient        OK             32°C
+2026-10-19T11:56:50+08:00 pve-as4124 flock[58432]: Exhaust        OK             45°C
+2026-10-19T11:56:50+08:00 pve-as4124 flock[58432]: dT_CPU         OK             11°C
+2026-10-19T11:56:50+08:00 pve-as4124 flock[58432]: FlowΔT         OK             13°C
+2026-10-19T11:56:50+08:00 pve-as4124 flock[58432]: SynΔT          OK             13°C (Enable, src=System Temp)
+2026-10-19T11:56:50+08:00 pve-as4124 flock[58432]: Current ΔT: 13°C  Threshold: 30°C  Set duty: 10% (zones: 0 1 2 3)
+2026-10-19T11:56:52+08:00 pve-as4124 systemd[1]: as4124-autofancontrol.service: Deactivated successfully.
+2026-10-19T11:56:52+08:00 pve-as4124 systemd[1]: Finished as4124-autofancontrol.service - AS4124 auto fan control (local ipmitool).
+2026-10-19T11:57:19+08:00 pve-as4124 systemd[1]: Starting as4124-autofancontrol.service - AS4124 auto fan control (local ipmitool)...
+2026-10-19T11:57:20+08:00 pve-as4124 pmxcfs[2747]: [status] notice: received log
+2026-10-19T11:57:21+08:00 pve-as4124 flock[58796]: SOURCE         FETCH    TEMPERATURE
+2026-10-19T11:57:21+08:00 pve-as4124 flock[58796]: CPU0           OK             43°C
+2026-10-19T11:57:21+08:00 pve-as4124 flock[58796]: CPU1           OK             43°C
+2026-10-19T11:57:21+08:00 pve-as4124 flock[58796]: 2 CPU          OK             43°C (Highest)
+2026-10-19T11:57:21+08:00 pve-as4124 flock[58796]: Ambient        OK             32°C
+2026-10-19T11:57:21+08:00 pve-as4124 flock[58796]: Exhaust        OK             45°C
+2026-10-19T11:57:21+08:00 pve-as4124 flock[58796]: dT_CPU         OK             11°C
+2026-10-19T11:57:21+08:00 pve-as4124 flock[58796]: FlowΔT         OK             13°C
+2026-10-19T11:57:21+08:00 pve-as4124 flock[58796]: SynΔT          OK             13°C (Enable, src=System Temp)
+2026-10-19T11:57:21+08:00 pve-as4124 flock[58796]: Current ΔT: 13°C  Threshold: 30°C  Set duty: 10% (zones: 0 1 2 3)
+2026-10-19T11:57:23+08:00 pve-as4124 systemd[1]: as4124-autofancontrol.service: Deactivated successfully.
+2026-10-19T11:57:23+08:00 pve-as4124 systemd[1]: Finished as4124-autofancontrol.service - AS4124 auto fan control (local ipmitool).
+2026-10-19T11:57:50+08:00 pve-as4124 systemd[1]: Starting as4124-autofancontrol.service - AS4124 auto fan control (local ipmitool)...
+2026-10-19T11:57:52+08:00 pve-as4124 flock[59166]: SOURCE         FETCH    TEMPERATURE
+2026-10-19T11:57:52+08:00 pve-as4124 flock[59166]: CPU0           OK             43°C
+2026-10-19T11:57:52+08:00 pve-as4124 flock[59166]: CPU1           OK             43°C
+2026-10-19T11:57:52+08:00 pve-as4124 flock[59166]: 2 CPU          OK             43°C (Highest)
+2026-10-19T11:57:52+08:00 pve-as4124 flock[59166]: Ambient        OK             32°C
+2026-10-19T11:57:52+08:00 pve-as4124 flock[59166]: Exhaust        OK             45°C
+2026-10-19T11:57:52+08:00 pve-as4124 flock[59166]: dT_CPU         OK             11°C
+2026-10-19T11:57:52+08:00 pve-as4124 flock[59166]: FlowΔT         OK             13°C
+2026-10-19T11:57:52+08:00 pve-as4124 flock[59166]: SynΔT          OK             13°C (Enable, src=System Temp)
+2026-10-19T11:57:52+08:00 pve-as4124 flock[59166]: Current ΔT: 13°C  Threshold: 30°C  Set duty: 10% (zones: 0 1 2 3)
+2026-10-19T11:57:54+08:00 pve-as4124 systemd[1]: as4124-autofancontrol.service: Deactivated successfully.
+2026-10-19T11:57:54+08:00 pve-as4124 systemd[1]: Finished as4124-autofancontrol.service - AS4124 auto fan control (local ipmitool).
+2026-10-19T11:58:21+08:00 pve-as4124 systemd[1]: Starting as4124-autofancontrol.service - AS4124 auto fan control (local ipmitool)...
+2026-10-19T11:58:23+08:00 pve-as4124 flock[59536]: SOURCE         FETCH    TEMPERATURE
+2026-10-19T11:58:23+08:00 pve-as4124 flock[59536]: CPU0           OK             43°C
+2026-10-19T11:58:23+08:00 pve-as4124 flock[59536]: CPU1           OK             43°C
+2026-10-19T11:58:23+08:00 pve-as4124 flock[59536]: 2 CPU          OK             43°C (Highest)
+2026-10-19T11:58:23+08:00 pve-as4124 flock[59536]: Ambient        OK             32°C
+2026-10-19T11:58:23+08:00 pve-as4124 flock[59536]: Exhaust        OK             45°C
+2026-10-19T11:58:23+08:00 pve-as4124 flock[59536]: dT_CPU         OK             11°C
+2026-10-19T11:58:23+08:00 pve-as4124 flock[59536]: FlowΔT         OK             13°C
+2026-10-19T11:58:23+08:00 pve-as4124 flock[59536]: SynΔT          OK             13°C (Enable, src=System Temp)
+2026-10-19T11:58:23+08:00 pve-as4124 flock[59536]: Current ΔT: 13°C  Threshold: 30°C  Set duty: 10% (zones: 0 1 2 3)
+2026-10-19T11:58:25+08:00 pve-as4124 systemd[1]: as4124-autofancontrol.service: Deactivated successfully.
+2026-10-19T11:58:25+08:00 pve-as4124 systemd[1]: Finished as4124-autofancontrol.service - AS4124 auto fan control (local ipmitool).
+2026-10-19T11:58:52+08:00 pve-as4124 systemd[1]: Starting as4124-autofancontrol.service - AS4124 auto fan control (local ipmitool)...
+2026-10-19T11:58:54+08:00 pve-as4124 flock[59903]: SOURCE         FETCH    TEMPERATURE
+2026-10-19T11:58:54+08:00 pve-as4124 flock[59903]: CPU0           OK             44°C
+2026-10-19T11:58:54+08:00 pve-as4124 flock[59903]: CPU1           OK             44°C
+2026-10-19T11:58:54+08:00 pve-as4124 flock[59903]: 2 CPU          OK             44°C (Highest)
+2026-10-19T11:58:54+08:00 pve-as4124 flock[59903]: Ambient        OK             32°C
+2026-10-19T11:58:54+08:00 pve-as4124 flock[59903]: Exhaust        OK             45°C
+2026-10-19T11:58:54+08:00 pve-as4124 flock[59903]: dT_CPU         OK             12°C
+2026-10-19T11:58:54+08:00 pve-as4124 flock[59903]: FlowΔT         OK             13°C
+2026-10-19T11:58:54+08:00 pve-as4124 flock[59903]: SynΔT          OK             13°C (Enable, src=System Temp)
+2026-10-19T11:58:54+08:00 pve-as4124 flock[59903]: Current ΔT: 13°C  Threshold: 30°C  Set duty: 10% (zones: 0 1 2 3)
+2026-10-19T11:58:56+08:00 pve-as4124 systemd[1]: as4124-autofancontrol.service: Deactivated successfully.
+2026-10-19T11:58:56+08:00 pve-as4124 systemd[1]: Finished as4124-autofancontrol.service - AS4124 auto fan control (local ipmitool).
+2026-10-19T11:59:23+08:00 pve-as4124 systemd[1]: Starting as4124-autofancontrol.service - AS4124 auto fan control (local ipmitool)...
+2026-10-19T11:59:25+08:00 pve-as4124 flock[60280]: SOURCE         FETCH    TEMPERATURE
+2026-10-19T11:59:25+08:00 pve-as4124 flock[60280]: CPU0           OK             51°C
+2026-10-19T11:59:25+08:00 pve-as4124 flock[60280]: CPU1           OK             43°C
+2026-10-19T11:59:25+08:00 pve-as4124 flock[60280]: 2 CPU          OK             51°C (Highest)
+2026-10-19T11:59:25+08:00 pve-as4124 flock[60280]: Ambient        OK             32°C
+2026-10-19T11:59:25+08:00 pve-as4124 flock[60280]: Exhaust        OK             45°C
+2026-10-19T11:59:25+08:00 pve-as4124 flock[60280]: dT_CPU         OK             19°C
+2026-10-19T11:59:25+08:00 pve-as4124 flock[60280]: FlowΔT         OK             13°C
+2026-10-19T11:59:25+08:00 pve-as4124 flock[60280]: SynΔT          OK             19°C (Enable, src=System Temp)
+2026-10-19T11:59:25+08:00 pve-as4124 flock[60280]: Current ΔT: 19°C  Threshold: 30°C  Set duty: 10% (zones: 0 1 2 3)
+2026-10-19T11:59:27+08:00 pve-as4124 systemd[1]: as4124-autofancontrol.service: Deactivated successfully.
+2026-10-19T11:59:27+08:00 pve-as4124 systemd[1]: Finished as4124-autofancontrol.service - AS4124 auto fan control (local ipmitool).
+2026-10-19T11:59:54+08:00 pve-as4124 systemd[1]: Starting as4124-autofancontrol.service - AS4124 auto fan control (local ipmitool)...
+2026-10-19T11:59:56+08:00 pve-as4124 flock[60667]: SOURCE         FETCH    TEMPERATURE
+2026-10-19T11:59:56+08:00 pve-as4124 flock[60667]: CPU0           OK             43°C
+2026-10-19T11:59:56+08:00 pve-as4124 flock[60667]: CPU1           OK             43°C
+2026-10-19T11:59:56+08:00 pve-as4124 flock[60667]: 2 CPU          OK             43°C (Highest)
+2026-10-19T11:59:56+08:00 pve-as4124 flock[60667]: Ambient        OK             32°C
+2026-10-19T11:59:56+08:00 pve-as4124 flock[60667]: Exhaust        OK             45°C
+2026-10-19T11:59:56+08:00 pve-as4124 flock[60667]: dT_CPU         OK             11°C
+2026-10-19T11:59:56+08:00 pve-as4124 flock[60667]: FlowΔT         OK             13°C
+2026-10-19T11:59:56+08:00 pve-as4124 flock[60667]: SynΔT          OK             13°C (Enable, src=System Temp)
+2026-10-19T11:59:56+08:00 pve-as4124 flock[60667]: Current ΔT: 13°C  Threshold: 30°C  Set duty: 10% (zones: 0 1 2 3)
+2026-10-19T11:59:58+08:00 pve-as4124 systemd[1]: as4124-autofancontrol.service: Deactivated successfully.
+2026-10-19T11:59:58+08:00 pve-as4124 systemd[1]: Finished as4124-autofancontrol.service - AS4124 auto fan control (local ipmitool).
+2026-10-19T12:00:25+08:00 pve-as4124 systemd[1]: Starting as4124-autofancontrol.service - AS4124 auto fan control (local ipmitool)...
+2026-10-19T12:00:27+08:00 pve-as4124 flock[61041]: SOURCE         FETCH    TEMPERATURE
+2026-10-19T12:00:27+08:00 pve-as4124 flock[61041]: CPU0           OK             43°C
+2026-10-19T12:00:27+08:00 pve-as4124 flock[61041]: CPU1           OK             44°C
+2026-10-19T12:00:27+08:00 pve-as4124 flock[61041]: 2 CPU          OK             44°C (Highest)
+2026-10-19T12:00:27+08:00 pve-as4124 flock[61041]: Ambient        OK             32°C
+2026-10-19T12:00:27+08:00 pve-as4124 flock[61041]: Exhaust        OK             45°C
+2026-10-19T12:00:27+08:00 pve-as4124 flock[61041]: dT_CPU         OK             12°C
+2026-10-19T12:00:27+08:00 pve-as4124 flock[61041]: FlowΔT         OK             13°C
+2026-10-19T12:00:27+08:00 pve-as4124 flock[61041]: SynΔT          OK             13°C (Enable, src=System Temp)
+2026-10-19T12:00:27+08:00 pve-as4124 flock[61041]: Current ΔT: 13°C  Threshold: 30°C  Set duty: 10% (zones: 0 1 2 3)
+2026-10-19T12:00:29+08:00 pve-as4124 systemd[1]: as4124-autofancontrol.service: Deactivated successfully.
+2026-10-19T12:00:29+08:00 pve-as4124 systemd[1]: Finished as4124-autofancontrol.service - AS4124 auto fan control (local ipmitool).
+2026-10-19T12:00:56+08:00 pve-as4124 systemd[1]: Starting as4124-autofancontrol.service - AS4124 auto fan control (local ipmitool)...
+
+STDERR:

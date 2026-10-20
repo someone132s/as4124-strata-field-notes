@@ -1,0 +1,379 @@
+2026-10-19T12:10:52+08:00
+04/27/2026 08:23:11 PM CST
+SEL Information
+Version          : 1.5 (v1.5, v2 compliant)
+Entries          : 361
+Free Space       : 3020 bytes 
+Percent Used     : 65%
+Last Add Time    : 04/27/2026 08:22:35 PM CST
+Last Del Time    : Not Available
+Overflow         : false
+Supported Cmds   : 'Reserve' 'Get Alloc Info' 
+# of Alloc Units : 512
+Alloc Unit Size  : 20
+# Free Units     : 151
+Largest Free Blk : 151
+Max Record Size  : 20
+   1 | 10/17/2026 | 07:07:56 PM CST | Critical Interrupt | PCI PERR () | Asserted
+   2 | 10/17/2026 | 07:07:56 PM CST | Critical Interrupt | PCI PERR () | Asserted
+   3 | 10/17/2026 | 07:07:56 PM CST | Critical Interrupt | PCI PERR () | Asserted
+   4 | 10/17/2026 | 07:07:56 PM CST | Critical Interrupt | PCI PERR () | Asserted
+   5 | 10/17/2026 | 07:07:56 PM CST | Critical Interrupt | PCI PERR () | Asserted
+   6 | 10/17/2026 | 07:07:56 PM CST | Critical Interrupt | PCI PERR () | Asserted
+   7 | 10/17/2026 | 07:07:56 PM CST | Critical Interrupt | PCI PERR () | Asserted
+   8 | 10/17/2026 | 07:07:56 PM CST | Critical Interrupt | PCI PERR () | Asserted
+   9 | 10/17/2026 | 07:07:56 PM CST | Critical Interrupt | PCI PERR () | Asserted
+   a | 10/17/2026 | 07:07:56 PM CST | Critical Interrupt | PCI PERR () | Asserted
+   b | 10/17/2026 | 07:07:56 PM CST | Critical Interrupt | PCI PERR () | Asserted
+   c | 10/17/2026 | 07:07:57 PM CST | Critical Interrupt | PCI PERR () | Asserted
+   d | 10/17/2026 | 07:07:57 PM CST | Critical Interrupt | PCI PERR () | Asserted
+   e | 10/17/2026 | 07:07:57 PM CST | Critical Interrupt | PCI PERR () | Asserted
+   f | 10/17/2026 | 07:07:57 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  10 | 10/17/2026 | 07:07:57 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  11 | 10/17/2026 | 07:07:58 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  12 | 10/17/2026 | 07:07:58 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  13 | 10/17/2026 | 07:07:58 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  14 | 10/17/2026 | 07:08:04 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  15 | 10/17/2026 | 07:08:28 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  16 | 10/17/2026 | 07:08:53 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  17 | 10/17/2026 | 07:08:53 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  18 | 10/17/2026 | 07:08:53 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  19 | 10/17/2026 | 07:08:53 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  1a | 10/17/2026 | 07:08:53 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  1b | 10/17/2026 | 07:08:54 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  1c | 10/17/2026 | 07:08:54 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  1d | 10/17/2026 | 07:08:54 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  1e | 10/17/2026 | 07:08:55 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  1f | 10/17/2026 | 07:08:55 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  20 | 10/17/2026 | 07:08:55 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  21 | 10/17/2026 | 07:08:55 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  22 | 10/17/2026 | 07:08:55 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  23 | 10/17/2026 | 07:08:56 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  24 | 10/17/2026 | 07:08:56 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  25 | 10/17/2026 | 07:08:59 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  26 | 10/17/2026 | 07:09:01 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  27 | 10/17/2026 | 07:09:06 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  28 | 10/17/2026 | 07:09:08 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  29 | 10/17/2026 | 07:09:12 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  2a | 10/17/2026 | 07:09:12 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  2b | 10/17/2026 | 07:09:19 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  2c | 10/17/2026 | 07:09:23 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  2d | 10/17/2026 | 07:09:24 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  2e | 10/17/2026 | 07:09:40 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  2f | 10/17/2026 | 07:09:46 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  30 | 10/17/2026 | 07:09:49 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  31 | 10/17/2026 | 07:09:54 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  32 | 10/17/2026 | 07:09:58 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  33 | 10/17/2026 | 07:09:58 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  34 | 10/17/2026 | 07:09:58 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  35 | 10/17/2026 | 07:10:01 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  36 | 10/17/2026 | 07:10:03 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  37 | 10/17/2026 | 07:10:04 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  38 | 10/17/2026 | 07:10:04 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  39 | 10/17/2026 | 07:10:04 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  3a | 10/17/2026 | 07:10:05 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  3b | 10/17/2026 | 07:10:06 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  3c | 10/17/2026 | 07:10:07 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  3d | 10/17/2026 | 07:10:07 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  3e | 10/17/2026 | 07:10:07 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  3f | 10/17/2026 | 07:10:08 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  40 | 10/17/2026 | 07:10:09 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  41 | 10/17/2026 | 07:10:09 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  42 | 10/17/2026 | 07:10:09 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  43 | 10/17/2026 | 07:10:09 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  44 | 10/17/2026 | 07:10:10 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  45 | 10/17/2026 | 07:10:11 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  46 | 10/17/2026 | 07:10:11 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  47 | 10/17/2026 | 07:10:11 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  48 | 10/17/2026 | 07:10:33 PM CST | Unknown #0xff |  | Asserted
+  49 | 10/18/2026 | 02:07:47 AM CST | Unknown #0xff |  | Asserted
+  4a | 10/18/2026 | 02:09:07 AM CST | Unknown #0xff |  | Asserted
+  4b | 10/18/2026 | 05:38:48 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  4c | 10/18/2026 | 05:38:48 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  4d | 10/18/2026 | 05:38:48 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  4e | 10/18/2026 | 05:38:48 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  4f | 10/18/2026 | 05:38:48 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  50 | 10/18/2026 | 05:38:48 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  51 | 10/18/2026 | 05:38:48 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  52 | 10/18/2026 | 05:38:48 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  53 | 10/18/2026 | 05:38:48 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  54 | 10/18/2026 | 05:38:48 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  55 | 10/18/2026 | 05:38:49 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  56 | 10/18/2026 | 05:38:49 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  57 | 10/18/2026 | 05:38:49 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  58 | 10/18/2026 | 05:38:49 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  59 | 10/18/2026 | 05:38:50 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  5a | 10/18/2026 | 05:38:50 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  5b | 10/18/2026 | 05:38:50 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  5c | 10/18/2026 | 05:38:55 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  5d | 10/18/2026 | 05:39:02 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  5e | 10/18/2026 | 05:39:23 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  5f | 10/18/2026 | 05:39:27 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  60 | 10/18/2026 | 05:39:47 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  61 | 10/18/2026 | 05:40:07 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  62 | 10/18/2026 | 05:40:28 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  63 | 10/18/2026 | 05:41:06 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  64 | 10/18/2026 | 05:41:07 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  65 | 10/18/2026 | 05:41:10 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  66 | 10/18/2026 | 05:41:17 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  67 | 10/18/2026 | 05:41:25 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  68 | 10/18/2026 | 05:41:50 AM CST | Unknown #0xff |  | Asserted
+  69 | 04/27/2026 | 10:12:34 AM CST | Unknown #0xff |  | Asserted
+  6a | 10/18/2026 | 11:35:25 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  6b | 10/18/2026 | 11:35:25 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  6c | 10/18/2026 | 11:35:25 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  6d | 10/18/2026 | 11:35:25 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  6e | 10/18/2026 | 11:35:26 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  6f | 10/18/2026 | 11:35:26 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  70 | 10/18/2026 | 11:35:26 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  71 | 10/18/2026 | 11:35:26 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  72 | 10/18/2026 | 11:35:26 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  73 | 10/18/2026 | 11:35:26 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  74 | 10/18/2026 | 11:35:27 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  75 | 10/18/2026 | 11:35:27 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  76 | 10/18/2026 | 11:35:27 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  77 | 10/18/2026 | 11:35:28 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  78 | 10/18/2026 | 11:35:28 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  79 | 10/18/2026 | 11:35:33 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  7a | 10/18/2026 | 11:35:34 AM CST | Critical Interrupt | PCI PERR () | Asserted
+  7b | 10/18/2026 | 07:35:37 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  7c | 10/18/2026 | 07:35:38 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  7d | 10/18/2026 | 07:35:39 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  7e | 10/18/2026 | 07:35:43 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  7f | 10/18/2026 | 07:36:03 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  80 | 10/18/2026 | 07:36:06 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  81 | 10/18/2026 | 07:36:07 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  82 | 10/18/2026 | 07:36:08 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  83 | 10/18/2026 | 07:36:11 PM CST | Unknown #0xff |  | Asserted
+  84 | 10/18/2026 | 07:36:14 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  85 | 10/18/2026 | 07:36:15 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  86 | 10/18/2026 | 07:36:16 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  87 | 10/18/2026 | 07:37:27 PM CST | Physical Security Chassis Intru | General Chassis intrusion () | Asserted
+  88 | 10/18/2026 | 07:37:27 PM CST | Power Supply PS1 Status | Presence detected () | Asserted
+  89 | 10/18/2026 | 07:37:27 PM CST | Power Supply PS1 Status | Failure detected () | Asserted
+  8a | 10/18/2026 | 07:37:27 PM CST | Power Supply PS1 Status | Power Supply AC lost () | Asserted
+  8b | 10/18/2026 | 07:37:27 PM CST | Power Supply PS2 Status | Presence detected () | Asserted
+  8c | 10/18/2026 | 07:37:27 PM CST | Power Supply PS3 Status | Presence detected () | Asserted
+  8d | 10/18/2026 | 07:37:27 PM CST | Power Supply PS3 Status | Failure detected () | Asserted
+  8e | 10/18/2026 | 07:37:27 PM CST | Power Supply PS3 Status | Power Supply AC lost () | Asserted
+  8f | 10/18/2026 | 07:37:27 PM CST | Power Supply PS4 Status | Presence detected () | Asserted
+  90 | 10/18/2026 | 07:38:27 PM CST | Unknown #0xff |  | Asserted
+  91 | 04/27/2026 | 10:12:34 AM CST | Unknown #0xff |  | Asserted
+  92 | 04/27/2026 | 06:14:05 PM CST | Unknown #0xff |  | Asserted
+  93 | 04/27/2026 | 06:15:34 PM CST | Battery | Low () | Asserted
+  94 | 04/27/2026 | 06:16:32 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  95 | 04/27/2026 | 06:16:32 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  96 | 04/27/2026 | 06:16:32 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  97 | 04/27/2026 | 06:16:32 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  98 | 04/27/2026 | 06:16:33 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  99 | 04/27/2026 | 06:16:33 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  9a | 04/27/2026 | 06:16:33 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  9b | 04/27/2026 | 06:16:33 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  9c | 04/27/2026 | 06:16:33 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  9d | 04/27/2026 | 06:16:34 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  9e | 04/27/2026 | 06:16:34 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  9f | 04/27/2026 | 06:16:35 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  a0 | 04/27/2026 | 06:16:35 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  a1 | 04/27/2026 | 06:16:35 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  a2 | 04/27/2026 | 06:18:42 PM CST | OS Boot | C: boot completed () | Asserted
+  a3 | 04/27/2026 | 06:19:08 PM CST | Physical Security Chassis Intru | General Chassis intrusion () | Asserted
+  a4 | 04/27/2026 | 06:19:08 PM CST | Power Supply PS1 Status | Presence detected () | Asserted
+  a5 | 04/27/2026 | 06:19:08 PM CST | Power Supply PS1 Status | Failure detected () | Asserted
+  a6 | 04/27/2026 | 06:19:08 PM CST | Power Supply PS1 Status | Power Supply AC lost () | Asserted
+  a7 | 04/27/2026 | 06:19:08 PM CST | Power Supply PS2 Status | Presence detected () | Asserted
+  a8 | 04/27/2026 | 06:19:08 PM CST | Power Supply PS2 Status | Failure detected () | Asserted
+  a9 | 04/27/2026 | 06:19:08 PM CST | Power Supply PS2 Status | Power Supply AC lost () | Asserted
+  aa | 04/27/2026 | 06:19:08 PM CST | Power Supply PS3 Status | Presence detected () | Asserted
+  ab | 04/27/2026 | 06:19:08 PM CST | Power Supply PS4 Status | Presence detected () | Asserted
+  ac | 04/27/2026 | 06:19:57 PM CST | Unknown #0xff |  | Asserted
+  ad | 04/27/2026 | 06:27:26 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  ae | 04/27/2026 | 06:27:26 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  af | 04/27/2026 | 06:27:26 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  b0 | 04/27/2026 | 06:27:27 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  b1 | 04/27/2026 | 06:27:27 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  b2 | 04/27/2026 | 06:27:27 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  b3 | 04/27/2026 | 06:27:27 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  b4 | 04/27/2026 | 06:27:27 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  b5 | 04/27/2026 | 06:27:27 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  b6 | 04/27/2026 | 06:27:28 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  b7 | 04/27/2026 | 06:27:30 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  b8 | 04/27/2026 | 06:27:31 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  b9 | 04/27/2026 | 06:27:31 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  ba | 04/27/2026 | 06:27:31 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  bb | 04/27/2026 | 06:28:45 PM CST | OS Boot | C: boot completed () | Asserted
+  bc | 04/27/2026 | 06:29:16 PM CST | Power Supply PS1 Status | Failure detected () | Deasserted
+  bd | 04/27/2026 | 06:29:16 PM CST | Power Supply PS1 Status | Power Supply AC lost () | Deasserted
+  be | 04/27/2026 | 06:29:16 PM CST | Power Supply PS2 Status | Failure detected () | Deasserted
+  bf | 04/27/2026 | 06:29:16 PM CST | Power Supply PS2 Status | Power Supply AC lost () | Deasserted
+  c0 | 04/27/2026 | 06:29:18 PM CST | Fan FAN1 | Lower Critical going low  | Asserted | Reading 0 < Threshold 420 RPM
+  c1 | 04/27/2026 | 06:29:18 PM CST | Fan FAN1 | Lower Non-recoverable going low  | Asserted | Reading 0 < Threshold 280 RPM
+  c2 | 04/27/2026 | 06:29:18 PM CST | Fan FAN2 | Lower Critical going low  | Asserted | Reading 0 < Threshold 420 RPM
+  c3 | 04/27/2026 | 06:29:18 PM CST | Fan FAN2 | Lower Non-recoverable going low  | Asserted | Reading 0 < Threshold 280 RPM
+  c4 | 04/27/2026 | 06:29:18 PM CST | Fan FAN3 | Lower Critical going low  | Asserted | Reading 0 < Threshold 420 RPM
+  c5 | 04/27/2026 | 06:29:18 PM CST | Fan FAN3 | Lower Non-recoverable going low  | Asserted | Reading 0 < Threshold 280 RPM
+  c6 | 04/27/2026 | 06:29:18 PM CST | Fan FAN4 | Lower Critical going low  | Asserted | Reading 0 < Threshold 420 RPM
+  c7 | 04/27/2026 | 06:29:18 PM CST | Fan FAN4 | Lower Non-recoverable going low  | Asserted | Reading 0 < Threshold 280 RPM
+  c8 | 04/27/2026 | 06:29:18 PM CST | Fan FAN5 | Lower Critical going low  | Asserted | Reading 0 < Threshold 420 RPM
+  c9 | 04/27/2026 | 06:29:18 PM CST | Fan FAN5 | Lower Non-recoverable going low  | Asserted | Reading 0 < Threshold 280 RPM
+  ca | 04/27/2026 | 06:29:18 PM CST | Fan FAN6 | Lower Critical going low  | Asserted | Reading 0 < Threshold 420 RPM
+  cb | 04/27/2026 | 06:29:18 PM CST | Fan FAN6 | Lower Non-recoverable going low  | Asserted | Reading 0 < Threshold 280 RPM
+  cc | 04/27/2026 | 06:29:18 PM CST | Fan FAN7 | Lower Critical going low  | Asserted | Reading 0 < Threshold 420 RPM
+  cd | 04/27/2026 | 06:29:18 PM CST | Fan FAN7 | Lower Non-recoverable going low  | Asserted | Reading 0 < Threshold 280 RPM
+  ce | 04/27/2026 | 06:29:18 PM CST | Fan FAN8 | Lower Critical going low  | Asserted | Reading 0 < Threshold 420 RPM
+  cf | 04/27/2026 | 06:29:18 PM CST | Fan FAN8 | Lower Non-recoverable going low  | Asserted | Reading 0 < Threshold 280 RPM
+  d0 | 04/27/2026 | 06:30:16 PM CST | Unknown #0xff |  | Asserted
+  d1 | 04/27/2026 | 06:33:28 PM CST | Power Supply PS1 Status | Failure detected () | Asserted
+  d2 | 04/27/2026 | 06:33:28 PM CST | Power Supply PS1 Status | Power Supply AC lost () | Asserted
+  d3 | 04/27/2026 | 06:33:28 PM CST | Power Supply PS2 Status | Failure detected () | Asserted
+  d4 | 04/27/2026 | 06:33:28 PM CST | Power Supply PS2 Status | Power Supply AC lost () | Asserted
+  d5 | 04/27/2026 | 06:35:07 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  d6 | 04/27/2026 | 06:36:22 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  d7 | 04/27/2026 | 06:36:22 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  d8 | 04/27/2026 | 06:36:22 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  d9 | 04/27/2026 | 06:36:22 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  da | 04/27/2026 | 06:36:23 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  db | 04/27/2026 | 06:36:23 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  dc | 04/27/2026 | 06:36:23 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  dd | 04/27/2026 | 06:36:23 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  de | 04/27/2026 | 06:36:24 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  df | 04/27/2026 | 06:36:24 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  e0 | 04/27/2026 | 06:36:25 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  e1 | 04/27/2026 | 06:36:25 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  e2 | 04/27/2026 | 06:36:25 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  e3 | 04/27/2026 | 06:36:25 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  e4 | 04/27/2026 | 06:37:43 PM CST | OS Boot | C: boot completed () | Asserted
+  e5 | 04/27/2026 | 06:38:10 PM CST | Power Supply PS2 Status | Failure detected () | Deasserted
+  e6 | 04/27/2026 | 06:38:10 PM CST | Power Supply PS2 Status | Power Supply AC lost () | Deasserted
+  e7 | 04/27/2026 | 06:38:10 PM CST | Power Supply PS3 Status | Failure detected () | Asserted
+  e8 | 04/27/2026 | 06:38:10 PM CST | Power Supply PS3 Status | Power Supply AC lost () | Asserted
+  e9 | 04/27/2026 | 06:39:08 PM CST | Unknown #0xff |  | Asserted
+  ea | 04/27/2026 | 06:40:22 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  eb | 04/27/2026 | 06:42:56 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  ec | 04/27/2026 | 06:43:43 PM CST | Power Supply PS3 Status | Failure detected () | Deasserted
+  ed | 04/27/2026 | 06:43:43 PM CST | Power Supply PS3 Status | Power Supply AC lost () | Deasserted
+  ee | 04/27/2026 | 06:43:46 PM CST | Power Supply PS1 Status | Failure detected () | Deasserted
+  ef | 04/27/2026 | 06:43:46 PM CST | Power Supply PS1 Status | Power Supply AC lost () | Deasserted
+  f0 | 04/27/2026 | 06:45:23 PM CST | Power Supply PS1 Status | Failure detected () | Asserted
+  f1 | 04/27/2026 | 06:45:23 PM CST | Power Supply PS1 Status | Power Supply AC lost () | Asserted
+  f2 | 04/27/2026 | 06:47:37 PM CST | Power Supply PS1 Status | Failure detected () | Deasserted
+  f3 | 04/27/2026 | 06:47:37 PM CST | Power Supply PS1 Status | Power Supply AC lost () | Deasserted
+  f4 | 04/27/2026 | 06:50:07 PM CST | OS Critical Stop | OS graceful shutdown () | Asserted
+  f5 | 04/27/2026 | 06:54:37 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  f6 | 04/27/2026 | 06:54:37 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  f7 | 04/27/2026 | 06:54:37 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  f8 | 04/27/2026 | 06:54:37 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  f9 | 04/27/2026 | 06:54:38 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  fa | 04/27/2026 | 06:54:38 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  fb | 04/27/2026 | 06:54:38 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  fc | 04/27/2026 | 06:54:38 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  fd | 04/27/2026 | 06:54:39 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  fe | 04/27/2026 | 06:54:39 PM CST | Critical Interrupt | PCI PERR () | Asserted
+  ff | 04/27/2026 | 06:54:39 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 100 | 04/27/2026 | 06:54:40 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 101 | 04/27/2026 | 06:54:40 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 102 | 04/27/2026 | 06:54:40 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 103 | 04/27/2026 | 06:56:05 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 104 | 04/27/2026 | 06:56:13 PM CST | Fan FAN1 | Lower Non-recoverable going low  | Deasserted | Reading 11200 > Threshold 280 RPM
+ 105 | 04/27/2026 | 06:56:13 PM CST | Fan FAN1 | Lower Critical going low  | Deasserted | Reading 11200 > Threshold 420 RPM
+ 106 | 04/27/2026 | 06:56:13 PM CST | Fan FAN2 | Lower Non-recoverable going low  | Deasserted | Reading 10640 > Threshold 280 RPM
+ 107 | 04/27/2026 | 06:56:13 PM CST | Fan FAN2 | Lower Critical going low  | Deasserted | Reading 10640 > Threshold 420 RPM
+ 108 | 04/27/2026 | 06:56:13 PM CST | Fan FAN3 | Lower Non-recoverable going low  | Deasserted | Reading 11200 > Threshold 280 RPM
+ 109 | 04/27/2026 | 06:56:13 PM CST | Fan FAN3 | Lower Critical going low  | Deasserted | Reading 11200 > Threshold 420 RPM
+ 10a | 04/27/2026 | 06:56:13 PM CST | Fan FAN4 | Lower Non-recoverable going low  | Deasserted | Reading 10640 > Threshold 280 RPM
+ 10b | 04/27/2026 | 06:56:13 PM CST | Fan FAN4 | Lower Critical going low  | Deasserted | Reading 10640 > Threshold 420 RPM
+ 10c | 04/27/2026 | 06:56:13 PM CST | Fan FAN5 | Lower Non-recoverable going low  | Deasserted | Reading 11200 > Threshold 280 RPM
+ 10d | 04/27/2026 | 06:56:13 PM CST | Fan FAN5 | Lower Critical going low  | Deasserted | Reading 11200 > Threshold 420 RPM
+ 10e | 04/27/2026 | 06:56:13 PM CST | Fan FAN6 | Lower Non-recoverable going low  | Deasserted | Reading 10640 > Threshold 280 RPM
+ 10f | 04/27/2026 | 06:56:13 PM CST | Fan FAN6 | Lower Critical going low  | Deasserted | Reading 10640 > Threshold 420 RPM
+ 110 | 04/27/2026 | 06:56:13 PM CST | Fan FAN7 | Lower Non-recoverable going low  | Deasserted | Reading 11060 > Threshold 280 RPM
+ 111 | 04/27/2026 | 06:56:13 PM CST | Fan FAN7 | Lower Critical going low  | Deasserted | Reading 11060 > Threshold 420 RPM
+ 112 | 04/27/2026 | 06:56:13 PM CST | Fan FAN8 | Lower Non-recoverable going low  | Deasserted | Reading 10640 > Threshold 280 RPM
+ 113 | 04/27/2026 | 06:56:13 PM CST | Fan FAN8 | Lower Critical going low  | Deasserted | Reading 10640 > Threshold 420 RPM
+ 114 | 04/27/2026 | 06:57:14 PM CST | Unknown #0xff |  | Asserted
+ 115 | 04/27/2026 | 07:20:00 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 116 | 04/27/2026 | 07:21:19 PM CST | Unknown #0xff |  | Asserted
+ 117 | 04/27/2026 | 08:01:46 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 118 | 04/27/2026 | 08:14:07 PM CST | Unknown #0xff |  | Asserted
+ 119 | 04/27/2026 | 08:14:07 PM CST | Unknown #0xff |  | Asserted
+ 11a | 04/27/2026 | 08:14:08 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 11b | 04/27/2026 | 08:14:08 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 11c | 04/27/2026 | 08:14:08 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 11d | 04/27/2026 | 08:14:08 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 11e | 04/27/2026 | 08:14:08 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 11f | 04/27/2026 | 08:14:08 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 120 | 04/27/2026 | 08:14:09 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 121 | 04/27/2026 | 08:14:09 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 122 | 04/27/2026 | 08:14:10 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 123 | 04/27/2026 | 08:14:10 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 124 | 04/27/2026 | 08:14:10 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 125 | 04/27/2026 | 08:14:10 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 126 | 04/27/2026 | 08:14:11 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 127 | 04/27/2026 | 08:14:11 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 128 | 04/27/2026 | 08:15:40 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 129 | 04/27/2026 | 08:15:40 PM CST | Unknown #0xff |  | Asserted
+ 12a | 04/27/2026 | 08:15:40 PM CST | Unknown #0xff |  | Asserted
+ 12b | 04/27/2026 | 08:15:44 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 12c | 04/27/2026 | 08:15:45 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 12d | 04/27/2026 | 08:15:45 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 12e | 04/27/2026 | 08:15:45 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 12f | 04/27/2026 | 08:15:46 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 130 | 04/27/2026 | 08:15:46 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 131 | 04/27/2026 | 08:15:47 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 132 | 04/27/2026 | 08:15:49 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 133 | 04/27/2026 | 08:15:50 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 134 | 04/27/2026 | 08:15:54 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 135 | 04/27/2026 | 08:15:55 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 136 | 04/27/2026 | 08:15:56 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 137 | 04/27/2026 | 08:15:56 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 138 | 04/27/2026 | 08:15:56 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 139 | 04/27/2026 | 08:17:25 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 13a | 04/27/2026 | 08:18:27 PM CST | Unknown #0xff |  | Asserted
+ 13b | 04/27/2026 | 08:18:27 PM CST | Unknown #0xff |  | Asserted
+ 13c | 04/27/2026 | 08:18:30 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 13d | 04/27/2026 | 08:18:43 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 13e | 04/27/2026 | 08:18:50 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 13f | 04/27/2026 | 08:18:53 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 140 | 04/27/2026 | 08:18:56 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 141 | 04/27/2026 | 08:19:06 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 142 | 04/27/2026 | 08:19:06 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 143 | 04/27/2026 | 08:19:11 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 144 | 04/27/2026 | 08:19:12 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 145 | 04/27/2026 | 08:19:15 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 146 | 04/27/2026 | 08:19:21 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 147 | 04/27/2026 | 08:19:31 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 148 | 04/27/2026 | 08:19:32 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 149 | 04/27/2026 | 08:19:33 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 14a | 04/27/2026 | 08:19:34 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 14b | 04/27/2026 | 08:19:34 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 14c | 04/27/2026 | 08:19:35 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 14d | 04/27/2026 | 08:19:36 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 14e | 04/27/2026 | 08:19:38 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 14f | 04/27/2026 | 08:19:39 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 150 | 04/27/2026 | 08:19:40 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 151 | 04/27/2026 | 08:19:42 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 152 | 04/27/2026 | 08:19:46 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 153 | 04/27/2026 | 08:19:47 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 154 | 04/27/2026 | 08:19:50 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 155 | 04/27/2026 | 08:19:51 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 156 | 04/27/2026 | 08:19:52 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 157 | 04/27/2026 | 08:19:53 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 158 | 04/27/2026 | 08:19:53 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 159 | 04/27/2026 | 08:19:53 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 15a | 04/27/2026 | 08:19:56 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 15b | 04/27/2026 | 08:19:57 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 15c | 04/27/2026 | 08:20:06 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 15d | 04/27/2026 | 08:20:16 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 15e | 04/27/2026 | 08:20:17 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 15f | 04/27/2026 | 08:20:18 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 160 | 04/27/2026 | 08:20:45 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 161 | 04/27/2026 | 08:20:54 PM CST | Unknown #0xff |  | Asserted
+ 162 | 04/27/2026 | 08:21:07 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 163 | 04/27/2026 | 08:21:12 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 164 | 04/27/2026 | 08:21:24 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 165 | 04/27/2026 | 08:21:39 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 166 | 04/27/2026 | 08:22:24 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 167 | 04/27/2026 | 08:22:24 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 168 | 04/27/2026 | 08:22:25 PM CST | Critical Interrupt | PCI PERR () | Asserted
+ 169 | 04/27/2026 | 08:22:35 PM CST | Critical Interrupt | PCI PERR () | Asserted
+
+STDERR:

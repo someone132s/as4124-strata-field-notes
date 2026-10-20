@@ -1,0 +1,51 @@
+5. 启动（容器化示例）
+docker run -d --name strata --restart unless-stopped --gpus all --network host --ipc host \
+  --ulimit memlock=-1 -e HOME=/path/to/home \
+  -e STRATA_BF16_TC=1 -e STRATA_SELECT_SIMT=2 -e STRATA_PA_V2T=1 \
+  -e STRATA_REFILL_PARTS=1 -e STRATA_PREFILL_HELP=1 \
+  -v /path/to/strata:/path/to/strata \
+  -v /path/to/Strata-data:/path/to/Strata-data \
+  -v /path/to/weights:/path/to/weights \
+  -v /usr/local/cuda-13.0:/usr/local/cuda-13.0:ro \
+  <image> /path/to/strata/.venv/bin/python /path/to/strata/serve/server.py \
+  --engine strata --config /path/to/strata/strata-iq3_s-dual-262k-vision.json --port 8000
+镜像要求：glibc 版本不低于宿主编译的二进制的需求（参考引擎要求 GLIBC_2.43 → Debian sid 级基础镜
+像）；镜像内 Python 版本与 venv 一致（3.13）
+就绪判定：curl -s -o /dev/null -w '%{http_code}' http://127.0.0.1:8000/v1/models 轮询到
+200；首启（读 48 GB 权重 + 填专家缓存）约 1.5–3 分钟，期间整机响应变慢属正常
+局域网开放：配置 host: 0.0.0.0，可加 api_key（留空 = 免密，注意暴露风险）；API = OpenAI /v1/
+chat/completions + Anthropic /v1/messages
+6. 功能验收（部署完必做）
+短答确定性：3 则固定短答（法国首都→巴黎；2+3→5；“床前明月光”接句）全部正确
+针召回：tools/needle_bench.py --lengths 1k,32k,64k,128k --depths 10,50,90（默认端口 8080，
+注意改 --url）；参考结果 12/12。必须关思考（enable_thinking:false）且 max_tokens ≥ 40（默
+认思考会吃掉 token，误判为召回失败）
+长答口径：温度 0 下长答非逐字确定（本引擎既有现象，非故障）→ 判据 = 内容稳定且正确，不做逐字 diff
+视觉（如启用）：生成含数字的 PNG → data URL 发送 → 比对数字（实测 4/4）
+性能三点：32K / 128K / 230K prefill 与 decode 与 §7 参考值同量级
+7. 性能基线与口径（参考机实测）
+口径 A（客户端）：prefill ≈ prompt_tokens / 首字墙钟；decode e2e = 完成 token / 全程墙钟（含提示读
+取，会低估 decode）
+口径 B（引擎日志，推荐）：每请求一行 done: N tokens in T s (R tok/s) → R = 纯生成速率；读提示
+耗时 ≈ T − N/R
+参考数字（v0.1.43 + 批次补丁，262K，pw2；fresh 读；计数类请求 2600 生成 token，2 次重复均值）：
+prefill：32K ≈ 1.82k · 128K ≈ 2.57k · 230K ≈ 2.67k tok/s
+decode（gen-only）：32K ≈ 157 · 128K ≈ 155 · 230K ≈ 152 tok/s
+全长度曲线（500–230K，prefill/decode）见配套性能图；图内标注了测试协议与输出长度口径
+decode 依任务形状浮动（草稿接受率相关，±10% 级）；测量须在空闲机上进行（单请求串行，多人用会
+排队）
+· 
+· 
+· 
+1. 
+2. 
+3. 
+4. 
+5. 
+· 
+· 
+· 
+· 
+· 
+· 
+· 

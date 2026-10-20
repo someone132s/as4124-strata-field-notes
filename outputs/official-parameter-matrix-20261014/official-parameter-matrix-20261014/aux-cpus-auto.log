@@ -1,0 +1,75 @@
+Using the Strata server already running at http://10.2.21.4:8080.
+Running the suite (about 3-10 minutes) ...
+warming up (not measured) ...
+  calibrated: about 1.08 tokens per word
+chat: 3 short questions x 3 runs, up to 100 new tokens
+  run 1 q1: decode 34.3 tok/s, first token 0.817 s, 100 tokens
+  run 1 q2: decode 20.4 tok/s, first token 1.582 s, 100 tokens
+  run 1 q3: decode 23.6 tok/s, first token 1.276 s, 100 tokens
+  run 2 q1: decode 41.5 tok/s, first token 1.001 s, 100 tokens
+  run 2 q2: decode 45.3 tok/s, first token 0.786 s, 100 tokens
+  run 2 q3: decode 49.7 tok/s, first token 0.802 s, 100 tokens
+  run 3 q1: decode 57.3 tok/s, first token 0.847 s, 100 tokens
+  run 3 q2: decode 55.3 tok/s, first token 0.776 s, 100 tokens
+  run 3 q3: decode 65.0 tok/s, first token 0.56 s, 100 tokens
+4K prompt: 3 fresh prompts of about 4096 tokens, 24 new tokens
+  run 1: 4019 tokens, prompt 880.0 tok/s (0 reused), first token 4.625 s
+  run 2: 4019 tokens, prompt 895.1 tok/s (0 reused), first token 4.564 s
+  run 3: 4019 tokens, prompt 881.1 tok/s (0 reused), first token 4.626 s
+16K prompt: 3 fresh prompts of about 16384 tokens, 24 new tokens
+  run 1: 16058 tokens, prompt 1349.3 tok/s (0 reused), first token 12.023 s
+  run 2: 16058 tokens, prompt 1334.2 tok/s (0 reused), first token 12.154 s
+  run 3: 16058 tokens, prompt 1316.6 tok/s (0 reused), first token 12.309 s
+agent: a session of 6 turns with four tools, x 3 runs
+  run 1 turn 0: prompt 609, reused 0, read 609, first token 2.261 s
+  run 1 turn 1: prompt 3704, reused 621, read 3083, first token 4.377 s
+  run 1 turn 2: prompt 5237, reused 3697, read 1540, first token 3.65 s
+  run 1 turn 3: prompt 8681, reused 5300, read 3381, first token 4.977 s
+  run 1 turn 4: prompt 11567, reused 8707, read 2860, first token 4.288 s
+  run 1 turn 5: prompt 14430, reused 11584, read 2846, first token 4.5 s
+  run 2 turn 0: prompt 609, reused 0, read 609, first token 2.332 s
+  run 2 turn 1: prompt 3714, reused 632, read 3082, first token 4.566 s
+  run 2 turn 2: prompt 5247, reused 3778, read 1469, first token 3.366 s
+  run 2 turn 3: prompt 8691, reused 5310, read 3381, first token 5.086 s
+  run 2 turn 4: prompt 11615, reused 8754, read 2861, first token 4.431 s
+  run 2 turn 5: prompt 14480, reused 11634, read 2846, first token 4.504 s
+  run 3 turn 0: prompt 609, reused 0, read 609, first token 2.198 s
+  run 3 turn 1: prompt 3708, reused 625, read 3083, first token 4.091 s
+  run 3 turn 2: prompt 5241, reused 3701, read 1540, first token 3.408 s
+  run 3 turn 3: prompt 8685, reused 5305, read 3380, first token 5.04 s
+  run 3 turn 4: prompt 11595, reused 8735, read 2860, first token 4.496 s
+  run 3 turn 5: prompt 14480, reused 11634, read 2846, first token 4.189 s
+concurrency: 2 requests at once x 3 rounds, 128 new tokens each
+  round 1: 256 tokens in 9.3 s = 27.6 tok/s total
+  round 2: 256 tokens in 7.0 s = 36.4 tok/s total
+  round 3: 256 tokens in 6.5 s = 39.5 tok/s total
+
+Results (median, range over the runs):
+  chat decode tok/s                     45.30   (20.40 - 65.00, n=9)
+  chat first token (s)                   0.82   (0.56 - 1.58, n=9)
+  4K prompt tok/s                      881.10   (880.00 - 895.10, n=3)
+  4K first token (s)                     4.62   (4.56 - 4.63, n=3)
+  16K prompt tok/s                    1334.20   (1316.60 - 1349.30, n=3)
+  16K first token (s)                   12.15   (12.02 - 12.31, n=3)
+  agent cache hit %                     68.64   (68.57 - 68.82, n=3)
+  agent re-read tokens/session          74.00   (3.00 - 75.00, n=3)
+  agent turn first token (s)             4.43   (3.37 - 5.09, n=15)
+  agent decode tok/s                    53.00   (22.00 - 81.80, n=15)
+  2 clients total tok/s                 36.42   (27.60 - 39.54, n=3)
+
+Compared with /opt/strata-deploy/test/results/official-hnorm-stream-20261014/2026-10-14-community-2x-rtx-2080-ti-swift-1-5-abliterated-iq3-s-q8ple:
+                                          old          new    change
+chat decode tok/s                       43.60        45.30     +3.9%
+chat first token (s)                     0.75         0.82     +8.8%
+4K prompt tok/s                        803.00       881.10     +9.7%
+4K first token (s)                       5.08         4.62     -8.9%
+16K prompt tok/s                      1251.00      1334.20     +6.7%
+16K first token (s)                     12.96        12.15     -6.2%
+agent cache hit %                       68.63        68.64     +0.0%
+agent re-read tokens/session            75.00        74.00     -1.3%
+agent turn first token (s)               4.40         4.43     +0.6%
+agent decode tok/s                      56.80        53.00     -6.7%
+2 clients total tok/s                   37.56        36.42     -3.0%
+
+Report: /opt/strata-deploy/test/results/official-parameter-matrix-20261014/aux-cpus-auto/2026-10-15-community-2x-rtx-2080-ti-swift-1-5-abliterated-iq3-s-q8ple/README.md
+Share it: open a pull request that adds the folder /opt/strata-deploy/test/results/official-parameter-matrix-20261014/aux-cpus-auto/2026-10-15-community-2x-rtx-2080-ti-swift-1-5-abliterated-iq3-s-q8ple (see docs/COMMUNITY_BENCHMARKS.md), or paste README.md into a GitHub issue. Home folders, user and host names and IP addresses are already replaced; read it once before you share it.

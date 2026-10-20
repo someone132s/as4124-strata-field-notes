@@ -1,0 +1,41 @@
+{
+  "currency": "USD",
+  "customers": [
+    {
+      "customer": "Ada",
+      "total_cents": 15843,
+      "paid_orders": 3,
+      "refunds": 0
+    },
+    {
+      "customer": "Ben",
+      "total_cents": 24997,
+      "paid_orders": 3,
+      "refunds": 0
+    },
+    {
+      "customer": "Cleo",
+      "total_cents": 2046,
+      "paid_orders": 1,
+      "refunds": 0
+    },
+    {
+      "customer": "Dana",
+      "total_cents": 0,
+      "paid_orders": 0,
+      "refunds": 0
+    },
+    {
+      "customer": "Eli",
+      "total_cents": 26034,
+      "paid_orders": 3,
+      "refunds": 0
+    },
+    {
+      "customer": "Faye",
+      "total_cents": 11591,
+      "paid_orders": 1,
+      "refunds": 0
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+Working directory: /workspace
+
+Use the terminal and file tools. Read `input.txt`, calculate the sum of its integer lines, write the result as JSON in `answer.json` with exactly the key `sum`, then report the answer briefly. Do not ask for confirmation.

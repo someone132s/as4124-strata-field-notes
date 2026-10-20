@@ -1,0 +1,13 @@
+Working directory: /workspace
+
+Edit only intervals.py. Implement merge_intervals(intervals) so it:
+1. returns a new list of closed integer intervals merged when they overlap OR
+   share an endpoint. "Touch" here means a shared endpoint only; adjacent ranges
+   such as (0, 0) and (1, 1) remain separate;
+2. sorts the result by start;
+3. preserves duplicate input rows correctly;
+4. raises ValueError for a pair whose start is greater than its end, and raises
+   TypeError for a pair that does not contain exactly two integer bounds;
+5. does not mutate the input.
+
+You may run public_test.py. Do not rely on any network. After verification, answer briefly.

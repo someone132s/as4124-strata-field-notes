@@ -1,0 +1,171 @@
+{
+  "captured": "2026-10-20T04:21:46.996133+08:00",
+  "health": {
+    "status": "ok",
+    "max_context": 262144,
+    "model": "huihui-qwen3.8-flash-next-abliterated-ud-iq4_xs",
+    "images": true,
+    "api_key": false,
+    "image_generation": false,
+    "loaded": true,
+    "service": "strata"
+  },
+  "engine": {
+    "model": "huihui-qwen3.8-flash-next-abliterated-ud-iq4_xs",
+    "max_context": 262144,
+    "images": true,
+    "version": "0.1.45",
+    "logit_bias": 1,
+    "context": 262144,
+    "kv": "int8",
+    "kv_resident": 32768,
+    "expert_slots": 14014,
+    "expert_cache_mib": 32406,
+    "expert_slots_primary": 6823,
+    "expert_cache_primary_mib": 15745,
+    "spec": 6,
+    "mtp_max": 4,
+    "lookup": 3,
+    "vram_free_mib": 461,
+    "cvec": 0,
+    "arena_mib": 32031,
+    "pool_workers": 15,
+    "pcie_frac": "0.36",
+    "spec_min_p": "0.50",
+    "conversation_cache_mib": 0,
+    "conversation_cache_slots": 4,
+    "conversation_cache_min_free_mib": 2560,
+    "conversation_cache_min_tokens": 0,
+    "tail_role_token": -1,
+    "vram_elastic": 0,
+    "prefill_cap": 8192,
+    "prefill_stages": 2,
+    "stream_all_min": 1024,
+    "prefill_pipe": 0,
+    "engine": "0.1.45"
+  },
+  "live": {
+    "state": "idle",
+    "queued": 0,
+    "phase": null,
+    "prompt_tokens": null,
+    "prompt_read": null,
+    "prompt_total": null,
+    "generated": null,
+    "max_tokens": null,
+    "elapsed_s": null,
+    "tok_s": null,
+    "tok_s_mean": null,
+    "prefill_tok_s_mean": null,
+    "tok_s_window_s": null
+  },
+  "hardware": {
+    "gpus": [
+      {
+        "index": 1,
+        "util": 0,
+        "mem_used": 23308271616,
+        "mem_total": 23622320128,
+        "temp": 48,
+        "power": 40.979
+      },
+      {
+        "index": 2,
+        "util": 0,
+        "mem_used": 23442489344,
+        "mem_total": 23622320128,
+        "temp": 52,
+        "power": 22.999
+      }
+    ],
+    "gpu_util": 0.0,
+    "gpu_mem_used": 46750760960,
+    "gpu_mem_total": 47244640256,
+    "gpu_temp": 52,
+    "gpu_power": 63.977999999999994,
+    "gpu_power_limit": 500.0,
+    "gpu_pcie_gen": 1,
+    "gpu_pcie_gen_max": 3,
+    "gpu_pcie_width": 16,
+    "gpu_pcie_rx_mb": 0.6181640625,
+    "gpu_pcie_tx_mb": 0.953125,
+    "cpu": 0.4,
+    "ram_used": 101292978176,
+    "ram_total": 135093489664,
+    "disk_read_mb": 0.0,
+    "disk_write_mb": 0.0,
+    "tok_s": 0.0,
+    "tok_s_mean": 0,
+    "prefill_tok_s_mean": 0.0
+  },
+  "config_remote": "/opt/strata-data/config/strata-huihui-ud-iq4_xs-q8ple-vision-v0.1.45.json",
+  "local_config_sha256": "fd13e9eea6e4c3bab5b467b902c57b499b4a410f7552c3d50c3153cf2ceb8b94",
+  "remote_config": {
+    "command": "sha256sum /opt/strata-data/config/strata-huihui-ud-iq4_xs-q8ple-vision-v0.1.45.json",
+    "returncode": 0,
+    "stdout": "fd13e9eea6e4c3bab5b467b902c57b499b4a410f7552c3d50c3153cf2ceb8b94  /opt/strata-data/config/strata-huihui-ud-iq4_xs-q8ple-vision-v0.1.45.json\n",
+    "stderr": ""
+  },
+  "process": {
+    "command": "pgrep -af '^/opt/strata/engine/strata --serve'",
+    "returncode": 0,
+    "stdout": "236535 /opt/strata/engine/strata --serve --pack /data/packs/huihui-ud-iq4_xs --native /data/models/huihui-ud-iq4_xs/Qwen3.8-Flash-Next-UD-IQ4_XS-00001-of-00003.gguf --expert-profile /opt/strata/data/expert-profile.bin --expert-cache auto --prefill auto:8192 --spec 4 --spec-min-p 0.5 --mtp /data/mtp/rt --kv int8 --ple-io ram --kv-resident 32768 --resident-budget-gib 55 --vram-reserve-mib 700 --max-context 262144 --pool-workers 15 --vram-reserve-later-mib 700 --pipeline-windows 2 --mtp-hnorm stream --aux-cpus auto --ple-gguf /data/models/Qwen3.8-Q8_0/Qwen3.8-Flash-Next-GSQ-RCO-Q8_0-PLE-00002-of-00002.gguf --native-dense-gguf /data/models/huihui-ud-iq4_xs/Qwen3.8-Flash-Next-UD-IQ4_XS-00001-of-00003.gguf --native-dense-gguf /data/models/huihui-ud-iq4_xs/Qwen3.8-Flash-Next-UD-IQ4_XS-00002-of-00003.gguf --native-dense-gguf /data/models/huihui-ud-iq4_xs/Qwen3.8-Flash-Next-UD-IQ4_XS-00003-of-00003.gguf --vision --layer-split auto\n",
+    "stderr": ""
+  },
+  "selected_engine_env": {
+    "STRATA_ROUTE_TAIL_SKIP": "0",
+    "STRATA_EXECV": "1",
+    "STRATA_SOURCE": "modelscope",
+    "STRATA_REQUEST_LINES": "1",
+    "CUDA_VISIBLE_DEVICES": "GPU-be897daa-b730-b812-cac5-0677e7c00d5b,GPU-9a371e9d-99d5-eb30-e2f1-1a8cef3b6f03",
+    "STRATA_BF16_TC": "1",
+    "STRATA_STAGE_TRIM": "1",
+    "STRATA_SM75_PERF": "1",
+    "STRATA_PA_V2T": "1"
+  },
+  "nvidia_smi": {
+    "command": "nvidia-smi --query-gpu=uuid,name,power.limit,power.default_limit,power.draw,temperature.gpu,memory.used,memory.total --format=csv,noheader",
+    "returncode": 0,
+    "stdout": "GPU-05e5166d-a213-14af-16ec-886fa9cb51f4, NVIDIA GeForce RTX 2070 SUPER, 215.00 W, 215.00 W, 20.11 W, 41, 1631 MiB, 8192 MiB\nGPU-be897daa-b730-b812-cac5-0677e7c00d5b, NVIDIA GeForce RTX 2080 Ti, 250.00 W, 250.00 W, 40.78 W, 48, 21701 MiB, 22528 MiB\nGPU-9a371e9d-99d5-eb30-e2f1-1a8cef3b6f03, NVIDIA GeForce RTX 2080 Ti, 250.00 W, 250.00 W, 22.95 W, 52, 21829 MiB, 22528 MiB\n",
+    "stderr": ""
+  },
+  "power_service_enabled": {
+    "command": "systemctl is-enabled nvidia-power-limit.service",
+    "returncode": 1,
+    "stdout": "disabled\n",
+    "stderr": ""
+  },
+  "power_service_active": {
+    "command": "systemctl is-active nvidia-power-limit.service",
+    "returncode": 3,
+    "stdout": "inactive\n",
+    "stderr": ""
+  },
+  "boot_id": {
+    "command": "cat /proc/sys/kernel/random/boot_id",
+    "returncode": 0,
+    "stdout": "7125f2f0-fd2e-41f3-a43a-2d350a84eb03\n",
+    "stderr": ""
+  },
+  "uptime": {
+    "command": "uptime",
+    "returncode": 0,
+    "stdout": " 04:21:48 up  5:44,  1 user,  load average: 0.36, 2.83, 3.92\n",
+    "stderr": ""
+  },
+  "memory": {
+    "command": "free -h",
+    "returncode": 0,
+    "stdout": "               total        used        free      shared  buff/cache   available\nMem:           125Gi        94Gi       693Mi        37Gi       119Gi        31Gi\nSwap:          975Mi       959Mi        16Mi\n",
+    "stderr": ""
+  },
+  "strata_container": {
+    "command": "docker ps --filter name=strata-deploy-strata-1 --format '{{.Names}}|{{.Status}}|{{.Ports}}'",
+    "returncode": 0,
+    "stdout": "strata-deploy-strata-1|Up 19 minutes (healthy)|10.2.21.4:8080->8080/tcp\n",
+    "stderr": ""
+  },
+  "config_matches_b0": true,
+  "power_limits_ok": true,
+  "status": "passed"
+}

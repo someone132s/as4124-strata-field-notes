@@ -1,0 +1,58 @@
+{
+  "execution_summary": {
+    "requested": 40,
+    "succeeded": 40,
+    "errored": 0,
+    "incomplete": false,
+    "subsets": {
+      "multi_turn_base": {
+        "requested": 10,
+        "succeeded": 10,
+        "errored": 0
+      },
+      "multi_turn_long_context": {
+        "requested": 10,
+        "succeeded": 10,
+        "errored": 0
+      },
+      "multi_turn_miss_func": {
+        "requested": 10,
+        "succeeded": 10,
+        "errored": 0
+      },
+      "multi_turn_miss_param": {
+        "requested": 10,
+        "succeeded": 10,
+        "errored": 0
+      }
+    }
+  },
+  "subsets": {
+    "bfcl_v4_multi_turn_miss_func": {
+      "correct": 0,
+      "total": 10
+    },
+    "bfcl_v4_multi_turn_miss_param": {
+      "correct": 3,
+      "total": 10
+    },
+    "bfcl_v4_multi_turn_base": {
+      "correct": 4,
+      "total": 10
+    },
+    "bfcl_v4_multi_turn_long_context": {
+      "correct": 5,
+      "total": 10
+    }
+  },
+  "metrics": [
+    {
+      "identity": {
+        "name": "accuracy",
+        "aggregation": "mean",
+        "dimensions": {}
+      },
+      "score": 0.3
+    }
+  ]
+}

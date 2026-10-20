@@ -1,0 +1,3 @@
+Turn 3 of 3. Read correction3.json and set that SKU's qty to set_qty. Write
+inventory.json as a JSON list sorted by sku, containing exactly sku,name,qty.
+Do not recreate the database or use seed.csv again. Answer briefly.

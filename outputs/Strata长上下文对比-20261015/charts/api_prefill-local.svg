@@ -1,0 +1,158 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="395" preserveAspectRatio="xMinYMin meet" viewBox="0 0 1100 395" version="1.0" fill-rule="evenodd" role="img" aria-label="Prefill · 输入 token / TTFT">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="1100" height="395" />
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-395)" style="clip-path: url(#clip)">
+		<g transform="">
+			<g transform="">
+				<g transform="">
+					<g transform="">
+						<path d="M 72,56 L 1067,56 Z" style="stroke: rgb(66%,70%,77%); stroke-linecap: butt; stroke-width: 1;" />
+					</g>
+					<g transform="">
+						<path d="M 72,56 L 72,51 Z" style="stroke: rgb(66%,70%,77%); stroke-linecap: butt; stroke-width: 1;" />
+						<path d="M 192.756148,56 L 192.756148,51 Z" style="stroke: rgb(66%,70%,77%); stroke-linecap: butt; stroke-width: 1;" />
+						<path d="M 313.512296,56 L 313.512296,51 Z" style="stroke: rgb(66%,70%,77%); stroke-linecap: butt; stroke-width: 1;" />
+						<path d="M 555.024593,56 L 555.024593,51 Z" style="stroke: rgb(66%,70%,77%); stroke-linecap: butt; stroke-width: 1;" />
+						<path d="M 796.536889,56 L 796.536889,51 Z" style="stroke: rgb(66%,70%,77%); stroke-linecap: butt; stroke-width: 1;" />
+						<path d="M 939.934815,56 L 939.934815,51 Z" style="stroke: rgb(66%,70%,77%); stroke-linecap: butt; stroke-width: 1;" />
+						<path d="M 1038.049185,56 L 1038.049185,51 Z" style="stroke: rgb(66%,70%,77%); stroke-linecap: butt; stroke-width: 1;" />
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,72,51)">
+							<text x="-3.0580000000000003" y="-11.0" style="font-family: Helvetica; font-size: 11px;fill: rgb(32%,38%,47%); stroke:none;" transform="translate(0,-22) scale(1,-1)">0</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,192.756148,51)">
+							<text x="-9.784500000000001" y="-11.0" style="font-family: Helvetica; font-size: 11px;fill: rgb(32%,38%,47%); stroke:none;" transform="translate(0,-22) scale(1,-1)">32K</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,313.512296,51)">
+							<text x="-9.784500000000001" y="-11.0" style="font-family: Helvetica; font-size: 11px;fill: rgb(32%,38%,47%); stroke:none;" transform="translate(0,-22) scale(1,-1)">64K</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,555.024593,51)">
+							<text x="-12.8425" y="-11.0" style="font-family: Helvetica; font-size: 11px;fill: rgb(32%,38%,47%); stroke:none;" transform="translate(0,-22) scale(1,-1)">128K</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,796.536889,51)">
+							<text x="-12.8425" y="-11.0" style="font-family: Helvetica; font-size: 11px;fill: rgb(32%,38%,47%); stroke:none;" transform="translate(0,-22) scale(1,-1)">192K</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,939.934815,51)">
+							<text x="-12.8425" y="-11.0" style="font-family: Helvetica; font-size: 11px;fill: rgb(32%,38%,47%); stroke:none;" transform="translate(0,-22) scale(1,-1)">230K</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,1038.049185,51)">
+							<text x="-12.8425" y="-11.0" style="font-family: Helvetica; font-size: 11px;fill: rgb(32%,38%,47%); stroke:none;" transform="translate(0,-22) scale(1,-1)">256K</text>
+						</g>
+					</g>
+				</g>
+				<g transform="">
+					<g transform="">
+						<path d="M 72,56 L 72,366 Z" style="stroke: rgb(66%,70%,77%); stroke-linecap: butt; stroke-width: 1;" />
+					</g>
+					<g transform="">
+						<path d="M 72,56 L 67,56 Z" style="stroke: rgb(66%,70%,77%); stroke-linecap: butt; stroke-width: 1;" />
+						<path d="M 72,111.357143 L 67,111.357143 Z" style="stroke: rgb(66%,70%,77%); stroke-linecap: butt; stroke-width: 1;" />
+						<path d="M 72,166.714286 L 67,166.714286 Z" style="stroke: rgb(66%,70%,77%); stroke-linecap: butt; stroke-width: 1;" />
+						<path d="M 72,222.071429 L 67,222.071429 Z" style="stroke: rgb(66%,70%,77%); stroke-linecap: butt; stroke-width: 1;" />
+						<path d="M 72,277.428571 L 67,277.428571 Z" style="stroke: rgb(66%,70%,77%); stroke-linecap: butt; stroke-width: 1;" />
+						<path d="M 72,332.785714 L 67,332.785714 Z" style="stroke: rgb(66%,70%,77%); stroke-linecap: butt; stroke-width: 1;" />
+					</g>
+					<g transform="">
+						<g transform=" matrix(1,0,0,1,67,56)">
+							<text x="-6.1160000000000005" y="-4.4" style="font-family: Helvetica; font-size: 11px;fill: rgb(32%,38%,47%); stroke:none;" transform="translate(0,-8) scale(1,-1)">0</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,67,111.357143)">
+							<text x="-18.348" y="-4.4" style="font-family: Helvetica; font-size: 11px;fill: rgb(32%,38%,47%); stroke:none;" transform="translate(0,-8) scale(1,-1)">500</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,67,166.714286)">
+							<text x="-24.464000000000002" y="-4.4" style="font-family: Helvetica; font-size: 11px;fill: rgb(32%,38%,47%); stroke:none;" transform="translate(0,-8) scale(1,-1)">1000</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,67,222.071429)">
+							<text x="-24.464000000000002" y="-4.4" style="font-family: Helvetica; font-size: 11px;fill: rgb(32%,38%,47%); stroke:none;" transform="translate(0,-8) scale(1,-1)">1500</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,67,277.428571)">
+							<text x="-24.464000000000002" y="-4.4" style="font-family: Helvetica; font-size: 11px;fill: rgb(32%,38%,47%); stroke:none;" transform="translate(0,-8) scale(1,-1)">2000</text>
+						</g>
+						<g transform=" matrix(1,0,0,1,67,332.785714)">
+							<text x="-24.464000000000002" y="-4.4" style="font-family: Helvetica; font-size: 11px;fill: rgb(32%,38%,47%); stroke:none;" transform="translate(0,-8) scale(1,-1)">2500</text>
+						</g>
+					</g>
+				</g>
+				<path d="M 192.756148,56 L 192.756148,366 Z" style="stroke: rgb(91%,93%,96%); stroke-linecap: butt; stroke-width: 0.6;" />
+				<path d="M 313.512296,56 L 313.512296,366 Z" style="stroke: rgb(91%,93%,96%); stroke-linecap: butt; stroke-width: 0.6;" />
+				<path d="M 555.024593,56 L 555.024593,366 Z" style="stroke: rgb(91%,93%,96%); stroke-linecap: butt; stroke-width: 0.6;" />
+				<path d="M 796.536889,56 L 796.536889,366 Z" style="stroke: rgb(91%,93%,96%); stroke-linecap: butt; stroke-width: 0.6;" />
+				<path d="M 939.934815,56 L 939.934815,366 Z" style="stroke: rgb(91%,93%,96%); stroke-linecap: butt; stroke-width: 0.6;" />
+				<path d="M 1038.049185,56 L 1038.049185,366 Z" style="stroke: rgb(91%,93%,96%); stroke-linecap: butt; stroke-width: 0.6;" />
+				<path d="M 72,111.357143 L 1067,111.357143 Z" style="stroke: rgb(91%,93%,96%); stroke-linecap: butt; stroke-width: 0.6;" />
+				<path d="M 72,166.714286 L 1067,166.714286 Z" style="stroke: rgb(91%,93%,96%); stroke-linecap: butt; stroke-width: 0.6;" />
+				<path d="M 72,222.071429 L 1067,222.071429 Z" style="stroke: rgb(91%,93%,96%); stroke-linecap: butt; stroke-width: 0.6;" />
+				<path d="M 72,277.428571 L 1067,277.428571 Z" style="stroke: rgb(91%,93%,96%); stroke-linecap: butt; stroke-width: 0.6;" />
+				<path d="M 72,332.785714 L 1067,332.785714 Z" style="stroke: rgb(91%,93%,96%); stroke-linecap: butt; stroke-width: 0.6;" />
+				<g transform="">
+					<polyline points="192.7377 187.8268, 313.4791 203.6483, 555.1831 205.0235, 796.2531 188.4947, 939.898 184.3476, 1030.034 187.7333" style="stroke: rgb(14%,38%,92%); stroke-linecap: round; stroke-width: 2.7; fill: None; fill-rule: evenodd;" />
+					<polyline points="192.7377 205.893, 313.4791 214.3977, 555.1831 204.3981, 796.2531 193.0616, 939.898 186.7212, 1030.034 183.1668" style="stroke: rgb(5%,58%,53%); stroke-linecap: round; stroke-width: 2.7; fill: None; fill-rule: evenodd;" />
+				</g>
+			</g>
+			<path d="M 192.737722,186.031932 L 192.737722,190.057659 Z" style="stroke: rgb(14%,38%,92%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 189.737722,186.031932 L 195.737722,186.031932 Z" style="stroke: rgb(14%,38%,92%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 189.737722,190.057659 L 195.737722,190.057659 Z" style="stroke: rgb(14%,38%,92%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<circle cx="192.73772222222223" cy="187.82679464479855" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(14%,38%,92%); fill-rule: evenodd;"><title>本机 A · auto:16384 · 32K · input 32,763 tokens
+Prefill · 输入 token / TTFT: 1,190.69 tok/s</title></circle>
+			<path d="M 313.47913,203.300561 L 313.47913,211.926129 Z" style="stroke: rgb(14%,38%,92%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 310.47913,203.300561 L 316.47913,203.300561 Z" style="stroke: rgb(14%,38%,92%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 310.47913,211.926129 L 316.47913,211.926129 Z" style="stroke: rgb(14%,38%,92%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<circle cx="313.4791296296296" cy="203.64832996186757" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(14%,38%,92%); fill-rule: evenodd;"><title>本机 A · auto:16384 · 64K · input 65,527 tokens
+Prefill · 输入 token / TTFT: 1,333.60 tok/s</title></circle>
+			<path d="M 555.183056,202.80045 L 555.183056,208.398937 Z" style="stroke: rgb(14%,38%,92%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 552.183056,202.80045 L 558.183056,202.80045 Z" style="stroke: rgb(14%,38%,92%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 552.183056,208.398937 L 558.183056,208.398937 Z" style="stroke: rgb(14%,38%,92%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<circle cx="555.1830555555555" cy="205.023534163087" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(14%,38%,92%); fill-rule: evenodd;"><title>本机 A · auto:16384 · 128K · input 131,115 tokens
+Prefill · 输入 token / TTFT: 1,346.02 tok/s</title></circle>
+			<path d="M 796.25313,186.814627 L 796.25313,193.599752 Z" style="stroke: rgb(14%,38%,92%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 793.25313,186.814627 L 799.25313,186.814627 Z" style="stroke: rgb(14%,38%,92%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 793.25313,193.599752 L 799.25313,193.599752 Z" style="stroke: rgb(14%,38%,92%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<circle cx="796.2531296296297" cy="188.49472009774018" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(14%,38%,92%); fill-rule: evenodd;"><title>本机 A · auto:16384 · 192K · input 196,531 tokens
+Prefill · 输入 token / TTFT: 1,196.73 tok/s</title></circle>
+			<path d="M 939.897963,183.821012 L 939.897963,187.961094 Z" style="stroke: rgb(14%,38%,92%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 936.897963,183.821012 L 942.897963,183.821012 Z" style="stroke: rgb(14%,38%,92%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 936.897963,187.961094 L 942.897963,187.961094 Z" style="stroke: rgb(14%,38%,92%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<circle cx="939.897962962963" cy="184.3475660266174" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(14%,38%,92%); fill-rule: evenodd;"><title>本机 A · auto:16384 · 230K · input 235,510 tokens
+Prefill · 输入 token / TTFT: 1,159.27 tok/s</title></circle>
+			<path d="M 1030.033907,186.845757 L 1030.033907,187.828551 Z" style="stroke: rgb(14%,38%,92%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 1027.033907,186.845757 L 1033.033907,186.845757 Z" style="stroke: rgb(14%,38%,92%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 1027.033907,187.828551 L 1033.033907,187.828551 Z" style="stroke: rgb(14%,38%,92%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<circle cx="1030.0339074074072" cy="187.73332361289192" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(14%,38%,92%); fill-rule: evenodd;"><title>本机 A · auto:16384 · near-256K · input 259,969 tokens
+Prefill · 输入 token / TTFT: 1,189.85 tok/s</title></circle>
+			<path d="M 192.737722,205.73362 L 192.737722,213.737526 Z" style="stroke: rgb(5%,58%,53%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 189.737722,205.73362 L 195.737722,205.73362 Z" style="stroke: rgb(5%,58%,53%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 189.737722,213.737526 L 195.737722,213.737526 Z" style="stroke: rgb(5%,58%,53%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<circle cx="192.73772222222223" cy="205.89299587923443" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(5%,58%,53%); fill-rule: evenodd;"><title>本机 B · auto · 32K · input 32,763 tokens
+Prefill · 输入 token / TTFT: 1,353.87 tok/s</title></circle>
+			<path d="M 313.47913,211.854538 L 313.47913,215.095331 Z" style="stroke: rgb(5%,58%,53%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 310.47913,211.854538 L 316.47913,211.854538 Z" style="stroke: rgb(5%,58%,53%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 310.47913,215.095331 L 316.47913,215.095331 Z" style="stroke: rgb(5%,58%,53%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<circle cx="313.4791296296296" cy="214.39774240737103" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(5%,58%,53%); fill-rule: evenodd;"><title>本机 B · auto · 64K · input 65,527 tokens
+Prefill · 输入 token / TTFT: 1,430.69 tok/s</title></circle>
+			<path d="M 555.183056,204.099503 L 555.183056,206.594997 Z" style="stroke: rgb(5%,58%,53%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 552.183056,204.099503 L 558.183056,204.099503 Z" style="stroke: rgb(5%,58%,53%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 552.183056,206.594997 L 558.183056,206.594997 Z" style="stroke: rgb(5%,58%,53%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<circle cx="555.1830555555555" cy="204.39805789746927" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(5%,58%,53%); fill-rule: evenodd;"><title>本机 B · auto · 128K · input 131,115 tokens
+Prefill · 输入 token / TTFT: 1,340.37 tok/s</title></circle>
+			<path d="M 796.25313,192.188204 L 796.25313,193.865436 Z" style="stroke: rgb(5%,58%,53%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 793.25313,192.188204 L 799.25313,192.188204 Z" style="stroke: rgb(5%,58%,53%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 793.25313,193.865436 L 799.25313,193.865436 Z" style="stroke: rgb(5%,58%,53%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<circle cx="796.2531296296297" cy="193.0615746629471" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(5%,58%,53%); fill-rule: evenodd;"><title>本机 B · auto · 192K · input 196,531 tokens
+Prefill · 输入 token / TTFT: 1,237.98 tok/s</title></circle>
+			<path d="M 939.897963,186.09191 L 939.897963,187.061779 Z" style="stroke: rgb(5%,58%,53%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 936.897963,186.09191 L 942.897963,186.09191 Z" style="stroke: rgb(5%,58%,53%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 936.897963,187.061779 L 942.897963,187.061779 Z" style="stroke: rgb(5%,58%,53%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<circle cx="939.897962962963" cy="186.72117414672897" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(5%,58%,53%); fill-rule: evenodd;"><title>本机 B · auto · 230K · input 235,510 tokens
+Prefill · 输入 token / TTFT: 1,180.71 tok/s</title></circle>
+			<path d="M 1030.033907,183.118992 L 1030.033907,183.769371 Z" style="stroke: rgb(5%,58%,53%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 1027.033907,183.118992 L 1033.033907,183.118992 Z" style="stroke: rgb(5%,58%,53%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<path d="M 1027.033907,183.769371 L 1033.033907,183.769371 Z" style="stroke: rgb(5%,58%,53%); stroke-linecap: butt; stroke-width: 0.8;" />
+			<circle cx="1030.0339074074072" cy="183.1668253610692" r="3.7" style="stroke: rgb(100%,100%,100%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(5%,58%,53%); fill-rule: evenodd;"><title>本机 B · auto · near-256K · input 259,969 tokens
+Prefill · 输入 token / TTFT: 1,148.60 tok/s</title></circle>
+		</g>
+	</g>
+</svg>

@@ -1,0 +1,334 @@
+2026-10-20T11:11:47+08:00
+ 11:11:47 up 5 min,  4 users,  load average: 7.76, 5.38, 2.47
+d80eb74e-2d69-4f73-892d-236cd4c0968b
+PS1 Status       | C4h | ok  | 10.92 | Presence detected
+PS2 Status       | C5h | ok  | 10.91 | Presence detected
+PS3 Status       | C6h | ok  | 10.90 | Presence detected
+PS4 Status       | C7h | ok  | 10.89 | Presence detected
+               total        used        free      shared  buff/cache   available
+Mem:           251Gi       229Gi        23Gi        96Mi       410Mi        22Gi
+Swap:          8.0Gi       1.3Gi       6.7Gi
+
+Per-node system memory usage (in MBs):
+                          Node 0          Node 1           Total
+                 --------------- --------------- ---------------
+MemTotal               128801.17       128963.39       257764.56
+MemFree                  1875.31        21865.07        23740.38
+MemUsed                126925.86       107098.32       234024.18
+SwapCached                 27.57           12.30           39.87
+Active                  16583.28       105670.36       122253.64
+Inactive               108359.41           41.54       108400.96
+Active(anon)            16565.88       105570.74       122136.62
+Inactive(anon)         108272.50            0.00       108272.50
+Active(file)               17.40           99.62          117.02
+Inactive(file)             86.91           41.54          128.45
+Unevictable               155.16            5.09          160.24
+Mlocked                   152.16            5.09          157.24
+Dirty                       5.23            1.63            6.86
+Writeback                   0.00            0.00            0.00
+FilePages                 173.84          221.36          395.20
+Mapped                     68.89           98.09          166.98
+AnonPages              122633.47       100507.84       223141.31
+Shmem                      34.03           62.84           96.87
+KernelStack                11.00            7.09           18.09
+PageTables                341.63          187.04          528.67
+SecPageTables              35.43           54.31           89.74
+NFS_Unstable                0.00            0.00            0.00
+Bounce                      0.00            0.00            0.00
+WritebackTmp                0.00            0.00            0.00
+KReclaimable               28.40           26.37           54.77
+Slab                      663.05          560.71         1223.77
+SReclaimable               28.40           26.37           54.77
+SUnreclaim                634.66          534.34         1169.00
+AnonHugePages          120020.00        95028.00       215048.00
+ShmemHugePages              0.00            0.00            0.00
+ShmemPmdMapped              0.00            0.00            0.00
+FileHugePages               0.00            0.00            0.00
+FilePmdMapped               0.00            0.00            0.00
+Unaccepted                  0.00            0.00            0.00
+HugePages_Total             0.00            0.00            0.00
+HugePages_Free              0.00            0.00            0.00
+HugePages_Surp              0.00            0.00            0.00
+gcc (Debian 14.2.0-19) 14.2.0
+0533408be1f6c12114b41620e37349385d1b36b738045cb13d64a05144d3cb52  /root/codex-memory-bench-20261015/stream-reference-80m
+c388924eb140fda95f534cdb808ae7f1f8ebb18da41d8aec1b512a3c8d303c9b  /root/codex-memory-bench-20261015/stream.c
+	Size: No Module Installed
+	Locator: P1-DIMMA1
+	Bank Locator: P0_Node0_Channel0_Dimm0
+	Size: No Module Installed
+	Locator: P1-DIMMA2
+	Bank Locator: P0_Node0_Channel0_Dimm1
+	Size: No Module Installed
+	Locator: P1-DIMMB1
+	Bank Locator: P0_Node0_Channel1_Dimm0
+	Size: No Module Installed
+	Locator: P1-DIMMB2
+	Bank Locator: P0_Node0_Channel1_Dimm1
+	Size: No Module Installed
+	Locator: P1-DIMMC1
+	Bank Locator: P0_Node0_Channel2_Dimm0
+	Size: 32 GB
+	Locator: P1-DIMMC2
+	Bank Locator: P0_Node0_Channel2_Dimm1
+	Speed: 2933 MT/s
+	Configured Memory Speed: 2933 MT/s
+	Non-Volatile Size: None
+	Volatile Size: 32 GB
+	Cache Size: None
+	Logical Size: None
+	Size: No Module Installed
+	Locator: P1-DIMMD1
+	Bank Locator: P0_Node0_Channel3_Dimm0
+	Size: 32 GB
+	Locator: P1-DIMMD2
+	Bank Locator: P0_Node0_Channel3_Dimm1
+	Speed: 2933 MT/s
+	Configured Memory Speed: 2933 MT/s
+	Non-Volatile Size: None
+	Volatile Size: 32 GB
+	Cache Size: None
+	Logical Size: None
+	Size: No Module Installed
+	Locator: P1-DIMME1
+	Bank Locator: P0_Node0_Channel4_Dimm0
+	Size: No Module Installed
+	Locator: P1-DIMME2
+	Bank Locator: P0_Node0_Channel4_Dimm1
+	Size: No Module Installed
+	Locator: P1-DIMMF1
+	Bank Locator: P0_Node0_Channel5_Dimm0
+	Size: No Module Installed
+	Locator: P1-DIMMF2
+	Bank Locator: P0_Node0_Channel5_Dimm1
+	Size: No Module Installed
+	Locator: P1-DIMMG1
+	Bank Locator: P0_Node0_Channel6_Dimm0
+	Size: 32 GB
+	Locator: P1-DIMMG2
+	Bank Locator: P0_Node0_Channel6_Dimm1
+	Speed: 2933 MT/s
+	Configured Memory Speed: 2933 MT/s
+	Non-Volatile Size: None
+	Volatile Size: 32 GB
+	Cache Size: None
+	Logical Size: None
+	Size: No Module Installed
+	Locator: P1-DIMMH1
+	Bank Locator: P0_Node0_Channel7_Dimm0
+	Size: 32 GB
+	Locator: P1-DIMMH2
+	Bank Locator: P0_Node0_Channel7_Dimm1
+	Speed: 2933 MT/s
+	Configured Memory Speed: 2933 MT/s
+	Non-Volatile Size: None
+	Volatile Size: 32 GB
+	Cache Size: None
+	Logical Size: None
+	Size: No Module Installed
+	Locator: P2-DIMMA1
+	Bank Locator: P1_Node0_Channel0_Dimm0
+	Size: No Module Installed
+	Locator: P2-DIMMA2
+	Bank Locator: P1_Node0_Channel0_Dimm1
+	Size: No Module Installed
+	Locator: P2-DIMMB1
+	Bank Locator: P1_Node0_Channel1_Dimm0
+	Size: No Module Installed
+	Locator: P2-DIMMB2
+	Bank Locator: P1_Node0_Channel1_Dimm1
+	Size: No Module Installed
+	Locator: P2-DIMMC1
+	Bank Locator: P1_Node0_Channel2_Dimm0
+	Size: 32 GB
+	Locator: P2-DIMMC2
+	Bank Locator: P1_Node0_Channel2_Dimm1
+	Speed: 2933 MT/s
+	Configured Memory Speed: 2933 MT/s
+	Non-Volatile Size: None
+	Volatile Size: 32 GB
+	Cache Size: None
+	Logical Size: None
+	Size: No Module Installed
+	Locator: P2-DIMMD1
+	Bank Locator: P1_Node0_Channel3_Dimm0
+	Size: 32 GB
+	Locator: P2-DIMMD2
+	Bank Locator: P1_Node0_Channel3_Dimm1
+	Speed: 2933 MT/s
+	Configured Memory Speed: 2933 MT/s
+	Non-Volatile Size: None
+	Volatile Size: 32 GB
+	Cache Size: None
+	Logical Size: None
+	Size: No Module Installed
+	Locator: P2-DIMME1
+	Bank Locator: P1_Node0_Channel4_Dimm0
+	Size: No Module Installed
+	Locator: P2-DIMME2
+	Bank Locator: P1_Node0_Channel4_Dimm1
+	Size: No Module Installed
+	Locator: P2-DIMMF1
+	Bank Locator: P1_Node0_Channel5_Dimm0
+	Size: No Module Installed
+	Locator: P2-DIMMF2
+	Bank Locator: P1_Node0_Channel5_Dimm1
+	Size: No Module Installed
+	Locator: P2-DIMMG1
+	Bank Locator: P1_Node0_Channel6_Dimm0
+	Size: 32 GB
+	Locator: P2-DIMMG2
+	Bank Locator: P1_Node0_Channel6_Dimm1
+	Speed: 2933 MT/s
+	Configured Memory Speed: 2933 MT/s
+	Non-Volatile Size: None
+	Volatile Size: 32 GB
+	Cache Size: None
+	Logical Size: None
+	Size: No Module Installed
+	Locator: P2-DIMMH1
+	Bank Locator: P1_Node0_Channel7_Dimm0
+	Size: 32 GB
+	Locator: P2-DIMMH2
+	Bank Locator: P1_Node0_Channel7_Dimm1
+	Speed: 2933 MT/s
+	Configured Memory Speed: 2933 MT/s
+	Non-Volatile Size: None
+	Volatile Size: 32 GB
+	Cache Size: None
+	Logical Size: None
+Oct 20 11:10:38 pve-as4124 kernel: {37}[Hardware Error]: Hardware error from APEI Generic Hardware Error Source: 512
+Oct 20 11:10:38 pve-as4124 kernel: {37}[Hardware Error]: It has been corrected by h/w and requires no further action
+Oct 20 11:10:38 pve-as4124 kernel: {37}[Hardware Error]: event severity: corrected
+Oct 20 11:10:38 pve-as4124 kernel: {37}[Hardware Error]:  Error 0, type: corrected
+Oct 20 11:10:38 pve-as4124 kernel: {37}[Hardware Error]:   section_type: PCIe error
+Oct 20 11:10:38 pve-as4124 kernel: {37}[Hardware Error]:   port_type: 4, root port
+Oct 20 11:10:38 pve-as4124 kernel: {37}[Hardware Error]:   version: 0.2
+Oct 20 11:10:38 pve-as4124 kernel: {37}[Hardware Error]:   command: 0x0407, status: 0x0010
+Oct 20 11:10:38 pve-as4124 kernel: {37}[Hardware Error]:   device_id: 0000:20:01.1
+Oct 20 11:10:38 pve-as4124 kernel: {37}[Hardware Error]:   slot: 0
+Oct 20 11:10:38 pve-as4124 kernel: {37}[Hardware Error]:   secondary_bus: 0x21
+Oct 20 11:10:38 pve-as4124 kernel: {37}[Hardware Error]:   vendor_id: 0x1022, device_id: 0x1483
+Oct 20 11:10:38 pve-as4124 kernel: {37}[Hardware Error]:   class_code: 060400
+Oct 20 11:10:38 pve-as4124 kernel: {37}[Hardware Error]:   bridge: secondary_status: 0x0000, control: 0x0012
+Oct 20 11:10:38 pve-as4124 kernel: {37}[Hardware Error]:   aer_cor_status: 0x00001000, aer_cor_mask: 0x00000000
+Oct 20 11:10:38 pve-as4124 kernel: {37}[Hardware Error]:   aer_uncor_status: 0x00000000, aer_uncor_mask: 0x04004000
+Oct 20 11:10:38 pve-as4124 kernel: {37}[Hardware Error]:   aer_uncor_severity: 0x026f6030
+Oct 20 11:10:38 pve-as4124 kernel: {37}[Hardware Error]:   TLP Header: 00000000 00000000 00000000 00000000
+Oct 20 11:11:21 pve-as4124 kernel: {38}[Hardware Error]: Hardware error from APEI Generic Hardware Error Source: 512
+Oct 20 11:11:21 pve-as4124 kernel: {38}[Hardware Error]: It has been corrected by h/w and requires no further action
+Oct 20 11:11:21 pve-as4124 kernel: {38}[Hardware Error]: event severity: corrected
+Oct 20 11:11:21 pve-as4124 kernel: {38}[Hardware Error]:  Error 0, type: corrected
+Oct 20 11:11:21 pve-as4124 kernel: {38}[Hardware Error]:   section_type: PCIe error
+Oct 20 11:11:21 pve-as4124 kernel: {38}[Hardware Error]:   port_type: 4, root port
+Oct 20 11:11:21 pve-as4124 kernel: {38}[Hardware Error]:   version: 0.2
+Oct 20 11:11:21 pve-as4124 kernel: {38}[Hardware Error]:   command: 0x0407, status: 0x0010
+Oct 20 11:11:21 pve-as4124 kernel: {38}[Hardware Error]:   device_id: 0000:20:01.1
+Oct 20 11:11:21 pve-as4124 kernel: {38}[Hardware Error]:   slot: 0
+Oct 20 11:11:21 pve-as4124 kernel: {38}[Hardware Error]:   secondary_bus: 0x21
+Oct 20 11:11:21 pve-as4124 kernel: {38}[Hardware Error]:   vendor_id: 0x1022, device_id: 0x1483
+Oct 20 11:11:21 pve-as4124 kernel: {38}[Hardware Error]:   class_code: 060400
+Oct 20 11:11:21 pve-as4124 kernel: {38}[Hardware Error]:   bridge: secondary_status: 0x0000, control: 0x0012
+Oct 20 11:11:21 pve-as4124 kernel: {38}[Hardware Error]:   aer_cor_status: 0x00001000, aer_cor_mask: 0x00000000
+Oct 20 11:11:21 pve-as4124 kernel: {38}[Hardware Error]:   aer_uncor_status: 0x00000000, aer_uncor_mask: 0x04004000
+Oct 20 11:11:21 pve-as4124 kernel: {38}[Hardware Error]:   aer_uncor_severity: 0x026f6030
+Oct 20 11:11:21 pve-as4124 kernel: {38}[Hardware Error]:   TLP Header: 00000000 00000000 00000000 00000000
+Oct 20 11:11:21 pve-as4124 kernel: {38}[Hardware Error]:  Error 1, type: corrected
+Oct 20 11:11:21 pve-as4124 kernel: {38}[Hardware Error]:   section_type: PCIe error
+Oct 20 11:11:21 pve-as4124 kernel: {38}[Hardware Error]:   port_type: 4, root port
+Oct 20 11:11:21 pve-as4124 kernel: {38}[Hardware Error]:   version: 0.2
+Oct 20 11:11:21 pve-as4124 kernel: {38}[Hardware Error]:   command: 0x0407, status: 0x0010
+Oct 20 11:11:21 pve-as4124 kernel: {38}[Hardware Error]:   device_id: 0000:20:01.1
+Oct 20 11:11:21 pve-as4124 kernel: {38}[Hardware Error]:   slot: 0
+Oct 20 11:11:21 pve-as4124 kernel: {38}[Hardware Error]:   secondary_bus: 0x21
+Oct 20 11:11:21 pve-as4124 kernel: {38}[Hardware Error]:   vendor_id: 0x1022, device_id: 0x1483
+Oct 20 11:11:21 pve-as4124 kernel: {38}[Hardware Error]:   class_code: 060400
+Oct 20 11:11:21 pve-as4124 kernel: {38}[Hardware Error]:   bridge: secondary_status: 0x0000, control: 0x0012
+Oct 20 11:11:21 pve-as4124 kernel: {38}[Hardware Error]:   aer_cor_status: 0x00001000, aer_cor_mask: 0x00000000
+Oct 20 11:11:21 pve-as4124 kernel: {38}[Hardware Error]:   aer_uncor_status: 0x00000000, aer_uncor_mask: 0x04004000
+Oct 20 11:11:21 pve-as4124 kernel: {38}[Hardware Error]:   aer_uncor_severity: 0x026f6030
+Oct 20 11:11:21 pve-as4124 kernel: {38}[Hardware Error]:   TLP Header: 00000000 00000000 00000000 00000000
+Oct 20 11:11:27 pve-as4124 kernel: {39}[Hardware Error]: Hardware error from APEI Generic Hardware Error Source: 512
+Oct 20 11:11:27 pve-as4124 kernel: {39}[Hardware Error]: It has been corrected by h/w and requires no further action
+Oct 20 11:11:27 pve-as4124 kernel: {39}[Hardware Error]: event severity: corrected
+Oct 20 11:11:27 pve-as4124 kernel: {39}[Hardware Error]:  Error 0, type: corrected
+Oct 20 11:11:27 pve-as4124 kernel: {39}[Hardware Error]:   section_type: PCIe error
+Oct 20 11:11:27 pve-as4124 kernel: {39}[Hardware Error]:   port_type: 4, root port
+Oct 20 11:11:27 pve-as4124 kernel: {39}[Hardware Error]:   version: 0.2
+Oct 20 11:11:27 pve-as4124 kernel: {39}[Hardware Error]:   command: 0x0407, status: 0x0010
+Oct 20 11:11:27 pve-as4124 kernel: {39}[Hardware Error]:   device_id: 0000:20:01.1
+Oct 20 11:11:27 pve-as4124 kernel: {39}[Hardware Error]:   slot: 0
+Oct 20 11:11:27 pve-as4124 kernel: {39}[Hardware Error]:   secondary_bus: 0x21
+Oct 20 11:11:27 pve-as4124 kernel: {39}[Hardware Error]:   vendor_id: 0x1022, device_id: 0x1483
+Oct 20 11:11:27 pve-as4124 kernel: {39}[Hardware Error]:   class_code: 060400
+Oct 20 11:11:27 pve-as4124 kernel: {39}[Hardware Error]:   bridge: secondary_status: 0x0000, control: 0x0012
+Oct 20 11:11:27 pve-as4124 kernel: {39}[Hardware Error]:   aer_cor_status: 0x00001000, aer_cor_mask: 0x00000000
+Oct 20 11:11:27 pve-as4124 kernel: {39}[Hardware Error]:   aer_uncor_status: 0x00000000, aer_uncor_mask: 0x04004000
+Oct 20 11:11:27 pve-as4124 kernel: {39}[Hardware Error]:   aer_uncor_severity: 0x026f6030
+Oct 20 11:11:27 pve-as4124 kernel: {39}[Hardware Error]:   TLP Header: 00000000 00000000 00000000 00000000
+Oct 20 11:11:37 pve-as4124 kernel: {40}[Hardware Error]: Hardware error from APEI Generic Hardware Error Source: 512
+Oct 20 11:11:37 pve-as4124 kernel: {40}[Hardware Error]: It has been corrected by h/w and requires no further action
+Oct 20 11:11:37 pve-as4124 kernel: {40}[Hardware Error]: event severity: corrected
+Oct 20 11:11:37 pve-as4124 kernel: {40}[Hardware Error]:  Error 0, type: corrected
+Oct 20 11:11:37 pve-as4124 kernel: {40}[Hardware Error]:   section_type: PCIe error
+Oct 20 11:11:37 pve-as4124 kernel: {40}[Hardware Error]:   port_type: 4, root port
+Oct 20 11:11:37 pve-as4124 kernel: {40}[Hardware Error]:   version: 0.2
+Oct 20 11:11:37 pve-as4124 kernel: {40}[Hardware Error]:   command: 0x0407, status: 0x0010
+Oct 20 11:11:37 pve-as4124 kernel: {40}[Hardware Error]:   device_id: 0000:20:01.1
+Oct 20 11:11:37 pve-as4124 kernel: {40}[Hardware Error]:   slot: 0
+Oct 20 11:11:37 pve-as4124 kernel: {40}[Hardware Error]:   secondary_bus: 0x21
+Oct 20 11:11:37 pve-as4124 kernel: {40}[Hardware Error]:   vendor_id: 0x1022, device_id: 0x1483
+Oct 20 11:11:37 pve-as4124 kernel: {40}[Hardware Error]:   class_code: 060400
+Oct 20 11:11:37 pve-as4124 kernel: {40}[Hardware Error]:   bridge: secondary_status: 0x0000, control: 0x0012
+Oct 20 11:11:37 pve-as4124 kernel: {40}[Hardware Error]:   aer_cor_status: 0x00001000, aer_cor_mask: 0x00000000
+Oct 20 11:11:37 pve-as4124 kernel: {40}[Hardware Error]:   aer_uncor_status: 0x00000000, aer_uncor_mask: 0x04004000
+Oct 20 11:11:37 pve-as4124 kernel: {40}[Hardware Error]:   aer_uncor_severity: 0x026f6030
+Oct 20 11:11:37 pve-as4124 kernel: {40}[Hardware Error]:   TLP Header: 00000000 00000000 00000000 00000000
+Oct 20 11:11:37 pve-as4124 kernel: {40}[Hardware Error]:  Error 1, type: corrected
+Oct 20 11:11:37 pve-as4124 kernel: {40}[Hardware Error]:   section_type: PCIe error
+Oct 20 11:11:37 pve-as4124 kernel: {40}[Hardware Error]:   port_type: 4, root port
+Oct 20 11:11:37 pve-as4124 kernel: {40}[Hardware Error]:   version: 0.2
+Oct 20 11:11:37 pve-as4124 kernel: {40}[Hardware Error]:   command: 0x0407, status: 0x0010
+Oct 20 11:11:37 pve-as4124 kernel: {40}[Hardware Error]:   device_id: 0000:20:01.1
+Oct 20 11:11:37 pve-as4124 kernel: {40}[Hardware Error]:   slot: 0
+Oct 20 11:11:37 pve-as4124 kernel: {40}[Hardware Error]:   secondary_bus: 0x21
+Oct 20 11:11:37 pve-as4124 kernel: {40}[Hardware Error]:   vendor_id: 0x1022, device_id: 0x1483
+Oct 20 11:11:37 pve-as4124 kernel: {40}[Hardware Error]:   class_code: 060400
+Oct 20 11:11:37 pve-as4124 kernel: {40}[Hardware Error]:   bridge: secondary_status: 0x0000, control: 0x0012
+Oct 20 11:11:37 pve-as4124 kernel: {40}[Hardware Error]:   aer_cor_status: 0x00001000, aer_cor_mask: 0x00000000
+Oct 20 11:11:37 pve-as4124 kernel: {40}[Hardware Error]:   aer_uncor_status: 0x00000000, aer_uncor_mask: 0x04004000
+Oct 20 11:11:37 pve-as4124 kernel: {40}[Hardware Error]:   aer_uncor_severity: 0x026f6030
+Oct 20 11:11:37 pve-as4124 kernel: {40}[Hardware Error]:   TLP Header: 00000000 00000000 00000000 00000000
+Oct 20 11:11:49 pve-as4124 kernel: {41}[Hardware Error]: Hardware error from APEI Generic Hardware Error Source: 512
+Oct 20 11:11:49 pve-as4124 kernel: {41}[Hardware Error]: It has been corrected by h/w and requires no further action
+Oct 20 11:11:49 pve-as4124 kernel: {41}[Hardware Error]: event severity: corrected
+Oct 20 11:11:49 pve-as4124 kernel: {41}[Hardware Error]:  Error 0, type: corrected
+Oct 20 11:11:49 pve-as4124 kernel: {41}[Hardware Error]:   section_type: PCIe error
+Oct 20 11:11:49 pve-as4124 kernel: {41}[Hardware Error]:   port_type: 4, root port
+Oct 20 11:11:49 pve-as4124 kernel: {41}[Hardware Error]:   version: 0.2
+Oct 20 11:11:49 pve-as4124 kernel: {41}[Hardware Error]:   command: 0x0407, status: 0x0010
+Oct 20 11:11:49 pve-as4124 kernel: {41}[Hardware Error]:   device_id: 0000:20:01.1
+Oct 20 11:11:49 pve-as4124 kernel: {41}[Hardware Error]:   slot: 0
+Oct 20 11:11:49 pve-as4124 kernel: {41}[Hardware Error]:   secondary_bus: 0x21
+Oct 20 11:11:49 pve-as4124 kernel: {41}[Hardware Error]:   vendor_id: 0x1022, device_id: 0x1483
+Oct 20 11:11:49 pve-as4124 kernel: {41}[Hardware Error]:   class_code: 060400
+Oct 20 11:11:49 pve-as4124 kernel: {41}[Hardware Error]:   bridge: secondary_status: 0x0000, control: 0x0012
+Oct 20 11:11:49 pve-as4124 kernel: {41}[Hardware Error]:   aer_cor_status: 0x00001000, aer_cor_mask: 0x00000000
+Oct 20 11:11:49 pve-as4124 kernel: {41}[Hardware Error]:   aer_uncor_status: 0x00000000, aer_uncor_mask: 0x04004000
+Oct 20 11:11:49 pve-as4124 kernel: {41}[Hardware Error]:   aer_uncor_severity: 0x026f6030
+Oct 20 11:11:49 pve-as4124 kernel: {41}[Hardware Error]:   TLP Header: 00000000 00000000 00000000 00000000
+      VMID NAME                 STATUS     MEM(MB)    BOOTDISK(GB) PID       
+       104 MediaServer-1        running    32768           1000.00 2590      
+       301 Windows10-2016-LTSB-1 running    16384            500.00 2823      
+       500 Debian13-Template    stopped    16384           1000.00 0         
+       501 LLM-Frontend         running    16384            500.00 2886      
+       502 GPUServer-1          running    131072          1024.00 2990      
+       503 Test2                running    16384            500.00 3105      
+       504 Test3                running    16384            500.00 3200      
+       505 Test4                stopped    32768            500.00 0         
+       506 Test5                stopped    32768            500.00 0         
+       507 Test6                stopped    16384            500.00 0         
+       508 Test7                stopped    16384           1000.00 0         
+       509 Test8                stopped    16384           1000.00 0         
+       510 OpenClaw-1           stopped    16384           1000.00 0         
+       511 Hermes-1             running    16384           1000.00 3310      
+       512 GPUServer-2          running    32768           1000.00 3433      

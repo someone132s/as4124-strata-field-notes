@@ -1,0 +1,47 @@
+{
+  "window": "[2026-09-01T00:00:00Z,2026-10-01T00:00:00Z)",
+  "rows": [
+    {
+      "customer_id": 5,
+      "customer": "Elm",
+      "total_cents": 24035,
+      "rank": 1
+    },
+    {
+      "customer_id": 4,
+      "customer": "Dune",
+      "total_cents": 23224,
+      "rank": 2
+    },
+    {
+      "customer_id": 3,
+      "customer": "Cedar",
+      "total_cents": 15660,
+      "rank": 3
+    },
+    {
+      "customer_id": 7,
+      "customer": "Grove",
+      "total_cents": 15587,
+      "rank": 4
+    },
+    {
+      "customer_id": 1,
+      "customer": "Aster",
+      "total_cents": 10039,
+      "rank": 5
+    },
+    {
+      "customer_id": 2,
+      "customer": "Brook",
+      "total_cents": 7959,
+      "rank": 6
+    },
+    {
+      "customer_id": 6,
+      "customer": "Fern",
+      "total_cents": 4999,
+      "rank": 7
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "status": "completed",
+  "started": "2026-10-19T16:43:15.593388",
+  "model": "huihui-qwen3.8-flash-next-abliterated-ud-iq4_xs",
+  "repair": true,
+  "current_config": "/opt/strata-data/config/strata-sc117-iq3_s-q8ple-vision-v0.1.45.json",
+  "target_config": "/opt/strata-data/config/strata-huihui-ud-iq4_xs-q8ple-vision-v0.1.45.json",
+  "backup": "/opt/strata-deploy/backups/huihui-iq4-xs-repair-20261019-164315",
+  "current_hashes": {
+    "config": "8fd0759a9de669bf56a5c02c66fd482cfb44bb131d1432cf65e8d7035cc0f937",
+    "compose": "ff2923368d6de027e60d346fa46b5cfe2a781c4418f26731f736b022d647bdb1"
+  },
+  "target_hashes": {
+    "config": "429f3f9408a9870fb364935346700da609d2442bcbf52ad2ff973b4b9d0fe5d7",
+    "compose": "dadfbaf4759aa09f0617ed20f20ecb6d7a0d9a6017a3577f335af266badd2824"
+  },
+  "last_wait": "RemoteDisconnected: Remote end closed connection without response",
+  "health": {
+    "status": "ok",
+    "max_context": 262144,
+    "model": "huihui-qwen3.8-flash-next-abliterated-ud-iq4_xs",
+    "images": true,
+    "api_key": false,
+    "image_generation": false,
+    "loaded": true,
+    "service": "strata"
+  },
+  "engine": {
+    "model": "huihui-qwen3.8-flash-next-abliterated-ud-iq4_xs",
+    "max_context": 262144,
+    "images": true,
+    "version": "0.1.45",
+    "logit_bias": 1,
+    "context": 262144,
+    "kv": "int8",
+    "kv_resident": 32768,
+    "expert_slots": 14014,
+    "expert_cache_mib": 32406,
+    "expert_slots_primary": 6823,
+    "expert_cache_primary_mib": 15745,
+    "spec": 6,
+    "mtp_max": 4,
+    "lookup": 3,
+    "vram_free_mib": 461,
+    "cvec": 0,
+    "arena_mib": 32031,
+    "pool_workers": 15,
+    "pcie_frac": "0.36",
+    "spec_min_p": "0.50",
+    "conversation_cache_mib": 0,
+    "conversation_cache_slots": 4,
+    "conversation_cache_min_free_mib": 2560,
+    "conversation_cache_min_tokens": 0,
+    "tail_role_token": -1,
+    "vram_elastic": 0,
+    "prefill_cap": 8192,
+    "prefill_stages": 2,
+    "stream_all_min": 1024,
+    "prefill_pipe": 0,
+    "engine": "0.1.45"
+  },
+  "live": {
+    "state": "idle",
+    "queued": 0,
+    "phase": null,
+    "prompt_tokens": null,
+    "prompt_read": null,
+    "prompt_total": null,
+    "generated": null,
+    "max_tokens": null,
+    "elapsed_s": null,
+    "tok_s": null,
+    "tok_s_mean": null,
+    "prefill_tok_s_mean": null,
+    "tok_s_window_s": null
+  },
+  "finished": "2026-10-19T16:57:43.136307",
+  "active_hashes": {
+    "config": "429f3f9408a9870fb364935346700da609d2442bcbf52ad2ff973b4b9d0fe5d7",
+    "compose": "dadfbaf4759aa09f0617ed20f20ecb6d7a0d9a6017a3577f335af266badd2824"
+  }
+}

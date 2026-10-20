@@ -1,0 +1,28 @@
+2026-10-20T11:13:53+08:00
+ 11:13:53 up 7 min,  3 users,  load average: 6.14, 5.20, 2.74
+d80eb74e-2d69-4f73-892d-236cd4c0968b
+               total        used        free      shared  buff/cache   available
+Mem:           251Gi       229Gi        23Gi        97Mi       477Mi        22Gi
+Swap:          8.0Gi       2.3Gi       5.7Gi
+PS1 Status       | C4h | ok  | 10.92 | Presence detected
+PS2 Status       | C5h | ok  | 10.91 | Presence detected
+PS3 Status       | C6h | ok  | 10.90 | Presence detected
+PS4 Status       | C7h | ok  | 10.89 | Presence detected
+Oct 20 11:13:26 pve-as4124 kernel: {44}[Hardware Error]: Hardware error from APEI Generic Hardware Error Source: 512
+Oct 20 11:13:26 pve-as4124 kernel: {44}[Hardware Error]: It has been corrected by h/w and requires no further action
+Oct 20 11:13:26 pve-as4124 kernel: {44}[Hardware Error]: event severity: corrected
+Oct 20 11:13:26 pve-as4124 kernel: {44}[Hardware Error]:  Error 0, type: corrected
+Oct 20 11:13:26 pve-as4124 kernel: {44}[Hardware Error]:   section_type: PCIe error
+Oct 20 11:13:26 pve-as4124 kernel: {44}[Hardware Error]:   port_type: 4, root port
+Oct 20 11:13:26 pve-as4124 kernel: {44}[Hardware Error]:   version: 0.2
+Oct 20 11:13:26 pve-as4124 kernel: {44}[Hardware Error]:   command: 0x0407, status: 0x0010
+Oct 20 11:13:26 pve-as4124 kernel: {44}[Hardware Error]:   device_id: 0000:20:01.1
+Oct 20 11:13:26 pve-as4124 kernel: {44}[Hardware Error]:   slot: 0
+Oct 20 11:13:26 pve-as4124 kernel: {44}[Hardware Error]:   secondary_bus: 0x21
+Oct 20 11:13:26 pve-as4124 kernel: {44}[Hardware Error]:   vendor_id: 0x1022, device_id: 0x1483
+Oct 20 11:13:26 pve-as4124 kernel: {44}[Hardware Error]:   class_code: 060400
+Oct 20 11:13:26 pve-as4124 kernel: {44}[Hardware Error]:   bridge: secondary_status: 0x0000, control: 0x0012
+Oct 20 11:13:26 pve-as4124 kernel: {44}[Hardware Error]:   aer_cor_status: 0x00001000, aer_cor_mask: 0x00000000
+Oct 20 11:13:26 pve-as4124 kernel: {44}[Hardware Error]:   aer_uncor_status: 0x00000000, aer_uncor_mask: 0x04004000
+Oct 20 11:13:26 pve-as4124 kernel: {44}[Hardware Error]:   aer_uncor_severity: 0x026f6030
+Oct 20 11:13:26 pve-as4124 kernel: {44}[Hardware Error]:   TLP Header: 00000000 00000000 00000000 00000000

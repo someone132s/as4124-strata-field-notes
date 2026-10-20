@@ -1,0 +1,5 @@
+prefill_chunk,group,cache_slots,cache_gib,borrow_slots,borrow_gib,unborrowed_slots,unborrowed_gib_approx,resident_ram_gib,startup_free_vram_mib,source,scope
+256,confirm-original-off,13432,18.0,199,0.26,13233,17.74,15.28,444,recordings/confirm-original-off/engine.log,maximum configured chunk loan; restored before decode
+1024,tune-prefill1024,13432,18.0,537,0.72,12895,17.28,15.74,444,recordings/tune-prefill1024/engine.log,maximum configured chunk loan; restored before decode
+2048,tune-prefill2048,13432,18.0,861,1.15,12571,16.85,16.17,444,recordings/tune-prefill2048/engine.log,maximum configured chunk loan; restored before decode
+4096,tune-prefill4096,13432,18.0,1512,2.03,11920,15.97,17.05,442,recordings/tune-prefill4096/engine.log,maximum configured chunk loan; restored before decode

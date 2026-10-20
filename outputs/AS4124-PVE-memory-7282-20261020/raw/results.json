@@ -1,0 +1,919 @@
+{
+  "status": "passed",
+  "started": "2026-10-20T11:10:36.800205",
+  "output": "/root/codex-memory-recheck-7282-20261020-111036",
+  "rows": [
+    {
+      "kind": "read",
+      "case": "node0_16t",
+      "rep": 1,
+      "command": [
+        "/root/codex-memory-bench-20261015/independent/common52/usr/bin/likwid-bench",
+        "-t",
+        "load_avx",
+        "-i",
+        "16",
+        "-W",
+        "S0:1024MB:16:1:2"
+      ],
+      "rates_GB_s": {
+        "Read": 45.681309999999996
+      },
+      "wall_s": 1.768932996999979,
+      "major_faults": 11,
+      "raw_file": "read-node0_16t-r1.txt"
+    },
+    {
+      "kind": "read",
+      "case": "node0_16t",
+      "rep": 2,
+      "command": [
+        "/root/codex-memory-bench-20261015/independent/common52/usr/bin/likwid-bench",
+        "-t",
+        "load_avx",
+        "-i",
+        "16",
+        "-W",
+        "S0:1024MB:16:1:2"
+      ],
+      "rates_GB_s": {
+        "Read": 45.85713
+      },
+      "wall_s": 1.8027370570000016,
+      "major_faults": 0,
+      "raw_file": "read-node0_16t-r2.txt"
+    },
+    {
+      "kind": "read",
+      "case": "node0_16t",
+      "rep": 3,
+      "command": [
+        "/root/codex-memory-bench-20261015/independent/common52/usr/bin/likwid-bench",
+        "-t",
+        "load_avx",
+        "-i",
+        "16",
+        "-W",
+        "S0:1024MB:16:1:2"
+      ],
+      "rates_GB_s": {
+        "Read": 47.48964
+      },
+      "wall_s": 1.8035547810000025,
+      "major_faults": 0,
+      "raw_file": "read-node0_16t-r3.txt"
+    },
+    {
+      "kind": "read",
+      "case": "node1_16t",
+      "rep": 1,
+      "command": [
+        "/root/codex-memory-bench-20261015/independent/common52/usr/bin/likwid-bench",
+        "-t",
+        "load_avx",
+        "-i",
+        "16",
+        "-W",
+        "S1:1024MB:16:1:2"
+      ],
+      "rates_GB_s": {
+        "Read": 57.81893
+      },
+      "wall_s": 1.6442071910000209,
+      "major_faults": 0,
+      "raw_file": "read-node1_16t-r1.txt"
+    },
+    {
+      "kind": "read",
+      "case": "node1_16t",
+      "rep": 2,
+      "command": [
+        "/root/codex-memory-bench-20261015/independent/common52/usr/bin/likwid-bench",
+        "-t",
+        "load_avx",
+        "-i",
+        "16",
+        "-W",
+        "S1:1024MB:16:1:2"
+      ],
+      "rates_GB_s": {
+        "Read": 58.49775
+      },
+      "wall_s": 1.6022492490000104,
+      "major_faults": 0,
+      "raw_file": "read-node1_16t-r2.txt"
+    },
+    {
+      "kind": "read",
+      "case": "node1_16t",
+      "rep": 3,
+      "command": [
+        "/root/codex-memory-bench-20261015/independent/common52/usr/bin/likwid-bench",
+        "-t",
+        "load_avx",
+        "-i",
+        "16",
+        "-W",
+        "S1:1024MB:16:1:2"
+      ],
+      "rates_GB_s": {
+        "Read": 57.67976
+      },
+      "wall_s": 1.602517506999959,
+      "major_faults": 0,
+      "raw_file": "read-node1_16t-r3.txt"
+    },
+    {
+      "kind": "read",
+      "case": "both_32t",
+      "rep": 1,
+      "command": [
+        "/root/codex-memory-bench-20261015/independent/common52/usr/bin/likwid-bench",
+        "-t",
+        "load_avx",
+        "-i",
+        "16",
+        "-W",
+        "S0:1024MB:16:1:2",
+        "-W",
+        "S1:1024MB:16:1:2"
+      ],
+      "rates_GB_s": {
+        "Read": 77.48066
+      },
+      "wall_s": 1.8936683529999527,
+      "major_faults": 0,
+      "raw_file": "read-both_32t-r1.txt"
+    },
+    {
+      "kind": "read",
+      "case": "both_32t",
+      "rep": 2,
+      "command": [
+        "/root/codex-memory-bench-20261015/independent/common52/usr/bin/likwid-bench",
+        "-t",
+        "load_avx",
+        "-i",
+        "16",
+        "-W",
+        "S0:1024MB:16:1:2",
+        "-W",
+        "S1:1024MB:16:1:2"
+      ],
+      "rates_GB_s": {
+        "Read": 75.7551
+      },
+      "wall_s": 2.004036290999977,
+      "major_faults": 0,
+      "raw_file": "read-both_32t-r2.txt"
+    },
+    {
+      "kind": "read",
+      "case": "both_32t",
+      "rep": 3,
+      "command": [
+        "/root/codex-memory-bench-20261015/independent/common52/usr/bin/likwid-bench",
+        "-t",
+        "load_avx",
+        "-i",
+        "16",
+        "-W",
+        "S0:1024MB:16:1:2",
+        "-W",
+        "S1:1024MB:16:1:2"
+      ],
+      "rates_GB_s": {
+        "Read": 83.35625
+      },
+      "wall_s": 2.0032884700000295,
+      "major_faults": 0,
+      "raw_file": "read-both_32t-r3.txt"
+    },
+    {
+      "kind": "read",
+      "case": "node1_16t_oldsize",
+      "rep": 1,
+      "command": [
+        "/root/codex-memory-bench-20261015/independent/common52/usr/bin/likwid-bench",
+        "-t",
+        "load_avx",
+        "-i",
+        "16",
+        "-W",
+        "S1:1536MB:16:1:2"
+      ],
+      "rates_GB_s": {
+        "Read": 57.79589
+      },
+      "wall_s": 1.899709970999993,
+      "major_faults": 0,
+      "raw_file": "read-node1_16t_oldsize-r1.txt"
+    },
+    {
+      "kind": "read",
+      "case": "node1_16t_oldsize",
+      "rep": 2,
+      "command": [
+        "/root/codex-memory-bench-20261015/independent/common52/usr/bin/likwid-bench",
+        "-t",
+        "load_avx",
+        "-i",
+        "16",
+        "-W",
+        "S1:1536MB:16:1:2"
+      ],
+      "rates_GB_s": {
+        "Read": 58.47462
+      },
+      "wall_s": 1.8024728450000111,
+      "major_faults": 0,
+      "raw_file": "read-node1_16t_oldsize-r2.txt"
+    },
+    {
+      "kind": "read",
+      "case": "node1_16t_oldsize",
+      "rep": 3,
+      "command": [
+        "/root/codex-memory-bench-20261015/independent/common52/usr/bin/likwid-bench",
+        "-t",
+        "load_avx",
+        "-i",
+        "16",
+        "-W",
+        "S1:1536MB:16:1:2"
+      ],
+      "rates_GB_s": {
+        "Read": 57.86275
+      },
+      "wall_s": 1.8024637050000365,
+      "major_faults": 0,
+      "raw_file": "read-node1_16t_oldsize-r3.txt"
+    },
+    {
+      "kind": "stream",
+      "case": "node0_16t",
+      "rep": 1,
+      "command": [
+        "numactl",
+        "--physcpubind=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15",
+        "--membind=0",
+        "/root/codex-memory-bench-20261015/stream-reference-40m-recheck-20261020"
+      ],
+      "rates_GB_s": {
+        "Copy": 60.7155,
+        "Scale": 39.6753,
+        "Add": 42.024,
+        "Triad": 42.3484
+      },
+      "wall_s": 1.1667386199999896,
+      "major_faults": 0,
+      "raw_file": "stream-node0_16t-r1.txt"
+    },
+    {
+      "kind": "stream",
+      "case": "node0_16t",
+      "rep": 2,
+      "command": [
+        "numactl",
+        "--physcpubind=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15",
+        "--membind=0",
+        "/root/codex-memory-bench-20261015/stream-reference-40m-recheck-20261020"
+      ],
+      "rates_GB_s": {
+        "Copy": 61.0802,
+        "Scale": 40.2006,
+        "Add": 42.2609,
+        "Triad": 42.547599999999996
+      },
+      "wall_s": 1.00367633999997,
+      "major_faults": 2,
+      "raw_file": "stream-node0_16t-r2.txt"
+    },
+    {
+      "kind": "stream",
+      "case": "node0_16t",
+      "rep": 3,
+      "command": [
+        "numactl",
+        "--physcpubind=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15",
+        "--membind=0",
+        "/root/codex-memory-bench-20261015/stream-reference-40m-recheck-20261020"
+      ],
+      "rates_GB_s": {
+        "Copy": 61.4564,
+        "Scale": 40.3735,
+        "Add": 42.557,
+        "Triad": 42.701
+      },
+      "wall_s": 1.0037222699999688,
+      "major_faults": 0,
+      "raw_file": "stream-node0_16t-r3.txt"
+    },
+    {
+      "kind": "stream",
+      "case": "node1_16t",
+      "rep": 1,
+      "command": [
+        "numactl",
+        "--physcpubind=16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31",
+        "--membind=1",
+        "/root/codex-memory-bench-20261015/stream-reference-40m-recheck-20261020"
+      ],
+      "rates_GB_s": {
+        "Copy": 60.4789,
+        "Scale": 39.423,
+        "Add": 41.7647,
+        "Triad": 41.7954
+      },
+      "wall_s": 1.0947925369999894,
+      "major_faults": 0,
+      "raw_file": "stream-node1_16t-r1.txt"
+    },
+    {
+      "kind": "stream",
+      "case": "node1_16t",
+      "rep": 2,
+      "command": [
+        "numactl",
+        "--physcpubind=16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31",
+        "--membind=1",
+        "/root/codex-memory-bench-20261015/stream-reference-40m-recheck-20261020"
+      ],
+      "rates_GB_s": {
+        "Copy": 60.8656,
+        "Scale": 39.8603,
+        "Add": 41.8484,
+        "Triad": 42.1644
+      },
+      "wall_s": 1.0020850729999893,
+      "major_faults": 0,
+      "raw_file": "stream-node1_16t-r2.txt"
+    },
+    {
+      "kind": "stream",
+      "case": "node1_16t",
+      "rep": 3,
+      "command": [
+        "numactl",
+        "--physcpubind=16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31",
+        "--membind=1",
+        "/root/codex-memory-bench-20261015/stream-reference-40m-recheck-20261020"
+      ],
+      "rates_GB_s": {
+        "Copy": 61.2391,
+        "Scale": 39.7712,
+        "Add": 42.0315,
+        "Triad": 42.3484
+      },
+      "wall_s": 1.0020459719999621,
+      "major_faults": 0,
+      "raw_file": "stream-node1_16t-r3.txt"
+    },
+    {
+      "kind": "stream",
+      "case": "both_32t",
+      "rep": 1,
+      "command": [
+        "numactl",
+        "--physcpubind=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31",
+        "--interleave=0,1",
+        "/root/codex-memory-bench-20261015/stream-reference-40m-recheck-20261020"
+      ],
+      "rates_GB_s": {
+        "Copy": 68.0359,
+        "Scale": 64.4379,
+        "Add": 67.0541,
+        "Triad": 67.51960000000001
+      },
+      "wall_s": 0.9019092820000196,
+      "major_faults": 0,
+      "raw_file": "stream-both_32t-r1.txt"
+    },
+    {
+      "kind": "stream",
+      "case": "both_32t",
+      "rep": 2,
+      "command": [
+        "numactl",
+        "--physcpubind=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31",
+        "--interleave=0,1",
+        "/root/codex-memory-bench-20261015/stream-reference-40m-recheck-20261020"
+      ],
+      "rates_GB_s": {
+        "Copy": 69.5123,
+        "Scale": 65.1131,
+        "Add": 67.0485,
+        "Triad": 68.46910000000001
+      },
+      "wall_s": 1.0037833519999708,
+      "major_faults": 0,
+      "raw_file": "stream-both_32t-r2.txt"
+    },
+    {
+      "kind": "stream",
+      "case": "both_32t",
+      "rep": 3,
+      "command": [
+        "numactl",
+        "--physcpubind=0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31",
+        "--interleave=0,1",
+        "/root/codex-memory-bench-20261015/stream-reference-40m-recheck-20261020"
+      ],
+      "rates_GB_s": {
+        "Copy": 69.11489999999999,
+        "Scale": 65.6145,
+        "Add": 67.7252,
+        "Triad": 68.0364
+      },
+      "wall_s": 1.0033703199999877,
+      "major_faults": 0,
+      "raw_file": "stream-both_32t-r3.txt"
+    },
+    {
+      "kind": "stream",
+      "case": "node1_16t_oldsize",
+      "rep": 1,
+      "command": [
+        "numactl",
+        "--physcpubind=16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31",
+        "--membind=1",
+        "/root/codex-memory-bench-20261015/stream-reference-80m"
+      ],
+      "rates_GB_s": {
+        "Copy": 62.3783,
+        "Scale": 39.123400000000004,
+        "Add": 42.1589,
+        "Triad": 42.145900000000005
+      },
+      "wall_s": 2.0918054630000142,
+      "major_faults": 10,
+      "raw_file": "stream-node1_16t_oldsize-r1.txt"
+    },
+    {
+      "kind": "stream",
+      "case": "node1_16t_oldsize",
+      "rep": 2,
+      "command": [
+        "numactl",
+        "--physcpubind=16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31",
+        "--membind=1",
+        "/root/codex-memory-bench-20261015/stream-reference-80m"
+      ],
+      "rates_GB_s": {
+        "Copy": 62.305099999999996,
+        "Scale": 39.247,
+        "Add": 41.871900000000004,
+        "Triad": 41.8857
+      },
+      "wall_s": 2.006788880999977,
+      "major_faults": 0,
+      "raw_file": "stream-node1_16t_oldsize-r2.txt"
+    },
+    {
+      "kind": "stream",
+      "case": "node1_16t_oldsize",
+      "rep": 3,
+      "command": [
+        "numactl",
+        "--physcpubind=16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31",
+        "--membind=1",
+        "/root/codex-memory-bench-20261015/stream-reference-80m"
+      ],
+      "rates_GB_s": {
+        "Copy": 62.3717,
+        "Scale": 39.1462,
+        "Add": 41.880199999999995,
+        "Triad": 41.982
+      },
+      "wall_s": 2.005564855999978,
+      "major_faults": 0,
+      "raw_file": "stream-node1_16t_oldsize-r3.txt"
+    }
+  ],
+  "notes": [
+    "Existing LIKWID 5.2.2 load_avx and reference STREAM binaries reused.",
+    "Each measurement starts its own process. Three repeats per case; median and range reported.",
+    "LIKWID: 1024 decimal MB per socket, 16 loops, 16 physical cores per socket; parallel local first touch. Node1 1536MB control.",
+    "STREAM: 40 million doubles per array, 3 arrays = 0.96 decimal GB, 10 loops; standard logical byte rates. Node1 80M control.",
+    "VMs and services stay running. Only test child CPU/memory affinity is set.",
+    "Both-socket LIKWID uses local workgroups; both-socket STREAM uses page interleave(0,1).",
+    "Online background load not isolated; this is bandwidth, not stability or whole-RAM validation."
+  ],
+  "cpu_info": "Architecture:                            x86_64\nCPU op-mode(s):                          32-bit, 64-bit\nAddress sizes:                           43 bits physical, 48 bits virtual\nByte Order:                              Little Endian\nCPU(s):                                  64\nOn-line CPU(s) list:                     0-63\nVendor ID:                               AuthenticAMD\nModel name:                              AMD EPYC 7282 16-Core Processor\nCPU family:                              23\nModel:                                   49\nThread(s) per core:                      2\nCore(s) per socket:                      16\nSocket(s):                               2\nStepping:                                0\nFrequency boost:                         enabled\nCPU(s) scaling MHz:                      53%\nCPU max MHz:                             3200.3611\nCPU min MHz:                             1500.0000\nBogoMIPS:                                5600.41\nFlags:                                   fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl xtopology nonstop_tsc cpuid extd_apicid aperfmperf rapl pni pclmulqdq monitor ssse3 fma cx16 sse4_1 sse4_2 x2apic movbe popcnt aes xsave avx f16c rdrand lahf_lm cmp_legacy svm extapic cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw ibs skinit wdt tce topoext perfctr_core perfctr_nb bpext perfctr_llc mwaitx cpb cat_l3 cdp_l3 hw_pstate ssbd mba ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 cqm rdt_a rdseed adx smap clflushopt clwb sha_ni xsaveopt xsavec xgetbv1 xsaves cqm_llc cqm_occup_llc cqm_mbm_total cqm_mbm_local clzero irperf xsaveerptr rdpru wbnoinvd amd_ppin arat npt lbrv svm_lock nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold avic v_vmsave_vmload vgif v_spec_ctrl umip rdpid overflow_recov succor smca sev sev_es\nVirtualization:                          AMD-V\nL1d cache:                               1 MiB (32 instances)\nL1i cache:                               1 MiB (32 instances)\nL2 cache:                                16 MiB (32 instances)\nL3 cache:                                128 MiB (8 instances)\nNUMA node(s):                            2\nNUMA node0 CPU(s):                       0-15,32-47\nNUMA node1 CPU(s):                       16-31,48-63\nVulnerability Gather data sampling:      Not affected\nVulnerability Ghostwrite:                Not affected\nVulnerability Indirect target selection: Not affected\nVulnerability Itlb multihit:             Not affected\nVulnerability L1tf:                      Not affected\nVulnerability Mds:                       Not affected\nVulnerability Meltdown:                  Not affected\nVulnerability Mmio stale data:           Not affected\nVulnerability Old microcode:             Not affected\nVulnerability Reg file data sampling:    Not affected\nVulnerability Retbleed:                  Mitigation; untrained return thunk; SMT enabled with STIBP protection\nVulnerability Spec rstack overflow:      Mitigation; Safe RET\nVulnerability Spec store bypass:         Mitigation; Speculative Store Bypass disabled via prctl\nVulnerability Spectre v1:                Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:                Mitigation; Retpolines; IBPB conditional; STIBP always-on; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected\nVulnerability Srbds:                     Not affected\nVulnerability Tsa:                       Not affected\nVulnerability Tsx async abort:           Not affected\nVulnerability Vmscape:                   Mitigation; IBPB before exit to userspace\n",
+  "hostname": "pve-as4124",
+  "topology": "available: 2 nodes (0-1)\nnode 0 cpus: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47\nnode 0 size: 128801 MB\nnode 0 free: 1154 MB\nnode 1 cpus: 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63\nnode 1 size: 128963 MB\nnode 1 free: 22007 MB\nnode distances:\nnode     0    1 \n   0:   10   32 \n   1:   32   10 \n",
+  "cpu_topology": "CPU NODE SOCKET CORE\n  0    0      0    0\n  1    0      0    1\n  2    0      0    2\n  3    0      0    3\n  4    0      0    4\n  5    0      0    5\n  6    0      0    6\n  7    0      0    7\n  8    0      0    8\n  9    0      0    9\n 10    0      0   10\n 11    0      0   11\n 12    0      0   12\n 13    0      0   13\n 14    0      0   14\n 15    0      0   15\n 16    1      1   16\n 17    1      1   17\n 18    1      1   18\n 19    1      1   19\n 20    1      1   20\n 21    1      1   21\n 22    1      1   22\n 23    1      1   23\n 24    1      1   24\n 25    1      1   25\n 26    1      1   26\n 27    1      1   27\n 28    1      1   28\n 29    1      1   29\n 30    1      1   30\n 31    1      1   31\n 32    0      0    0\n 33    0      0    1\n 34    0      0    2\n 35    0      0    3\n 36    0      0    4\n 37    0      0    5\n 38    0      0    6\n 39    0      0    7\n 40    0      0    8\n 41    0      0    9\n 42    0      0   10\n 43    0      0   11\n 44    0      0   12\n 45    0      0   13\n 46    0      0   14\n 47    0      0   15\n 48    1      1   16\n 49    1      1   17\n 50    1      1   18\n 51    1      1   19\n 52    1      1   20\n 53    1      1   21\n 54    1      1   22\n 55    1      1   23\n 56    1      1   24\n 57    1      1   25\n 58    1      1   26\n 59    1      1   27\n 60    1      1   28\n 61    1      1   29\n 62    1      1   30\n 63    1      1   31\n",
+  "vms_before": "      VMID NAME                 STATUS     MEM(MB)    BOOTDISK(GB) PID       \n       104 MediaServer-1        running    32768           1000.00 2590      \n       301 Windows10-2016-LTSB-1 running    16384            500.00 2823      \n       500 Debian13-Template    stopped    16384           1000.00 0         \n       501 LLM-Frontend         running    16384            500.00 2886      \n       502 GPUServer-1          running    131072          1024.00 2990      \n       503 Test2                running    16384            500.00 3105      \n       504 Test3                running    16384            500.00 3200      \n       505 Test4                stopped    32768            500.00 0         \n       506 Test5                stopped    32768            500.00 0         \n       507 Test6                stopped    16384            500.00 0         \n       508 Test7                stopped    16384           1000.00 0         \n       509 Test8                stopped    16384           1000.00 0         \n       510 OpenClaw-1           stopped    16384           1000.00 0         \n       511 Hermes-1             running    16384           1000.00 3310      \n       512 GPUServer-2          running    32768           1000.00 3433      \n",
+  "load_before": "3.67 3.89 1.78 2/1163 6086",
+  "available_before": 23285006336,
+  "vmstat_before": {
+    "pswpin": 14500,
+    "pswpout": 171928,
+    "pgmajfault": 10919
+  },
+  "hashes": {
+    "/root/codex-memory-bench-20261015/independent/common52/usr/bin/likwid-bench": "81e99846bb2b50a0beaedca62f6e67b19c46643d1744f829047ba9ee9e51c119",
+    "/root/codex-memory-bench-20261015/stream-reference-40m-recheck-20261020": "cda3bce41d5c9ab11f5a0fb88fa3415fadcf37ae09462c4bce49bd31dbad1a57"
+  },
+  "old_results": [
+    {
+      "case": "node0_16t",
+      "rep": 1,
+      "command": [
+        "/root/codex-memory-bench-20261015/independent/common52/usr/bin/likwid-bench",
+        "-t",
+        "load_avx",
+        "-i",
+        "16",
+        "-W",
+        "S0:1536MB:16:1:2"
+      ],
+      "exit": 0,
+      "GB_s": 7.6631800000000005,
+      "wall_s": 5.273312426987104,
+      "child_user_s": 52.524469,
+      "child_system_s": 7.0843869999999995,
+      "major_faults": 0
+    },
+    {
+      "case": "node0_16t",
+      "rep": 2,
+      "command": [
+        "/root/codex-memory-bench-20261015/independent/common52/usr/bin/likwid-bench",
+        "-t",
+        "load_avx",
+        "-i",
+        "16",
+        "-W",
+        "S0:1536MB:16:1:2"
+      ],
+      "exit": 0,
+      "GB_s": 7.7327200000000005,
+      "wall_s": 5.207056240062229,
+      "child_user_s": 51.199391,
+      "child_system_s": 7.105072,
+      "major_faults": 0
+    },
+    {
+      "case": "node0_16t",
+      "rep": 3,
+      "command": [
+        "/root/codex-memory-bench-20261015/independent/common52/usr/bin/likwid-bench",
+        "-t",
+        "load_avx",
+        "-i",
+        "16",
+        "-W",
+        "S0:1536MB:16:1:2"
+      ],
+      "exit": 0,
+      "GB_s": 7.26329,
+      "wall_s": 5.4065616430016235,
+      "child_user_s": 54.82800800000001,
+      "child_system_s": 7.034245000000002,
+      "major_faults": 0
+    },
+    {
+      "case": "node1_16t",
+      "rep": 1,
+      "command": [
+        "/root/codex-memory-bench-20261015/independent/common52/usr/bin/likwid-bench",
+        "-t",
+        "load_avx",
+        "-i",
+        "16",
+        "-W",
+        "S1:1536MB:16:1:2"
+      ],
+      "exit": 0,
+      "GB_s": 7.09945,
+      "wall_s": 5.5259454739280045,
+      "child_user_s": 55.36861999999999,
+      "child_system_s": 8.013834,
+      "major_faults": 0
+    },
+    {
+      "case": "node1_16t",
+      "rep": 2,
+      "command": [
+        "/root/codex-memory-bench-20261015/independent/common52/usr/bin/likwid-bench",
+        "-t",
+        "load_avx",
+        "-i",
+        "16",
+        "-W",
+        "S1:1536MB:16:1:2"
+      ],
+      "exit": 0,
+      "GB_s": 7.10353,
+      "wall_s": 5.627216322929598,
+      "child_user_s": 55.450867999999986,
+      "child_system_s": 7.549462999999996,
+      "major_faults": 0
+    },
+    {
+      "case": "node1_16t",
+      "rep": 3,
+      "command": [
+        "/root/codex-memory-bench-20261015/independent/common52/usr/bin/likwid-bench",
+        "-t",
+        "load_avx",
+        "-i",
+        "16",
+        "-W",
+        "S1:1536MB:16:1:2"
+      ],
+      "exit": 0,
+      "GB_s": 7.09534,
+      "wall_s": 5.808318917057477,
+      "child_user_s": 55.74003800000003,
+      "child_system_s": 8.110926000000006,
+      "major_faults": 0
+    },
+    {
+      "case": "both_local_32t",
+      "rep": 1,
+      "command": [
+        "/root/codex-memory-bench-20261015/independent/common52/usr/bin/likwid-bench",
+        "-t",
+        "load_avx",
+        "-i",
+        "16",
+        "-W",
+        "S0:1536MB:16:1:2",
+        "-W",
+        "S1:1536MB:16:1:2"
+      ],
+      "exit": 0,
+      "GB_s": 14.45702,
+      "wall_s": 6.34640728298109,
+      "child_user_s": 106.59690499999999,
+      "child_system_s": 14.980032999999999,
+      "major_faults": 0
+    },
+    {
+      "case": "both_local_32t",
+      "rep": 2,
+      "command": [
+        "/root/codex-memory-bench-20261015/independent/common52/usr/bin/likwid-bench",
+        "-t",
+        "load_avx",
+        "-i",
+        "16",
+        "-W",
+        "S0:1536MB:16:1:2",
+        "-W",
+        "S1:1536MB:16:1:2"
+      ],
+      "exit": 0,
+      "GB_s": 14.18544,
+      "wall_s": 6.035156976082362,
+      "child_user_s": 108.21696399999996,
+      "child_system_s": 14.784081,
+      "major_faults": 0
+    },
+    {
+      "case": "both_local_32t",
+      "rep": 3,
+      "command": [
+        "/root/codex-memory-bench-20261015/independent/common52/usr/bin/likwid-bench",
+        "-t",
+        "load_avx",
+        "-i",
+        "16",
+        "-W",
+        "S0:1536MB:16:1:2",
+        "-W",
+        "S1:1536MB:16:1:2"
+      ],
+      "exit": 0,
+      "GB_s": 14.23981,
+      "wall_s": 6.234963436960243,
+      "child_user_s": 107.79169000000002,
+      "child_system_s": 14.700853999999993,
+      "major_faults": 0
+    }
+  ],
+  "physical_cpus": {
+    "0": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "1": [
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31
+    ]
+  },
+  "boot_id_before": "d80eb74e-2d69-4f73-892d-236cd4c0968b",
+  "sensors_before": "PS1 Status       | C4h | ok  | 10.92 | Presence detected\nPS2 Status       | C5h | ok  | 10.91 | Presence detected\nPS3 Status       | C6h | ok  | 10.90 | Presence detected\nPS4 Status       | C7h | ok  | 10.89 | Presence detected\n",
+  "meminfo_nodes_before": {
+    "0": "Node 0 MemTotal:       131892400 kB\nNode 0 MemFree:         1192156 kB\nNode 0 MemUsed:        130700244 kB\nNode 0 SwapCached:        25772 kB\nNode 0 Active:         12933488 kB\nNode 0 Inactive:       116091096 kB\nNode 0 Active(anon):   12857984 kB\nNode 0 Inactive(anon): 116063192 kB\nNode 0 Active(file):      75504 kB\nNode 0 Inactive(file):    27904 kB\nNode 0 Unevictable:      158576 kB\nNode 0 Mlocked:          155504 kB\nNode 0 Dirty:              5460 kB\nNode 0 Writeback:             0 kB\nNode 0 FilePages:        172188 kB\nNode 0 Mapped:            73468 kB\nNode 0 AnonPages:      126864076 kB\nNode 0 Shmem:             35124 kB\nNode 0 KernelStack:       11776 kB\nNode 0 PageTables:       348204 kB\nNode 0 SecPageTables:     34568 kB\nNode 0 NFS_Unstable:          0 kB\nNode 0 Bounce:                0 kB\nNode 0 WritebackTmp:          0 kB\nNode 0 KReclaimable:      28672 kB\nNode 0 Slab:             351516 kB\nNode 0 SReclaimable:      28672 kB\nNode 0 SUnreclaim:       322844 kB\nNode 0 AnonHugePages:  124071936 kB\nNode 0 ShmemHugePages:        0 kB\nNode 0 ShmemPmdMapped:        0 kB\nNode 0 FileHugePages:         0 kB\nNode 0 FilePmdMapped:         0 kB\nNode 0 Unaccepted:            0 kB\nNode 0 HugePages_Total:     0\nNode 0 HugePages_Free:      0\nNode 0 HugePages_Surp:      0\n",
+    "1": "Node 1 MemTotal:       132058512 kB\nNode 1 MemFree:        22505076 kB\nNode 1 MemUsed:        109553436 kB\nNode 1 SwapCached:        11968 kB\nNode 1 Active:         108338380 kB\nNode 1 Inactive:          41020 kB\nNode 1 Active(anon):   108242668 kB\nNode 1 Inactive(anon):        0 kB\nNode 1 Active(file):      95712 kB\nNode 1 Inactive(file):    41020 kB\nNode 1 Unevictable:        5208 kB\nNode 1 Mlocked:            5208 kB\nNode 1 Dirty:               616 kB\nNode 1 Writeback:             0 kB\nNode 1 FilePages:        218160 kB\nNode 1 Mapped:           104836 kB\nNode 1 AnonPages:      102894928 kB\nNode 1 Shmem:             64284 kB\nNode 1 KernelStack:        7936 kB\nNode 1 PageTables:       187800 kB\nNode 1 SecPageTables:     51564 kB\nNode 1 NFS_Unstable:          0 kB\nNode 1 Bounce:                0 kB\nNode 1 WritebackTmp:          0 kB\nNode 1 KReclaimable:      26088 kB\nNode 1 Slab:             514188 kB\nNode 1 SReclaimable:      26088 kB\nNode 1 SUnreclaim:       488100 kB\nNode 1 AnonHugePages:  97495040 kB\nNode 1 ShmemHugePages:        0 kB\nNode 1 ShmemPmdMapped:        0 kB\nNode 1 FileHugePages:         0 kB\nNode 1 FilePmdMapped:         0 kB\nNode 1 Unaccepted:            0 kB\nNode 1 HugePages_Total:     0\nNode 1 HugePages_Free:      0\nNode 1 HugePages_Surp:      0\n"
+  },
+  "stream_build_command": [
+    "gcc",
+    "-O3",
+    "-march=znver2",
+    "-mtune=znver2",
+    "-fopenmp",
+    "-static",
+    "-DSTREAM_ARRAY_SIZE=40000000",
+    "-DNTIMES=10",
+    "/root/codex-memory-bench-20261015/stream.c",
+    "-o",
+    "/root/codex-memory-bench-20261015/stream-reference-40m-recheck-20261020"
+  ],
+  "boot_id_after": "d80eb74e-2d69-4f73-892d-236cd4c0968b",
+  "meminfo_nodes_after": {
+    "0": "Node 0 MemTotal:       131892400 kB\nNode 0 MemFree:         1742604 kB\nNode 0 MemUsed:        130149796 kB\nNode 0 SwapCached:        27400 kB\nNode 0 Active:         16867128 kB\nNode 0 Inactive:       111135476 kB\nNode 0 Active(anon):   16849656 kB\nNode 0 Inactive(anon): 111047308 kB\nNode 0 Active(file):      17472 kB\nNode 0 Inactive(file):    88168 kB\nNode 0 Unevictable:      158880 kB\nNode 0 Mlocked:          155808 kB\nNode 0 Dirty:              4416 kB\nNode 0 Writeback:             0 kB\nNode 0 FilePages:        175908 kB\nNode 0 Mapped:            70628 kB\nNode 0 AnonPages:      125796944 kB\nNode 0 Shmem:             34748 kB\nNode 0 KernelStack:       11792 kB\nNode 0 PageTables:       349084 kB\nNode 0 SecPageTables:     34908 kB\nNode 0 NFS_Unstable:          0 kB\nNode 0 Bounce:                0 kB\nNode 0 WritebackTmp:          0 kB\nNode 0 KReclaimable:      29048 kB\nNode 0 Slab:             461408 kB\nNode 0 SReclaimable:      29048 kB\nNode 0 SUnreclaim:       432360 kB\nNode 0 AnonHugePages:  123082752 kB\nNode 0 ShmemHugePages:        0 kB\nNode 0 ShmemPmdMapped:        0 kB\nNode 0 FileHugePages:         0 kB\nNode 0 FilePmdMapped:         0 kB\nNode 0 Unaccepted:            0 kB\nNode 0 HugePages_Total:     0\nNode 0 HugePages_Free:      0\nNode 0 HugePages_Surp:      0\n",
+    "1": "Node 1 MemTotal:       132058512 kB\nNode 1 MemFree:        21678076 kB\nNode 1 MemUsed:        110380436 kB\nNode 1 SwapCached:        12408 kB\nNode 1 Active:         108184752 kB\nNode 1 Inactive:          41252 kB\nNode 1 Active(anon):   108087436 kB\nNode 1 Inactive(anon):        0 kB\nNode 1 Active(file):      97316 kB\nNode 1 Inactive(file):    41252 kB\nNode 1 Unevictable:        5208 kB\nNode 1 Mlocked:            5208 kB\nNode 1 Dirty:               600 kB\nNode 1 Writeback:             0 kB\nNode 1 FilePages:        220452 kB\nNode 1 Mapped:           107664 kB\nNode 1 AnonPages:      102996792 kB\nNode 1 Shmem:             64300 kB\nNode 1 KernelStack:        7936 kB\nNode 1 PageTables:       190580 kB\nNode 1 SecPageTables:     54564 kB\nNode 1 NFS_Unstable:          0 kB\nNode 1 Bounce:                0 kB\nNode 1 WritebackTmp:          0 kB\nNode 1 KReclaimable:      26968 kB\nNode 1 Slab:             573864 kB\nNode 1 SReclaimable:      26968 kB\nNode 1 SUnreclaim:       546896 kB\nNode 1 AnonHugePages:  97503232 kB\nNode 1 ShmemHugePages:        0 kB\nNode 1 ShmemPmdMapped:        0 kB\nNode 1 FileHugePages:         0 kB\nNode 1 FilePmdMapped:         0 kB\nNode 1 Unaccepted:            0 kB\nNode 1 HugePages_Total:     0\nNode 1 HugePages_Free:      0\nNode 1 HugePages_Surp:      0\n"
+  },
+  "sensors_after": "PS1 Status       | C4h | ok  | 10.92 | Presence detected\nPS2 Status       | C5h | ok  | 10.91 | Presence detected\nPS3 Status       | C6h | ok  | 10.90 | Presence detected\nPS4 Status       | C7h | ok  | 10.89 | Presence detected\n",
+  "summary": [
+    {
+      "kind": "read",
+      "case": "node0_16t",
+      "GB_s": {
+        "Read": {
+          "median": 45.85713,
+          "min": 45.681309999999996,
+          "max": 47.48964
+        }
+      }
+    },
+    {
+      "kind": "read",
+      "case": "node1_16t",
+      "GB_s": {
+        "Read": {
+          "median": 57.81893,
+          "min": 57.67976,
+          "max": 58.49775
+        }
+      }
+    },
+    {
+      "kind": "read",
+      "case": "both_32t",
+      "GB_s": {
+        "Read": {
+          "median": 77.48066,
+          "min": 75.7551,
+          "max": 83.35625
+        }
+      }
+    },
+    {
+      "kind": "read",
+      "case": "node1_16t_oldsize",
+      "GB_s": {
+        "Read": {
+          "median": 57.86275,
+          "min": 57.79589,
+          "max": 58.47462
+        }
+      }
+    },
+    {
+      "kind": "stream",
+      "case": "node0_16t",
+      "GB_s": {
+        "Copy": {
+          "median": 61.0802,
+          "min": 60.7155,
+          "max": 61.4564
+        },
+        "Scale": {
+          "median": 40.2006,
+          "min": 39.6753,
+          "max": 40.3735
+        },
+        "Add": {
+          "median": 42.2609,
+          "min": 42.024,
+          "max": 42.557
+        },
+        "Triad": {
+          "median": 42.547599999999996,
+          "min": 42.3484,
+          "max": 42.701
+        }
+      }
+    },
+    {
+      "kind": "stream",
+      "case": "node1_16t",
+      "GB_s": {
+        "Copy": {
+          "median": 60.8656,
+          "min": 60.4789,
+          "max": 61.2391
+        },
+        "Scale": {
+          "median": 39.7712,
+          "min": 39.423,
+          "max": 39.8603
+        },
+        "Add": {
+          "median": 41.8484,
+          "min": 41.7647,
+          "max": 42.0315
+        },
+        "Triad": {
+          "median": 42.1644,
+          "min": 41.7954,
+          "max": 42.3484
+        }
+      }
+    },
+    {
+      "kind": "stream",
+      "case": "both_32t",
+      "GB_s": {
+        "Copy": {
+          "median": 69.11489999999999,
+          "min": 68.0359,
+          "max": 69.5123
+        },
+        "Scale": {
+          "median": 65.1131,
+          "min": 64.4379,
+          "max": 65.6145
+        },
+        "Add": {
+          "median": 67.0541,
+          "min": 67.0485,
+          "max": 67.7252
+        },
+        "Triad": {
+          "median": 68.0364,
+          "min": 67.51960000000001,
+          "max": 68.46910000000001
+        }
+      }
+    },
+    {
+      "kind": "stream",
+      "case": "node1_16t_oldsize",
+      "GB_s": {
+        "Copy": {
+          "median": 62.3717,
+          "min": 62.305099999999996,
+          "max": 62.3783
+        },
+        "Scale": {
+          "median": 39.1462,
+          "min": 39.123400000000004,
+          "max": 39.247
+        },
+        "Add": {
+          "median": 41.880199999999995,
+          "min": 41.871900000000004,
+          "max": 42.1589
+        },
+        "Triad": {
+          "median": 41.982,
+          "min": 41.8857,
+          "max": 42.145900000000005
+        }
+      }
+    }
+  ],
+  "available_after": 23216046080,
+  "vmstat_after": {
+    "pswpin": 15441,
+    "pswpout": 185614,
+    "pgmajfault": 11465
+  },
+  "load_after": "11.08 5.73 2.50 4/1168 7414",
+  "vms_after": "      VMID NAME                 STATUS     MEM(MB)    BOOTDISK(GB) PID       \n       104 MediaServer-1        running    32768           1000.00 2590      \n       301 Windows10-2016-LTSB-1 running    16384            500.00 2823      \n       500 Debian13-Template    stopped    16384           1000.00 0         \n       501 LLM-Frontend         running    16384            500.00 2886      \n       502 GPUServer-1          running    131072          1024.00 2990      \n       503 Test2                running    16384            500.00 3105      \n       504 Test3                running    16384            500.00 3200      \n       505 Test4                stopped    32768            500.00 0         \n       506 Test5                stopped    32768            500.00 0         \n       507 Test6                stopped    16384            500.00 0         \n       508 Test7                stopped    16384           1000.00 0         \n       509 Test8                stopped    16384           1000.00 0         \n       510 OpenClaw-1           stopped    16384           1000.00 0         \n       511 Hermes-1             running    16384           1000.00 3310      \n       512 GPUServer-2          running    32768           1000.00 3433      \n",
+  "finished": "2026-10-20T11:11:23.795038"
+}

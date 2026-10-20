@@ -1,0 +1,18 @@
+{
+  "simple_decode_median_tok_s": 102.45,
+  "complex_decode_median_tok_s": 55.9,
+  "simple_long_decode_median_tok_s": 103.4,
+  "long_prefill_median_tok_s": 2230.1159711584787,
+  "prefill_rx_p90_max_gb_s": 26.6499,
+  "prefill_rx_peak_max_gb_s": 27.595,
+  "prefill_rx_p90_max_pct": 84.60285714285713,
+  "prefill_avg_bidir_max_gb_s": 13.743303069697932,
+  "decode_combined_p90_max_gb_s": 10.3902,
+  "decode_combined_p90_max_pct": 16.49238095238095,
+  "decode_pcie_share_max_pct": 2.4,
+  "decode_pcie_share_min_pct": 0.3,
+  "hit_rate_min_pct": 90.60000000000001,
+  "hit_rate_max_pct": 97.5,
+  "simple_draft_accept_median_pct": 98.08281004709576,
+  "complex_draft_accept_median_pct": 64.68619705946895
+}

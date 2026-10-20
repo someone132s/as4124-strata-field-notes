@@ -1,0 +1,3 @@
+Turn 2 of 3. Read changes2.json and apply each delta to the current inventory.qty
+in file order. No quantity may become negative. Preserve sku and name. Write
+turn2.json as a sorted JSON list with fields sku,name,qty. Answer briefly.

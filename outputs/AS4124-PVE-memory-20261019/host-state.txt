@@ -1,0 +1,766 @@
+2026-10-19T11:35:45+08:00
+PS1 Status       | C4h | ok  | 10.92 | Presence detected
+PS2 Status       | C5h | ok  | 10.91 | Presence detected
+PS3 Status       | C6h | ok  | 10.90 | Presence detected
+PS4 Status       | C7h | ok  | 10.89 | Presence detected
+# dmidecode 3.6
+Getting SMBIOS data from sysfs.
+SMBIOS 3.2.0 present.
+
+Handle 0x0035, DMI type 16, 23 bytes
+Physical Memory Array
+	Location: System Board Or Motherboard
+	Use: System Memory
+	Error Correction Type: Multi-bit ECC
+	Maximum Capacity: 8 TB
+	Error Information Handle: 0x0034
+	Number Of Devices: 32
+
+Handle 0x003D, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x0035
+	Error Information Handle: 0x003C
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: Unknown
+	Set: None
+	Locator: P1-DIMMA1
+	Bank Locator: P0_Node0_Channel0_Dimm0
+	Type: Unknown
+	Type Detail: Unknown
+
+Handle 0x003F, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x0035
+	Error Information Handle: 0x003E
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: Unknown
+	Set: None
+	Locator: P1-DIMMA2
+	Bank Locator: P0_Node0_Channel0_Dimm1
+	Type: Unknown
+	Type Detail: Unknown
+
+Handle 0x0041, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x0035
+	Error Information Handle: 0x0040
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: Unknown
+	Set: None
+	Locator: P1-DIMMB1
+	Bank Locator: P0_Node0_Channel1_Dimm0
+	Type: Unknown
+	Type Detail: Unknown
+
+Handle 0x0043, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x0035
+	Error Information Handle: 0x0042
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: Unknown
+	Set: None
+	Locator: P1-DIMMB2
+	Bank Locator: P0_Node0_Channel1_Dimm1
+	Type: Unknown
+	Type Detail: Unknown
+
+Handle 0x0045, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x0035
+	Error Information Handle: 0x0044
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: Unknown
+	Set: None
+	Locator: P1-DIMMC1
+	Bank Locator: P0_Node0_Channel2_Dimm0
+	Type: Unknown
+	Type Detail: Unknown
+
+Handle 0x0047, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x0035
+	Error Information Handle: 0x0046
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 32 GB
+	Form Factor: DIMM
+	Set: None
+	Locator: P1-DIMMC2
+	Bank Locator: P0_Node0_Channel2_Dimm1
+	Type: DDR4
+	Type Detail: Synchronous Registered (Buffered)
+	Speed: 2933 MT/s
+	Manufacturer: Samsung
+	Serial Number: W05B000930038ECE75
+	Asset Tag: P1-DIMMC2_AssetTag (date:19/30)
+	Part Number: M393A4K40CB2-CVF    
+	Rank: 2
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: Volatile memory
+	Firmware Version: M393A4K40CB2-CVF    
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 32 GB
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x004A, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x0035
+	Error Information Handle: 0x0049
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: Unknown
+	Set: None
+	Locator: P1-DIMMD1
+	Bank Locator: P0_Node0_Channel3_Dimm0
+	Type: Unknown
+	Type Detail: Unknown
+
+Handle 0x004C, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x0035
+	Error Information Handle: 0x004B
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 32 GB
+	Form Factor: DIMM
+	Set: None
+	Locator: P1-DIMMD2
+	Bank Locator: P0_Node0_Channel3_Dimm1
+	Type: DDR4
+	Type Detail: Synchronous Registered (Buffered)
+	Speed: 2933 MT/s
+	Manufacturer: Samsung
+	Serial Number: 301C0009110375BBBC
+	Asset Tag: P1-DIMMD2_AssetTag (date:19/11)
+	Part Number: M393A4K40CB2-CVF    
+	Rank: 2
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: Volatile memory
+	Firmware Version: M393A4K40CB2-CVF    
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 32 GB
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x004F, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x0035
+	Error Information Handle: 0x004E
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: Unknown
+	Set: None
+	Locator: P1-DIMME1
+	Bank Locator: P0_Node0_Channel4_Dimm0
+	Type: Unknown
+	Type Detail: Unknown
+
+Handle 0x0051, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x0035
+	Error Information Handle: 0x0050
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: Unknown
+	Set: None
+	Locator: P1-DIMME2
+	Bank Locator: P0_Node0_Channel4_Dimm1
+	Type: Unknown
+	Type Detail: Unknown
+
+Handle 0x0053, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x0035
+	Error Information Handle: 0x0052
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: Unknown
+	Set: None
+	Locator: P1-DIMMF1
+	Bank Locator: P0_Node0_Channel5_Dimm0
+	Type: Unknown
+	Type Detail: Unknown
+
+Handle 0x0055, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x0035
+	Error Information Handle: 0x0054
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: Unknown
+	Set: None
+	Locator: P1-DIMMF2
+	Bank Locator: P0_Node0_Channel5_Dimm1
+	Type: Unknown
+	Type Detail: Unknown
+
+Handle 0x0057, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x0035
+	Error Information Handle: 0x0056
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: Unknown
+	Set: None
+	Locator: P1-DIMMG1
+	Bank Locator: P0_Node0_Channel6_Dimm0
+	Type: Unknown
+	Type Detail: Unknown
+
+Handle 0x0059, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x0035
+	Error Information Handle: 0x0058
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 32 GB
+	Form Factor: DIMM
+	Set: None
+	Locator: P1-DIMMG2
+	Bank Locator: P0_Node0_Channel6_Dimm1
+	Type: DDR4
+	Type Detail: Synchronous Registered (Buffered)
+	Speed: 2933 MT/s
+	Manufacturer: Samsung
+	Serial Number: W05B000930038ECA73
+	Asset Tag: P1-DIMMG2_AssetTag (date:19/30)
+	Part Number: M393A4K40CB2-CVF    
+	Rank: 2
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: Volatile memory
+	Firmware Version: M393A4K40CB2-CVF    
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 32 GB
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x005C, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x0035
+	Error Information Handle: 0x005B
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: Unknown
+	Set: None
+	Locator: P1-DIMMH1
+	Bank Locator: P0_Node0_Channel7_Dimm0
+	Type: Unknown
+	Type Detail: Unknown
+
+Handle 0x005E, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x0035
+	Error Information Handle: 0x005D
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 32 GB
+	Form Factor: DIMM
+	Set: None
+	Locator: P1-DIMMH2
+	Bank Locator: P0_Node0_Channel7_Dimm1
+	Type: DDR4
+	Type Detail: Synchronous Registered (Buffered)
+	Speed: 2933 MT/s
+	Manufacturer: Samsung
+	Serial Number: W05B000930038ECF85
+	Asset Tag: P1-DIMMH2_AssetTag (date:19/30)
+	Part Number: M393A4K40CB2-CVF    
+	Rank: 2
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: Volatile memory
+	Firmware Version: M393A4K40CB2-CVF    
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 32 GB
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x0065, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x0035
+	Error Information Handle: 0x0064
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: Unknown
+	Set: None
+	Locator: P2-DIMMA1
+	Bank Locator: P1_Node0_Channel0_Dimm0
+	Type: Unknown
+	Type Detail: Unknown
+
+Handle 0x0067, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x0035
+	Error Information Handle: 0x0066
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: Unknown
+	Set: None
+	Locator: P2-DIMMA2
+	Bank Locator: P1_Node0_Channel0_Dimm1
+	Type: Unknown
+	Type Detail: Unknown
+
+Handle 0x0069, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x0035
+	Error Information Handle: 0x0068
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: Unknown
+	Set: None
+	Locator: P2-DIMMB1
+	Bank Locator: P1_Node0_Channel1_Dimm0
+	Type: Unknown
+	Type Detail: Unknown
+
+Handle 0x006B, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x0035
+	Error Information Handle: 0x006A
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: Unknown
+	Set: None
+	Locator: P2-DIMMB2
+	Bank Locator: P1_Node0_Channel1_Dimm1
+	Type: Unknown
+	Type Detail: Unknown
+
+Handle 0x006D, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x0035
+	Error Information Handle: 0x006C
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: Unknown
+	Set: None
+	Locator: P2-DIMMC1
+	Bank Locator: P1_Node0_Channel2_Dimm0
+	Type: Unknown
+	Type Detail: Unknown
+
+Handle 0x006F, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x0035
+	Error Information Handle: 0x006E
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 32 GB
+	Form Factor: DIMM
+	Set: None
+	Locator: P2-DIMMC2
+	Bank Locator: P1_Node0_Channel2_Dimm1
+	Type: DDR4
+	Type Detail: Synchronous Registered (Buffered)
+	Speed: 2933 MT/s
+	Manufacturer: Samsung
+	Serial Number: K03Y0000502534B3B7
+	Asset Tag: P2-DIMMC2_AssetTag (date:20/50)
+	Part Number: M393A4K40DB2-CVF    
+	Rank: 2
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: Volatile memory
+	Firmware Version: M393A4K40DB2-CVF    
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 32 GB
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x0072, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x0035
+	Error Information Handle: 0x0071
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: Unknown
+	Set: None
+	Locator: P2-DIMMD1
+	Bank Locator: P1_Node0_Channel3_Dimm0
+	Type: Unknown
+	Type Detail: Unknown
+
+Handle 0x0074, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x0035
+	Error Information Handle: 0x0073
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 32 GB
+	Form Factor: DIMM
+	Set: None
+	Locator: P2-DIMMD2
+	Bank Locator: P1_Node0_Channel3_Dimm1
+	Type: DDR4
+	Type Detail: Synchronous Registered (Buffered)
+	Speed: 2933 MT/s
+	Manufacturer: Samsung
+	Serial Number: K03Y0001142534B3C0
+	Asset Tag: P2-DIMMD2_AssetTag (date:21/14)
+	Part Number: M393A4K40DB2-CVF    
+	Rank: 2
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: Volatile memory
+	Firmware Version: M393A4K40DB2-CVF    
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 32 GB
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x0077, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x0035
+	Error Information Handle: 0x0076
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: Unknown
+	Set: None
+	Locator: P2-DIMME1
+	Bank Locator: P1_Node0_Channel4_Dimm0
+	Type: Unknown
+	Type Detail: Unknown
+
+Handle 0x0079, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x0035
+	Error Information Handle: 0x0078
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: Unknown
+	Set: None
+	Locator: P2-DIMME2
+	Bank Locator: P1_Node0_Channel4_Dimm1
+	Type: Unknown
+	Type Detail: Unknown
+
+Handle 0x007B, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x0035
+	Error Information Handle: 0x007A
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: Unknown
+	Set: None
+	Locator: P2-DIMMF1
+	Bank Locator: P1_Node0_Channel5_Dimm0
+	Type: Unknown
+	Type Detail: Unknown
+
+Handle 0x007D, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x0035
+	Error Information Handle: 0x007C
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: Unknown
+	Set: None
+	Locator: P2-DIMMF2
+	Bank Locator: P1_Node0_Channel5_Dimm1
+	Type: Unknown
+	Type Detail: Unknown
+
+Handle 0x007F, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x0035
+	Error Information Handle: 0x007E
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: Unknown
+	Set: None
+	Locator: P2-DIMMG1
+	Bank Locator: P1_Node0_Channel6_Dimm0
+	Type: Unknown
+	Type Detail: Unknown
+
+Handle 0x0081, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x0035
+	Error Information Handle: 0x0080
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 32 GB
+	Form Factor: DIMM
+	Set: None
+	Locator: P2-DIMMG2
+	Bank Locator: P1_Node0_Channel6_Dimm1
+	Type: DDR4
+	Type Detail: Synchronous Registered (Buffered)
+	Speed: 2933 MT/s
+	Manufacturer: Samsung
+	Serial Number: K03Y0001142534B3C1
+	Asset Tag: P2-DIMMG2_AssetTag (date:21/14)
+	Part Number: M393A4K40DB2-CVF    
+	Rank: 2
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: Volatile memory
+	Firmware Version: M393A4K40DB2-CVF    
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 32 GB
+	Cache Size: None
+	Logical Size: None
+
+Handle 0x0084, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x0035
+	Error Information Handle: 0x0083
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: Unknown
+	Set: None
+	Locator: P2-DIMMH1
+	Bank Locator: P1_Node0_Channel7_Dimm0
+	Type: Unknown
+	Type Detail: Unknown
+
+Handle 0x0086, DMI type 17, 84 bytes
+Memory Device
+	Array Handle: 0x0035
+	Error Information Handle: 0x0085
+	Total Width: 72 bits
+	Data Width: 64 bits
+	Size: 32 GB
+	Form Factor: DIMM
+	Set: None
+	Locator: P2-DIMMH2
+	Bank Locator: P1_Node0_Channel7_Dimm1
+	Type: DDR4
+	Type Detail: Synchronous Registered (Buffered)
+	Speed: 2933 MT/s
+	Manufacturer: Samsung
+	Serial Number: K03Y0001142534B3C3
+	Asset Tag: P2-DIMMH2_AssetTag (date:21/14)
+	Part Number: M393A4K40DB2-CVF    
+	Rank: 2
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: Volatile memory
+	Firmware Version: M393A4K40DB2-CVF    
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 32 GB
+	Cache Size: None
+	Logical Size: None
+
+CPU NODE SOCKET CORE
+  0    0      0    0
+  1    0      0    1
+  2    0      0    2
+  3    0      0    3
+  4    0      0    4
+  5    0      0    5
+  6    0      0    6
+  7    0      0    7
+  8    0      0    8
+  9    0      0    9
+ 10    0      0   10
+ 11    0      0   11
+ 12    0      0   12
+ 13    0      0   13
+ 14    0      0   14
+ 15    0      0   15
+ 16    0      0   16
+ 17    0      0   17
+ 18    0      0   18
+ 19    0      0   19
+ 20    0      0   20
+ 21    0      0   21
+ 22    0      0   22
+ 23    0      0   23
+ 24    0      0   24
+ 25    0      0   25
+ 26    0      0   26
+ 27    0      0   27
+ 28    0      0   28
+ 29    0      0   29
+ 30    0      0   30
+ 31    0      0   31
+ 32    1      1   32
+ 33    1      1   33
+ 34    1      1   34
+ 35    1      1   35
+ 36    1      1   36
+ 37    1      1   37
+ 38    1      1   38
+ 39    1      1   39
+ 40    1      1   40
+ 41    1      1   41
+ 42    1      1   42
+ 43    1      1   43
+ 44    1      1   44
+ 45    1      1   45
+ 46    1      1   46
+ 47    1      1   47
+ 48    1      1   48
+ 49    1      1   49
+ 50    1      1   50
+ 51    1      1   51
+ 52    1      1   52
+ 53    1      1   53
+ 54    1      1   54
+ 55    1      1   55
+ 56    1      1   56
+ 57    1      1   57
+ 58    1      1   58
+ 59    1      1   59
+ 60    1      1   60
+ 61    1      1   61
+ 62    1      1   62
+ 63    1      1   63
+ 64    0      0    0
+ 65    0      0    1
+ 66    0      0    2
+ 67    0      0    3
+ 68    0      0    4
+ 69    0      0    5
+ 70    0      0    6
+ 71    0      0    7
+ 72    0      0    8
+ 73    0      0    9
+ 74    0      0   10
+ 75    0      0   11
+ 76    0      0   12
+ 77    0      0   13
+ 78    0      0   14
+ 79    0      0   15
+ 80    0      0   16
+ 81    0      0   17
+ 82    0      0   18
+ 83    0      0   19
+ 84    0      0   20
+ 85    0      0   21
+ 86    0      0   22
+ 87    0      0   23
+ 88    0      0   24
+ 89    0      0   25
+ 90    0      0   26
+ 91    0      0   27
+ 92    0      0   28
+ 93    0      0   29
+ 94    0      0   30
+ 95    0      0   31
+ 96    1      1   32
+ 97    1      1   33
+ 98    1      1   34
+ 99    1      1   35
+100    1      1   36
+101    1      1   37
+102    1      1   38
+103    1      1   39
+104    1      1   40
+105    1      1   41
+106    1      1   42
+107    1      1   43
+108    1      1   44
+109    1      1   45
+110    1      1   46
+111    1      1   47
+112    1      1   48
+113    1      1   49
+114    1      1   50
+115    1      1   51
+116    1      1   52
+117    1      1   53
+118    1      1   54
+119    1      1   55
+120    1      1   56
+121    1      1   57
+122    1      1   58
+123    1      1   59
+124    1      1   60
+125    1      1   61
+126    1      1   62
+127    1      1   63
+               total        used        free      shared  buff/cache   available
+Mem:           251Gi       216Gi        35Gi       114Mi       613Mi        35Gi
+Swap:          8.0Gi       2.3Gi       5.7Gi

@@ -1,0 +1,19 @@
+{
+  "rows": [
+    {
+      "sku": "A-100",
+      "name": "Anvil",
+      "qty": 8
+    },
+    {
+      "sku": "B-200",
+      "name": "Bolt",
+      "qty": 15
+    },
+    {
+      "sku": "C-300",
+      "name": "Clamp",
+      "qty": 11
+    }
+  ]
+}
